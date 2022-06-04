@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/asip04/SS17/Session5b/ASIPMeisterProjects/brownie/ISEUART5f/TB_isim_beh.exe" -prj "/home/asip04/SS17/Session5b/ASIPMeisterProjects/brownie/ISEUART5f/TB_beh.prj" "work.TB" 

@@ -1,0 +1,188 @@
+Running: /Software/xilinx/13.2/ISE_DS/ISE/bin/lin/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/TB_isim_beh.exe -prj /home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/TB_beh.prj work.TB 
+ISim O.61xd (signature 0x84a0141b)
+Number of CPUs detected in this system: 24
+Turning on mult-threading, number of parallel sub-compilation jobs: 48 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_register_w84.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_register_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_register_w2.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_register_w15.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_register_w1.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_proc_fsm.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_register_w5.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_mux5to1_w5.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_mux4to1_w5.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_mux3to1_w5.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_mux3to1_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_mux2to1_w5.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_mux2to1_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_mux20to1_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/rtg_controller.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/MemoryMapperTypes.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_wire_out_w1.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_wire_in_w1.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_shifter_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_register_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_pcu_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_multiplier_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_mifu_w32_01.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_mifu_w32_00.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_fwu_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_extender_w8.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_extender_w26.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_extender_w16.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_dummy_register_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_divider_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_browregfile_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/fhm_alu_w32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/DigitalAnalogConverter.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/audio_out_fifo.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/AudioOut_Types.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/MemoryMapper.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/kcuart_tx.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/kcuart_rx.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/DCM_100.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/dlxTypes.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/Debouncer.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/clk_div.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/chipscope_vio.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/chipscope_ila4b.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/chipscope_icon0.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/BrownieSTD32.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/brom_im.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/bram_dm.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/AudioOut_TopLevel.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/Helper.vhd" into library work
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/dlx_toplevel.vhd" into library work
+WARNING:HDLCompiler:946 - "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/dlx_toplevel.vhd" Line 430: Actual for formal port clka is neither a static name nor a globally static expression
+Parsing VHDL file "/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/tb_dlx_toplevel.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 374652 KB
+Fuse CPU Usage: 80420 ms
+Compiling package standard
+Compiling package textio
+Compiling package std_logic_1164
+Compiling package std_logic_textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package vcomponents
+WARNING:Simulator:752 - Running 32 bit ISIM on 64 bit Linux
+Compiling package memorymappertypes
+Compiling package audioout_types
+Compiling package dlxtypes
+Compiling package helper
+Compiling package numeric_std
+Compiling package std_logic_signed
+Compiling architecture synthesis of entity fhm_pcu_w32_add32 [fhm_pcu_w32_add32_default]
+Compiling architecture synthesis of entity fhm_pcu_w32_reg32 [fhm_pcu_w32_reg32_default]
+Compiling architecture synthesis of entity fhm_pcu_w32 [fhm_pcu_w32_default]
+Compiling architecture logic of entity fhm_register_w32 [fhm_register_w32_default]
+Compiling architecture synthesis of entity fhm_mifu_w32_00 [fhm_mifu_w32_00_default]
+Compiling architecture synthesis of entity fhm_mifu_w32_01 [fhm_mifu_w32_01_default]
+Compiling architecture synthesis of entity fhm_alu_w32_add [fhm_alu_w32_add_default]
+Compiling architecture synthesis of entity fhm_alu_w32 [fhm_alu_w32_default]
+Compiling architecture synthesis of entity fhm_multiplier_w32_reg1 [fhm_multiplier_w32_reg1_default]
+Compiling architecture synthesis of entity fhm_multiplier_w32_add32 [fhm_multiplier_w32_add32_default]
+Compiling architecture synthesis of entity fhm_multiplier_w32_tconv32 [fhm_multiplier_w32_tconv32_defau...]
+Compiling architecture synthesis of entity fhm_multiplier_w32_reg32 [fhm_multiplier_w32_reg32_default]
+Compiling architecture synthesis of entity fhm_multiplier_w32_add64 [fhm_multiplier_w32_add64_default]
+Compiling architecture synthesis of entity fhm_multiplier_w32_reg64 [fhm_multiplier_w32_reg64_default]
+Compiling architecture synthesis of entity fhm_multiplier_w32_smul [fhm_multiplier_w32_smul_default]
+Compiling architecture synthesis of entity fhm_multiplier_w32_tconv64 [fhm_multiplier_w32_tconv64_defau...]
+Compiling architecture synthesis of entity fhm_multiplier_w32 [fhm_multiplier_w32_default]
+Compiling architecture synthesis of entity fhm_divider_w32_add32 [fhm_divider_w32_add32_default]
+Compiling architecture synthesis of entity fhm_divider_w32_tconv32 [fhm_divider_w32_tconv32_default]
+Compiling architecture synthesis of entity fhm_divider_w32_reg32 [fhm_divider_w32_reg32_default]
+Compiling architecture synthesis of entity fhm_divider_w32_reg1 [fhm_divider_w32_reg1_default]
+Compiling architecture synthesis of entity fhm_divider_w32_lsftreg32 [fhm_divider_w32_lsftreg32_defaul...]
+Compiling architecture synthesis of entity fhm_divider_w32_sdiv32 [fhm_divider_w32_sdiv32_default]
+Compiling architecture synthesis of entity fhm_divider_w32 [fhm_divider_w32_default]
+Compiling architecture synthesis of entity fhm_extender_w8 [fhm_extender_w8_default]
+Compiling architecture synthesis of entity fhm_extender_w16 [fhm_extender_w16_default]
+Compiling architecture synthesis of entity fhm_extender_w26 [fhm_extender_w26_default]
+Compiling architecture synthesis of entity fhm_shifter_w32 [fhm_shifter_w32_default]
+Compiling architecture synthesis of entity fhm_wire_in_w1 [fhm_wire_in_w1_default]
+Compiling architecture synthesis of entity fhm_wire_out_w1 [fhm_wire_out_w1_default]
+Compiling architecture synthesis of entity fhm_fwu_w32 [fhm_fwu_w32_default]
+Compiling architecture logic of entity fhm_dummy_register_w32 [fhm_dummy_register_w32_default]
+Compiling architecture synthesis of entity flag_reg5 [flag_reg5_default]
+Compiling architecture synthesis of entity status_reg27 [status_reg27_default]
+Compiling architecture synthesis of entity fhm_browregfile_w32_reg32 [fhm_browregfile_w32_reg32_defaul...]
+Compiling architecture synthesis of entity fhm_browregfile_w32 [fhm_browregfile_w32_default]
+Compiling architecture rtl of entity rtg_mux2to1_w32 [rtg_mux2to1_w32_default]
+Compiling architecture rtl of entity rtg_proc_fsm [rtg_proc_fsm_default]
+Compiling architecture rtl of entity rtg_register_w1 [rtg_register_w1_default]
+Compiling architecture rtl of entity rtg_register_w2 [rtg_register_w2_default]
+Compiling architecture rtl of entity rtg_register_w32 [rtg_register_w32_default]
+Compiling architecture rtl of entity rtg_register_w84 [rtg_register_w84_default]
+Compiling architecture rtl of entity rtg_register_w15 [rtg_register_w15_default]
+Compiling architecture rtl of entity rtg_controller [rtg_controller_default]
+Compiling architecture rtl of entity rtg_mux3to1_w32 [rtg_mux3to1_w32_default]
+Compiling architecture rtl of entity rtg_mux2to1_w5 [rtg_mux2to1_w5_default]
+Compiling architecture rtl of entity rtg_mux20to1_w32 [rtg_mux20to1_w32_default]
+Compiling architecture rtl of entity rtg_mux5to1_w5 [rtg_mux5to1_w5_default]
+Compiling architecture rtl of entity rtg_mux3to1_w5 [rtg_mux3to1_w5_default]
+Compiling architecture rtl of entity rtg_mux4to1_w5 [rtg_mux4to1_w5_default]
+Compiling architecture rtl of entity rtg_register_w5 [rtg_register_w5_default]
+Compiling architecture rtl of entity BrownieSTD32 [browniestd32_default]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V6_1_output_stage [\BLK_MEM_GEN_V6_1_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V6_1_softecc_output_reg_stage [\BLK_MEM_GEN_V6_1_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V6_1_mem_module [\BLK_MEM_GEN_V6_1_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V6_1 [\BLK_MEM_GEN_V6_1("blk_mem_gen_v...]
+Compiling architecture brom_im_a of entity brom_im [brom_im_default]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V6_2_output_stage [\BLK_MEM_GEN_V6_2_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V6_2_softecc_output_reg_stage [\BLK_MEM_GEN_V6_2_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V6_2_mem_module [\BLK_MEM_GEN_V6_2_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V6_2 [\BLK_MEM_GEN_V6_2("blk_mem_gen_v...]
+Compiling architecture bram_dm_a of entity bram_dm [bram_dm_default]
+Compiling architecture behavioral of entity MemoryMapper [memorymapper_default]
+Compiling architecture behavioral of entity DigitalAnalogConverter [\DigitalAnalogConverter(16,96,33...]
+Compiling architecture behavioral of entity fifo_generator_v8_2_bhv_as [\fifo_generator_v8_2_bhv_as(16,"...]
+Compiling architecture behavioral of entity fifo_generator_v8_2_conv [\fifo_generator_v8_2_conv(0,0,10...]
+Compiling architecture behavioral of entity fifo_generator_v8_2 [\fifo_generator_v8_2(0,0,10,"Bla...]
+Compiling architecture audio_out_fifo_a of entity audio_out_fifo [audio_out_fifo_default]
+Compiling architecture structure of entity AudioOut_TopLevel [\AudioOut_TopLevel(96,33000,2)\]
+Compiling architecture structure of entity AudioOut_TopLevel [\AudioOut_TopLevel(96,33000,1)\]
+Compiling architecture behavioral of entity clk_div [\clk_div(54)\]
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture lut4_v of entity LUT4 [\LUT4("1110010011111111")(0,15)\]
+Compiling architecture muxf5_v of entity MUXF5 [muxf5_default]
+Compiling architecture muxf6_v of entity MUXF6 [muxf6_default]
+Compiling architecture fdrs_v of entity FDRS [\FDRS('0')\]
+Compiling architecture fdre_v of entity FDRE [\FDRE('0')\]
+Compiling architecture lut2_v of entity LUT2 [\LUT2("1000")(0,3)\]
+Compiling architecture mult_and_v of entity MULT_AND [mult_and_default]
+Compiling architecture muxcy_v of entity MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity XORCY [xorcy_default]
+Compiling architecture lut3_v of entity LUT3 [\LUT3("00010000")(0,7)\]
+Compiling architecture fde_v of entity FDE [\FDE('0')\]
+Compiling architecture srl16e_v of entity SRL16E [\SRL16E("0000000000000000")(0,15...]
+Compiling architecture fd_v of entity FD [\FD('0')\]
+Compiling architecture low_level_definition of entity kcuart_tx [kcuart_tx_default]
+Compiling architecture low_level_definition of entity kcuart_rx [kcuart_rx_default]
+Compiling architecture behavioral of entity Debouncer [\Debouncer(4,100000000)\]
+Compiling architecture ibufg_v of entity IBUFG [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture dcm_adv_clock_divide_by_2_v of entity dcm_adv_clock_divide_by_2 [dcm_adv_clock_divide_by_2_defaul...]
+Compiling architecture dcm_adv_maximum_period_check_v of entity dcm_adv_maximum_period_check [\dcm_adv_maximum_period_check(" ...]
+Compiling architecture dcm_adv_maximum_period_check_v of entity dcm_adv_maximum_period_check [\dcm_adv_maximum_period_check(" ...]
+Compiling architecture dcm_adv_clock_lost_v of entity dcm_adv_clock_lost [dcm_adv_clock_lost_default]
+Compiling architecture dcm_adv_v of entity DCM_ADV [\DCM_ADV(true," ",true,false,2.0...]
+Compiling architecture inv_v of entity INV [inv_default]
+Compiling architecture pll_adv_v of entity PLL_ADV [\PLL_ADV("OPTIMIZED","CLKFBOUT",...]
+Compiling architecture behavioral of entity DCM_100 [dcm_100_default]
+Compiling architecture chipscope_icon0_a of entity chipscope_icon0 [chipscope_icon0_default]
+Compiling architecture chipscope_ila4b_a of entity chipscope_ila4b [chipscope_ila4b_default]
+Compiling architecture chipscope_vio_a of entity chipscope_vio [chipscope_vio_default]
+Compiling architecture behavioral of entity dlx_toplevel [dlx_toplevel_default]
+Compiling architecture behavior of entity tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 231 VHDL Units
+Built simulation executable /home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f2/TB_isim_beh.exe
+Fuse Memory Usage: 455564 KB
+Fuse CPU Usage: 92040 ms
+GCC CPU Usage: 20520 ms
