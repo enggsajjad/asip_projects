@@ -1,0 +1,13 @@
+WARNING:Xst:646 - Signal <datareq_ports<6:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <datadbo_ports<6:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <datadbo_ports<4><31:8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <datadbo_ports<2><31:8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <datadbo_ports<1><31:16>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <datadbo_ports<0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1781 - Signal <datadbi_ports<6:5>> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <datadbi_ports<1:0>> is used but never assigned. Tied to default value.
+WARNING:Xst:653 - Signal <dataack_ports<6:5>> is used but never assigned. This sourceless signal will be automatically connected to value 00.
+
+   -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 32-bit latch for signal <mem_out1>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 16-bit register for signal <AudioR_Data<1>>.

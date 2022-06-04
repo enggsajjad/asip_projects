@@ -1,0 +1,29 @@
+	.section	.text
+	.addressing	Word
+
+_main:	
+	ADDI	%GPR21, %GPR0,  $(_data / 0x10000)
+	LSOI	%GPR21, %GPR21, $(_data % 0x10000)
+
+
+	LW	%GPR22, 0(%GPR21)
+	LW	%GPR23, 4(%GPR21)
+
+	ADD	%GPR24, %GPR22, %GPR23
+
+	ADDI	%GPR25, %GPR0,  $(_result / 0x10000)
+	LSOI	%GPR25, %GPR25, $(_result % 0x10000)
+
+	SW	0(%GPR25), %GPR24
+
+	TRAP #0
+
+	.section	.data
+	.addressing	Word
+
+
+_data:	
+	.data.32	42
+	.data.32	23
+_result:
+	.data.32	0

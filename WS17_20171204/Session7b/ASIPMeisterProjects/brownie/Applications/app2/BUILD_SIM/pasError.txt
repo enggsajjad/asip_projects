@@ -1,0 +1,2 @@
+BUILD_SIM/app2.asm:23: syntax error, unexpected NEWLINE, expecting '(' at 
+

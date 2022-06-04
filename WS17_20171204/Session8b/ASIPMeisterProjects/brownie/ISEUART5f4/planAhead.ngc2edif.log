@@ -1,0 +1,2342 @@
+Release 13.2 - ngc2edif O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<63 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<13 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<67 : 0>
+   on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG05/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_DIV/tmp_a_31_sub0001<63 : 31> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_DIV/tmp_a_63_sub0057<63 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_mux15_dout<30 : 8> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_mux24_dout<31 : 9> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus datareq_ports<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   i_memorymapper/selector_isInRangeOfSpecificPort<6 : 2> on block dlx_toplevel
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 38636 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 23320 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4a.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4a
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4a
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4a.edif ...
+ngc2edif: Total memory usage is 24712 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 23204 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 28676 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 23796 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int8<31 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 8> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_mux11_dout<30 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_mux19_dout<30 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus datareq_ports<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 86356 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70072 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 80232 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70396 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71168 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4a.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4a
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4a
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4a.edif ...
+ngc2edif: Total memory usage is 72496 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int8<31 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 8> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_mux11_dout<30 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_mux19_dout<30 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus datareq_ports<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 86352 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70064 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 80228 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70396 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71160 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4a.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4a
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4a
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4a.edif ...
+ngc2edif: Total memory usage is 72496 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int8<31 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 8> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_mux11_dout<30 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_mux19_dout<30 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus datareq_ports<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 86356 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70068 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 80232 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70396 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71168 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4a.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4a
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4a
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4a.edif ...
+ngc2edif: Total memory usage is 72496 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_mux11_dout<30 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_mux19_dout<30 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_q<28 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus datareq_ports<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 86124 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 80236 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71160 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 2> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87800 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 80236 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70676 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71168 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87748 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70068 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 80232 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70672 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70392 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71164 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71628 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87748 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70064 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 80228 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70668 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70392 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71164 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71632 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87744 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87740 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70064 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 80236 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70672 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70392 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71168 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71632 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87744 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70064 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 80236 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70676 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70388 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71164 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71632 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87744 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70068 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 80236 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70668 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70392 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71168 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71632 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87744 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70064 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 81480 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70672 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70396 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71208 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71628 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87744 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70064 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 81484 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70676 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70388 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71204 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71628 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87748 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70064 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 82292 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70676 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70388 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71212 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71628 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87748 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70064 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 82292 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70672 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70392 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 72008 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71624 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87748 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70072 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 87992 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70672 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70392 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 72012 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71632 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87748 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70072 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 87992 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70668 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70396 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 72012 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71632 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87744 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70068 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 87988 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70676 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70392 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 72012 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71628 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87748 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70064 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 86008 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70668 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70392 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71996 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71628 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design dlx_toplevel.ngc ...
+WARNING:NetListWriters:298 - No output is written to dlx_toplevel.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_EXE/DOUT<83 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/UA_CW_WB/DOUT<14 : 0> on
+   block dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_CTRL/decout_ctrl_word_ID<100 :
+   0> on block dlx_toplevel is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UA_PREG06/DOUT<31 : 5> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int1<30 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/UF_SFTvar/int2<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/ua_altsel00_dout<24 : 7> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_alu_mode<4 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_div_r<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus CPU0/uf_mul_result<31 : 1> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus Mtridata_datadbi_ports<7 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataack_ports<2 : 0> on block
+   dlx_toplevel is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file dlx_toplevel.edif ...
+ngc2edif: Total memory usage is 87744 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_vio.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file chipscope_vio.edif ...
+ngc2edif: Total memory usage is 70064 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design bram_dm.ngc ...
+WARNING:NetListWriters:298 - No output is written to bram_dm.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file bram_dm.edif ...
+ngc2edif: Total memory usage is 80236 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design audio_out_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to audio_out_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file audio_out_fifo.edif ...
+ngc2edif: Total memory usage is 70668 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_icon0.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   chipscope_icon0 is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_icon0.edif ...
+ngc2edif: Total memory usage is 70392 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design brom_im.ngc ...
+WARNING:NetListWriters:298 - No output is written to brom_im.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file brom_im.edif ...
+ngc2edif: Total memory usage is 71168 kilobytes
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design chipscope_ila4b.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_YES_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block chipscope_ila4b
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file chipscope_ila4b.edif ...
+ngc2edif: Total memory usage is 71624 kilobytes
+

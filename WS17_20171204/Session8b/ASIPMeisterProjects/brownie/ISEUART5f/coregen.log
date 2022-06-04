@@ -1,0 +1,27 @@
+CoreGen has not been configured with any user repositories.
+CoreGen has been configured with the following Xilinx repositories:
+ - '/Software/xilinx/13.2/ISE_DS/ISE/coregen/' [reloaded]
+INFO:sim - Generating component instance 'chipscope_ila' of
+   'xilinx.com:ip:chipscope_ila:1.04.a' from
+   '/Software/xilinx/13.2/ISE_DS/ISE/coregen/iprepo/Chipscope/pcores/chipscope_i
+   la_v1_04_a/chipscope_ila_v1_04_a.xcd'.
+Applying current project options...
+Finished applying current project options.
+Resolving generic values...
+Finished resolving generic values.
+Generating IP...
+WARNING:sim:100 - The Simulation File Type <Behavioral> is not valid for this
+   core. Overriding with File Type <structural>.
+WARNING:sim:89 - A core named <chipscope_ila> already exists in the output
+   directory. Output products for this core may be overwritten.
+Gathering HDL files for chipscope_ila root...
+Creating XST project for chipscope_ila...
+Creating XST script file for chipscope_ila...
+Creating XST instantiation file for chipscope_ila...
+Running XST for chipscope_ila...
+XST: HDL Compilation
+XST: Design Hierarchy Analysis
+XST: HDL Analysis
+XST: HDL Synthesis
+XST: Advanced HDL Synthesis
+XST: Low Level Synthesis
