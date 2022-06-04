@@ -1,4 +1,0 @@
-warning : base_integer(33) > width(16)
-warning : base_integer(33) > width(16)
-warning : base_integer(33) > width(16)
-warning : base_integer(33) > width(16)

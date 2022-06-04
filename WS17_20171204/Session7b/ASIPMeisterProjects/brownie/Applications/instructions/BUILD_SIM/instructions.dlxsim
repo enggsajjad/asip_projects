@@ -1,9 +1,0 @@
-	.section	.text
-	.addressing	Word
-	nop
-_exit:
-	nop
-	nop
-	trap	#0	; HALT
-
-

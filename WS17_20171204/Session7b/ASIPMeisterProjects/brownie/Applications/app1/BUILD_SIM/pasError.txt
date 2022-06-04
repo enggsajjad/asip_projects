@@ -1,1 +1,0 @@
-BUILD_SIM/app1.asm:34 .globl is not a valid insn or directive.

@@ -1,2 +1,0 @@
-warning : base_integer(32) > width(26)
-warning : base_integer(32) > width(26)
