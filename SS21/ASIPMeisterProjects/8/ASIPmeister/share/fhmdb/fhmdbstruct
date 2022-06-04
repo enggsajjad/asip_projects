@@ -1,0 +1,55 @@
+<FHM_Structure>
+  <library name="basicfhmdb">
+    <class name="computational">
+      <model>adder</model>
+      <model>adder0</model>
+      <model>alu</model>
+      <model>alu0</model>
+      <model>barrelshifter0</model>
+      <model>divider</model>
+      <model>divider0</model>
+      <model>extender</model>
+      <model>extender0</model>
+      <model>mini_alu</model>
+      <model>multiplexor</model>
+      <model>multiplexor0</model>
+      <model>multiplier</model>
+      <model>multiplier0</model>
+      <model>rotator</model>
+      <model>shifter</model>
+      <model>shifter0</model>
+    </class>
+    <class name="storage">
+      <model>register</model>
+      <model>register0</model>
+      <model>registerfile</model>
+      <model>registerfile0</model>
+    </class>
+  </library>
+  <library name="workdb">
+    <class name="FHM_work">
+      <model>browregfile</model>
+      <model>dmau0</model>
+      <model>dummy_register</model>
+      <model>fwu</model>
+      <model>fwu0</model>
+      <model>genport0</model>
+      <model>imau0</model>
+      <model>mifu</model>
+      <model>pcu</model>
+      <model>pcu0</model>
+      <model>sleeper0</model>
+      <model>wire0</model>
+      <model>wire_in</model>
+      <model>wire_inout</model>
+      <model>wire_out</model>
+      <model>clamp</model>
+      <model>stepsize</model>
+      <model>index</model>
+      <model>adpcm</model>
+      <model>adpcmdecode</model>
+      <model>adpcmdecode2</model>
+      <model>minmax</model>
+    </class>
+  </library>
+</FHM_Structure>

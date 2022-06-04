@@ -1,0 +1,3 @@
+ Copyright (C) 2011 ASIP Solutions, Inc. All rights reserved. 
+6/29/21 3:13 AM : "Main menu" start.
+6/29/21 3:13 AM : Load file "ASIPmeisterStd.ini".
