@@ -1,0 +1,9 @@
+  COMPONENT BUFG
+    PORT (O : OUT std_ulogic;
+          I : IN  std_ulogic);
+  END COMPONENT;
+  
+  
+    bufg_clock : BUFG
+    PORT MAP (O => clock_fb,
+              I => dcm_clk0_bufg);

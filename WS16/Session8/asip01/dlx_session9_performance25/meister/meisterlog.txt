@@ -1,0 +1,164 @@
+2/5/17 5:38 PM : "Main menu" start.
+2/5/17 5:38 PM : Load file ".ASIPmeister.ini".
+2/5/17 5:38 PM : Load file "dlx_basis.pdb".
+2/5/17 5:38 PM : "Instruction Definition" complete.
+2/5/17 5:38 PM : "Instruction Definition" start edit.
+2/5/17 5:38 PM : "Instruction Definition" re-edit.
+2/5/17 5:38 PM : "Instruction Definition" complete.
+2/5/17 5:39 PM : "Instruction Definition" finish edit.
+2/5/17 5:39 PM :  archest dlx_basis.arc dlx_basis_arc.log finished as normally.
+2/5/17 5:39 PM : Load file "dlx_basis_arc.log".
+2/5/17 5:39 PM : "null" complete.
+2/5/17 5:39 PM : "C Definition" start browse.
+2/5/17 5:39 PM : "C Definition" complete.
+2/5/17 5:39 PM : "C Definition" finish edit.
+2/5/17 5:39 PM : "Behavior Description" start browse.
+2/5/17 5:41 PM : "Behavior Description" complete.
+2/5/17 5:41 PM : "Behavior Description" finish edit.
+2/5/17 5:41 PM : "Micro Op. Description" start browse.
+2/5/17 5:42 PM : "Micro Op. Description" complete.
+2/5/17 5:43 PM : "Micro Op. Description" re-edit.
+2/5/17 5:45 PM : "Micro Op. Description" complete.
+2/5/17 5:46 PM : "Micro Op. Description" finish edit.
+2/5/17 5:46 PM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+2/5/17 5:46 PM : Load file "dlx_basis_mod.log".
+2/5/17 5:46 PM : "null" complete.
+2/5/17 5:46 PM : "Micro Op. Description" complete.
+2/5/17 5:46 PM : "Micro Op. Description" start edit.
+2/5/17 5:46 PM : "Micro Op. Description" re-edit.
+2/5/17 5:48 PM : "Micro Op. Description" complete.
+2/5/17 5:48 PM : "Micro Op. Description" finish edit.
+2/5/17 5:48 PM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+2/5/17 5:48 PM : Load file "dlx_basis_mod.log".
+2/5/17 5:48 PM : "null" complete.
+2/5/17 5:48 PM : "Micro Op. Description" complete.
+2/5/17 5:48 PM : "Micro Op. Description" start edit.
+2/5/17 5:48 PM : "Micro Op. Description" re-edit.
+2/5/17 5:50 PM : "Micro Op. Description" complete.
+2/5/17 5:50 PM : "Micro Op. Description" finish edit.
+2/5/17 5:50 PM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+2/5/17 5:50 PM : Load file "dlx_basis_mod.log".
+2/5/17 5:50 PM : "null" complete.
+2/5/17 5:51 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+2/5/17 5:51 PM : Load file "dlx_basis_tr.log".
+2/5/17 5:51 PM : "null" complete.
+2/5/17 5:51 PM : "Main menu" quit.
+2/5/17 7:50 PM : "Main menu" start.
+2/5/17 7:50 PM : Load file ".ASIPmeister.ini".
+2/5/17 7:50 PM : Load file "dlx_basis.pdb".
+2/5/17 7:50 PM : "Instruction Definition" complete.
+2/5/17 7:50 PM : "Instruction Definition" start edit.
+2/5/17 8:34 PM : "Instruction Definition" re-edit.
+2/5/17 8:35 PM : "Instruction Definition" complete.
+2/5/17 8:35 PM : "Instruction Definition" finish edit.
+2/5/17 8:42 PM :  archest dlx_basis.arc dlx_basis_arc.log finished as normally.
+2/5/17 8:42 PM : Load file "dlx_basis_arc.log".
+2/5/17 8:42 PM : "null" complete.
+2/5/17 8:43 PM : "C Definition" start browse.
+2/5/17 8:43 PM : "C Definition" complete.
+2/5/17 8:43 PM : "C Definition" finish edit.
+2/5/17 8:43 PM : "Behavior Description" start browse.
+2/5/17 8:44 PM : "Behavior Description" complete.
+2/5/17 8:44 PM : "Behavior Description" finish edit.
+2/5/17 8:44 PM : "Micro Op. Description" start browse.
+2/5/17 8:47 PM : "Micro Op. Description" complete.
+2/5/17 8:47 PM : "Micro Op. Description" finish edit.
+2/5/17 8:48 PM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+2/5/17 8:48 PM : Load file "dlx_basis_mod.log".
+2/5/17 8:48 PM : "null" complete.
+2/5/17 8:48 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+2/5/17 8:48 PM : Load file "dlx_basis_tr.log".
+2/5/17 8:48 PM : "null" complete.
+2/5/17 8:48 PM : "Main menu" quit.
+2/5/17 8:53 PM : "Main menu" start.
+2/5/17 8:53 PM : Load file ".ASIPmeister.ini".
+2/5/17 8:53 PM : "Design Goal & Arch. Design" start browse.
+2/5/17 8:53 PM : "Design Goal & Arch. Design" finish browse.
+2/5/17 8:53 PM : Load file "dlx_basis.pdb".
+2/5/17 8:53 PM : "Micro Op. Description" complete.
+2/5/17 8:53 PM : "Micro Op. Description" start edit.
+2/5/17 8:59 PM : Query "parameter(pcu,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(register,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(imau,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(dmau,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(alu,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(extender,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(divider,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(shifter,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(extender,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(adder,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(multiplexor,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(multiplexor,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(alu,synthesis)" finished as normally.
+2/5/17 8:59 PM : "Resource Declaration:READ ONLY" start edit.
+2/5/17 8:59 PM : Query "function(multiplexor,synthesis,bit_width=32:number_of_ports=2)" finished as normally.
+2/5/17 8:59 PM : Query "portinfo(multiplexor,synthesis,bit_width=32:number_of_ports=2)" finished as normally.
+2/5/17 8:59 PM : Query "shape(area,multiplexor,synthesis,priority=delay:bit_width=32:number_of_ports=2)" finished as normally.
+2/5/17 8:59 PM : Query "timing(delay,multiplexor,synthesis,priority=delay:bit_width=32:number_of_ports=2)" finished as normally.
+2/5/17 8:59 PM : Query "power(power,multiplexor,synthesis,priority=delay:bit_width=32:number_of_ports=2)" finished as normally.
+2/5/17 8:59 PM : "Storage Spec" complete.
+2/5/17 8:59 PM : "Storage Spec" start edit.
+2/5/17 8:59 PM : "Storage Spec" finish edit.
+2/5/17 8:59 PM : "Resource Declaration:READ ONLY" finish edit.
+2/5/17 8:59 PM : "Storage Spec" complete.
+2/5/17 8:59 PM : "Storage Spec" start edit.
+2/5/17 8:59 PM : "Storage Spec" finish edit.
+2/5/17 8:59 PM : "Resource Declaration:READ ONLY" finish edit.
+2/5/17 8:59 PM : "Micro Op. Description" finish edit.
+2/5/17 8:59 PM : Query "parameter(pcu,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(register,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(imau,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(dmau,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(alu,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(extender,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(divider,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(shifter,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(extender,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(adder,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(multiplexor,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(multiplexor,synthesis)" finished as normally.
+2/5/17 8:59 PM : Query "parameter(alu,synthesis)" finished as normally.
+2/5/17 8:59 PM : "Resource Declaration" start edit.
+2/5/17 9:00 PM : "Resource Declaration" re-edit.
+2/5/17 9:00 PM : "Resource Declaration" complete.
+2/5/17 9:00 PM : "Storage Spec" start browse.
+2/5/17 9:00 PM : "Storage Spec" finish browse.
+2/5/17 9:00 PM : "Resource Declaration" finish edit.
+2/5/17 9:00 PM : "Storage Spec" start browse.
+2/5/17 9:00 PM : "Storage Spec" finish browse.
+2/5/17 9:00 PM : "Resource Declaration" finish edit.
+2/5/17 9:00 PM : "Storage Spec" start browse.
+2/5/17 9:00 PM : "Storage Spec" complete.
+2/5/17 9:00 PM : "Storage Spec" finish edit.
+2/5/17 9:00 PM : "Interface Definition" complete.
+2/5/17 9:00 PM : "Interface Definition" start edit.
+2/5/17 9:00 PM : "Interface Definition" finish edit.
+2/5/17 9:00 PM : "Interface Definition" complete.
+2/5/17 9:00 PM : "Interface Definition" start edit.
+2/5/17 9:00 PM : "Interface Definition" finish edit.
+2/5/17 9:00 PM :  archest dlx_basis.arc dlx_basis_arc.log finished as normally.
+2/5/17 9:00 PM : Load file "dlx_basis_arc.log".
+2/5/17 9:00 PM : "null" complete.
+2/5/17 9:00 PM : "C Definition" start browse.
+2/5/17 9:01 PM : "C Definition" complete.
+2/5/17 9:01 PM : "C Definition" finish edit.
+2/5/17 9:01 PM : "Behavior Description" start browse.
+2/5/17 9:01 PM : "Behavior Description" complete.
+2/5/17 9:01 PM : "Behavior Description" finish edit.
+2/5/17 9:01 PM : "Micro Op. Description" start browse.
+2/5/17 9:02 PM : "Behavior Description:READ ONLY" complete.
+2/5/17 9:02 PM : "Behavior Description:READ ONLY" start edit.
+2/5/17 9:07 PM : "Behavior Description:READ ONLY" finish edit.
+2/5/17 9:10 PM : "Micro Op. Description" complete.
+2/5/17 9:10 PM : "Micro Op. Description" finish edit.
+2/5/17 9:10 PM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+2/5/17 9:10 PM : Load file "dlx_basis_mod.log".
+2/5/17 9:10 PM : "null" complete.
+2/5/17 9:10 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+2/5/17 9:10 PM : Load file "dlx_basis_tr.log".
+2/5/17 9:10 PM : "null" complete.
+2/5/17 9:11 PM : "Main menu" quit.

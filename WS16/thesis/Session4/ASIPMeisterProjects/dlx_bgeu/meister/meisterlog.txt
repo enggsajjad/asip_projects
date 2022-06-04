@@ -1,0 +1,37 @@
+9/6/17 1:18 AM : "Main menu" start.
+9/6/17 1:18 AM : Load file ".ASIPmeister.ini".
+9/6/17 1:18 AM : Load file "dlx_bgeu.pdb".
+9/6/17 1:19 AM : "Micro Op. Description" complete.
+9/6/17 1:19 AM : "Micro Op. Description" start edit.
+9/6/17 1:19 AM : "Micro Op. Description" finish edit.
+9/6/17 1:19 AM :  modelgen both dlx_bgeu dlx_bgeu_mod.log finished as normally.
+9/6/17 1:19 AM : Load file "dlx_bgeu_mod.log".
+9/6/17 1:19 AM : "null" complete.
+9/6/17 1:19 AM :  translator swdev dlx_bgeu dlx_bgeu_tr.log finished as normally.
+9/6/17 1:19 AM : Load file "dlx_bgeu_tr.log".
+9/6/17 1:19 AM : "null" complete.
+9/6/17 1:19 AM : "Main menu" quit.
+9/20/17 11:29 AM : "Main menu" start.
+9/20/17 11:29 AM : Load file ".ASIPmeister.ini".
+9/20/17 11:29 AM : Load file "dlx_bgeu.pdb".
+9/20/17 11:30 AM : "Instruction Definition" complete.
+9/20/17 11:30 AM : "Instruction Definition" start edit.
+9/20/17 12:08 PM : "Instruction Definition" finish edit.
+9/20/17 12:08 PM : "Micro Op. Description" complete.
+9/20/17 12:08 PM : "Micro Op. Description" start edit.
+9/20/17 2:07 PM : "Micro Op. Description" finish edit.
+9/20/17 2:07 PM : "Main menu" quit.
+10/7/17 4:23 PM : "Main menu" start.
+10/7/17 4:23 PM : Load file ".ASIPmeister.ini".
+10/7/17 4:23 PM : Load file "dlx_bgeu.pdb".
+10/7/17 4:23 PM : "Micro Op. Description" complete.
+10/7/17 4:23 PM : "Micro Op. Description" start edit.
+10/7/17 4:24 PM : "Micro Op. Description" finish edit.
+10/7/17 4:24 PM : "Main menu" quit.
+10/7/17 4:38 PM : "Main menu" start.
+10/7/17 4:38 PM : Load file ".ASIPmeister.ini".
+10/7/17 4:38 PM : Load file "dlx_bgeu.pdb".
+10/7/17 4:38 PM : "Micro Op. Description" complete.
+10/7/17 4:38 PM : "Micro Op. Description" start edit.
+10/8/17 2:52 AM : "Micro Op. Description" finish edit.
+10/8/17 2:52 AM : "Main menu" quit.

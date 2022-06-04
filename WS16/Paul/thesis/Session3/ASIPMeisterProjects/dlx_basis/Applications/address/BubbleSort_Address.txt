@@ -1,0 +1,149 @@
+
+Array: 45  75  342  54  7  86  92  235  4  42  99  78  63  352  21  634  6  77  346  23  
+Inner-loop will go from 0 to 19.
+exchanging 2:342 with 3:54
+exchanging 3:342 with 4:7
+exchanging 4:342 with 5:86
+exchanging 5:342 with 6:92
+exchanging 6:342 with 7:235
+exchanging 7:342 with 8:4
+exchanging 8:342 with 9:42
+exchanging 9:342 with 10:99
+exchanging 10:342 with 11:78
+exchanging 11:342 with 12:63
+exchanging 13:352 with 14:21
+exchanging 15:634 with 16:6
+exchanging 16:634 with 17:77
+exchanging 17:634 with 18:346
+exchanging 18:634 with 19:23
+
+Array: 45  75  54  7  86  92  235  4  42  99  78  63  342  21  352  6  77  346  23  634  
+Inner-loop will go from 0 to 18.
+exchanging 1:75 with 2:54
+exchanging 2:75 with 3:7
+exchanging 6:235 with 7:4
+exchanging 7:235 with 8:42
+exchanging 8:235 with 9:99
+exchanging 9:235 with 10:78
+exchanging 10:235 with 11:63
+exchanging 12:342 with 13:21
+exchanging 14:352 with 15:6
+exchanging 15:352 with 16:77
+exchanging 16:352 with 17:346
+exchanging 17:352 with 18:23
+
+Array: 45  54  7  75  86  92  4  42  99  78  63  235  21  342  6  77  346  23  352  634  
+Inner-loop will go from 0 to 17.
+exchanging 1:54 with 2:7
+exchanging 5:92 with 6:4
+exchanging 6:92 with 7:42
+exchanging 8:99 with 9:78
+exchanging 9:99 with 10:63
+exchanging 11:235 with 12:21
+exchanging 13:342 with 14:6
+exchanging 14:342 with 15:77
+exchanging 16:346 with 17:23
+
+Array: 45  7  54  75  86  4  42  92  78  63  99  21  235  6  77  342  23  346  352  634  
+Inner-loop will go from 0 to 16.
+exchanging 0:45 with 1:7
+exchanging 4:86 with 5:4
+exchanging 5:86 with 6:42
+exchanging 7:92 with 8:78
+exchanging 8:92 with 9:63
+exchanging 10:99 with 11:21
+exchanging 12:235 with 13:6
+exchanging 13:235 with 14:77
+exchanging 15:342 with 16:23
+
+Array: 7  45  54  75  4  42  86  78  63  92  21  99  6  77  235  23  342  346  352  634  
+Inner-loop will go from 0 to 15.
+exchanging 3:75 with 4:4
+exchanging 4:75 with 5:42
+exchanging 6:86 with 7:78
+exchanging 7:86 with 8:63
+exchanging 9:92 with 10:21
+exchanging 11:99 with 12:6
+exchanging 12:99 with 13:77
+exchanging 14:235 with 15:23
+
+Array: 7  45  54  4  42  75  78  63  86  21  92  6  77  99  23  235  342  346  352  634  
+Inner-loop will go from 0 to 14.
+exchanging 2:54 with 3:4
+exchanging 3:54 with 4:42
+exchanging 6:78 with 7:63
+exchanging 8:86 with 9:21
+exchanging 10:92 with 11:6
+exchanging 11:92 with 12:77
+exchanging 13:99 with 14:23
+
+Array: 7  45  4  42  54  75  63  78  21  86  6  77  92  23  99  235  342  346  352  634  
+Inner-loop will go from 0 to 13.
+exchanging 1:45 with 2:4
+exchanging 2:45 with 3:42
+exchanging 5:75 with 6:63
+exchanging 7:78 with 8:21
+exchanging 9:86 with 10:6
+exchanging 10:86 with 11:77
+exchanging 12:92 with 13:23
+
+Array: 7  4  42  45  54  63  75  21  78  6  77  86  23  92  99  235  342  346  352  634  
+Inner-loop will go from 0 to 12.
+exchanging 0:7 with 1:4
+exchanging 6:75 with 7:21
+exchanging 8:78 with 9:6
+exchanging 9:78 with 10:77
+exchanging 11:86 with 12:23
+
+Array: 4  7  42  45  54  63  21  75  6  77  78  23  86  92  99  235  342  346  352  634  
+Inner-loop will go from 0 to 11.
+exchanging 5:63 with 6:21
+exchanging 7:75 with 8:6
+exchanging 10:78 with 11:23
+
+Array: 4  7  42  45  54  21  63  6  75  77  23  78  86  92  99  235  342  346  352  634  
+Inner-loop will go from 0 to 10.
+exchanging 4:54 with 5:21
+exchanging 6:63 with 7:6
+exchanging 9:77 with 10:23
+
+Array: 4  7  42  45  21  54  6  63  75  23  77  78  86  92  99  235  342  346  352  634  
+Inner-loop will go from 0 to 9.
+exchanging 3:45 with 4:21
+exchanging 5:54 with 6:6
+exchanging 8:75 with 9:23
+
+Array: 4  7  42  21  45  6  54  63  23  75  77  78  86  92  99  235  342  346  352  634  
+Inner-loop will go from 0 to 8.
+exchanging 2:42 with 3:21
+exchanging 4:45 with 5:6
+exchanging 7:63 with 8:23
+
+Array: 4  7  21  42  6  45  54  23  63  75  77  78  86  92  99  235  342  346  352  634  
+Inner-loop will go from 0 to 7.
+exchanging 3:42 with 4:6
+exchanging 6:54 with 7:23
+
+Array: 4  7  21  6  42  45  23  54  63  75  77  78  86  92  99  235  342  346  352  634  
+Inner-loop will go from 0 to 6.
+exchanging 2:21 with 3:6
+exchanging 5:45 with 6:23
+
+Array: 4  7  6  21  42  23  45  54  63  75  77  78  86  92  99  235  342  346  352  634  
+Inner-loop will go from 0 to 5.
+exchanging 1:7 with 2:6
+exchanging 4:42 with 5:23
+
+Array: 4  6  7  21  23  42  45  54  63  75  77  78  86  92  99  235  342  346  352  634  
+Inner-loop will go from 0 to 4.
+
+Array: 4  6  7  21  23  42  45  54  63  75  77  78  86  92  99  235  342  346  352  634  
+Inner-loop will go from 0 to 3.
+
+Array: 4  6  7  21  23  42  45  54  63  75  77  78  86  92  99  235  342  346  352  634  
+Inner-loop will go from 0 to 2.
+
+Array: 4  6  7  21  23  42  45  54  63  75  77  78  86  92  99  235  342  346  352  634  
+Inner-loop will go from 0 to 1.
+
+Array: 4  6  7  21  23  42  45  54  63  75  77  78  86  92  99  235  342  346  352  634  

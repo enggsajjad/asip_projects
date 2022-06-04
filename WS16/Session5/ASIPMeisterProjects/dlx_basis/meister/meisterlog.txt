@@ -1,0 +1,34 @@
+11/26/16 2:20 AM : "Main menu" start.
+11/26/16 2:20 AM : Load file ".ASIPmeister.ini".
+11/26/16 2:20 AM : Load file "dlx_basis.pdb".
+11/26/16 2:20 AM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+11/26/16 2:20 AM : Load file "dlx_basis_mod.log".
+11/26/16 2:20 AM : "null" complete.
+11/26/16 2:21 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+11/26/16 2:21 AM : Load file "dlx_basis_tr.log".
+11/26/16 2:21 AM : "null" complete.
+11/26/16 2:21 AM : "Main menu" quit.
+5/19/17 3:54 PM : "Main menu" start.
+5/19/17 3:54 PM : Load file ".ASIPmeister.ini".
+5/19/17 3:54 PM : Load file "dlx_basis.pdb".
+5/19/17 3:54 PM : "Instruction Definition" complete.
+5/19/17 3:54 PM : "Instruction Definition" start edit.
+5/19/17 3:56 PM : "Instruction Definition" finish edit.
+5/19/17 3:56 PM : "Main menu" quit.
+5/19/17 4:47 PM : "Main menu" start.
+5/19/17 4:47 PM : Load file ".ASIPmeister.ini".
+5/19/17 4:47 PM : Load file "dlx_basis.pdb".
+5/19/17 4:47 PM : "Instruction Definition" complete.
+5/19/17 4:47 PM : "Instruction Definition" start edit.
+5/19/17 6:24 PM : "Instruction Definition" finish edit.
+5/19/17 6:36 PM : "Instruction Definition" complete.
+5/19/17 6:36 PM : "Instruction Definition" start edit.
+5/19/17 6:56 PM : "Instruction Definition" finish edit.
+5/19/17 6:56 PM : "Main menu" quit.
+10/6/17 4:15 PM : "Main menu" start.
+10/6/17 4:15 PM : Load file ".ASIPmeister.ini".
+10/6/17 4:15 PM : Load file "dlx_basis.pdb".
+10/6/17 4:16 PM : "Micro Op. Description" complete.
+10/6/17 4:16 PM : "Micro Op. Description" start edit.
+10/6/17 7:15 PM : "Micro Op. Description" finish edit.
+10/6/17 7:16 PM : "Main menu" quit.

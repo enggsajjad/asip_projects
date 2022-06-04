@@ -1,0 +1,71 @@
+1/23/17 7:09 PM : "Main menu" start.
+1/23/17 7:09 PM : Load file ".ASIPmeister.ini".
+1/23/17 7:09 PM : Load file "dlx_area.pdb".
+1/23/17 7:11 PM : Query "parameter(pcu,synthesis)" finished as normally.
+1/23/17 7:11 PM : Query "parameter(register,synthesis)" finished as normally.
+1/23/17 7:11 PM : Query "parameter(imau,synthesis)" finished as normally.
+1/23/17 7:11 PM : Query "parameter(dmau,synthesis)" finished as normally.
+1/23/17 7:11 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/23/17 7:11 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/23/17 7:11 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/23/17 7:11 PM : Query "parameter(shifter,synthesis)" finished as normally.
+1/23/17 7:11 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/23/17 7:11 PM : "Resource Declaration" start edit.
+1/23/17 7:11 PM : "Storage Spec" complete.
+1/23/17 7:11 PM : "Storage Spec" start edit.
+1/23/17 7:11 PM : "Storage Spec" finish edit.
+1/23/17 7:11 PM : "Resource Declaration" finish edit.
+1/23/17 7:11 PM : "Storage Spec" complete.
+1/23/17 7:11 PM : "Storage Spec" start edit.
+1/23/17 7:11 PM : "Storage Spec" finish edit.
+1/23/17 7:11 PM : "Resource Declaration" finish edit.
+1/23/17 7:11 PM : "Instruction Definition" complete.
+1/23/17 7:11 PM : "Instruction Definition" start edit.
+1/23/17 7:12 PM : "Instruction Definition" finish edit.
+1/23/17 7:12 PM : "Storage Spec" complete.
+1/23/17 7:12 PM : "Storage Spec" start edit.
+1/23/17 7:13 PM : "Storage Spec" finish edit.
+1/23/17 7:13 PM : Query "parameter(pcu,synthesis)" finished as normally.
+1/23/17 7:13 PM : Query "parameter(register,synthesis)" finished as normally.
+1/23/17 7:13 PM : Query "parameter(imau,synthesis)" finished as normally.
+1/23/17 7:13 PM : Query "parameter(dmau,synthesis)" finished as normally.
+1/23/17 7:13 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/23/17 7:13 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/23/17 7:13 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/23/17 7:13 PM : Query "parameter(shifter,synthesis)" finished as normally.
+1/23/17 7:13 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/23/17 7:13 PM : "Resource Declaration" start edit.
+1/23/17 7:13 PM : "Storage Spec" complete.
+1/23/17 7:13 PM : "Storage Spec" start edit.
+1/23/17 7:13 PM : "Storage Spec" finish edit.
+1/23/17 7:13 PM : "Resource Declaration" finish edit.
+1/23/17 7:13 PM : "Storage Spec" complete.
+1/23/17 7:13 PM : "Storage Spec" start edit.
+1/23/17 7:13 PM : "Storage Spec" finish edit.
+1/23/17 7:13 PM : "Resource Declaration" finish edit.
+1/23/17 7:13 PM : "Instruction Definition" complete.
+1/23/17 7:13 PM : "Instruction Definition" start edit.
+1/23/17 7:13 PM : "Instruction Definition" re-edit.
+1/23/17 7:20 PM : "Instruction Definition" complete.
+1/23/17 7:20 PM : "Instruction Definition" finish edit.
+1/23/17 7:20 PM :  archest dlx_area.arc dlx_area_arc.log finished as normally.
+1/23/17 7:20 PM : Load file "dlx_area_arc.log".
+1/23/17 7:20 PM : "null" complete.
+1/23/17 7:20 PM : "C Definition" start browse.
+1/23/17 7:20 PM : "C Definition" complete.
+1/23/17 7:20 PM : "C Definition" finish edit.
+1/23/17 7:20 PM : "Behavior Description" start browse.
+1/23/17 7:20 PM : "Behavior Description" complete.
+1/23/17 7:20 PM : "Behavior Description" finish edit.
+1/23/17 7:20 PM : "Micro Op. Description" start browse.
+1/23/17 7:20 PM : "Micro Op. Description" complete.
+1/23/17 7:20 PM : "Micro Op. Description" finish edit.
+1/23/17 7:21 PM :  modelgen both dlx_area dlx_area_mod.log finished as normally.
+1/23/17 7:21 PM : Load file "dlx_area_mod.log".
+1/23/17 7:21 PM : "null" complete.
+1/23/17 7:21 PM :  translator swdev dlx_area dlx_area_tr.log finished as normally.
+1/23/17 7:21 PM : Load file "dlx_area_tr.log".
+1/23/17 7:21 PM : "null" complete.
+1/23/17 7:21 PM : "Main menu" quit.
+1/23/17 7:41 PM : "Main menu" start.
+1/23/17 7:41 PM : Load file ".ASIPmeister.ini".

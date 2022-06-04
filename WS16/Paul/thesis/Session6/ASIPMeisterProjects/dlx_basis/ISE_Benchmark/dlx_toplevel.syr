@@ -1,0 +1,2159 @@
+Release 13.2 - xst O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> 
+Reading design: dlx_toplevel.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "dlx_toplevel.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "dlx_toplevel"
+Output Format                      : NGC
+Target Device                      : xc5vlx110t-1-ff1136
+
+---- Source Options
+Top Module Name                    : dlx_toplevel
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Off
+Reduce Control Sets                : Off
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_proc_fsm.vhd" in Library work.
+Entity <rtg_proc_fsm> compiled.
+Entity <rtg_proc_fsm> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w1_00.vhd" in Library work.
+Entity <rtg_register_w1_00> compiled.
+Entity <rtg_register_w1_00> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w1_01.vhd" in Library work.
+Entity <rtg_register_w1_01> compiled.
+Entity <rtg_register_w1_01> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w32.vhd" in Library work.
+Entity <rtg_register_w32> compiled.
+Entity <rtg_register_w32> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w34.vhd" in Library work.
+Entity <rtg_register_w34> compiled.
+Entity <rtg_register_w34> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w12.vhd" in Library work.
+Entity <rtg_register_w12> compiled.
+Entity <rtg_register_w12> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w7.vhd" in Library work.
+Entity <rtg_register_w7> compiled.
+Entity <rtg_register_w7> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_pcu_w32.vhd" in Library work.
+Entity <fhm_pcu_w32_add32_fa> compiled.
+Entity <fhm_pcu_w32_add32_fa> (Architecture <synthesis>) compiled.
+Entity <fhm_pcu_w32_add32> compiled.
+Entity <fhm_pcu_w32_add32> (Architecture <synthesis>) compiled.
+Entity <fhm_pcu_w32_reg32> compiled.
+Entity <fhm_pcu_w32_reg32> (Architecture <synthesis>) compiled.
+Entity <fhm_pcu_w32> compiled.
+Entity <fhm_pcu_w32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_register_w32.vhd" in Library work.
+Entity <fhm_register_w32> compiled.
+Entity <fhm_register_w32> (Architecture <logic>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_imau_w32.vhd" in Library work.
+Entity <fhm_imau_w32> compiled.
+Entity <fhm_imau_w32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_dmau_w32.vhd" in Library work.
+Entity <fhm_dmau_w32_reg32> compiled.
+Entity <fhm_dmau_w32_reg32> (Architecture <synthesis>) compiled.
+Entity <fhm_dmau_w32> compiled.
+Entity <fhm_dmau_w32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_registerfile_w32.vhd" in Library work.
+Entity <fhm_registerfile_w32_reg32> compiled.
+Entity <fhm_registerfile_w32_reg32> (Architecture <synthesis>) compiled.
+Entity <fhm_registerfile_w32> compiled.
+Entity <fhm_registerfile_w32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_alu_w32.vhd" in Library work.
+Entity <fhm_alu_w32_add4> compiled.
+Entity <fhm_alu_w32_add4> (Architecture <synthesis>) compiled.
+Entity <fhm_alu_w32_add16> compiled.
+Entity <fhm_alu_w32_add16> (Architecture <synthesis>) compiled.
+Entity <fhm_alu_w32_add> compiled.
+Entity <fhm_alu_w32_add> (Architecture <synthesis>) compiled.
+Entity <fhm_alu_w32> compiled.
+Entity <fhm_alu_w32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_extender_w16.vhd" in Library work.
+Entity <fhm_extender_w16> compiled.
+Entity <fhm_extender_w16> (Architecture <synthesis>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd" in Library work.
+Entity <fhm_multiplier_w32_reg1> compiled.
+Entity <fhm_multiplier_w32_reg1> (Architecture <synthesis>) compiled.
+Entity <fhm_multiplier_w32_cla4> compiled.
+Entity <fhm_multiplier_w32_cla4> (Architecture <synthesis>) compiled.
+Entity <fhm_multiplier_w32_cla16> compiled.
+Entity <fhm_multiplier_w32_cla16> (Architecture <synthesis>) compiled.
+Entity <fhm_multiplier_w32_cla64> compiled.
+Entity <fhm_multiplier_w32_cla64> (Architecture <synthesis>) compiled.
+Entity <fhm_multiplier_w32_add32> compiled.
+Entity <fhm_multiplier_w32_add32> (Architecture <synthesis>) compiled.
+Entity <fhm_multiplier_w32_add64> compiled.
+Entity <fhm_multiplier_w32_add64> (Architecture <synthesis>) compiled.
+Entity <fhm_multiplier_w32_reg32> compiled.
+Entity <fhm_multiplier_w32_reg32> (Architecture <synthesis>) compiled.
+Entity <fhm_multiplier_w32_reg64> compiled.
+Entity <fhm_multiplier_w32_reg64> (Architecture <synthesis>) compiled.
+Entity <fhm_multiplier_w32_smul> compiled.
+Entity <fhm_multiplier_w32_smul> (Architecture <synthesis>) compiled.
+Entity <fhm_multiplier_w32_tconv32> compiled.
+Entity <fhm_multiplier_w32_tconv32> (Architecture <synthesis>) compiled.
+Entity <fhm_multiplier_w32_tconv64> compiled.
+Entity <fhm_multiplier_w32_tconv64> (Architecture <synthesis>) compiled.
+Entity <fhm_multiplier_w32> compiled.
+Entity <fhm_multiplier_w32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_divider_w32.vhd" in Library work.
+Entity <fhm_divider_w32_add32_cla4> compiled.
+Entity <fhm_divider_w32_add32_cla4> (Architecture <synthesis>) compiled.
+Entity <fhm_divider_w32_add32_cla16> compiled.
+Entity <fhm_divider_w32_add32_cla16> (Architecture <synthesis>) compiled.
+Entity <fhm_divider_w32_add32> compiled.
+Entity <fhm_divider_w32_add32> (Architecture <synthesis>) compiled.
+Entity <fhm_divider_w32_reg32> compiled.
+Entity <fhm_divider_w32_reg32> (Architecture <synthesis>) compiled.
+Entity <fhm_divider_w32_reg1> compiled.
+Entity <fhm_divider_w32_reg1> (Architecture <synthesis>) compiled.
+Entity <fhm_divider_w32_lsftreg32> compiled.
+Entity <fhm_divider_w32_lsftreg32> (Architecture <synthesis>) compiled.
+Entity <fhm_divider_w32_sdiv32> compiled.
+Entity <fhm_divider_w32_sdiv32> (Architecture <synthesis>) compiled.
+Entity <fhm_divider_w32_tconv32> compiled.
+Entity <fhm_divider_w32_tconv32> (Architecture <synthesis>) compiled.
+Entity <fhm_divider_w32> compiled.
+Entity <fhm_divider_w32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_shifter_w32.vhd" in Library work.
+Entity <fhm_shifter_w32> compiled.
+Entity <fhm_shifter_w32> (Architecture <synthesis>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_extender_w28.vhd" in Library work.
+Entity <fhm_extender_w28> compiled.
+Entity <fhm_extender_w28> (Architecture <synthesis>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_controller.vhd" in Library work.
+Entity <rtg_controller> compiled.
+Entity <rtg_controller> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_mux2to1_w32.vhd" in Library work.
+Entity <rtg_mux2to1_w32> compiled.
+Entity <rtg_mux2to1_w32> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_mux3to1_w5.vhd" in Library work.
+Entity <rtg_mux3to1_w5> compiled.
+Entity <rtg_mux3to1_w5> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_mux14to1_w32.vhd" in Library work.
+Entity <rtg_mux14to1_w32> compiled.
+Entity <rtg_mux14to1_w32> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_mux2to1_w5.vhd" in Library work.
+Entity <rtg_mux2to1_w5> compiled.
+Entity <rtg_mux2to1_w5> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_mux3to1_w32.vhd" in Library work.
+Entity <rtg_mux3to1_w32> compiled.
+Entity <rtg_mux3to1_w32> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_mux4to1_w32.vhd" in Library work.
+Entity <rtg_mux4to1_w32> compiled.
+Entity <rtg_mux4to1_w32> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w4.vhd" in Library work.
+Entity <rtg_register_w4> compiled.
+Entity <rtg_register_w4> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w5.vhd" in Library work.
+Entity <rtg_register_w5> compiled.
+Entity <rtg_register_w5> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/CPU.vhd" in Library work.
+Entity <CPU> compiled.
+Entity <CPU> (Architecture <RTL>) compiled.
+Compiling vhdl file "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/dlx_toplevel.vhd" in Library work.
+Entity <dlx_toplevel> compiled.
+Entity <dlx_toplevel> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <dlx_toplevel> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CPU> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <fhm_pcu_w32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_register_w32> in library <work> (architecture <logic>).
+
+Analyzing hierarchy for entity <fhm_imau_w32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_dmau_w32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_registerfile_w32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_alu_w32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_extender_w16> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_divider_w32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_shifter_w32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_extender_w28> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <rtg_controller> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_mux2to1_w32> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_mux3to1_w5> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_mux14to1_w32> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_mux2to1_w5> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_mux3to1_w32> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_mux4to1_w32> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_register_w32> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_register_w4> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_register_w5> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <fhm_pcu_w32_add32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_pcu_w32_reg32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_dmau_w32_reg32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_registerfile_w32_reg32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_alu_w32_add> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_reg1> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_tconv32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_smul> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_tconv64> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_divider_w32_tconv32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_divider_w32_sdiv32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_divider_w32_reg1> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <rtg_proc_fsm> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_register_w1_00> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_register_w1_01> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_register_w34> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_register_w12> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <rtg_register_w7> in library <work> (architecture <RTL>).
+
+Analyzing hierarchy for entity <fhm_pcu_w32_add32_fa> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_alu_w32_add16> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_add32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_reg32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_add64> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_reg64> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_divider_w32_add32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_divider_w32_lsftreg32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_divider_w32_reg32> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_alu_w32_add4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_cla16> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_cla64> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_divider_w32_add32_cla16> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_divider_w32_reg1> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_cla4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_cla16> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_divider_w32_add32_cla4> in library <work> (architecture <synthesis>).
+
+Analyzing hierarchy for entity <fhm_multiplier_w32_cla4> in library <work> (architecture <synthesis>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <dlx_toplevel> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:2211 - "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/dlx_toplevel.vhd" line 95: Instantiating black box module <brom_im>.
+WARNING:Xst:2211 - "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/dlx_toplevel.vhd" line 102: Instantiating black box module <bram_dm>.
+Entity <dlx_toplevel> analyzed. Unit <dlx_toplevel> generated.
+
+Analyzing Entity <CPU> in library <work> (Architecture <RTL>).
+Entity <CPU> analyzed. Unit <CPU> generated.
+
+Analyzing Entity <fhm_pcu_w32> in library <work> (Architecture <synthesis>).
+WARNING:Xst:753 - "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_pcu_w32.vhd" line 207: Unconnected output port 'cout' of component 'fhm_pcu_w32_add32'.
+Entity <fhm_pcu_w32> analyzed. Unit <fhm_pcu_w32> generated.
+
+Analyzing Entity <fhm_pcu_w32_add32> in library <work> (Architecture <synthesis>).
+Entity <fhm_pcu_w32_add32> analyzed. Unit <fhm_pcu_w32_add32> generated.
+
+Analyzing Entity <fhm_pcu_w32_add32_fa> in library <work> (Architecture <synthesis>).
+Entity <fhm_pcu_w32_add32_fa> analyzed. Unit <fhm_pcu_w32_add32_fa> generated.
+
+Analyzing Entity <fhm_pcu_w32_reg32> in library <work> (Architecture <synthesis>).
+Entity <fhm_pcu_w32_reg32> analyzed. Unit <fhm_pcu_w32_reg32> generated.
+
+Analyzing Entity <fhm_register_w32> in library <work> (Architecture <logic>).
+Entity <fhm_register_w32> analyzed. Unit <fhm_register_w32> generated.
+
+Analyzing Entity <fhm_imau_w32> in library <work> (Architecture <synthesis>).
+Entity <fhm_imau_w32> analyzed. Unit <fhm_imau_w32> generated.
+
+Analyzing Entity <fhm_dmau_w32> in library <work> (Architecture <synthesis>).
+Entity <fhm_dmau_w32> analyzed. Unit <fhm_dmau_w32> generated.
+
+Analyzing Entity <fhm_dmau_w32_reg32> in library <work> (Architecture <synthesis>).
+Entity <fhm_dmau_w32_reg32> analyzed. Unit <fhm_dmau_w32_reg32> generated.
+
+Analyzing Entity <fhm_registerfile_w32> in library <work> (Architecture <synthesis>).
+Entity <fhm_registerfile_w32> analyzed. Unit <fhm_registerfile_w32> generated.
+
+Analyzing Entity <fhm_registerfile_w32_reg32> in library <work> (Architecture <synthesis>).
+Entity <fhm_registerfile_w32_reg32> analyzed. Unit <fhm_registerfile_w32_reg32> generated.
+
+Analyzing Entity <fhm_alu_w32> in library <work> (Architecture <synthesis>).
+Entity <fhm_alu_w32> analyzed. Unit <fhm_alu_w32> generated.
+
+Analyzing Entity <fhm_alu_w32_add> in library <work> (Architecture <synthesis>).
+Entity <fhm_alu_w32_add> analyzed. Unit <fhm_alu_w32_add> generated.
+
+Analyzing Entity <fhm_alu_w32_add16> in library <work> (Architecture <synthesis>).
+Entity <fhm_alu_w32_add16> analyzed. Unit <fhm_alu_w32_add16> generated.
+
+Analyzing Entity <fhm_alu_w32_add4> in library <work> (Architecture <synthesis>).
+Entity <fhm_alu_w32_add4> analyzed. Unit <fhm_alu_w32_add4> generated.
+
+Analyzing Entity <fhm_extender_w16> in library <work> (Architecture <synthesis>).
+Entity <fhm_extender_w16> analyzed. Unit <fhm_extender_w16> generated.
+
+Analyzing Entity <fhm_multiplier_w32> in library <work> (Architecture <synthesis>).
+Entity <fhm_multiplier_w32> analyzed. Unit <fhm_multiplier_w32> generated.
+
+Analyzing Entity <fhm_multiplier_w32_reg1> in library <work> (Architecture <synthesis>).
+Entity <fhm_multiplier_w32_reg1> analyzed. Unit <fhm_multiplier_w32_reg1> generated.
+
+Analyzing Entity <fhm_multiplier_w32_tconv32> in library <work> (Architecture <synthesis>).
+Entity <fhm_multiplier_w32_tconv32> analyzed. Unit <fhm_multiplier_w32_tconv32> generated.
+
+Analyzing Entity <fhm_multiplier_w32_add32> in library <work> (Architecture <synthesis>).
+Entity <fhm_multiplier_w32_add32> analyzed. Unit <fhm_multiplier_w32_add32> generated.
+
+Analyzing Entity <fhm_multiplier_w32_cla16> in library <work> (Architecture <synthesis>).
+Entity <fhm_multiplier_w32_cla16> analyzed. Unit <fhm_multiplier_w32_cla16> generated.
+
+Analyzing Entity <fhm_multiplier_w32_cla4> in library <work> (Architecture <synthesis>).
+Entity <fhm_multiplier_w32_cla4> analyzed. Unit <fhm_multiplier_w32_cla4> generated.
+
+Analyzing Entity <fhm_multiplier_w32_smul> in library <work> (Architecture <synthesis>).
+WARNING:Xst:753 - "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd" line 612: Unconnected output port 'cout' of component 'fhm_multiplier_w32_add64'.
+Entity <fhm_multiplier_w32_smul> analyzed. Unit <fhm_multiplier_w32_smul> generated.
+
+Analyzing Entity <fhm_multiplier_w32_reg32> in library <work> (Architecture <synthesis>).
+Entity <fhm_multiplier_w32_reg32> analyzed. Unit <fhm_multiplier_w32_reg32> generated.
+
+Analyzing Entity <fhm_multiplier_w32_add64> in library <work> (Architecture <synthesis>).
+Entity <fhm_multiplier_w32_add64> analyzed. Unit <fhm_multiplier_w32_add64> generated.
+
+Analyzing Entity <fhm_multiplier_w32_cla64> in library <work> (Architecture <synthesis>).
+Entity <fhm_multiplier_w32_cla64> analyzed. Unit <fhm_multiplier_w32_cla64> generated.
+
+Analyzing Entity <fhm_multiplier_w32_reg64> in library <work> (Architecture <synthesis>).
+Entity <fhm_multiplier_w32_reg64> analyzed. Unit <fhm_multiplier_w32_reg64> generated.
+
+Analyzing Entity <fhm_multiplier_w32_tconv64> in library <work> (Architecture <synthesis>).
+Entity <fhm_multiplier_w32_tconv64> analyzed. Unit <fhm_multiplier_w32_tconv64> generated.
+
+Analyzing Entity <fhm_divider_w32> in library <work> (Architecture <synthesis>).
+Entity <fhm_divider_w32> analyzed. Unit <fhm_divider_w32> generated.
+
+Analyzing Entity <fhm_divider_w32_tconv32> in library <work> (Architecture <synthesis>).
+Entity <fhm_divider_w32_tconv32> analyzed. Unit <fhm_divider_w32_tconv32> generated.
+
+Analyzing Entity <fhm_divider_w32_add32> in library <work> (Architecture <synthesis>).
+Entity <fhm_divider_w32_add32> analyzed. Unit <fhm_divider_w32_add32> generated.
+
+Analyzing Entity <fhm_divider_w32_add32_cla16> in library <work> (Architecture <synthesis>).
+Entity <fhm_divider_w32_add32_cla16> analyzed. Unit <fhm_divider_w32_add32_cla16> generated.
+
+Analyzing Entity <fhm_divider_w32_add32_cla4> in library <work> (Architecture <synthesis>).
+Entity <fhm_divider_w32_add32_cla4> analyzed. Unit <fhm_divider_w32_add32_cla4> generated.
+
+Analyzing Entity <fhm_divider_w32_sdiv32> in library <work> (Architecture <synthesis>).
+Entity <fhm_divider_w32_sdiv32> analyzed. Unit <fhm_divider_w32_sdiv32> generated.
+
+Analyzing Entity <fhm_divider_w32_lsftreg32> in library <work> (Architecture <synthesis>).
+Entity <fhm_divider_w32_lsftreg32> analyzed. Unit <fhm_divider_w32_lsftreg32> generated.
+
+Analyzing Entity <fhm_divider_w32_reg32> in library <work> (Architecture <synthesis>).
+Entity <fhm_divider_w32_reg32> analyzed. Unit <fhm_divider_w32_reg32> generated.
+
+Analyzing Entity <fhm_divider_w32_reg1> in library <work> (Architecture <synthesis>).
+Entity <fhm_divider_w32_reg1> analyzed. Unit <fhm_divider_w32_reg1> generated.
+
+Analyzing Entity <fhm_shifter_w32> in library <work> (Architecture <synthesis>).
+Entity <fhm_shifter_w32> analyzed. Unit <fhm_shifter_w32> generated.
+
+Analyzing Entity <fhm_extender_w28> in library <work> (Architecture <synthesis>).
+Entity <fhm_extender_w28> analyzed. Unit <fhm_extender_w28> generated.
+
+Analyzing Entity <rtg_controller> in library <work> (Architecture <RTL>).
+Entity <rtg_controller> analyzed. Unit <rtg_controller> generated.
+
+Analyzing Entity <rtg_proc_fsm> in library <work> (Architecture <RTL>).
+INFO:Xst:1561 - "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_proc_fsm.vhd" line 73: Mux is complete : default of case is discarded
+Entity <rtg_proc_fsm> analyzed. Unit <rtg_proc_fsm> generated.
+
+Analyzing Entity <rtg_register_w1_00> in library <work> (Architecture <RTL>).
+Entity <rtg_register_w1_00> analyzed. Unit <rtg_register_w1_00> generated.
+
+Analyzing Entity <rtg_register_w1_01> in library <work> (Architecture <RTL>).
+Entity <rtg_register_w1_01> analyzed. Unit <rtg_register_w1_01> generated.
+
+Analyzing Entity <rtg_register_w34> in library <work> (Architecture <RTL>).
+Entity <rtg_register_w34> analyzed. Unit <rtg_register_w34> generated.
+
+Analyzing Entity <rtg_register_w12> in library <work> (Architecture <RTL>).
+Entity <rtg_register_w12> analyzed. Unit <rtg_register_w12> generated.
+
+Analyzing Entity <rtg_register_w7> in library <work> (Architecture <RTL>).
+Entity <rtg_register_w7> analyzed. Unit <rtg_register_w7> generated.
+
+Analyzing Entity <rtg_mux2to1_w32> in library <work> (Architecture <RTL>).
+Entity <rtg_mux2to1_w32> analyzed. Unit <rtg_mux2to1_w32> generated.
+
+Analyzing Entity <rtg_mux3to1_w5> in library <work> (Architecture <RTL>).
+Entity <rtg_mux3to1_w5> analyzed. Unit <rtg_mux3to1_w5> generated.
+
+Analyzing Entity <rtg_mux14to1_w32> in library <work> (Architecture <RTL>).
+Entity <rtg_mux14to1_w32> analyzed. Unit <rtg_mux14to1_w32> generated.
+
+Analyzing Entity <rtg_mux2to1_w5> in library <work> (Architecture <RTL>).
+Entity <rtg_mux2to1_w5> analyzed. Unit <rtg_mux2to1_w5> generated.
+
+Analyzing Entity <rtg_mux3to1_w32> in library <work> (Architecture <RTL>).
+Entity <rtg_mux3to1_w32> analyzed. Unit <rtg_mux3to1_w32> generated.
+
+Analyzing Entity <rtg_mux4to1_w32> in library <work> (Architecture <RTL>).
+Entity <rtg_mux4to1_w32> analyzed. Unit <rtg_mux4to1_w32> generated.
+
+Analyzing Entity <rtg_register_w32> in library <work> (Architecture <RTL>).
+Entity <rtg_register_w32> analyzed. Unit <rtg_register_w32> generated.
+
+Analyzing Entity <rtg_register_w4> in library <work> (Architecture <RTL>).
+Entity <rtg_register_w4> analyzed. Unit <rtg_register_w4> generated.
+
+Analyzing Entity <rtg_register_w5> in library <work> (Architecture <RTL>).
+Entity <rtg_register_w5> analyzed. Unit <rtg_register_w5> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <fhm_register_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_register_w32.vhd".
+    Found 32-bit register for signal <data_out>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <fhm_register_w32> synthesized.
+
+
+Synthesizing Unit <fhm_imau_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_imau_w32.vhd".
+Unit <fhm_imau_w32> synthesized.
+
+
+Synthesizing Unit <fhm_extender_w16>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_extender_w16.vhd".
+Unit <fhm_extender_w16> synthesized.
+
+
+Synthesizing Unit <fhm_shifter_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_shifter_w32.vhd".
+Unit <fhm_shifter_w32> synthesized.
+
+
+Synthesizing Unit <fhm_extender_w28>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_extender_w28.vhd".
+Unit <fhm_extender_w28> synthesized.
+
+
+Synthesizing Unit <rtg_mux2to1_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_mux2to1_w32.vhd".
+Unit <rtg_mux2to1_w32> synthesized.
+
+
+Synthesizing Unit <rtg_mux3to1_w5>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_mux3to1_w5.vhd".
+Unit <rtg_mux3to1_w5> synthesized.
+
+
+Synthesizing Unit <rtg_mux14to1_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_mux14to1_w32.vhd".
+    Found 32-bit 14-to-1 multiplexer for signal <DOUT>.
+    Summary:
+	inferred  32 Multiplexer(s).
+Unit <rtg_mux14to1_w32> synthesized.
+
+
+Synthesizing Unit <rtg_mux2to1_w5>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_mux2to1_w5.vhd".
+Unit <rtg_mux2to1_w5> synthesized.
+
+
+Synthesizing Unit <rtg_mux3to1_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_mux3to1_w32.vhd".
+Unit <rtg_mux3to1_w32> synthesized.
+
+
+Synthesizing Unit <rtg_mux4to1_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_mux4to1_w32.vhd".
+Unit <rtg_mux4to1_w32> synthesized.
+
+
+Synthesizing Unit <rtg_register_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w32.vhd".
+    Found 32-bit register for signal <DOUT>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <rtg_register_w32> synthesized.
+
+
+Synthesizing Unit <rtg_register_w4>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w4.vhd".
+    Found 4-bit register for signal <DOUT>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <rtg_register_w4> synthesized.
+
+
+Synthesizing Unit <rtg_register_w5>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w5.vhd".
+    Found 5-bit register for signal <DOUT>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <rtg_register_w5> synthesized.
+
+
+Synthesizing Unit <fhm_pcu_w32_reg32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_pcu_w32.vhd".
+    Found 32-bit register for signal <data_out>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <fhm_pcu_w32_reg32> synthesized.
+
+
+Synthesizing Unit <fhm_pcu_w32_add32_fa>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_pcu_w32.vhd".
+Unit <fhm_pcu_w32_add32_fa> synthesized.
+
+
+Synthesizing Unit <fhm_dmau_w32_reg32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_dmau_w32.vhd".
+    Found 32-bit register for signal <data_out>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <fhm_dmau_w32_reg32> synthesized.
+
+
+Synthesizing Unit <fhm_registerfile_w32_reg32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_registerfile_w32.vhd".
+    Found 32-bit register for signal <data_out>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <fhm_registerfile_w32_reg32> synthesized.
+
+
+Synthesizing Unit <fhm_alu_w32_add4>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_alu_w32.vhd".
+    Found 4-bit xor2 for signal <result>.
+    Found 4-bit xor2 for signal <p>.
+Unit <fhm_alu_w32_add4> synthesized.
+
+
+Synthesizing Unit <fhm_multiplier_w32_reg1>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd".
+    Found 1-bit register for signal <data_out>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <fhm_multiplier_w32_reg1> synthesized.
+
+
+Synthesizing Unit <fhm_multiplier_w32_cla4>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd".
+    Found 4-bit xor2 for signal <result>.
+    Found 4-bit xor2 for signal <p>.
+Unit <fhm_multiplier_w32_cla4> synthesized.
+
+
+Synthesizing Unit <fhm_multiplier_w32_reg32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd".
+    Found 32-bit register for signal <data_out>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <fhm_multiplier_w32_reg32> synthesized.
+
+
+Synthesizing Unit <fhm_multiplier_w32_reg64>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd".
+    Found 64-bit register for signal <data_out>.
+    Summary:
+	inferred  64 D-type flip-flop(s).
+Unit <fhm_multiplier_w32_reg64> synthesized.
+
+
+Synthesizing Unit <fhm_divider_w32_reg1>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_divider_w32.vhd".
+    Found 1-bit register for signal <data_out>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <fhm_divider_w32_reg1> synthesized.
+
+
+Synthesizing Unit <fhm_divider_w32_add32_cla4>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_divider_w32.vhd".
+    Found 4-bit xor2 for signal <result>.
+    Found 4-bit xor2 for signal <p>.
+Unit <fhm_divider_w32_add32_cla4> synthesized.
+
+
+Synthesizing Unit <fhm_divider_w32_reg32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_divider_w32.vhd".
+    Found 32-bit register for signal <data_out>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <fhm_divider_w32_reg32> synthesized.
+
+
+Synthesizing Unit <rtg_proc_fsm>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_proc_fsm.vhd".
+    Found finite state machine <FSM_0> for signal <cur_state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 2                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Reset              | RST                       (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <rtg_proc_fsm> synthesized.
+
+
+Synthesizing Unit <rtg_register_w1_00>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w1_00.vhd".
+    Found 1-bit register for signal <DOUT>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <rtg_register_w1_00> synthesized.
+
+
+Synthesizing Unit <rtg_register_w1_01>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w1_01.vhd".
+    Found 1-bit register for signal <DOUT<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <rtg_register_w1_01> synthesized.
+
+
+Synthesizing Unit <rtg_register_w34>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w34.vhd".
+    Found 34-bit register for signal <DOUT>.
+    Summary:
+	inferred  34 D-type flip-flop(s).
+Unit <rtg_register_w34> synthesized.
+
+
+Synthesizing Unit <rtg_register_w12>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w12.vhd".
+    Found 12-bit register for signal <DOUT>.
+    Summary:
+	inferred  12 D-type flip-flop(s).
+Unit <rtg_register_w12> synthesized.
+
+
+Synthesizing Unit <rtg_register_w7>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_register_w7.vhd".
+    Found 7-bit register for signal <DOUT>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+Unit <rtg_register_w7> synthesized.
+
+
+Synthesizing Unit <fhm_dmau_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_dmau_w32.vhd".
+    Found 32-bit tristate buffer for signal <data_bus>.
+    Found 24-bit tristate buffer for signal <data_in_tmp2<23:0>>.
+    Found 24-bit tristate buffer for signal <data_in_tmp3<31:8>>.
+    Found 24-bit tristate buffer for signal <data_out_tmp1<23:0>>.
+    Summary:
+	inferred 104 Tristate(s).
+Unit <fhm_dmau_w32> synthesized.
+
+
+Synthesizing Unit <fhm_registerfile_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_registerfile_w32.vhd".
+    Found 32-bit 32-to-1 multiplexer for signal <data_out0>.
+    Found 32-bit 32-to-1 multiplexer for signal <data_out1>.
+    Found 32-bit tristate buffer for signal <data_in_tmp0>.
+    Found 32-bit tristate buffer for signal <data_in_tmp1>.
+    Found 32-bit tristate buffer for signal <data_in_tmp10>.
+    Found 32-bit tristate buffer for signal <data_in_tmp11>.
+    Found 32-bit tristate buffer for signal <data_in_tmp12>.
+    Found 32-bit tristate buffer for signal <data_in_tmp13>.
+    Found 32-bit tristate buffer for signal <data_in_tmp14>.
+    Found 32-bit tristate buffer for signal <data_in_tmp15>.
+    Found 32-bit tristate buffer for signal <data_in_tmp16>.
+    Found 32-bit tristate buffer for signal <data_in_tmp17>.
+    Found 32-bit tristate buffer for signal <data_in_tmp18>.
+    Found 32-bit tristate buffer for signal <data_in_tmp19>.
+    Found 32-bit tristate buffer for signal <data_in_tmp2>.
+    Found 32-bit tristate buffer for signal <data_in_tmp20>.
+    Found 32-bit tristate buffer for signal <data_in_tmp21>.
+    Found 32-bit tristate buffer for signal <data_in_tmp22>.
+    Found 32-bit tristate buffer for signal <data_in_tmp23>.
+    Found 32-bit tristate buffer for signal <data_in_tmp24>.
+    Found 32-bit tristate buffer for signal <data_in_tmp25>.
+    Found 32-bit tristate buffer for signal <data_in_tmp26>.
+    Found 32-bit tristate buffer for signal <data_in_tmp27>.
+    Found 32-bit tristate buffer for signal <data_in_tmp28>.
+    Found 32-bit tristate buffer for signal <data_in_tmp29>.
+    Found 32-bit tristate buffer for signal <data_in_tmp3>.
+    Found 32-bit tristate buffer for signal <data_in_tmp30>.
+    Found 32-bit tristate buffer for signal <data_in_tmp31>.
+    Found 32-bit tristate buffer for signal <data_in_tmp4>.
+    Found 32-bit tristate buffer for signal <data_in_tmp5>.
+    Found 32-bit tristate buffer for signal <data_in_tmp6>.
+    Found 32-bit tristate buffer for signal <data_in_tmp7>.
+    Found 32-bit tristate buffer for signal <data_in_tmp8>.
+    Found 32-bit tristate buffer for signal <data_in_tmp9>.
+    Summary:
+	inferred  64 Multiplexer(s).
+	inferred 1024 Tristate(s).
+Unit <fhm_registerfile_w32> synthesized.
+
+
+Synthesizing Unit <rtg_controller>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/rtg_controller.vhd".
+WARNING:Xst:1780 - Signal <pipereg_enb_IF> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <intrpipe_saved_pc_in_IF> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <intrpipe_saved_pc_IF> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <intrpipe_req_in_IF> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <intrpipe_req_IF> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <intrpipe_code_in_IF> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <intrpipe_code_IF> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <branch_acc_IF> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <branch_acc_ID> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <rtg_controller> synthesized.
+
+
+Synthesizing Unit <fhm_pcu_w32_add32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_pcu_w32.vhd".
+Unit <fhm_pcu_w32_add32> synthesized.
+
+
+Synthesizing Unit <fhm_alu_w32_add16>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_alu_w32.vhd".
+Unit <fhm_alu_w32_add16> synthesized.
+
+
+Synthesizing Unit <fhm_multiplier_w32_cla16>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd".
+Unit <fhm_multiplier_w32_cla16> synthesized.
+
+
+Synthesizing Unit <fhm_divider_w32_add32_cla16>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_divider_w32.vhd".
+Unit <fhm_divider_w32_add32_cla16> synthesized.
+
+
+Synthesizing Unit <fhm_divider_w32_lsftreg32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_divider_w32.vhd".
+Unit <fhm_divider_w32_lsftreg32> synthesized.
+
+
+Synthesizing Unit <fhm_pcu_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_pcu_w32.vhd".
+WARNING:Xst:1780 - Signal <cout> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <fhm_pcu_w32> synthesized.
+
+
+Synthesizing Unit <fhm_alu_w32_add>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_alu_w32.vhd".
+Unit <fhm_alu_w32_add> synthesized.
+
+
+Synthesizing Unit <fhm_multiplier_w32_add32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd".
+Unit <fhm_multiplier_w32_add32> synthesized.
+
+
+Synthesizing Unit <fhm_multiplier_w32_cla64>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd".
+Unit <fhm_multiplier_w32_cla64> synthesized.
+
+
+Synthesizing Unit <fhm_divider_w32_add32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_divider_w32.vhd".
+Unit <fhm_divider_w32_add32> synthesized.
+
+
+Synthesizing Unit <fhm_alu_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_alu_w32.vhd".
+WARNING:Xst:646 - Signal <signed_min_value> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <signed_max_value> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit xor2 for signal <pre_result$xor0000> created at line 348.
+    Found 1-bit xor2 for signal <unsigned_clipped>.
+Unit <fhm_alu_w32> synthesized.
+
+
+Synthesizing Unit <fhm_multiplier_w32_tconv32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd".
+WARNING:Xst:646 - Signal <tmp_cout> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <fhm_multiplier_w32_tconv32> synthesized.
+
+
+Synthesizing Unit <fhm_multiplier_w32_add64>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd".
+Unit <fhm_multiplier_w32_add64> synthesized.
+
+
+Synthesizing Unit <fhm_divider_w32_tconv32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_divider_w32.vhd".
+WARNING:Xst:646 - Signal <tmp_cout> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <fhm_divider_w32_tconv32> synthesized.
+
+
+Synthesizing Unit <fhm_divider_w32_sdiv32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_divider_w32.vhd".
+    Found finite state machine <FSM_1> for signal <current_state>.
+    -----------------------------------------------------------------------
+    | States             | 35                                             |
+    | Transitions        | 70                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 37                                             |
+    | Clock              | clock                     (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | st0                                            |
+    | Power Up State     | st0                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <fhm_divider_w32_sdiv32> synthesized.
+
+
+Synthesizing Unit <fhm_divider_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_divider_w32.vhd".
+    Found 1-bit xor2 for signal <q_tconv_conv>.
+Unit <fhm_divider_w32> synthesized.
+
+
+Synthesizing Unit <fhm_multiplier_w32_smul>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd".
+    Found finite state machine <FSM_2> for signal <current_state>.
+    -----------------------------------------------------------------------
+    | States             | 35                                             |
+    | Transitions        | 70                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 36                                             |
+    | Clock              | clock                     (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | st0                                            |
+    | Power Up State     | st0                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <fhm_multiplier_w32_smul> synthesized.
+
+
+Synthesizing Unit <fhm_multiplier_w32_tconv64>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd".
+WARNING:Xst:646 - Signal <tmp_cout> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <fhm_multiplier_w32_tconv64> synthesized.
+
+
+Synthesizing Unit <fhm_multiplier_w32>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/fhm_multiplier_w32.vhd".
+WARNING:Xst:653 - Signal <vss> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+    Found 1-bit xor2 for signal <result_tconv_conv>.
+Unit <fhm_multiplier_w32> synthesized.
+
+
+Synthesizing Unit <CPU>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/CPU.vhd".
+WARNING:Xst:646 - Signal <unused_02> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <unused_01> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <unused_00> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <uf_mul0_result<63:32>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <uf_ext1_data_out<1:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <ua_preg31_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg30_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg29_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg28_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg27_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg26_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg25_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg24_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <ua_preg24_dout<31:5>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <ua_preg23_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg22_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg21_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg20_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg19_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg18_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg17_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg16_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg15_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg14_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg13_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg12_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg11_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg10_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg09_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg08_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg07_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg06_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg05_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg04_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg03_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg02_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg01_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <ua_preg00_rst> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <CPU> synthesized.
+
+
+Synthesizing Unit <dlx_toplevel>.
+    Related source file is "/home/asip04/thesis/Session6/ASIPMeisterProjects/dlx_basis/ISE_Benchmark/dlx_toplevel.vhd".
+WARNING:Xst:1780 - Signal <temp2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <temp1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <temp> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rd> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <instrab<31:8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <datareq_mem> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <datareq_cpu> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <dataack_mem> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <dataack_cpu> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <dataab_cpu<31:10>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <dataab_cpu<1:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <clock_ip> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit tristate buffer for signal <datadb_mem>.
+    Summary:
+	inferred  32 Tristate(s).
+Unit <dlx_toplevel> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 102
+ 1-bit register                                        : 20
+ 12-bit register                                       : 1
+ 32-bit register                                       : 70
+ 34-bit register                                       : 1
+ 4-bit register                                        : 2
+ 5-bit register                                        : 6
+ 64-bit register                                       : 1
+ 7-bit register                                        : 1
+# Multiplexers                                         : 3
+ 32-bit 14-to-1 multiplexer                            : 1
+ 32-bit 32-to-1 multiplexer                            : 2
+# Tristates                                            : 106
+ 1-bit tristate buffer                                 : 72
+ 32-bit tristate buffer                                : 34
+# Xors                                                 : 772
+ 1-bit xor2                                            : 771
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <CPU0/UF_MUL0/mulu/current_state/FSM> on signal <current_state[1:35]> with one-hot encoding.
+----------------------------------------------
+ State | Encoding
+----------------------------------------------
+ st0   | 00000000000000000000000000000000001
+ st1   | 00000000000000000000000000000000010
+ st2   | 00000000000000000000000000000000100
+ st3   | 00000000000000000000000000000001000
+ st4   | 00000000000000000000000000000010000
+ st5   | 00000000000000000000000000000100000
+ st6   | 00000000000000000000000000001000000
+ st7   | 00000000000000000000000000010000000
+ st8   | 00000000000000000000000000100000000
+ st9   | 00000000000000000000000001000000000
+ st10  | 00000000000000000000000010000000000
+ st11  | 00000000000000000000000100000000000
+ st12  | 00000000000000000000001000000000000
+ st13  | 00000000000000000000010000000000000
+ st14  | 00000000000000000000100000000000000
+ st15  | 00000000000000000001000000000000000
+ st16  | 00000000000000000010000000000000000
+ st17  | 00000000000000000100000000000000000
+ st18  | 00000000000000001000000000000000000
+ st19  | 00000000000000010000000000000000000
+ st20  | 00000000000000100000000000000000000
+ st21  | 00000000000001000000000000000000000
+ st22  | 00000000000010000000000000000000000
+ st23  | 00000000000100000000000000000000000
+ st24  | 00000000001000000000000000000000000
+ st25  | 00000000010000000000000000000000000
+ st26  | 00000000100000000000000000000000000
+ st27  | 00000001000000000000000000000000000
+ st28  | 00000010000000000000000000000000000
+ st29  | 00000100000000000000000000000000000
+ st30  | 00001000000000000000000000000000000
+ st31  | 00010000000000000000000000000000000
+ st32  | 00100000000000000000000000000000000
+ st33  | 01000000000000000000000000000000000
+ st34  | 10000000000000000000000000000000000
+----------------------------------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <CPU0/UF_DIV0/divu/current_state/FSM> on signal <current_state[1:35]> with one-hot encoding.
+----------------------------------------------
+ State | Encoding
+----------------------------------------------
+ st0   | 00000000000000000000000000000000001
+ st1   | 00000000000000000000000000000000010
+ st2   | 00000000000000000000000000000000100
+ st3   | 00000000000000000000000000000001000
+ st4   | 00000000000000000000000000000010000
+ st5   | 00000000000000000000000000000100000
+ st6   | 00000000000000000000000000001000000
+ st7   | 00000000000000000000000000010000000
+ st8   | 00000000000000000000000000100000000
+ st9   | 00000000000000000000000001000000000
+ st10  | 00000000000000000000000010000000000
+ st11  | 00000000000000000000000100000000000
+ st12  | 00000000000000000000001000000000000
+ st13  | 00000000000000000000010000000000000
+ st14  | 00000000000000000000100000000000000
+ st15  | 00000000000000000001000000000000000
+ st16  | 00000000000000000010000000000000000
+ st17  | 00000000000000000100000000000000000
+ st18  | 00000000000000001000000000000000000
+ st19  | 00000000000000010000000000000000000
+ st20  | 00000000000000100000000000000000000
+ st21  | 00000000000001000000000000000000000
+ st22  | 00000000000010000000000000000000000
+ st23  | 00000000000100000000000000000000000
+ st24  | 00000000001000000000000000000000000
+ st25  | 00000000010000000000000000000000000
+ st26  | 00000000100000000000000000000000000
+ st27  | 00000001000000000000000000000000000
+ st28  | 00000010000000000000000000000000000
+ st29  | 00000100000000000000000000000000000
+ st30  | 00001000000000000000000000000000000
+ st31  | 00010000000000000000000000000000000
+ st32  | 00100000000000000000000000000000000
+ st33  | 01000000000000000000000000000000000
+ stend | 10000000000000000000000000000000000
+----------------------------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <CPU0/UA_CTRL/UA_PROCFSM/cur_state/FSM> on signal <cur_state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+ 11    | 11
+-------------------
+Reading core <brom_im.ngc>.
+Reading core <bram_dm.ngc>.
+Loading core <brom_im> for timing and area information for instance <BROM_instance>.
+Loading core <bram_dm> for timing and area information for instance <BRAM_instance>.
+WARNING:Xst:1290 - Hierarchical block <u2> is unconnected in block <u64_0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <u3> is unconnected in block <u64_0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_SAVEDPC_ID> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_SAVEDPC_EXE> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_SAVEDPC_MEM> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_SAVEDPC_WB> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_SAVEDPC_LAST> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <DOUT_6> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_5> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_4> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_3> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_2> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_1> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_0> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_15> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_14> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_13> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_12> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_11> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_10> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_9> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_8> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_7> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_6> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_5> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_4> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_3> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_2> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_1> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_0> (without init value) has a constant value of 0 in block <UA_PREG27>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_31> (without init value) has a constant value of 0 in block <UA_PREG04>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_15> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_14> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_13> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_12> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_11> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_10> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_9> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_8> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_7> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_6> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_5> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_4> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_3> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_2> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_1> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_0> (without init value) has a constant value of 0 in block <UA_PREG29>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_15> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_14> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_13> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_12> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_11> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_10> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_9> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_8> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_7> (without init value) has a constant value of 0 in block <UA_PREG28>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_23> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_22> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_21> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_20> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_19> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_18> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_17> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_16> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_15> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_14> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_13> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_12> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_11> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_10> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_9> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_8> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_7> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_6> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_5> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_4> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_3> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_2> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_1> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_0> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_30> (without init value) has a constant value of 0 in block <UA_PREG04>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_29> (without init value) has a constant value of 0 in block <UA_PREG04>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_28> (without init value) has a constant value of 0 in block <UA_PREG04>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_27> (without init value) has a constant value of 0 in block <UA_PREG04>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_26> (without init value) has a constant value of 0 in block <UA_PREG04>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_25> (without init value) has a constant value of 0 in block <UA_PREG04>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_24> (without init value) has a constant value of 0 in block <UA_PREG04>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_31> (without init value) has a constant value of 0 in block <UA_CW_EXE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT> (without init value) has a constant value of 0 in block <UA_INTRPIPE_REQ_WB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT> (without init value) has a constant value of 0 in block <UA_INTRPIPE_REQ_MEM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT> (without init value) has a constant value of 0 in block <UA_INTRPIPE_REQ_EXE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT> (without init value) has a constant value of 0 in block <UA_INTRPIPE_REQ_ID>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_0> (without init value) has a constant value of 0 in block <UA_INTRPIPE_CODE_LAST>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_0> (without init value) has a constant value of 0 in block <UA_INTRPIPE_CODE_WB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_0> (without init value) has a constant value of 0 in block <UA_INTRPIPE_CODE_MEM>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_0> (without init value) has a constant value of 0 in block <UA_INTRPIPE_CODE_EXE>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DOUT_0> (without init value) has a constant value of 0 in block <UA_INTRPIPE_CODE_ID>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_31> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_30> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_29> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_28> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_27> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_26> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_25> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_out_24> (without init value) has a constant value of 0 in block <REG_DATA_OUT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1290 - Hierarchical block <u2> is unconnected in block <u64_0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <u3> is unconnected in block <u64_0>.
+   It will be removed from the design.
+WARNING:Xst:2677 - Node <data_out_32> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_33> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_34> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_35> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_36> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_37> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_38> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_39> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_40> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_41> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_42> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_43> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_44> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_45> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_46> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_47> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_48> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_49> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_50> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_51> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_52> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_53> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_54> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_55> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_56> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_57> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_58> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_59> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_60> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_61> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_62> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <data_out_63> of sequential type is unconnected in block <reg_64>.
+WARNING:Xst:2677 - Node <DOUT_5> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_6> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_7> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_8> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_9> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_10> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_11> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_12> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_13> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_14> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_15> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_16> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_17> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_18> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_19> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_20> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_21> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_22> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_23> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_24> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_25> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_26> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_27> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_28> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_29> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_30> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:2677 - Node <DOUT_31> of sequential type is unconnected in block <UA_PREG24>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <DOUT_8> is unconnected in block <UA_CW_EXE>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <DOUT_8> is unconnected in block <UA_CW_MEM>.
+WARNING:Xst:1290 - Hierarchical block <REG_DATA_IN> is unconnected in block <UF_DMAU>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_CODE_ID> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_CODE_EXE> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_CODE_MEM> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_CODE_WB> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_CODE_LAST> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_REQ_ID> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_REQ_EXE> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_REQ_MEM> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_INTRPIPE_REQ_WB> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_MCBUSY_DMAU_REQ_MEM> is unconnected in block <UA_CTRL>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <UA_PREG06> is unconnected in block <CPU0>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 3
+# Registers                                            : 2415
+ Flip-Flops                                            : 2415
+# Multiplexers                                         : 3
+ 32-bit 14-to-1 multiplexer                            : 1
+ 32-bit 32-to-1 multiplexer                            : 2
+# Xors                                                 : 772
+ 1-bit xor2                                            : 771
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <DOUT_13> in Unit <rtg_register_w34> is equivalent to the following 2 FFs/Latches, which will be removed : <DOUT_15> <DOUT_20> 
+INFO:Xst:2261 - The FF/Latch <DOUT_18> in Unit <rtg_register_w34> is equivalent to the following FF/Latch, which will be removed : <DOUT_23> 
+INFO:Xst:2261 - The FF/Latch <DOUT_12> in Unit <rtg_register_w34> is equivalent to the following 2 FFs/Latches, which will be removed : <DOUT_14> <DOUT_19> 
+INFO:Xst:2261 - The FF/Latch <UA_INTRPIPE_REQ_ID/DOUT> in Unit <rtg_controller> is equivalent to the following FF/Latch, which will be removed : <UA_INTRPIPE_CODE_ID/DOUT_0> 
+WARNING:Xst:1710 - FF/Latch <DOUT_31> (without init value) has a constant value of 0 in block <rtg_register_w34>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <UA_INTRPIPE_REQ_WB/DOUT> (without init value) has a constant value of 0 in block <rtg_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <UA_INTRPIPE_REQ_MEM/DOUT> (without init value) has a constant value of 0 in block <rtg_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <UA_INTRPIPE_REQ_EXE/DOUT> (without init value) has a constant value of 0 in block <rtg_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <UA_INTRPIPE_REQ_ID/DOUT> (without init value) has a constant value of 0 in block <rtg_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <UA_INTRPIPE_CODE_LAST/DOUT_0> (without init value) has a constant value of 0 in block <rtg_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <UA_INTRPIPE_CODE_EXE/DOUT_0> (without init value) has a constant value of 0 in block <rtg_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <UA_INTRPIPE_CODE_MEM/DOUT_0> (without init value) has a constant value of 0 in block <rtg_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <UA_INTRPIPE_CODE_WB/DOUT_0> (without init value) has a constant value of 0 in block <rtg_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2042 - Unit dlx_toplevel: 32 internal tristates are replaced by logic (pull-up yes): datadb_mem<0>, datadb_mem<10>, datadb_mem<11>, datadb_mem<12>, datadb_mem<13>, datadb_mem<14>, datadb_mem<15>, datadb_mem<16>, datadb_mem<17>, datadb_mem<18>, datadb_mem<19>, datadb_mem<1>, datadb_mem<20>, datadb_mem<21>, datadb_mem<22>, datadb_mem<23>, datadb_mem<24>, datadb_mem<25>, datadb_mem<26>, datadb_mem<27>, datadb_mem<28>, datadb_mem<29>, datadb_mem<2>, datadb_mem<30>, datadb_mem<31>, datadb_mem<3>, datadb_mem<4>, datadb_mem<5>, datadb_mem<6>, datadb_mem<7>, datadb_mem<8>, datadb_mem<9>.
+WARNING:Xst:2042 - Unit fhm_dmau_w32: 104 internal tristates are replaced by logic (pull-up yes): data_bus<0>, data_bus<10>, data_bus<11>, data_bus<12>, data_bus<13>, data_bus<14>, data_bus<15>, data_bus<16>, data_bus<17>, data_bus<18>, data_bus<19>, data_bus<1>, data_bus<20>, data_bus<21>, data_bus<22>, data_bus<23>, data_bus<24>, data_bus<25>, data_bus<26>, data_bus<27>, data_bus<28>, data_bus<29>, data_bus<2>, data_bus<30>, data_bus<31>, data_bus<3>, data_bus<4>, data_bus<5>, data_bus<6>, data_bus<7>, data_bus<8>, data_bus<9>, data_in_tmp2<0>, data_in_tmp2<10>, data_in_tmp2<11>, data_in_tmp2<12>, data_in_tmp2<13>, data_in_tmp2<14>, data_in_tmp2<15>, data_in_tmp2<16>, data_in_tmp2<17>, data_in_tmp2<18>, data_in_tmp2<19>, data_in_tmp2<1>, data_in_tmp2<20>, data_in_tmp2<21>, data_in_tmp2<22>, data_in_tmp2<23>, data_in_tmp2<2>, data_in_tmp2<3>, data_in_tmp2<4>, data_in_tmp2<5>, data_in_tmp2<6>, data_in_tmp2<7>, data_in_tmp2<8>, data_in_tmp2<9>, data_in_tmp3<10>, data_in_tmp3<11>, data_in_tmp3<12>, data_in_tmp3<13>, data_in_tmp3<14>, data_in_tmp3<15>, data_in_tmp3<16>, data_in_tmp3<17>, data_in_tmp3<18>, data_in_tmp3<19>, data_in_tmp3<20>, data_in_tmp3<21>, data_in_tmp3<22>, data_in_tmp3<23>, data_in_tmp3<24>, data_in_tmp3<25>, data_in_tmp3<26>, data_in_tmp3<27>, data_in_tmp3<28>, data_in_tmp3<29>, data_in_tmp3<30>, data_in_tmp3<31>, data_in_tmp3<8>, data_in_tmp3<9>, data_out_tmp1<0>, data_out_tmp1<10>, data_out_tmp1<11>, data_out_tmp1<12>, data_out_tmp1<13>, data_out_tmp1<14>, data_out_tmp1<15>, data_out_tmp1<16>, data_out_tmp1<17>, data_out_tmp1<18>, data_out_tmp1<19>, data_out_tmp1<1>, data_out_tmp1<20>, data_out_tmp1<21>, data_out_tmp1<22>, data_out_tmp1<23>, data_out_tmp1<2>, data_out_tmp1<3>, data_out_tmp1<4>, data_out_tmp1<5>, data_out_tmp1<6>, data_out_tmp1<7>, data_out_tmp1<8>, data_out_tmp1<9>.
+WARNING:Xst:2042 - Unit fhm_registerfile_w32: 1024 internal tristates are replaced by logic (pull-up yes): data_in_tmp0<0>, data_in_tmp0<10>, data_in_tmp0<11>, data_in_tmp0<12>, data_in_tmp0<13>, data_in_tmp0<14>, data_in_tmp0<15>, data_in_tmp0<16>, data_in_tmp0<17>, data_in_tmp0<18>, data_in_tmp0<19>, data_in_tmp0<1>, data_in_tmp0<20>, data_in_tmp0<21>, data_in_tmp0<22>, data_in_tmp0<23>, data_in_tmp0<24>, data_in_tmp0<25>, data_in_tmp0<26>, data_in_tmp0<27>, data_in_tmp0<28>, data_in_tmp0<29>, data_in_tmp0<2>, data_in_tmp0<30>, data_in_tmp0<31>, data_in_tmp0<3>, data_in_tmp0<4>, data_in_tmp0<5>, data_in_tmp0<6>, data_in_tmp0<7>, data_in_tmp0<8>, data_in_tmp0<9>, data_in_tmp10<0>, data_in_tmp10<10>, data_in_tmp10<11>, data_in_tmp10<12>, data_in_tmp10<13>, data_in_tmp10<14>, data_in_tmp10<15>, data_in_tmp10<16>, data_in_tmp10<17>, data_in_tmp10<18>, data_in_tmp10<19>, data_in_tmp10<1>, data_in_tmp10<20>, data_in_tmp10<21>, data_in_tmp10<22>, data_in_tmp10<23>, data_in_tmp10<24>, data_in_tmp10<25>, data_in_tmp10<26>, data_in_tmp10<27>, data_in_tmp10<28>, data_in_tmp10<29>, data_in_tmp10<2>, data_in_tmp10<30>, data_in_tmp10<31>, data_in_tmp10<3>, data_in_tmp10<4>, data_in_tmp10<5>, data_in_tmp10<6>, data_in_tmp10<7>, data_in_tmp10<8>, data_in_tmp10<9>, data_in_tmp11<0>, data_in_tmp11<10>, data_in_tmp11<11>, data_in_tmp11<12>, data_in_tmp11<13>, data_in_tmp11<14>, data_in_tmp11<15>, data_in_tmp11<16>, data_in_tmp11<17>, data_in_tmp11<18>, data_in_tmp11<19>, data_in_tmp11<1>, data_in_tmp11<20>, data_in_tmp11<21>, data_in_tmp11<22>, data_in_tmp11<23>, data_in_tmp11<24>, data_in_tmp11<25>, data_in_tmp11<26>, data_in_tmp11<27>, data_in_tmp11<28>, data_in_tmp11<29>, data_in_tmp11<2>, data_in_tmp11<30>, data_in_tmp11<31>, data_in_tmp11<3>, data_in_tmp11<4>, data_in_tmp11<5>, data_in_tmp11<6>, data_in_tmp11<7>, data_in_tmp11<8>, data_in_tmp11<9>, data_in_tmp12<0>, data_in_tmp12<10>, data_in_tmp12<11>, data_in_tmp12<12>, data_in_tmp12<13>, data_in_tmp12<14>, data_in_tmp12<15>, data_in_tmp12<16>, data_in_tmp12<17>, data_in_tmp12<18>, data_in_tmp12<19>, data_in_tmp12<1>, data_in_tmp12<20>, data_in_tmp12<21>, data_in_tmp12<22>, data_in_tmp12<23>, data_in_tmp12<24>, data_in_tmp12<25>, data_in_tmp12<26>, data_in_tmp12<27>, data_in_tmp12<28>, data_in_tmp12<29>, data_in_tmp12<2>, data_in_tmp12<30>, data_in_tmp12<31>, data_in_tmp12<3>, data_in_tmp12<4>, data_in_tmp12<5>, data_in_tmp12<6>, data_in_tmp12<7>, data_in_tmp12<8>, data_in_tmp12<9>, data_in_tmp13<0>, data_in_tmp13<10>, data_in_tmp13<11>, data_in_tmp13<12>, data_in_tmp13<13>, data_in_tmp13<14>, data_in_tmp13<15>, data_in_tmp13<16>, data_in_tmp13<17>, data_in_tmp13<18>, data_in_tmp13<19>, data_in_tmp13<1>, data_in_tmp13<20>, data_in_tmp13<21>, data_in_tmp13<22>, data_in_tmp13<23>, data_in_tmp13<24>, data_in_tmp13<25>, data_in_tmp13<26>, data_in_tmp13<27>, data_in_tmp13<28>, data_in_tmp13<29>, data_in_tmp13<2>, data_in_tmp13<30>, data_in_tmp13<31>, data_in_tmp13<3>, data_in_tmp13<4>, data_in_tmp13<5>, data_in_tmp13<6>, data_in_tmp13<7>, data_in_tmp13<8>, data_in_tmp13<9>, data_in_tmp14<0>, data_in_tmp14<10>, data_in_tmp14<11>, data_in_tmp14<12>, data_in_tmp14<13>, data_in_tmp14<14>, data_in_tmp14<15>, data_in_tmp14<16>, data_in_tmp14<17>, data_in_tmp14<18>, data_in_tmp14<19>, data_in_tmp14<1>, data_in_tmp14<20>, data_in_tmp14<21>, data_in_tmp14<22>, data_in_tmp14<23>, data_in_tmp14<24>, data_in_tmp14<25>, data_in_tmp14<26>, data_in_tmp14<27>, data_in_tmp14<28>, data_in_tmp14<29>, data_in_tmp14<2>, data_in_tmp14<30>, data_in_tmp14<31>, data_in_tmp14<3>, data_in_tmp14<4>, data_in_tmp14<5>, data_in_tmp14<6>, data_in_tmp14<7>, data_in_tmp14<8>, data_in_tmp14<9>, data_in_tmp15<0>, data_in_tmp15<10>, data_in_tmp15<11>, data_in_tmp15<12>, data_in_tmp15<13>, data_in_tmp15<14>, data_in_tmp15<15>, data_in_tmp15<16>, data_in_tmp15<17>, data_in_tmp15<18>, data_in_tmp15<19>, data_in_tmp15<1>, data_in_tmp15<20>, data_in_tmp15<21>, data_in_tmp15<22>, data_in_tmp15<23>, data_in_tmp15<24>, data_in_tmp15<25>, data_in_tmp15<26>, data_in_tmp15<27>, data_in_tmp15<28>, data_in_tmp15<29>, data_in_tmp15<2>, data_in_tmp15<30>, data_in_tmp15<31>, data_in_tmp15<3>, data_in_tmp15<4>, data_in_tmp15<5>, data_in_tmp15<6>, data_in_tmp15<7>, data_in_tmp15<8>, data_in_tmp15<9>, data_in_tmp16<0>, data_in_tmp16<10>, data_in_tmp16<11>, data_in_tmp16<12>, data_in_tmp16<13>, data_in_tmp16<14>, data_in_tmp16<15>, data_in_tmp16<16>, data_in_tmp16<17>, data_in_tmp16<18>, data_in_tmp16<19>, data_in_tmp16<1>, data_in_tmp16<20>, data_in_tmp16<21>, data_in_tmp16<22>, data_in_tmp16<23>, data_in_tmp16<24>, data_in_tmp16<25>, data_in_tmp16<26>, data_in_tmp16<27>, data_in_tmp16<28>, data_in_tmp16<29>, data_in_tmp16<2>, data_in_tmp16<30>, data_in_tmp16<31>, data_in_tmp16<3>, data_in_tmp16<4>, data_in_tmp16<5>, data_in_tmp16<6>, data_in_tmp16<7>, data_in_tmp16<8>, data_in_tmp16<9>, data_in_tmp17<0>, data_in_tmp17<10>, data_in_tmp17<11>, data_in_tmp17<12>, data_in_tmp17<13>, data_in_tmp17<14>, data_in_tmp17<15>, data_in_tmp17<16>, data_in_tmp17<17>, data_in_tmp17<18>, data_in_tmp17<19>, data_in_tmp17<1>, data_in_tmp17<20>, data_in_tmp17<21>, data_in_tmp17<22>, data_in_tmp17<23>, data_in_tmp17<24>, data_in_tmp17<25>, data_in_tmp17<26>, data_in_tmp17<27>, data_in_tmp17<28>, data_in_tmp17<29>, data_in_tmp17<2>, data_in_tmp17<30>, data_in_tmp17<31>, data_in_tmp17<3>, data_in_tmp17<4>, data_in_tmp17<5>, data_in_tmp17<6>, data_in_tmp17<7>, data_in_tmp17<8>, data_in_tmp17<9>, data_in_tmp18<0>, data_in_tmp18<10>, data_in_tmp18<11>, data_in_tmp18<12>, data_in_tmp18<13>, data_in_tmp18<14>, data_in_tmp18<15>, data_in_tmp18<16>, data_in_tmp18<17>, data_in_tmp18<18>, data_in_tmp18<19>, data_in_tmp18<1>, data_in_tmp18<20>, data_in_tmp18<21>, data_in_tmp18<22>, data_in_tmp18<23>, data_in_tmp18<24>, data_in_tmp18<25>, data_in_tmp18<26>, data_in_tmp18<27>, data_in_tmp18<28>, data_in_tmp18<29>, data_in_tmp18<2>, data_in_tmp18<30>, data_in_tmp18<31>, data_in_tmp18<3>, data_in_tmp18<4>, data_in_tmp18<5>, data_in_tmp18<6>, data_in_tmp18<7>, data_in_tmp18<8>, data_in_tmp18<9>, data_in_tmp19<0>, data_in_tmp19<10>, data_in_tmp19<11>, data_in_tmp19<12>, data_in_tmp19<13>, data_in_tmp19<14>, data_in_tmp19<15>, data_in_tmp19<16>, data_in_tmp19<17>, data_in_tmp19<18>, data_in_tmp19<19>, data_in_tmp19<1>, data_in_tmp19<20>, data_in_tmp19<21>, data_in_tmp19<22>, data_in_tmp19<23>, data_in_tmp19<24>, data_in_tmp19<25>, data_in_tmp19<26>, data_in_tmp19<27>, data_in_tmp19<28>, data_in_tmp19<29>, data_in_tmp19<2>, data_in_tmp19<30>, data_in_tmp19<31>, data_in_tmp19<3>, data_in_tmp19<4>, data_in_tmp19<5>, data_in_tmp19<6>, data_in_tmp19<7>, data_in_tmp19<8>, data_in_tmp19<9>, data_in_tmp1<0>, data_in_tmp1<10>, data_in_tmp1<11>, data_in_tmp1<12>, data_in_tmp1<13>, data_in_tmp1<14>, data_in_tmp1<15>, data_in_tmp1<16>, data_in_tmp1<17>, data_in_tmp1<18>, data_in_tmp1<19>, data_in_tmp1<1>, data_in_tmp1<20>, data_in_tmp1<21>, data_in_tmp1<22>, data_in_tmp1<23>, data_in_tmp1<24>, data_in_tmp1<25>, data_in_tmp1<26>, data_in_tmp1<27>, data_in_tmp1<28>, data_in_tmp1<29>, data_in_tmp1<2>, data_in_tmp1<30>, data_in_tmp1<31>, data_in_tmp1<3>, data_in_tmp1<4>, data_in_tmp1<5>, data_in_tmp1<6>, data_in_tmp1<7>, data_in_tmp1<8>, data_in_tmp1<9>, data_in_tmp20<0>, data_in_tmp20<10>, data_in_tmp20<11>, data_in_tmp20<12>, data_in_tmp20<13>, data_in_tmp20<14>, data_in_tmp20<15>, data_in_tmp20<16>, data_in_tmp20<17>, data_in_tmp20<18>, data_in_tmp20<19>, data_in_tmp20<1>, data_in_tmp20<20>, data_in_tmp20<21>, data_in_tmp20<22>, data_in_tmp20<23>, data_in_tmp20<24>, data_in_tmp20<25>, data_in_tmp20<26>, data_in_tmp20<27>, data_in_tmp20<28>, data_in_tmp20<29>, data_in_tmp20<2>, data_in_tmp20<30>, data_in_tmp20<31>, data_in_tmp20<3>, data_in_tmp20<4>, data_in_tmp20<5>, data_in_tmp20<6>, data_in_tmp20<7>, data_in_tmp20<8>, data_in_tmp20<9>, data_in_tmp21<0>, data_in_tmp21<10>, data_in_tmp21<11>, data_in_tmp21<12>, data_in_tmp21<13>, data_in_tmp21<14>, data_in_tmp21<15>, data_in_tmp21<16>, data_in_tmp21<17>, data_in_tmp21<18>, data_in_tmp21<19>, data_in_tmp21<1>, data_in_tmp21<20>, data_in_tmp21<21>, data_in_tmp21<22>, data_in_tmp21<23>, data_in_tmp21<24>, data_in_tmp21<25>, data_in_tmp21<26>, data_in_tmp21<27>, data_in_tmp21<28>, data_in_tmp21<29>, data_in_tmp21<2>, data_in_tmp21<30>, data_in_tmp21<31>, data_in_tmp21<3>, data_in_tmp21<4>, data_in_tmp21<5>, data_in_tmp21<6>, data_in_tmp21<7>, data_in_tmp21<8>, data_in_tmp21<9>, data_in_tmp22<0>, data_in_tmp22<10>, data_in_tmp22<11>, data_in_tmp22<12>, data_in_tmp22<13>, data_in_tmp22<14>, data_in_tmp22<15>, data_in_tmp22<16>, data_in_tmp22<17>, data_in_tmp22<18>, data_in_tmp22<19>, data_in_tmp22<1>, data_in_tmp22<20>, data_in_tmp22<21>, data_in_tmp22<22>, data_in_tmp22<23>, data_in_tmp22<24>, data_in_tmp22<25>, data_in_tmp22<26>, data_in_tmp22<27>, data_in_tmp22<28>, data_in_tmp22<29>, data_in_tmp22<2>, data_in_tmp22<30>, data_in_tmp22<31>, data_in_tmp22<3>, data_in_tmp22<4>, data_in_tmp22<5>, data_in_tmp22<6>, data_in_tmp22<7>, data_in_tmp22<8>, data_in_tmp22<9>, data_in_tmp23<0>, data_in_tmp23<10>, data_in_tmp23<11>, data_in_tmp23<12>, data_in_tmp23<13>, data_in_tmp23<14>, data_in_tmp23<15>, data_in_tmp23<16>, data_in_tmp23<17>, data_in_tmp23<18>, data_in_tmp23<19>, data_in_tmp23<1>, data_in_tmp23<20>, data_in_tmp23<21>, data_in_tmp23<22>, data_in_tmp23<23>, data_in_tmp23<24>, data_in_tmp23<25>, data_in_tmp23<26>, data_in_tmp23<27>, data_in_tmp23<28>, data_in_tmp23<29>, data_in_tmp23<2>, data_in_tmp23<30>, data_in_tmp23<31>, data_in_tmp23<3>, data_in_tmp23<4>, data_in_tmp23<5>, data_in_tmp23<6>, data_in_tmp23<7>, data_in_tmp23<8>, data_in_tmp23<9>, data_in_tmp24<0>, data_in_tmp24<10>, data_in_tmp24<11>, data_in_tmp24<12>, data_in_tmp24<13>, data_in_tmp24<14>, data_in_tmp24<15>, data_in_tmp24<16>, data_in_tmp24<17>, data_in_tmp24<18>, data_in_tmp24<19>, data_in_tmp24<1>, data_in_tmp24<20>, data_in_tmp24<21>, data_in_tmp24<22>, data_in_tmp24<23>, data_in_tmp24<24>, data_in_tmp24<25>, data_in_tmp24<26>, data_in_tmp24<27>, data_in_tmp24<28>, data_in_tmp24<29>, data_in_tmp24<2>, data_in_tmp24<30>, data_in_tmp24<31>, data_in_tmp24<3>, data_in_tmp24<4>, data_in_tmp24<5>, data_in_tmp24<6>, data_in_tmp24<7>, data_in_tmp24<8>, data_in_tmp24<9>, data_in_tmp25<0>, data_in_tmp25<10>, data_in_tmp25<11>, data_in_tmp25<12>, data_in_tmp25<13>, data_in_tmp25<14>, data_in_tmp25<15>, data_in_tmp25<16>, data_in_tmp25<17>, data_in_tmp25<18>, data_in_tmp25<19>, data_in_tmp25<1>, data_in_tmp25<20>, data_in_tmp25<21>, data_in_tmp25<22>, data_in_tmp25<23>, data_in_tmp25<24>, data_in_tmp25<25>, data_in_tmp25<26>, data_in_tmp25<27>, data_in_tmp25<28>, data_in_tmp25<29>, data_in_tmp25<2>, data_in_tmp25<30>, data_in_tmp25<31>, data_in_tmp25<3>, data_in_tmp25<4>, data_in_tmp25<5>, data_in_tmp25<6>, data_in_tmp25<7>, data_in_tmp25<8>, data_in_tmp25<9>, data_in_tmp26<0>, data_in_tmp26<10>, data_in_tmp26<11>, data_in_tmp26<12>, data_in_tmp26<13>, data_in_tmp26<14>, data_in_tmp26<15>, data_in_tmp26<16>, data_in_tmp26<17>, data_in_tmp26<18>, data_in_tmp26<19>, data_in_tmp26<1>, data_in_tmp26<20>, data_in_tmp26<21>, data_in_tmp26<22>, data_in_tmp26<23>, data_in_tmp26<24>, data_in_tmp26<25>, data_in_tmp26<26>, data_in_tmp26<27>, data_in_tmp26<28>, data_in_tmp26<29>, data_in_tmp26<2>, data_in_tmp26<30>, data_in_tmp26<31>, data_in_tmp26<3>, data_in_tmp26<4>, data_in_tmp26<5>, data_in_tmp26<6>, data_in_tmp26<7>, data_in_tmp26<8>, data_in_tmp26<9>, data_in_tmp27<0>, data_in_tmp27<10>, data_in_tmp27<11>, data_in_tmp27<12>, data_in_tmp27<13>, data_in_tmp27<14>, data_in_tmp27<15>, data_in_tmp27<16>, data_in_tmp27<17>, data_in_tmp27<18>, data_in_tmp27<19>, data_in_tmp27<1>, data_in_tmp27<20>, data_in_tmp27<21>, data_in_tmp27<22>, data_in_tmp27<23>, data_in_tmp27<24>, data_in_tmp27<25>, data_in_tmp27<26>, data_in_tmp27<27>, data_in_tmp27<28>, data_in_tmp27<29>, data_in_tmp27<2>, data_in_tmp27<30>, data_in_tmp27<31>, data_in_tmp27<3>, data_in_tmp27<4>, data_in_tmp27<5>, data_in_tmp27<6>, data_in_tmp27<7>, data_in_tmp27<8>, data_in_tmp27<9>, data_in_tmp28<0>, data_in_tmp28<10>, data_in_tmp28<11>, data_in_tmp28<12>, data_in_tmp28<13>, data_in_tmp28<14>, data_in_tmp28<15>, data_in_tmp28<16>, data_in_tmp28<17>, data_in_tmp28<18>, data_in_tmp28<19>, data_in_tmp28<1>, data_in_tmp28<20>, data_in_tmp28<21>, data_in_tmp28<22>, data_in_tmp28<23>, data_in_tmp28<24>, data_in_tmp28<25>, data_in_tmp28<26>, data_in_tmp28<27>, data_in_tmp28<28>, data_in_tmp28<29>, data_in_tmp28<2>, data_in_tmp28<30>, data_in_tmp28<31>, data_in_tmp28<3>, data_in_tmp28<4>, data_in_tmp28<5>, data_in_tmp28<6>, data_in_tmp28<7>, data_in_tmp28<8>, data_in_tmp28<9>, data_in_tmp29<0>, data_in_tmp29<10>, data_in_tmp29<11>, data_in_tmp29<12>, data_in_tmp29<13>, data_in_tmp29<14>, data_in_tmp29<15>, data_in_tmp29<16>, data_in_tmp29<17>, data_in_tmp29<18>, data_in_tmp29<19>, data_in_tmp29<1>, data_in_tmp29<20>, data_in_tmp29<21>, data_in_tmp29<22>, data_in_tmp29<23>, data_in_tmp29<24>, data_in_tmp29<25>, data_in_tmp29<26>, data_in_tmp29<27>, data_in_tmp29<28>, data_in_tmp29<29>, data_in_tmp29<2>, data_in_tmp29<30>, data_in_tmp29<31>, data_in_tmp29<3>, data_in_tmp29<4>, data_in_tmp29<5>, data_in_tmp29<6>, data_in_tmp29<7>, data_in_tmp29<8>, data_in_tmp29<9>, data_in_tmp2<0>, data_in_tmp2<10>, data_in_tmp2<11>, data_in_tmp2<12>, data_in_tmp2<13>, data_in_tmp2<14>, data_in_tmp2<15>, data_in_tmp2<16>, data_in_tmp2<17>, data_in_tmp2<18>, data_in_tmp2<19>, data_in_tmp2<1>, data_in_tmp2<20>, data_in_tmp2<21>, data_in_tmp2<22>, data_in_tmp2<23>, data_in_tmp2<24>, data_in_tmp2<25>, data_in_tmp2<26>, data_in_tmp2<27>, data_in_tmp2<28>, data_in_tmp2<29>, data_in_tmp2<2>, data_in_tmp2<30>, data_in_tmp2<31>, data_in_tmp2<3>, data_in_tmp2<4>, data_in_tmp2<5>, data_in_tmp2<6>, data_in_tmp2<7>, data_in_tmp2<8>, data_in_tmp2<9>, data_in_tmp30<0>, data_in_tmp30<10>, data_in_tmp30<11>, data_in_tmp30<12>, data_in_tmp30<13>, data_in_tmp30<14>, data_in_tmp30<15>, data_in_tmp30<16>, data_in_tmp30<17>, data_in_tmp30<18>, data_in_tmp30<19>, data_in_tmp30<1>, data_in_tmp30<20>, data_in_tmp30<21>, data_in_tmp30<22>, data_in_tmp30<23>, data_in_tmp30<24>, data_in_tmp30<25>, data_in_tmp30<26>, data_in_tmp30<27>, data_in_tmp30<28>, data_in_tmp30<29>, data_in_tmp30<2>, data_in_tmp30<30>, data_in_tmp30<31>, data_in_tmp30<3>, data_in_tmp30<4>, data_in_tmp30<5>, data_in_tmp30<6>, data_in_tmp30<7>, data_in_tmp30<8>, data_in_tmp30<9>, data_in_tmp31<0>, data_in_tmp31<10>, data_in_tmp31<11>, data_in_tmp31<12>, data_in_tmp31<13>, data_in_tmp31<14>, data_in_tmp31<15>, data_in_tmp31<16>, data_in_tmp31<17>, data_in_tmp31<18>, data_in_tmp31<19>, data_in_tmp31<1>, data_in_tmp31<20>, data_in_tmp31<21>, data_in_tmp31<22>, data_in_tmp31<23>, data_in_tmp31<24>, data_in_tmp31<25>, data_in_tmp31<26>, data_in_tmp31<27>, data_in_tmp31<28>, data_in_tmp31<29>, data_in_tmp31<2>, data_in_tmp31<30>, data_in_tmp31<31>, data_in_tmp31<3>, data_in_tmp31<4>, data_in_tmp31<5>, data_in_tmp31<6>, data_in_tmp31<7>, data_in_tmp31<8>, data_in_tmp31<9>, data_in_tmp3<0>, data_in_tmp3<10>, data_in_tmp3<11>, data_in_tmp3<12>, data_in_tmp3<13>, data_in_tmp3<14>, data_in_tmp3<15>, data_in_tmp3<16>, data_in_tmp3<17>, data_in_tmp3<18>, data_in_tmp3<19>, data_in_tmp3<1>, data_in_tmp3<20>, data_in_tmp3<21>, data_in_tmp3<22>, data_in_tmp3<23>, data_in_tmp3<24>, data_in_tmp3<25>, data_in_tmp3<26>, data_in_tmp3<27>, data_in_tmp3<28>, data_in_tmp3<29>, data_in_tmp3<2>, data_in_tmp3<30>, data_in_tmp3<31>, data_in_tmp3<3>, data_in_tmp3<4>, data_in_tmp3<5>, data_in_tmp3<6>, data_in_tmp3<7>, data_in_tmp3<8>, data_in_tmp3<9>, data_in_tmp4<0>, data_in_tmp4<10>, data_in_tmp4<11>, data_in_tmp4<12>, data_in_tmp4<13>, data_in_tmp4<14>, data_in_tmp4<15>, data_in_tmp4<16>, data_in_tmp4<17>, data_in_tmp4<18>, data_in_tmp4<19>, data_in_tmp4<1>, data_in_tmp4<20>, data_in_tmp4<21>, data_in_tmp4<22>, data_in_tmp4<23>, data_in_tmp4<24>, data_in_tmp4<25>, data_in_tmp4<26>, data_in_tmp4<27>, data_in_tmp4<28>, data_in_tmp4<29>, data_in_tmp4<2>, data_in_tmp4<30>, data_in_tmp4<31>, data_in_tmp4<3>, data_in_tmp4<4>, data_in_tmp4<5>, data_in_tmp4<6>, data_in_tmp4<7>, data_in_tmp4<8>, data_in_tmp4<9>, data_in_tmp5<0>, data_in_tmp5<10>, data_in_tmp5<11>, data_in_tmp5<12>, data_in_tmp5<13>, data_in_tmp5<14>, data_in_tmp5<15>, data_in_tmp5<16>, data_in_tmp5<17>, data_in_tmp5<18>, data_in_tmp5<19>, data_in_tmp5<1>, data_in_tmp5<20>, data_in_tmp5<21>, data_in_tmp5<22>, data_in_tmp5<23>, data_in_tmp5<24>, data_in_tmp5<25>, data_in_tmp5<26>, data_in_tmp5<27>, data_in_tmp5<28>, data_in_tmp5<29>, data_in_tmp5<2>, data_in_tmp5<30>, data_in_tmp5<31>, data_in_tmp5<3>, data_in_tmp5<4>, data_in_tmp5<5>, data_in_tmp5<6>, data_in_tmp5<7>, data_in_tmp5<8>, data_in_tmp5<9>, data_in_tmp6<0>, data_in_tmp6<10>, data_in_tmp6<11>, data_in_tmp6<12>, data_in_tmp6<13>, data_in_tmp6<14>, data_in_tmp6<15>, data_in_tmp6<16>, data_in_tmp6<17>, data_in_tmp6<18>, data_in_tmp6<19>, data_in_tmp6<1>, data_in_tmp6<20>, data_in_tmp6<21>, data_in_tmp6<22>, data_in_tmp6<23>, data_in_tmp6<24>, data_in_tmp6<25>, data_in_tmp6<26>, data_in_tmp6<27>, data_in_tmp6<28>, data_in_tmp6<29>, data_in_tmp6<2>, data_in_tmp6<30>, data_in_tmp6<31>, data_in_tmp6<3>, data_in_tmp6<4>, data_in_tmp6<5>, data_in_tmp6<6>, data_in_tmp6<7>, data_in_tmp6<8>, data_in_tmp6<9>, data_in_tmp7<0>, data_in_tmp7<10>, data_in_tmp7<11>, data_in_tmp7<12>, data_in_tmp7<13>, data_in_tmp7<14>, data_in_tmp7<15>, data_in_tmp7<16>, data_in_tmp7<17>, data_in_tmp7<18>, data_in_tmp7<19>, data_in_tmp7<1>, data_in_tmp7<20>, data_in_tmp7<21>, data_in_tmp7<22>, data_in_tmp7<23>, data_in_tmp7<24>, data_in_tmp7<25>, data_in_tmp7<26>, data_in_tmp7<27>, data_in_tmp7<28>, data_in_tmp7<29>, data_in_tmp7<2>, data_in_tmp7<30>, data_in_tmp7<31>, data_in_tmp7<3>, data_in_tmp7<4>, data_in_tmp7<5>, data_in_tmp7<6>, data_in_tmp7<7>, data_in_tmp7<8>, data_in_tmp7<9>, data_in_tmp8<0>, data_in_tmp8<10>, data_in_tmp8<11>, data_in_tmp8<12>, data_in_tmp8<13>, data_in_tmp8<14>, data_in_tmp8<15>, data_in_tmp8<16>, data_in_tmp8<17>, data_in_tmp8<18>, data_in_tmp8<19>, data_in_tmp8<1>, data_in_tmp8<20>, data_in_tmp8<21>, data_in_tmp8<22>, data_in_tmp8<23>, data_in_tmp8<24>, data_in_tmp8<25>, data_in_tmp8<26>, data_in_tmp8<27>, data_in_tmp8<28>, data_in_tmp8<29>, data_in_tmp8<2>, data_in_tmp8<30>, data_in_tmp8<31>, data_in_tmp8<3>, data_in_tmp8<4>, data_in_tmp8<5>, data_in_tmp8<6>, data_in_tmp8<7>, data_in_tmp8<8>, data_in_tmp8<9>, data_in_tmp9<0>, data_in_tmp9<10>, data_in_tmp9<11>, data_in_tmp9<12>, data_in_tmp9<13>, data_in_tmp9<14>, data_in_tmp9<15>, data_in_tmp9<16>, data_in_tmp9<17>, data_in_tmp9<18>, data_in_tmp9<19>, data_in_tmp9<1>, data_in_tmp9<20>, data_in_tmp9<21>, data_in_tmp9<22>, data_in_tmp9<23>, data_in_tmp9<24>, data_in_tmp9<25>, data_in_tmp9<26>, data_in_tmp9<27>, data_in_tmp9<28>, data_in_tmp9<29>, data_in_tmp9<2>, data_in_tmp9<30>, data_in_tmp9<31>, data_in_tmp9<3>, data_in_tmp9<4>, data_in_tmp9<5>, data_in_tmp9<6>, data_in_tmp9<7>, data_in_tmp9<8>, data_in_tmp9<9>.
+
+Optimizing unit <dlx_toplevel> ...
+
+Optimizing unit <fhm_shifter_w32> ...
+
+Optimizing unit <fhm_register_w32> ...
+
+Optimizing unit <rtg_register_w32> ...
+
+Optimizing unit <fhm_pcu_w32_reg32> ...
+
+Optimizing unit <fhm_dmau_w32_reg32> ...
+
+Optimizing unit <fhm_registerfile_w32_reg32> ...
+
+Optimizing unit <fhm_multiplier_w32_reg32> ...
+
+Optimizing unit <fhm_multiplier_w32_reg64> ...
+
+Optimizing unit <fhm_divider_w32_reg32> ...
+
+Optimizing unit <rtg_register_w34> ...
+
+Optimizing unit <rtg_register_w12> ...
+
+Optimizing unit <fhm_pcu_w32_add32> ...
+
+Optimizing unit <fhm_dmau_w32> ...
+
+Optimizing unit <fhm_registerfile_w32> ...
+
+Optimizing unit <rtg_controller> ...
+
+Optimizing unit <fhm_alu_w32_add16> ...
+
+Optimizing unit <fhm_multiplier_w32_cla16> ...
+
+Optimizing unit <fhm_divider_w32_add32_cla16> ...
+
+Optimizing unit <fhm_divider_w32_lsftreg32> ...
+
+Optimizing unit <fhm_pcu_w32> ...
+
+Optimizing unit <fhm_multiplier_w32_cla64> ...
+
+Optimizing unit <fhm_alu_w32> ...
+
+Optimizing unit <fhm_multiplier_w32_tconv32> ...
+
+Optimizing unit <fhm_divider_w32_tconv32> ...
+
+Optimizing unit <fhm_divider_w32_sdiv32> ...
+
+Optimizing unit <fhm_divider_w32> ...
+
+Optimizing unit <fhm_multiplier_w32_smul> ...
+
+Optimizing unit <fhm_multiplier_w32_tconv64> ...
+
+Optimizing unit <fhm_multiplier_w32> ...
+
+Optimizing unit <CPU> ...
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_0> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_1> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_2> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_3> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_4> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_5> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_6> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_7> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_8> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_9> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_10> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_11> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_12> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_13> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_14> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_15> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_31> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_30> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_29> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_28> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_27> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_26> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_25> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_24> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_23> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_22> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_21> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_20> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_19> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_18> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_17> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <CPU0/UF_DMAU/REG_DATA_OUT/data_out_16> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_4> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_5> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_6> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_7> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_8> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_9> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_10> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_11> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_12> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_13> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_14> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_15> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG04/DOUT_24> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG04/DOUT_25> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG04/DOUT_26> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG04/DOUT_27> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG04/DOUT_28> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG04/DOUT_29> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG04/DOUT_30> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG04/DOUT_31> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_0> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_1> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_2> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG27/DOUT_3> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_15> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_14> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_13> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_12> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_11> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_10> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_9> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_8> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_7> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_6> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_5> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_4> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_3> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_2> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_1> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG28/DOUT_0> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_15> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_14> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_13> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_12> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_11> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_10> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_9> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_8> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_7> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_6> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_5> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_4> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_3> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_2> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_1> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <CPU0/UA_PREG29/DOUT_0> (without init value) has a constant value of 0 in block <dlx_toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_32> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_33> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_34> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_35> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_36> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_37> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_38> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_39> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_40> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_41> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_42> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_43> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_44> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_45> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_46> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_47> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_48> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_49> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_50> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_51> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_52> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_53> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_54> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_55> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_56> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_57> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_58> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_59> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_60> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_61> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_62> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UF_MUL0/mulu/reg_64/data_out_63> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_31> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_30> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_29> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_28> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_27> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_26> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_25> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_24> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_23> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_22> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_21> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_20> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_19> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_18> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_17> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_16> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_15> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_14> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_13> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_12> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_11> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_10> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_9> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_8> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_7> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_6> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_5> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_4> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_3> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_2> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_1> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_LAST/DOUT_0> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_31> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_30> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_29> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_28> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_27> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_26> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_25> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_24> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_23> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_22> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_21> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_20> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_19> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_18> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_17> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_16> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_15> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_14> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_13> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_12> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_11> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_10> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_9> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_8> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_7> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_6> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_5> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_4> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_3> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_2> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_1> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_WB/DOUT_0> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_31> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_30> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_29> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_28> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_27> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_26> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_25> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_24> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_23> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_22> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_21> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_20> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_19> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_18> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_17> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_16> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_15> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_14> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_13> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_12> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_11> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_10> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_9> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_8> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_7> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_6> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_5> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_4> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_3> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_2> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_1> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_MEM/DOUT_0> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_31> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_30> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_29> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_28> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_27> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_26> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_25> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_24> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_23> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_22> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_21> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_20> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_19> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_18> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_17> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_16> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_15> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_14> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_13> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_12> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_11> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_10> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_9> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_8> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_7> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_6> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_5> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_4> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_3> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_2> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_1> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_EXE/DOUT_0> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_31> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_30> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_29> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_28> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_27> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_26> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_25> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_24> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_23> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_22> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_21> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_20> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_19> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_18> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_17> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_16> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_15> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_14> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_13> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_12> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_11> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_10> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_9> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_8> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_7> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_6> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_5> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_4> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_3> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_2> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_1> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_INTRPIPE_SAVEDPC_ID/DOUT_0> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_5> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_6> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_7> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_8> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_9> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_10> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_11> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_12> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_13> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_14> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_15> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_16> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_17> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_18> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_19> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_20> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_21> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_22> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_23> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_24> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_25> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_26> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_27> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_28> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_29> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_30> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_PREG24/DOUT_31> of sequential type is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_CTRL/UA_CW_EXE/DOUT_8> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_CTRL/UA_CW_MEM/DOUT_8> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_31> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_31> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_23> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_23> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_15> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_15> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_7> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_7> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_30> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_30> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_22> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_22> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_14> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_14> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_6> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_6> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_29> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_29> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_21> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_21> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_13> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_13> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_5> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_5> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_28> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_28> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_20> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_20> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_12> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_12> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_4> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_4> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_27> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_27> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_19> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_19> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_11> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_11> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_3> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_3> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_26> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_26> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_18> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_18> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_10> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_10> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_2> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_2> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_25> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_25> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_17> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_17> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_1> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_1> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_9> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_9> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_24> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_24> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_16> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_16> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_0> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_0> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UA_PREG06/DOUT_8> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <CPU0/UF_DMAU/REG_DATA_IN/data_out_8> is unconnected in block <dlx_toplevel>.
+WARNING:Xst:2677 - Node <CPU0/UA_CTRL/UA_MCBUSY_DMAU_REQ_MEM/DOUT> of sequential type is unconnected in block <dlx_toplevel>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG04/DOUT_0> in Unit <dlx_toplevel> is equivalent to the following 7 FFs/Latches, which will be removed : <CPU0/UA_PREG04/DOUT_1> <CPU0/UA_PREG04/DOUT_2> <CPU0/UA_PREG04/DOUT_3> <CPU0/UA_PREG04/DOUT_4> <CPU0/UA_PREG04/DOUT_5> <CPU0/UA_PREG04/DOUT_6> <CPU0/UA_PREG04/DOUT_7> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG04/DOUT_8> in Unit <dlx_toplevel> is equivalent to the following 6 FFs/Latches, which will be removed : <CPU0/UA_PREG04/DOUT_9> <CPU0/UA_PREG04/DOUT_10> <CPU0/UA_PREG04/DOUT_11> <CPU0/UA_PREG04/DOUT_12> <CPU0/UA_PREG04/DOUT_13> <CPU0/UA_PREG04/DOUT_14> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_10> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_10> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_11> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_11> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_12> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_12> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_13> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_13> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_14> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_14> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_20> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_20> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_15> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_15> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_16> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_16> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG04/DOUT_16> in Unit <dlx_toplevel> is equivalent to the following 6 FFs/Latches, which will be removed : <CPU0/UA_PREG04/DOUT_17> <CPU0/UA_PREG04/DOUT_18> <CPU0/UA_PREG04/DOUT_19> <CPU0/UA_PREG04/DOUT_20> <CPU0/UA_PREG04/DOUT_21> <CPU0/UA_PREG04/DOUT_22> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_21> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_21> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_17> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_17> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG27/DOUT_27> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG21/DOUT_0> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_22> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_22> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG27/DOUT_28> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG21/DOUT_1> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_23> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_23> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_18> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_18> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_19> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_19> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG27/DOUT_29> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG21/DOUT_2> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_24> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_24> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG27/DOUT_30> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG21/DOUT_3> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_30> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_30> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_25> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_25> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_26> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_26> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG27/DOUT_31> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG21/DOUT_4> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_31> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_31> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_27> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_27> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_28> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_28> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_29> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_29> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG24/DOUT_0> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG27/DOUT_16> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG24/DOUT_1> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG27/DOUT_17> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG24/DOUT_2> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG27/DOUT_18> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG24/DOUT_3> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG27/DOUT_19> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG08/DOUT_31> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG10/DOUT_1> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG24/DOUT_4> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG27/DOUT_20> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_0> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_0> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_1> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_1> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_2> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_2> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_3> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_3> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_4> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_4> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_5> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_5> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_6> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_6> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_7> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_7> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_8> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_8> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG00/DOUT_9> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG01/DOUT_9> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG09/DOUT_31> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG11/DOUT_1> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG28/DOUT_27> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG22/DOUT_0> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG28/DOUT_28> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG22/DOUT_1> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG28/DOUT_29> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG22/DOUT_2> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG28/DOUT_30> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG22/DOUT_3> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG28/DOUT_31> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG22/DOUT_4> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG29/DOUT_27> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG23/DOUT_0> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG29/DOUT_28> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG23/DOUT_1> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG29/DOUT_29> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG23/DOUT_2> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG29/DOUT_30> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG23/DOUT_3> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG29/DOUT_31> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG23/DOUT_4> 
+Found area constraint ratio of 100 (+ 5) on block dlx_toplevel, actual ratio is 6.
+INFO:Xst:2260 - The FF/Latch <CPU0/UA_PREG04/DOUT_8> in Unit <dlx_toplevel> is equivalent to the following FF/Latch : <CPU0/UA_PREG04/DOUT_15> 
+INFO:Xst:2260 - The FF/Latch <CPU0/UA_PREG04/DOUT_16> in Unit <dlx_toplevel> is equivalent to the following FF/Latch : <CPU0/UA_PREG04/DOUT_23> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG04/DOUT_8> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG04/DOUT_15> 
+INFO:Xst:2261 - The FF/Latch <CPU0/UA_PREG04/DOUT_16> in Unit <dlx_toplevel> is equivalent to the following FF/Latch, which will be removed : <CPU0/UA_PREG04/DOUT_23> 
+FlipFlop CPU0/UA_CTRL/UA_CW_EXE/DOUT_29 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+Processing Unit <dlx_toplevel> :
+	Found 33-bit shift register for signal <CPU0/UF_MUL0/mulu/current_state_FSM_FFd1>.
+	Found 33-bit shift register for signal <CPU0/UF_DIV0/divu/current_state_FSM_FFd1>.
+Unit <dlx_toplevel> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1958
+ Flip-Flops                                            : 1958
+# Shift Registers                                      : 2
+ 33-bit shift register                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : dlx_toplevel.ngr
+Top Level Output File Name         : dlx_toplevel
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 3
+
+Cell Usage :
+# BELS                             : 3444
+#      GND                         : 3
+#      INV                         : 1
+#      LUT2                        : 44
+#      LUT3                        : 69
+#      LUT4                        : 276
+#      LUT5                        : 432
+#      LUT6                        : 2424
+#      MUXF7                       : 192
+#      VCC                         : 3
+# FlipFlops/Latches                : 1994
+#      FDC                         : 43
+#      FDCE                        : 1947
+#      FDE                         : 2
+#      FDP                         : 2
+# RAMS                             : 2
+#      RAMB18                      : 2
+# Shift Registers                  : 2
+#      SRLC32E                     : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 2
+#      IBUF                        : 1
+#      OBUF                        : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx110tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1994  out of  69120     2%  
+ Number of Slice LUTs:                 3248  out of  69120     4%  
+    Number used as Logic:              3246  out of  69120     4%  
+    Number used as Memory:                2  out of  17920     0%  
+       Number used as SRL:                2
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   3640
+   Number with an unused Flip Flop:    1646  out of   3640    45%  
+   Number with an unused LUT:           392  out of   3640    10%  
+   Number of fully used LUT-FF pairs:  1602  out of   3640    44%  
+   Number of unique control sets:        48
+
+IO Utilization: 
+ Number of IOs:                           3
+ Number of bonded IOBs:                   3  out of    640     0%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of    148     0%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_in                             | BUFGP                  | 1998  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+--------------------------------------------------------------------------------------+-----------------------------------------------+-------+
+Control Signal                                                                        | Buffer(FF name)                               | Load  |
+--------------------------------------------------------------------------------------+-----------------------------------------------+-------+
+CPU0/uf_div0_reset(CPU0/UA_CTRL/UA_PROCFSM/cur_state_FSM_Out01:O)                     | NONE(CPU0/UF_DIV0/divu/current_state_FSM_FFd1)| 1225  |
+CPU0/ua_preg04_dout<24>(XST_GND:G)                                                    | NONE(CPU0/UA_PREG00/DOUT_0)                   | 681   |
+reset                                                                                 | IBUF                                          | 54    |
+CPU0/UF_MUL0/mulu/current_state_FSM_FFd34(CPU0/UF_MUL0/mulu/current_state_FSM_FFd34:Q)| NONE(CPU0/UF_MUL0/mulu/reg_64/data_out_0)     | 32    |
+--------------------------------------------------------------------------------------+-----------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 7.063ns (Maximum Frequency: 141.583MHz)
+   Minimum input arrival time before clock: 1.524ns
+   Maximum output required time after clock: 3.314ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_in'
+  Clock period: 7.063ns (frequency: 141.583MHz)
+  Total number of paths / destination ports: 234435 / 3653
+-------------------------------------------------------------------------
+Delay:               7.063ns (Levels of Logic = 10)
+  Source:            CPU0/UA_PREG31/DOUT_5 (FF)
+  Destination:       CPU0/UA_PREG10/DOUT_2 (FF)
+  Source Clock:      clk_in rising
+  Destination Clock: clk_in rising
+
+  Data Path: CPU0/UA_PREG31/DOUT_5 to CPU0/UA_PREG10/DOUT_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.471   1.091  CPU0/UA_PREG31/DOUT_5 (CPU0/UA_PREG31/DOUT_5)
+     LUT6:I0->O            1   0.094   0.480  CPU0/UF_ALU0/a0/u16_0/u1/gout_SW0_SW3 (N535)
+     LUT5:I4->O            1   0.094   0.480  CPU0/UF_ALU0/a0/u16_0/u1/gout_SW0 (N476)
+     LUT5:I4->O            3   0.094   0.984  CPU0/UF_ALU0/a0/u16_0/u1/gout (CPU0/UF_ALU0/a0/u16_0/g<1>)
+     LUT5:I0->O            5   0.094   0.502  CPU0/UF_ALU0/a0/carry_0_or0000216 (CPU0/UF_ALU0/a0/carry_0_or0000216)
+     LUT5:I4->O            6   0.094   0.507  CPU0/UF_ALU0/a0/carry_0_or0000233 (CPU0/UF_ALU0/a0/carry<0>)
+     LUT6:I5->O            1   0.094   0.000  CPU0/UF_ALU0/pre_result<17>280_F (N931)
+     MUXF7:I0->O           3   0.251   0.491  CPU0/UF_ALU0/pre_result<17>280 (CPU0/uf_alu0_result<17>)
+     LUT6:I5->O            1   0.094   0.480  CPU0/UF_ALU0/Z_cmp_eq0000155_SW0 (N484)
+     LUT6:I5->O            1   0.094   0.480  CPU0/UF_ALU0/Z_cmp_eq0000155_SW1_SW0 (N620)
+     LUT6:I5->O            1   0.094   0.000  CPU0/UF_ALU0/Z_cmp_eq0000281 (CPU0/uf_alu0_flag<2>)
+     FDCE:D                   -0.018          CPU0/UA_PREG10/DOUT_2
+    ----------------------------------------
+    Total                      7.063ns (1.568ns logic, 5.495ns route)
+                                       (22.2% logic, 77.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_in'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              1.524ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       CPU0/UA_CTRL/UA_PROCFSM/cur_state_FSM_FFd2 (FF)
+  Destination Clock: clk_in rising
+
+  Data Path: reset to CPU0/UA_CTRL/UA_PROCFSM/cur_state_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            56   0.818   0.612  reset_IBUF (reset_IBUF)
+     LUT3:I2->O            1   0.094   0.000  CPU0/UA_CTRL/UA_PROCFSM/cur_state_FSM_FFd2-In1 (CPU0/UA_CTRL/UA_PROCFSM/cur_state_FSM_FFd2-In)
+     FDC:D                    -0.018          CPU0/UA_CTRL/UA_PROCFSM/cur_state_FSM_FFd2
+    ----------------------------------------
+    Total                      1.524ns (0.912ns logic, 0.612ns route)
+                                       (59.9% logic, 40.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_in'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.314ns (Levels of Logic = 1)
+  Source:            CPU0/UF_PC/reg1/data_out_0 (FF)
+  Destination:       dummy_out (PAD)
+  Source Clock:      clk_in rising
+
+  Data Path: CPU0/UF_PC/reg1/data_out_0 to dummy_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             11   0.471   0.391  CPU0/UF_PC/reg1/data_out_0 (CPU0/UF_PC/reg1/data_out_0)
+     OBUF:I->O                 2.452          dummy_out_OBUF (dummy_out)
+    ----------------------------------------
+    Total                      3.314ns (2.923ns logic, 0.391ns route)
+                                       (88.2% logic, 11.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 108.00 secs
+Total CPU time to Xst completion: 106.66 secs
+ 
+--> 
+
+
+Total memory usage is 264520 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  636 (   0 filtered)
+Number of infos    :   66 (   0 filtered)
+

@@ -1,0 +1,2603 @@
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis:$makeCoSy
+
+ERROR: ABORTING COMPILER GENERATION, BECAUSE SOME ENVIRONMENT SETTINGS ARE WRONG!
+       SOME OF THE EXPECTED DIRECTORIES/FILES ARE NOT EXISTING.
+       MAYBE IN THE "env_settings" SOMETHING IS WRONG. OR THE ASIPMEISTER-FILES IN THE MEISTER DIRECTORY DO NOT EXIST.
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis:$ASIPmeister dlx_basis.pdb &
+[1] 26972
+
+asip04@i80labpc01:~/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop make links to library^^C
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make sim
+-----------------------------------------------
+Compiling file "arrayloop.c" for target SIMULATION:
+-----------------------------------------------
+
+ERROR: File /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/basiscc not found!
+You need to create the CoSy compiler before compiling something. Or something is wrong in the env_settings
+
+make: *** [BUILD_SIM/arrayloop.asm] Fehler 1
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$cd -
+/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis:$makeCoSy
+/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis
+CoSyDataATi80pc06.tgz                                                                                                                               100%   28KB  27.8KB/s   00:00    
+cosyATi80pc06_Environment.sh                                                                                                                        100%  969     1.0KB/s   00:00    
+cosyATi80pc06_PreMKC.sh                                                                                                                             100% 1536     1.5KB/s   00:00    
+SINAS Support enabled
+Environment von i80pc06
+DEVREP ist /home/asip04/devrep
+MEISTERCG_DIR ist /home/asip04/COSY_dlx_basis/dlx_basis.sw
+NEW IN DEVREP:
+CG: /home/asip04/devrep/engines/basiscg
+CC: /home/asip04/devrep/compilers/basiscc
+COMPILERNAME: basiscc
+
+BUILDTREE: /home/asip04/buildtrees/basiscc
+
+COSY_SCRIPTS_DIR: /home/asip04/COSY_dlx_basis/i80pc06_scripts
+EDL_FILES: /home/asip04/COSY_dlx_basis/i80pc06_scripts/edl
+DEVREP directory is updated...
+uncompressing testcc.tar.gz...
+uncompressing testcg.tar.gz...
+/home/asip04/devrep/engines/basiscg already exists. Now removed.
+/home/asip04/devrep/compilers/basiscc already exists. Now removed.
+extractcc-DEVREP ist /home/asip04/devrep
+updatetree (warning): logfile: /home/asip04/devrep/engines/basiscg/cadese.LOG does not exist
+updatetree (warning): /home/asip04/devrep/engines/basiscg is not an existing product
+getmarked: (warning) latest delta not used in 'SCCS/s.RESTRICTIONS'
+updatetree (warning): logfile: /home/asip04/devrep/compilers/basiscc/cadese.LOG does not exist
+updatetree (warning): /home/asip04/devrep/compilers/basiscc is not an existing product
+editing /home/asip04/devrep/engines/basiscg/asmparse/micromenu
+editing /home/asip04/devrep/engines/basiscg/asmdump/micromenu
+editing /home/asip04/devrep/engines/basiscg/cgd/Makefile
+editing /home/asip04/devrep/engines/basiscg/emit/micromenu
+editing /home/asip04/devrep/engines/basiscg/paroffset/micromenu
+editing /home/asip04/devrep/engines/basiscg/misc/basiscg.tdf
+ccmark: Markfile no delta added, files have same SID's (warning)
+editing /home/asip04/devrep/engines/basiscg/ccreg/micromenu
+editing /home/asip04/devrep/engines/basiscg/edl/basiscg.edl
+ccmark: Markfile no delta added, files have same SID's (warning)
+editing /home/asip04/devrep/engines/basiscg/sdl/basiscg.sdl
+ccmark: Markfile no delta added, files have same SID's (warning)
+editing /home/asip04/devrep/engines/basiscg/match/micromenu
+editing /home/asip04/devrep/engines/basiscg/mkxir/micromenu
+editing /home/asip04/devrep/engines/basiscg/setpsr/micromenu
+editing /home/asip04/devrep/compilers/basiscc/micromenu
+importing /home/asip04/devrep/compilers/basiscc/edl/basiscc.edl
+importing /home/asip04/devrep/compilers/basiscc/edl/basiscc.ccl
+remark .edl .ccl
+mark basiscc.edl basiscc.ccl
+unmark testcc.edl testcc.ccl
+mark Markfile
+ccmark: Markfile no delta added, files have same SID's (warning)
+EXTRACTCC - SINAS support enabled...
+BUILDTREE removed...
+... compilers/basiscc
+... engines/basiscg
+... compilers/common
+product: [warning] 128 components without specified version, using latest
+... engines/beg
+... engines/begsparccg
+... engines/sparcswp
+... engines/checkmir
+... engines/dagex
+... engines/echo
+... engines/i586cg
+... engines/ir2gdl
+... engines/hwloopcheck
+... engines/loopbcount
+... engines/loopdump
+... engines/looppragma
+... engines/looprev
+... engines/ndump
+... engines/test
+... engines/xref
+... engines/alias
+... engines/allocpr
+... engines/alloctp
+... engines/anc0
+... engines/blockmerge
+... engines/blockorder
+... engines/cfgedges
+... engines/chainflow
+... engines/checkcfg
+... engines/conevun
+... engines/constprop
+... engines/copyprop
+... engines/cse
+... engines/deadblock
+... engines/deadcode
+... engines/deadobj
+... engines/deadtype
+... engines/debug
+... engines/defuse
+... engines/defusereport
+... engines/dismemun
+... engines/domorder
+... engines/domtree
+... engines/dwarf1
+... engines/dwarf2
+... engines/exprprop
+... engines/float2fpe
+... engines/globreg
+... engines/hwloopannotate
+... engines/hwloopcreate
+... engines/inliner
+... engines/loopanalysis
+... engines/loopcanon
+... engines/loopfuse
+... engines/loopguard
+... engines/loopinvariant
+... engines/loopive
+... engines/loopremove
+... engines/loopstrength
+... engines/loopunroll
+... engines/lowerbitfield
+... engines/lowerboolval
+... engines/lowercirc
+... engines/lowercom
+... engines/lowerfix
+... engines/lowerhwloop
+... engines/lowermaa
+... engines/lowerpfc
+... engines/lowerstret
+... engines/lowervarargs
+... engines/lrrename
+... engines/misc
+... engines/mkcontainers
+... engines/mvpostop
+... engines/noregun
+... engines/pdomtree
+... engines/pirtoc
+... engines/pragmainline
+... engines/pragmaswitch
+... engines/prefix
+... engines/proc2block
+... engines/rcontab
+... engines/resize
+... engines/rodata
+... engines/ropars
+... engines/scalarreplace
+... engines/setrefobj
+... engines/setrestrict
+... engines/sinasdump
+... engines/sinasmultres
+... engines/sinasnames
+... engines/swpannotate
+... engines/swploopinfo
+... engines/swppragma
+... engines/swpprepare
+... engines/sharestring
+... engines/strength
+... engines/swsort
+... engines/tailmerge
+... engines/tailrec
+... engines/tardesmix
+... engines/uniqlabel
+... engines/unit2proc
+... engines/unnest
+... engines/uswitch
+... engines/utinit
+... ir
+... .
+	.profile is new
+	.proj_import is new
+	Install is new
+	etc/binify.sh is new
+	etc/config/HPUX is new
+	etc/config/Linux is new
+	etc/config/Solaris is new
+	etc/config/cadese is new
+	etc/config/latex is new
+	etc/cosycfg.sh is new
+	etc/native.sh is new
+	etc/profile is new
+	etc/toolinstall.sh is new
+	Markfile is new
+... etc/config
+	etc/config/SCCS is new
+... buildcompiler
+... src/beg
+... src/begmigrate
+... src/cosycc
+... src/ecp
+... src/ect
+... src/edc
+... src/ffsdc
+... src/framework
+... src/host
+... src/product
+... src/libf80
+... src/libfix
+... src/libx64
+... src/flex
+... src/libCRT
+... src/libOS
+... src/libc
+... src/libcirc
+... src/libdsp
+... src/liberr
+... src/libfpe
+... src/libint
+... src/pserver
+... extern/flex-2.5.4a.tar
+... postextract
+
+MEISTERCG Files ready...
+## start
+## over
+sed skript worked on generated meistercg files
+CCMIR1...done
+CCMIR2...done
+operation1...done
+operation2...done
+addInsnInfo...done
+amgen1...done
+asmgen2...done
+scheduler.cgd...done
+cpcgd DEVREP ist /home/asip04/devrep
+... etc/config/cadese
+... etc/config/latex
+... etc/config/Linux
+Installing framework in /home/asip04/buildtrees/basiscc/build
+
+... install src/framework
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f man/man1/beng.1 man/man1/chkIRv.1 man/man1/credit.1 man/man1/creng.1 man/man1/ignorelibs.1 man/man1/installman.1 man/man1/lock.1 man/man1/maskext.1 man/man1/mkc.1 man/man1/mke.1 man/man1/mkeng.1 man/man1/mmedit.1 man/man1/nameequmap.1 man/man3/configfile_open.3 man/man3/global_configfile_open.3 man/man3/configfile_text.3 man/man3/global_configfile_text.3 man/man5/compiler.5 man/man5/engine.5 man/man5/extnames.5 include/configfiles.h include/framework.h bin/chkIRv bin/cosycfg bin/credit bin/cross bin/featuretest bin/installman bin/lock bin/mkc bin/mke bin/updifmod bin/version bin/whatstrings bin/beng bin/creng bin/printmans lib/configfiles lib/defcomm lib/defsyms lib/englink lib/ignorelibs lib/maskext lib/mkeng lib/mmedit lib/nameequmap lib/sdledit lib/syssyms lib/configtmpl.c lib/extnames lib/Solaris-sparc/harmless-warnings lib/libframework.a lib/templates/sourceinfo/C lib/templates/sourceinfo/cc lib/templates/sourceinfo/c lib/templates/sourceinfo/dot lib/templates/sourceinfo/l lib/templates/sourceinfo/m lib/templates/sourceinfo/otc lib/templates/sourceinfo/y
+mkdir -p bin include lib lib/Solaris-sparc lib/templates/sourceinfo man/man1 man/man3 man/man5
+tar xmf objects
+rm objects
+cp /dev/null objects
+mkdir -p /home/asip04/buildtrees/basiscc/build/bin
+cp bin/chkIRv /home/asip04/buildtrees/basiscc/build/bin/chkIRv
+cp bin/cosycfg /home/asip04/buildtrees/basiscc/build/bin/cosycfg
+cp bin/credit /home/asip04/buildtrees/basiscc/build/bin/credit
+cp bin/cross /home/asip04/buildtrees/basiscc/build/bin/cross
+cp bin/featuretest /home/asip04/buildtrees/basiscc/build/bin/featuretest
+cp bin/installman /home/asip04/buildtrees/basiscc/build/bin/installman
+cp bin/lock /home/asip04/buildtrees/basiscc/build/bin/lock
+cp bin/mkc /home/asip04/buildtrees/basiscc/build/bin/mkc
+cp bin/mke /home/asip04/buildtrees/basiscc/build/bin/mke
+cp bin/updifmod /home/asip04/buildtrees/basiscc/build/bin/updifmod
+cp bin/version /home/asip04/buildtrees/basiscc/build/bin/version
+cp bin/whatstrings /home/asip04/buildtrees/basiscc/build/bin/whatstrings
+cp bin/beng /home/asip04/buildtrees/basiscc/build/bin/beng
+cp bin/creng /home/asip04/buildtrees/basiscc/build/bin/creng
+cp bin/printmans /home/asip04/buildtrees/basiscc/build/bin/printmans
+mkdir -p /home/asip04/buildtrees/basiscc/build/lib
+cp lib/configfiles /home/asip04/buildtrees/basiscc/build/lib/configfiles
+cp lib/defcomm /home/asip04/buildtrees/basiscc/build/lib/defcomm
+cp lib/defsyms /home/asip04/buildtrees/basiscc/build/lib/defsyms
+cp lib/englink /home/asip04/buildtrees/basiscc/build/lib/englink
+cp lib/ignorelibs /home/asip04/buildtrees/basiscc/build/lib/ignorelibs
+cp lib/maskext /home/asip04/buildtrees/basiscc/build/lib/maskext
+cp lib/mkeng /home/asip04/buildtrees/basiscc/build/lib/mkeng
+cp lib/mmedit /home/asip04/buildtrees/basiscc/build/lib/mmedit
+cp lib/nameequmap /home/asip04/buildtrees/basiscc/build/lib/nameequmap
+cp lib/sdledit /home/asip04/buildtrees/basiscc/build/lib/sdledit
+cp lib/syssyms /home/asip04/buildtrees/basiscc/build/lib/syssyms
+cp lib/configtmpl.c /home/asip04/buildtrees/basiscc/build/lib/configtmpl.c
+cp lib/extnames /home/asip04/buildtrees/basiscc/build/lib/extnames
+mkdir -p /home/asip04/buildtrees/basiscc/build/lib/Solaris-sparc
+cp lib/Solaris-sparc/harmless-warnings /home/asip04/buildtrees/basiscc/build/lib/Solaris-sparc/harmless-warnings
+cp lib/libframework.a /home/asip04/buildtrees/basiscc/build/lib/libframework.a
+[ -z "" ] ||  /home/asip04/buildtrees/basiscc/build/lib/libframework.a
+mkdir -p /home/asip04/buildtrees/basiscc/build/lib/templates/sourceinfo
+cp lib/templates/sourceinfo/C /home/asip04/buildtrees/basiscc/build/lib/templates/sourceinfo/C
+cp lib/templates/sourceinfo/cc /home/asip04/buildtrees/basiscc/build/lib/templates/sourceinfo/cc
+cp lib/templates/sourceinfo/c /home/asip04/buildtrees/basiscc/build/lib/templates/sourceinfo/c
+cp lib/templates/sourceinfo/dot /home/asip04/buildtrees/basiscc/build/lib/templates/sourceinfo/dot
+cp lib/templates/sourceinfo/l /home/asip04/buildtrees/basiscc/build/lib/templates/sourceinfo/l
+cp lib/templates/sourceinfo/m /home/asip04/buildtrees/basiscc/build/lib/templates/sourceinfo/m
+cp lib/templates/sourceinfo/otc /home/asip04/buildtrees/basiscc/build/lib/templates/sourceinfo/otc
+cp lib/templates/sourceinfo/y /home/asip04/buildtrees/basiscc/build/lib/templates/sourceinfo/y
+mkdir -p /home/asip04/buildtrees/basiscc/build/include
+cp include/configfiles.h /home/asip04/buildtrees/basiscc/build/include/configfiles.h
+cp include/framework.h /home/asip04/buildtrees/basiscc/build/include/framework.h
+mkdir -p /home/asip04/buildtrees/basiscc/build/man/man1
+cp man/man1/beng.1 /home/asip04/buildtrees/basiscc/build/man/man1/beng.1
+cp man/man1/chkIRv.1 /home/asip04/buildtrees/basiscc/build/man/man1/chkIRv.1
+cp man/man1/credit.1 /home/asip04/buildtrees/basiscc/build/man/man1/credit.1
+cp man/man1/creng.1 /home/asip04/buildtrees/basiscc/build/man/man1/creng.1
+cp man/man1/ignorelibs.1 /home/asip04/buildtrees/basiscc/build/man/man1/ignorelibs.1
+cp man/man1/installman.1 /home/asip04/buildtrees/basiscc/build/man/man1/installman.1
+cp man/man1/lock.1 /home/asip04/buildtrees/basiscc/build/man/man1/lock.1
+cp man/man1/maskext.1 /home/asip04/buildtrees/basiscc/build/man/man1/maskext.1
+cp man/man1/mkc.1 /home/asip04/buildtrees/basiscc/build/man/man1/mkc.1
+cp man/man1/mke.1 /home/asip04/buildtrees/basiscc/build/man/man1/mke.1
+cp man/man1/mkeng.1 /home/asip04/buildtrees/basiscc/build/man/man1/mkeng.1
+cp man/man1/mmedit.1 /home/asip04/buildtrees/basiscc/build/man/man1/mmedit.1
+cp man/man1/nameequmap.1 /home/asip04/buildtrees/basiscc/build/man/man1/nameequmap.1
+mkdir -p /home/asip04/buildtrees/basiscc/build/man/man3
+cp man/man3/configfile_open.3 /home/asip04/buildtrees/basiscc/build/man/man3/configfile_open.3
+cp man/man3/global_configfile_open.3 /home/asip04/buildtrees/basiscc/build/man/man3/global_configfile_open.3
+cp man/man3/configfile_text.3 /home/asip04/buildtrees/basiscc/build/man/man3/configfile_text.3
+cp man/man3/global_configfile_text.3 /home/asip04/buildtrees/basiscc/build/man/man3/global_configfile_text.3
+mkdir -p /home/asip04/buildtrees/basiscc/build/man/man5
+cp man/man5/compiler.5 /home/asip04/buildtrees/basiscc/build/man/man5/compiler.5
+cp man/man5/engine.5 /home/asip04/buildtrees/basiscc/build/man/man5/engine.5
+cp man/man5/extnames.5 /home/asip04/buildtrees/basiscc/build/man/man5/extnames.5
+
+
+... install src/flex
+cp -f lex.1.template /home/asip04/buildtrees/basiscc/build/man/man1/lex.1
+tar -xf /home/asip04/buildtrees/basiscc/build/extern/flex-2.5.4a.tar
+# Now we have flex-2.5.4
+touch unpackdone
+cp -f flex-2.5.4/flex.1 /home/asip04/buildtrees/basiscc/build/man/man1/flex.1
+cp -f lex.template /home/asip04/buildtrees/basiscc/build/bin/lex
+chmod +x /home/asip04/buildtrees/basiscc/build/bin/lex
+( cd flex-2.5.4 ; \
+  MAKE=make sh ./configure ; \
+  echo RANLIB is ${RANLIB:=ls} ; \
+  export $RANLIB ; \
+  make CC=cc AR=ar CFLAGS="-O" RANLIB=$RANLIB flex )
+creating cache ./config.cache
+checking whether ln -s works... yes
+checking for bison... no
+checking for byacc... no
+checking for gcc... cc
+checking whether we are using GNU C... yes
+checking whether cc accepts -g... yes
+checking for ranlib... ranlib
+checking for a BSD compatible install... /usr/bin/install -c
+checking whether make sets $MAKE... yes
+checking for working const... yes
+checking how to run the C preprocessor... cc -E
+checking whether cross-compiling... no
+checking for ANSI C header files... yes
+checking for size_t... yes
+checking for ANSI C header files... (cached) yes
+checking for string.h... yes
+checking for malloc.h... yes
+checking for sys/types.h... yes
+updating cache ./config.cache
+creating ./config.status
+creating Makefile
+creating config.h
+RANLIB is ls
+make[1]: Entering directory `/home/asip04/buildtrees/basiscc/build/src/flex/flex-2.5.4'
+cp ./initscan.c scan.c
+touch .bootstrap
+cc -c -I. -I. -O ccl.c
+cc -c -I. -I. -O dfa.c
+cc -c -I. -I. -O ecs.c
+cc -c -I. -I. -O gen.c
+cc -c -I. -I. -O main.c
+cc -c -I. -I. -O misc.c
+cc -c -I. -I. -O nfa.c
+yacc -d ./parse.y
+cc -c -I. -I. -O parse.c
+cc -c -I. -I. -O scan.c
+cc -c -I. -I. -O skel.c
+cc -c -I. -I. -O sym.c
+cc -c -I. -I. -O tblcmp.c
+cc -c -I. -I. -O yylex.c
+cc -c -I. -I. -O libmain.c
+cc -c -I. -I. -O libyywrap.c
+ar cru libfl.a libmain.o libyywrap.o
+ls libfl.a
+libfl.a
+cc -O -o flex  ccl.o dfa.o ecs.o gen.o main.o misc.o nfa.o parse.o scan.o skel.o sym.o tblcmp.o yylex.o  libfl.a 
+make[1]: Leaving directory `/home/asip04/buildtrees/basiscc/build/src/flex/flex-2.5.4'
+touch compiledone
+cp -f flex-2.5.4/flex /home/asip04/buildtrees/basiscc/build/bin/flex
+
+
+... install src/cosycc
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f man/man1/cosycc.1 bin/cosycc lib/cosycpp lib/cosycppchk
+mkdir -p bin lib man/man1
+tar xmf objects
+rm objects
+cp /dev/null objects
+cp bin/cosycc /home/asip04/buildtrees/basiscc/build/bin/cosycc
+cp lib/cosycpp /home/asip04/buildtrees/basiscc/build/lib/cosycpp
+cp lib/cosycppchk /home/asip04/buildtrees/basiscc/build/lib/cosycppchk
+cp man/man1/cosycc.1 /home/asip04/buildtrees/basiscc/build/man/man1/cosycc.1
+
+
+... install src/product
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f man/man1/product.1 man/man1/mkproduct.1 man/man5/components.5 bin/product bin/mkproduct lib/product-vci/cvs lib/product-vci/template
+mkdir -p bin lib/product-vci man/man1 man/man5
+tar xmf objects
+rm objects
+cp /dev/null objects
+cp bin/product /home/asip04/buildtrees/basiscc/build/bin/product
+cp bin/mkproduct /home/asip04/buildtrees/basiscc/build/bin/mkproduct
+mkdir -p /home/asip04/buildtrees/basiscc/build/lib/product-vci
+cp lib/product-vci/cvs /home/asip04/buildtrees/basiscc/build/lib/product-vci/cvs
+cp lib/product-vci/template /home/asip04/buildtrees/basiscc/build/lib/product-vci/template
+cp man/man1/product.1 /home/asip04/buildtrees/basiscc/build/man/man1/product.1
+cp man/man1/mkproduct.1 /home/asip04/buildtrees/basiscc/build/man/man1/mkproduct.1
+cp man/man5/components.5 /home/asip04/buildtrees/basiscc/build/man/man5/components.5
+
+
+... install src/ffsdc
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f man/man1/fsdc.1 include/DMCPabort.h bin/fsdc
+mkdir -p bin include man/man1
+tar xmf objects
+rm objects
+cp /dev/null objects
+cp bin/fsdc /home/asip04/buildtrees/basiscc/build/bin/fsdc
+cp include/DMCPabort.h /home/asip04/buildtrees/basiscc/build/include/DMCPabort.h
+cp man/man1/fsdc.1 /home/asip04/buildtrees/basiscc/build/man/man1/fsdc.1
+
+
+... install src/edc
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f man/man1/mkoptions.1 man/man1/edc.1 bin/mkoptions bin/edc
+mkdir -p bin man/man1
+tar xmf objects
+rm objects
+cp /dev/null objects
+cp bin/mkoptions /home/asip04/buildtrees/basiscc/build/bin/mkoptions
+cp bin/edc /home/asip04/buildtrees/basiscc/build/bin/edc
+cp man/man1/mkoptions.1 /home/asip04/buildtrees/basiscc/build/man/man1/mkoptions.1
+cp man/man1/edc.1 /home/asip04/buildtrees/basiscc/build/man/man1/edc.1
+
+
+... install src/ect
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f lib/ect/super.ect lib/ect/debug_c.ect lib/ect/debug_h.ect lib/ect/out.ect lib/ect/make.ect lib/ect/head.ect lib/ect/top.ect lib/ect/envelope.ect lib/ect/upcall.ect lib/ect/dpar.ect lib/ect/fork.ect lib/ect/pipe.ect lib/ect/simp.ect lib/ect/opti.ect lib/ect/serv_env.ect lib/ect/entry.ect lib/ect/eselect.ect lib/ect/specwalk.ect lib/ect/refstrip.ect
+mkdir -p lib/ect
+tar xmf objects
+rm objects
+cp /dev/null objects
+mkdir -p /home/asip04/buildtrees/basiscc/build/lib/ect
+cp lib/ect/super.ect /home/asip04/buildtrees/basiscc/build/lib/ect/super.ect
+cp lib/ect/debug_c.ect /home/asip04/buildtrees/basiscc/build/lib/ect/debug_c.ect
+cp lib/ect/debug_h.ect /home/asip04/buildtrees/basiscc/build/lib/ect/debug_h.ect
+cp lib/ect/out.ect /home/asip04/buildtrees/basiscc/build/lib/ect/out.ect
+cp lib/ect/make.ect /home/asip04/buildtrees/basiscc/build/lib/ect/make.ect
+cp lib/ect/head.ect /home/asip04/buildtrees/basiscc/build/lib/ect/head.ect
+cp lib/ect/top.ect /home/asip04/buildtrees/basiscc/build/lib/ect/top.ect
+cp lib/ect/envelope.ect /home/asip04/buildtrees/basiscc/build/lib/ect/envelope.ect
+cp lib/ect/upcall.ect /home/asip04/buildtrees/basiscc/build/lib/ect/upcall.ect
+cp lib/ect/dpar.ect /home/asip04/buildtrees/basiscc/build/lib/ect/dpar.ect
+cp lib/ect/fork.ect /home/asip04/buildtrees/basiscc/build/lib/ect/fork.ect
+cp lib/ect/pipe.ect /home/asip04/buildtrees/basiscc/build/lib/ect/pipe.ect
+cp lib/ect/simp.ect /home/asip04/buildtrees/basiscc/build/lib/ect/simp.ect
+cp lib/ect/opti.ect /home/asip04/buildtrees/basiscc/build/lib/ect/opti.ect
+cp lib/ect/serv_env.ect /home/asip04/buildtrees/basiscc/build/lib/ect/serv_env.ect
+cp lib/ect/entry.ect /home/asip04/buildtrees/basiscc/build/lib/ect/entry.ect
+cp lib/ect/eselect.ect /home/asip04/buildtrees/basiscc/build/lib/ect/eselect.ect
+cp lib/ect/specwalk.ect /home/asip04/buildtrees/basiscc/build/lib/ect/specwalk.ect
+cp lib/ect/refstrip.ect /home/asip04/buildtrees/basiscc/build/lib/ect/refstrip.ect
+
+
+... install src/begmigrate
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f bin/begmigrate
+mkdir -p bin
+tar xmf objects
+rm objects
+cp /dev/null objects
+cp bin/begmigrate /home/asip04/buildtrees/basiscc/build/bin/begmigrate
+
+
+... install src/beg
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f man/man1/beg.1 bin/beg lib/Beg lib/gcg/gra/alloc.c lib/gcg/gra/calc.c lib/gcg/gra/cfglive.c lib/gcg/gra/coalesce.c lib/gcg/gra/color.c lib/gcg/gra/copy.c lib/gcg/gra/graph.c lib/gcg/gra/interfere.c lib/gcg/gra/locgra.h lib/gcg/gra/misc.c lib/gcg/gra/number.c lib/gcg/gra/printinstr.c lib/gcg/gra/regclass.c lib/gcg/gra/restrict.c lib/gcg/gra/simplify.c lib/gcg/gra/spill.c lib/gcg/gra/tables.c lib/gcg/sched/Bonus.c lib/gcg/sched/Bonus.h lib/gcg/sched/SMS.c lib/gcg/sched/SMS.h lib/gcg/sched/Scheduler.c lib/gcg/sched/Scheduler.h lib/gcg/ddg/Constrain.c lib/gcg/ddg/Constrain.h lib/gcg/ddg/DDG.c lib/gcg/ddg/DDG.h lib/gcg/sdl/gcg.sdl lib/gcg/sdl/gcgopq.sdl lib/gcg/sdl/lirdg.sdl lib/gcg/sdl/lir.sdl lib/gcg/sdl/printddg.sdl lib/gcg/sdl/psrlife.sdl lib/gcg/sdl/sms.sdl lib/gcg/sdl/sps.sdl lib/dottool
+mkdir -p bin lib lib/gcg/ddg lib/gcg/gra lib/gcg/sched lib/gcg/sdl man/man1
+tar xmf objects
+rm objects
+cp /dev/null objects
+cp bin/beg /home/asip04/buildtrees/basiscc/build/bin/beg
+cp lib/Beg /home/asip04/buildtrees/basiscc/build/lib/Beg
+mkdir -p /home/asip04/buildtrees/basiscc/build/lib/gcg/gra
+cp lib/gcg/gra/alloc.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/alloc.c
+cp lib/gcg/gra/calc.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/calc.c
+cp lib/gcg/gra/cfglive.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/cfglive.c
+cp lib/gcg/gra/coalesce.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/coalesce.c
+cp lib/gcg/gra/color.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/color.c
+cp lib/gcg/gra/copy.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/copy.c
+cp lib/gcg/gra/graph.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/graph.c
+cp lib/gcg/gra/interfere.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/interfere.c
+cp lib/gcg/gra/locgra.h /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/locgra.h
+cp lib/gcg/gra/misc.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/misc.c
+cp lib/gcg/gra/number.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/number.c
+cp lib/gcg/gra/printinstr.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/printinstr.c
+cp lib/gcg/gra/regclass.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/regclass.c
+cp lib/gcg/gra/restrict.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/restrict.c
+cp lib/gcg/gra/simplify.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/simplify.c
+cp lib/gcg/gra/spill.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/spill.c
+cp lib/gcg/gra/tables.c /home/asip04/buildtrees/basiscc/build/lib/gcg/gra/tables.c
+mkdir -p /home/asip04/buildtrees/basiscc/build/lib/gcg/sched
+cp lib/gcg/sched/Bonus.c /home/asip04/buildtrees/basiscc/build/lib/gcg/sched/Bonus.c
+cp lib/gcg/sched/Bonus.h /home/asip04/buildtrees/basiscc/build/lib/gcg/sched/Bonus.h
+cp lib/gcg/sched/SMS.c /home/asip04/buildtrees/basiscc/build/lib/gcg/sched/SMS.c
+cp lib/gcg/sched/SMS.h /home/asip04/buildtrees/basiscc/build/lib/gcg/sched/SMS.h
+cp lib/gcg/sched/Scheduler.c /home/asip04/buildtrees/basiscc/build/lib/gcg/sched/Scheduler.c
+cp lib/gcg/sched/Scheduler.h /home/asip04/buildtrees/basiscc/build/lib/gcg/sched/Scheduler.h
+mkdir -p /home/asip04/buildtrees/basiscc/build/lib/gcg/ddg
+cp lib/gcg/ddg/Constrain.c /home/asip04/buildtrees/basiscc/build/lib/gcg/ddg/Constrain.c
+cp lib/gcg/ddg/Constrain.h /home/asip04/buildtrees/basiscc/build/lib/gcg/ddg/Constrain.h
+cp lib/gcg/ddg/DDG.c /home/asip04/buildtrees/basiscc/build/lib/gcg/ddg/DDG.c
+cp lib/gcg/ddg/DDG.h /home/asip04/buildtrees/basiscc/build/lib/gcg/ddg/DDG.h
+mkdir -p /home/asip04/buildtrees/basiscc/build/lib/gcg/sdl
+cp lib/gcg/sdl/gcg.sdl /home/asip04/buildtrees/basiscc/build/lib/gcg/sdl/gcg.sdl
+cp lib/gcg/sdl/gcgopq.sdl /home/asip04/buildtrees/basiscc/build/lib/gcg/sdl/gcgopq.sdl
+cp lib/gcg/sdl/lirdg.sdl /home/asip04/buildtrees/basiscc/build/lib/gcg/sdl/lirdg.sdl
+cp lib/gcg/sdl/lir.sdl /home/asip04/buildtrees/basiscc/build/lib/gcg/sdl/lir.sdl
+cp lib/gcg/sdl/printddg.sdl /home/asip04/buildtrees/basiscc/build/lib/gcg/sdl/printddg.sdl
+cp lib/gcg/sdl/psrlife.sdl /home/asip04/buildtrees/basiscc/build/lib/gcg/sdl/psrlife.sdl
+cp lib/gcg/sdl/sms.sdl /home/asip04/buildtrees/basiscc/build/lib/gcg/sdl/sms.sdl
+cp lib/gcg/sdl/sps.sdl /home/asip04/buildtrees/basiscc/build/lib/gcg/sdl/sps.sdl
+cp lib/dottool /home/asip04/buildtrees/basiscc/build/lib/dottool
+cp man/man1/beg.1 /home/asip04/buildtrees/basiscc/build/man/man1/beg.1
+
+
+... install src/liberr
+make liberr.a
+... creating menu file
+... creating Makefile
+warning: make[1]: Entering directory `/home/asip04/buildtrees/basiscc/build/src/liberr/ARCH'
+make[1]: Nothing to be done for `../Markfile'.
+mkdir -p obj
+touch obj/.dir
+cc -c -O -Iinclude -I../include    ../src/handler.c
+include file stdarg.h (included from ../src/handler.c) not found
+warning: 'include' search path not used
+mv handler.o obj/handler.o
+cc -c -O -Iinclude -I../include    ../src/info.c
+mv info.o obj/info.o
+version -f ../Markfile liberr.a > obj/LIBVersion.c
+version -i \
+ -f ../Markfile  liberr.a > obj/Version.c
+cc -c  -Iinclude -I../include  -O  obj/Version.c
+cc -c  -Iinclude -I../include  -O  obj/LIBVersion.c
+ar r liberr.a Version.o LIBVersion.o obj/handler.o obj/info.o 
+rm -f obj/Version.c obj/LIBVersion.c Version.o LIBVersion.o
+make[1]: Leaving directory `/home/asip04/buildtrees/basiscc/build/src/liberr/ARCH'
+cp ARCH/liberr.a /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/liberr.a
+cp include/liberr.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/liberr.h
+
+
+... install src/libx64
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f include/Linux-ix86/x64.h lib/Linux-ix86/libx64.a
+mkdir -p include/Linux-ix86 lib/Linux-ix86
+tar xmf objects
+rm objects
+cp /dev/null objects
+mkdir -p /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86
+cp lib/Linux-ix86/libx64.a /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/libx64.a
+[ -z "" ] ||  /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/libx64.a
+mkdir -p /home/asip04/buildtrees/basiscc/build/include/Linux-ix86
+cp include/Linux-ix86/x64.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/x64.h
+
+
+... install src/libf80
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f include/Linux-ix86/f80.h include/Linux-ix86/f80e.h lib/Linux-ix86/libf80.a
+mkdir -p include/Linux-ix86 lib/Linux-ix86
+tar xmf objects
+rm objects
+cp /dev/null objects
+cp lib/Linux-ix86/libf80.a /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/libf80.a
+[ -z "" ] ||  /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/libf80.a
+cp include/Linux-ix86/f80.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/f80.h
+cp include/Linux-ix86/f80e.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/f80e.h
+
+
+... install src/libfix
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f include/Linux-ix86/fix.h include/Linux-ix86/ufix.h include/Linux-ix86/libfix.h lib/Linux-ix86/libfix.a
+mkdir -p include/Linux-ix86 lib/Linux-ix86
+tar xmf objects
+rm objects
+cp /dev/null objects
+cp lib/Linux-ix86/libfix.a /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/libfix.a
+[ -z "" ] ||  /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/libfix.a
+cp include/Linux-ix86/fix.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/fix.h
+cp include/Linux-ix86/ufix.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/ufix.h
+cp include/Linux-ix86/libfix.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/libfix.h
+
+
+... install src/host
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f man/man3/host.3 include/Linux-ix86/host.h lib/Linux-ix86/libhost.a
+mkdir -p include/Linux-ix86 lib/Linux-ix86 man/man3
+tar xmf objects
+rm objects
+cp /dev/null objects
+cp lib/Linux-ix86/libhost.a /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/libhost.a
+[ -z "" ] ||  /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/libhost.a
+cp include/Linux-ix86/host.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/host.h
+cp man/man3/host.3 /home/asip04/buildtrees/basiscc/build/man/man3/host.3
+
+
+... install src/ecp
+rm -f objects objects.Z
+teardeconv objects.tc objects
+rm -f man/man3/cdpAlloc.3 man/man3/cdpFree.3 man/man3/cdpRealloc.3 man/man3/ecp.3 man/man3/eetci.3 man/man3/engineGetErrorCount.3 man/man3/engineSetMaxerr.3 man/man3/err.3 man/man3/errQuitOnPending.3 man/man3/option.3 man/man3/optionDefine.3 man/man3/optionGet.3 man/man3/optionGetLast.3 man/man3/optionGetLastInt.3 man/man3/optionGetLastBool.3 man/man3/optionGetMax.3 man/man3/optionIsSet.3 man/man3/optionType.3 include/Linux-ix86/assert.h include/Linux-ix86/ecp.h include/Linux-ix86/engine.h include/Linux-ix86/ecp_print.h include/Linux-ix86/ecp_err.h include/Linux-ix86/err.h include/Linux-ix86/extensions.h include/Linux-ix86/lock.h include/Linux-ix86/misc.h include/Linux-ix86/option.h include/Linux-ix86/pools.h include/Linux-ix86/eetci.h include/Linux-ix86/sem.h include/Linux-ix86/queue.h include/Linux-ix86/aggrseries.h include/Linux-ix86/aggrblock.h bin/Linux-ix86/ipcrmall lib/Linux-ix86/libecp.a lib/Linux-ix86/libecp-debug.a
+mkdir -p bin/Linux-ix86 include/Linux-ix86 lib/Linux-ix86 man/man3
+tar xmf objects
+rm objects
+cp /dev/null objects
+mkdir -p /home/asip04/buildtrees/basiscc/build/bin/Linux-ix86
+cp bin/Linux-ix86/ipcrmall /home/asip04/buildtrees/basiscc/build/bin/Linux-ix86/ipcrmall
+cp lib/Linux-ix86/libecp.a /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/libecp.a
+[ -z "" ] ||  /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/libecp.a
+cp lib/Linux-ix86/libecp-debug.a /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/libecp-debug.a
+[ -z "" ] ||  /home/asip04/buildtrees/basiscc/build/lib/Linux-ix86/libecp-debug.a
+cp include/Linux-ix86/assert.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/assert.h
+cp include/Linux-ix86/ecp.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/ecp.h
+cp include/Linux-ix86/engine.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/engine.h
+cp include/Linux-ix86/ecp_print.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/ecp_print.h
+cp include/Linux-ix86/ecp_err.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/ecp_err.h
+cp include/Linux-ix86/err.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/err.h
+cp include/Linux-ix86/extensions.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/extensions.h
+cp include/Linux-ix86/lock.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/lock.h
+cp include/Linux-ix86/misc.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/misc.h
+cp include/Linux-ix86/option.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/option.h
+cp include/Linux-ix86/pools.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/pools.h
+cp include/Linux-ix86/eetci.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/eetci.h
+cp include/Linux-ix86/sem.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/sem.h
+cp include/Linux-ix86/queue.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/queue.h
+cp include/Linux-ix86/aggrseries.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/aggrseries.h
+cp include/Linux-ix86/aggrblock.h /home/asip04/buildtrees/basiscc/build/include/Linux-ix86/aggrblock.h
+cp man/man3/cdpAlloc.3 /home/asip04/buildtrees/basiscc/build/man/man3/cdpAlloc.3
+cp man/man3/cdpFree.3 /home/asip04/buildtrees/basiscc/build/man/man3/cdpFree.3
+cp man/man3/cdpRealloc.3 /home/asip04/buildtrees/basiscc/build/man/man3/cdpRealloc.3
+cp man/man3/ecp.3 /home/asip04/buildtrees/basiscc/build/man/man3/ecp.3
+cp man/man3/eetci.3 /home/asip04/buildtrees/basiscc/build/man/man3/eetci.3
+cp man/man3/engineGetErrorCount.3 /home/asip04/buildtrees/basiscc/build/man/man3/engineGetErrorCount.3
+cp man/man3/engineSetMaxerr.3 /home/asip04/buildtrees/basiscc/build/man/man3/engineSetMaxerr.3
+cp man/man3/err.3 /home/asip04/buildtrees/basiscc/build/man/man3/err.3
+cp man/man3/errQuitOnPending.3 /home/asip04/buildtrees/basiscc/build/man/man3/errQuitOnPending.3
+cp man/man3/option.3 /home/asip04/buildtrees/basiscc/build/man/man3/option.3
+cp man/man3/optionDefine.3 /home/asip04/buildtrees/basiscc/build/man/man3/optionDefine.3
+cp man/man3/optionGet.3 /home/asip04/buildtrees/basiscc/build/man/man3/optionGet.3
+cp man/man3/optionGetLast.3 /home/asip04/buildtrees/basiscc/build/man/man3/optionGetLast.3
+cp man/man3/optionGetLastInt.3 /home/asip04/buildtrees/basiscc/build/man/man3/optionGetLastInt.3
+cp man/man3/optionGetLastBool.3 /home/asip04/buildtrees/basiscc/build/man/man3/optionGetLastBool.3
+cp man/man3/optionGetMax.3 /home/asip04/buildtrees/basiscc/build/man/man3/optionGetMax.3
+cp man/man3/optionIsSet.3 /home/asip04/buildtrees/basiscc/build/man/man3/optionIsSet.3
+cp man/man3/optionType.3 /home/asip04/buildtrees/basiscc/build/man/man3/optionType.3
+
+... created elist.sdl
+... created list.sdl
+... created dmap.sdl
+... created smap.sdl
+-------------------------------------------------------------------------------
+Installing manpages for compiler common sources
+  options.5
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Installing engine manpages
+  asmparse.3         asmdump.3          datagen.3          emit.3
+  match.3            ccreg.3            paroffset.3        setpsr.3
+  mkxir.3            checklir.3         cleanlir.3         combine.3
+  ddg.3              dumplir.3          gra.3              initlir.3
+  proc2region.3      psrlife.3          reload2move.3      rulestat.3
+  sched.3            sinkregion.3       spillcolor.3       blow.3
+  blowun.3           lowparm.3          sparccontrol.3     sparcemit.3
+  sparcgra.3         sparcmatch.3       sparcsched.3       tempos.3
+  checkmir.3         dagex.3            echo.3             i586cg.3
+  ir2gdl.3           hwloopcheck.3      loopbcount.3       loopdump.3
+  looppragma.3       looprev.3          ndump.3            test.3
+  xref.3             alias.3            allocpr.3          alloctp.3
+  anc0.3             blockmerge.3       blockorder.3       cfgedges.3
+  chainflow.3        checkcfg.3         conevun.3          constprop.3
+  copyprop.3         cse.3              deadblock.3        deadcode.3
+  deadobj.3          deadtype.3         debug.3            defuse.3
+  defusereport.3     dismemun.3         domorder.3         domtree.3
+  dwarf1.3           dwarf2.3           exprprop.3         float2fpe.3
+  globreg.3          hwloopannotate.3   hwloopcreate.3     inliner.3
+  loopanalysis.3     loopcanon.3        loopfuse.3         loopguard.3
+  loopinvariant.3    loopive.3          loopremove.3       loopstrength.3
+  loopunroll.3       lowerbitfield.3    lowerboolval.3     lowercirc.3
+  lowercom.3         lowerfix.3         lowerhwloop.3      lowermaa.3
+  lowerpfc.3         lowerstret.3       lowervarargs.3     lrrename.3
+  misc.3             mkcontainers.3     mvpostop.3         noregun.3
+  pdomtree.3         pirtoc.3           pragmainline.3     pragmaswitch.3
+  prefix.3           proc2block.3       rcontab.3          resize.3
+  rodata.3           ropars.3           scalarreplace.3    setrefobj.3
+  setrestrict.3      sinasdump.3        sinasmultres.3     sinasnames.3
+  swpannotate.3      swploopinfo.3      swppragma.3        swpprepare.3
+  sharestring.3      strength.3         swsort.3           tailmerge.3
+  tailrec.3          tardesmix.3        uniqlabel.3        unit2proc.3
+  unnest.3           uswitch.3          utinit.3
+-------------------------------------------------------------------------------
+Creating symbol tables for Linux-ix86 libraries
+	... system
+nm: old_atexit.o: no symbols
+nm: udiv_qrnnd.o: no symbols
+nm: mp_clz_tab.o: no symbols
+nm: getopt_init.o: no symbols
+nm: init-posix.o: no symbols
+nm: lseek64.o: no symbols
+nm: oldgetrlimit64.o: no symbols
+nm: getutmpx.o: no symbols
+nm: dl-tls.o: no symbols
+nm: t_exp.o: no symbols
+nm: e_rem_pio2.o: no symbols
+nm: k_cos.o: no symbols
+nm: k_rem_pio2.o: no symbols
+nm: k_sin.o: no symbols
+nm: s_scalbln.o: no symbols
+nm: e_rem_pio2f.o: no symbols
+nm: k_rem_pio2f.o: no symbols
+nm: s_scalblnf.o: no symbols
+nm: e_rem_pio2l.o: no symbols
+nm: k_rem_pio2l.o: no symbols
+nm: s_nexttowardl.o: no symbols
+nm: s_scalblnl.o: no symbols
+nm: t_sincosl.o: no symbols
+nm: k_sincosl.o: no symbols
+nm: branred.o: no symbols
+nm: doasin.o: no symbols
+nm: dosincos.o: no symbols
+nm: halfulp.o: no symbols
+nm: mpa.o: no symbols
+nm: mpatan2.o: no symbols
+nm: mpatan.o: no symbols
+nm: mpexp.o: no symbols
+nm: mplog.o: no symbols
+nm: mpsqrt.o: no symbols
+nm: mptan.o: no symbols
+nm: sincos32.o: no symbols
+nm: slowexp.o: no symbols
+nm: slowpow.o: no symbols
+	... libecp
+	... libecp-debug
+	... liberr
+	... libf80
+	... libfix
+	... libhost
+	... libx64
+
+----------------------------------------------------------------------------------------------------------------
+The compiler is going to be compiled now (i.e. mkc=MakeCompiler is executed now). This might take some time.....
+----------------------------------------------------------------------------------------------------------------
+CoSy installed successfully in /home/asip04/buildtrees/basiscc/build
+
+Compiler has been build. Press Control-C to continue.
+
+basiscc                                                                                                                                             100% 5975KB   5.8MB/s   00:01    
+
+Compiler Generation finished!
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis:$cd -
+/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make sim
+-----------------------------------------------
+Compiling file "arrayloop.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  arrayloop.cc'
+"../arrayloop.cc" line 34: Warning: constant 4294901760 so large that it is unsigned
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			209 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "arrayloop.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "lib_lcd_dlxsim.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  lib_lcd_dlxsim.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			309 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "lib_lcd_dlxsim.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "loadStoreByte.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  loadStoreByte.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			30 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "loadStoreByte.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "string.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  string.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			624 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "string.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+extendAssemblerDescriptionFile:	Assembler Description File successfully extended.
+Copying files to 'i80pc06' to execute the assembler:
+pas                                                                                                                                                 100%  283KB 283.4KB/s   00:00    
+dlx_basis_extended_noGPR.des                                                                                                                        100%   17KB  17.3KB/s   00:00    
+Loop.asm                                                                                                                                            100%   95KB  94.5KB/s   00:00    
+Loop.out                                                                                                                                            100%  198KB 198.2KB/s   00:00    
+pasError.txt                                                                                                                                        100% 9087     8.9KB/s   00:00    
+scanForSymbols:			0 Undefined or Multiple Defined Symbols found
+extendDMfile:			1 gaps in TestData.DM found and fixed!!.
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$gcc arrayloop.c -o arrayloop_gcc.out 
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$arrayloop_gcc.out > output_gcc.txt
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$vim ../../env_settings 
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make dlxsim DLXSIM_PARAM="-da0 -lfoutput_dlxsim.txt"
+-----------------------------------------------
+Compiling file "arrayloop.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  arrayloop.cc'
+"../arrayloop.cc" line 34: Warning: constant 4294901760 so large that it is unsigned
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			209 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "arrayloop.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "lib_lcd_dlxsim.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  lib_lcd_dlxsim.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			309 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "lib_lcd_dlxsim.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "loadStoreByte.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  loadStoreByte.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			30 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "loadStoreByte.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "string.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  string.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			624 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "string.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/Loop.dlxsim -da0 -lfoutput_dlxsim.txt
+Biggest used address for Text Section (word aligned): 0x47c0
+Biggest used address for Data Section (word aligned): 0x4a2c
+(dlxsim) go
+TRAP #0 received
+Altogether 484,5e3(484500) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) 
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim:$ls
+Helper.vhd  MemoryMapperTypes.vhd  MemoryMapper.vhd  tb_ASIPmeister.vhd  TestData.DM  TestData.IM  wave.do
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim:$vsim &
+[1] 3760
+# reading /Software/ModelSim/ModelSim_6.6d/
+# Loading project dlx_basis
+# Compile of Helper.vhd was successful.
+# Compile of MemoryMapper.vhd failed with 1 errors.
+# Compile of MemoryMapperTypes.vhd was successful.
+# Compile of tb_ASIPmeister.vhd was successful.
+# Compile of CPU.vhd was successful.
+# Compile of fhm_alu_w32.vhd was successful.
+# Compile of fhm_divider_w32.vhd was successful.
+# Compile of fhm_dmau_w32.vhd was successful.
+# Compile of fhm_extender_w16.vhd was successful.
+# Compile of fhm_extender_w28.vhd was successful.
+# Compile of fhm_imau_w32.vhd was successful.
+# Compile of fhm_multiplier_w32.vhd was successful.
+# Compile of fhm_pcu_w32.vhd was successful.
+# Compile of fhm_register_w32.vhd was successful.
+# Compile of fhm_registerfile_w32.vhd was successful.
+# Compile of fhm_shifter_w32.vhd was successful.
+# Compile of rtg_controller.vhd was successful.
+# Compile of rtg_mux2to1_w5.vhd was successful.
+# Compile of rtg_mux2to1_w32.vhd was successful.
+# Compile of rtg_mux3to1_w5.vhd was successful.
+# Compile of rtg_mux3to1_w32.vhd was successful.
+# Compile of rtg_mux4to1_w32.vhd was successful.
+# Compile of rtg_mux14to1_w32.vhd was successful.
+# Compile of rtg_proc_fsm.vhd was successful.
+# Compile of rtg_register_w1_00.vhd was successful.
+# Compile of rtg_register_w1_01.vhd was successful.
+# Compile of rtg_register_w4.vhd was successful.
+# Compile of rtg_register_w5.vhd was successful.
+# Compile of rtg_register_w7.vhd was successful.
+# Compile of rtg_register_w12.vhd was successful.
+# Compile of rtg_register_w32.vhd was successful.
+# Compile of rtg_register_w34.vhd was successful.
+# 32 compiles, 1 failed with 1 error. 
+# Compile of Helper.vhd was successful.
+# Compile of MemoryMapper.vhd was successful.
+# Compile of MemoryMapperTypes.vhd was successful.
+# Compile of tb_ASIPmeister.vhd was successful.
+# Compile of CPU.vhd was successful.
+# Compile of fhm_alu_w32.vhd was successful.
+# Compile of fhm_divider_w32.vhd was successful.
+# Compile of fhm_dmau_w32.vhd was successful.
+# Compile of fhm_extender_w16.vhd was successful.
+# Compile of fhm_extender_w28.vhd was successful.
+# Compile of fhm_imau_w32.vhd was successful.
+# Compile of fhm_multiplier_w32.vhd was successful.
+# Compile of fhm_pcu_w32.vhd was successful.
+# Compile of fhm_register_w32.vhd was successful.
+# Compile of fhm_registerfile_w32.vhd was successful.
+# Compile of fhm_shifter_w32.vhd was successful.
+# Compile of rtg_controller.vhd was successful.
+# Compile of rtg_mux2to1_w5.vhd was successful.
+# Compile of rtg_mux2to1_w32.vhd was successful.
+# Compile of rtg_mux3to1_w5.vhd was successful.
+# Compile of rtg_mux3to1_w32.vhd was successful.
+# Compile of rtg_mux4to1_w32.vhd was successful.
+# Compile of rtg_mux14to1_w32.vhd was successful.
+# Compile of rtg_proc_fsm.vhd was successful.
+# Compile of rtg_register_w1_00.vhd was successful.
+# Compile of rtg_register_w1_01.vhd was successful.
+# Compile of rtg_register_w4.vhd was successful.
+# Compile of rtg_register_w5.vhd was successful.
+# Compile of rtg_register_w7.vhd was successful.
+# Compile of rtg_register_w12.vhd was successful.
+# Compile of rtg_register_w32.vhd was successful.
+# Compile of rtg_register_w34.vhd was successful.
+vsim work.cfg
+# vsim work.cfg 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.memorymappertypes(body)
+# Loading work.helper(body)
+# Loading work.cfg#1
+# Loading work.test(testbench)#1
+# Loading ieee.std_logic_signed(body)
+# Loading work.cpu(rtl)#1
+# Loading work.fhm_pcu_w32_add32(synthesis)#1
+# Loading work.fhm_dmau_w32(synthesis)#1
+# Loading work.fhm_registerfile_w32(synthesis)#1
+# Loading work.fhm_alu_w32(synthesis)#1
+# Loading work.fhm_alu_w32_add16(synthesis)#1
+# Loading work.fhm_multiplier_w32(synthesis)#1
+# Loading work.fhm_multiplier_w32_cla16(synthesis)#1
+# Loading work.fhm_divider_w32(synthesis)#1
+# Loading work.fhm_divider_w32_add32_cla16(synthesis)#1
+# Loading work.rtg_controller(rtl)#1
+# Loading work.memorymapper(behavioral)#1
+do /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/wave.do
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 3  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 4  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 7  Instance: /test/dut/uf_alu0
+# *****      0 ClockCycles simulated *****
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 7  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 7  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 8  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 9  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 10  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 11  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 12  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 20 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 40 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 60 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 80 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 6  Instance: /test/dut/uf_div0/divu
+# *****   1000 ClockCycles simulated *****
+# *****   2000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 50510 ns  Iteration: 1  Instance: /test
+# *****   3000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 61410 ns  Iteration: 1  Instance: /test
+# *****   4000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 81610 ns  Iteration: 1  Instance: /test
+# *****   5000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 101810 ns  Iteration: 1  Instance: /test
+# *****   6000 ClockCycles simulated *****
+# *****   7000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 142210 ns  Iteration: 1  Instance: /test
+# *****   8000 ClockCycles simulated *****
+# *****   9000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 182610 ns  Iteration: 1  Instance: /test
+# *****  10000 ClockCycles simulated *****
+# *****  11000 ClockCycles simulated *****
+# *****  12000 ClockCycles simulated *****
+# *****  13000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 272710 ns  Iteration: 1  Instance: /test
+# *****  14000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 283610 ns  Iteration: 1  Instance: /test
+# *****  15000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 303810 ns  Iteration: 1  Instance: /test
+# *****  16000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 324010 ns  Iteration: 1  Instance: /test
+# *****  17000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 344290 ns  Iteration: 1  Instance: /test
+# *****  18000 ClockCycles simulated *****
+# *****  19000 ClockCycles simulated *****
+# *****  20000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 404890 ns  Iteration: 1  Instance: /test
+# *****  21000 ClockCycles simulated *****
+# *****  22000 ClockCycles simulated *****
+# *****  23000 ClockCycles simulated *****
+# *****  24000 ClockCycles simulated *****
+# *****  25000 ClockCycles simulated *****
+# *****  26000 ClockCycles simulated *****
+# *****  27000 ClockCycles simulated *****
+# *****  28000 ClockCycles simulated *****
+# *****  29000 ClockCycles simulated *****
+# *****  30000 ClockCycles simulated *****
+# *****  31000 ClockCycles simulated *****
+# *****  32000 ClockCycles simulated *****
+# *****  33000 ClockCycles simulated *****
+# *****  34000 ClockCycles simulated *****
+# *****  35000 ClockCycles simulated *****
+# *****  36000 ClockCycles simulated *****
+# *****  37000 ClockCycles simulated *****
+# *****  38000 ClockCycles simulated *****
+# *****  39000 ClockCycles simulated *****
+# *****  40000 ClockCycles simulated *****
+# *****  41000 ClockCycles simulated *****
+# *****  42000 ClockCycles simulated *****
+# *****  43000 ClockCycles simulated *****
+# *****  44000 ClockCycles simulated *****
+# *****  45000 ClockCycles simulated *****
+# *****  46000 ClockCycles simulated *****
+# *****  47000 ClockCycles simulated *****
+# *****  48000 ClockCycles simulated *****
+# *****  49000 ClockCycles simulated *****
+# *****  50000 ClockCycles simulated *****
+# *****  51000 ClockCycles simulated *****
+# *****  52000 ClockCycles simulated *****
+# *****  53000 ClockCycles simulated *****
+# *****  54000 ClockCycles simulated *****
+# *****  55000 ClockCycles simulated *****
+# *****  56000 ClockCycles simulated *****
+# *****  57000 ClockCycles simulated *****
+# *****  58000 ClockCycles simulated *****
+# *****  59000 ClockCycles simulated *****
+# *****  60000 ClockCycles simulated *****
+# *****  61000 ClockCycles simulated *****
+# *****  62000 ClockCycles simulated *****
+# *****  63000 ClockCycles simulated *****
+# *****  64000 ClockCycles simulated *****
+# *****  65000 ClockCycles simulated *****
+# *****  66000 ClockCycles simulated *****
+# *****  67000 ClockCycles simulated *****
+# *****  68000 ClockCycles simulated *****
+# *****  69000 ClockCycles simulated *****
+# *****  70000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 1408570 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 1409750 ns  Iteration: 1  Instance: /test
+# *****  71000 ClockCycles simulated *****
+# *****  72000 ClockCycles simulated *****
+# *****  73000 ClockCycles simulated *****
+# *****  74000 ClockCycles simulated *****
+# *****  75000 ClockCycles simulated *****
+# *****  76000 ClockCycles simulated *****
+# *****  77000 ClockCycles simulated *****
+# *****  78000 ClockCycles simulated *****
+# *****  79000 ClockCycles simulated *****
+# *****  80000 ClockCycles simulated *****
+# *****  81000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 1635530 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 1636710 ns  Iteration: 1  Instance: /test
+# *****  82000 ClockCycles simulated *****
+# *****  83000 ClockCycles simulated *****
+# *****  84000 ClockCycles simulated *****
+# *****  85000 ClockCycles simulated *****
+# *****  86000 ClockCycles simulated *****
+# *****  87000 ClockCycles simulated *****
+# *****  88000 ClockCycles simulated *****
+# *****  89000 ClockCycles simulated *****
+# *****  90000 ClockCycles simulated *****
+# *****  91000 ClockCycles simulated *****
+# *****  92000 ClockCycles simulated *****
+# *****  93000 ClockCycles simulated *****
+# *****  94000 ClockCycles simulated *****
+# *****  95000 ClockCycles simulated *****
+# *****  96000 ClockCycles simulated *****
+# *****  97000 ClockCycles simulated *****
+# *****  98000 ClockCycles simulated *****
+# *****  99000 ClockCycles simulated *****
+# ***** 100000 ClockCycles simulated *****
+# ***** 101000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 2020310 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 2021490 ns  Iteration: 1  Instance: /test
+# ***** 102000 ClockCycles simulated *****
+# ***** 103000 ClockCycles simulated *****
+# ***** 104000 ClockCycles simulated *****
+# ***** 105000 ClockCycles simulated *****
+# ***** 106000 ClockCycles simulated *****
+# ***** 107000 ClockCycles simulated *****
+# ***** 108000 ClockCycles simulated *****
+# ***** 109000 ClockCycles simulated *****
+# ***** 110000 ClockCycles simulated *****
+# ***** 111000 ClockCycles simulated *****
+# ***** 112000 ClockCycles simulated *****
+# ***** 113000 ClockCycles simulated *****
+# ***** 114000 ClockCycles simulated *****
+# ***** 115000 ClockCycles simulated *****
+# ***** 116000 ClockCycles simulated *****
+# ***** 117000 ClockCycles simulated *****
+# ***** 118000 ClockCycles simulated *****
+# ***** 119000 ClockCycles simulated *****
+# ***** 120000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 2405090 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 2406270 ns  Iteration: 1  Instance: /test
+# ***** 121000 ClockCycles simulated *****
+# ***** 122000 ClockCycles simulated *****
+# ***** 123000 ClockCycles simulated *****
+# ***** 124000 ClockCycles simulated *****
+# ***** 125000 ClockCycles simulated *****
+# ***** 126000 ClockCycles simulated *****
+# ***** 127000 ClockCycles simulated *****
+# ***** 128000 ClockCycles simulated *****
+# ***** 129000 ClockCycles simulated *****
+# ***** 130000 ClockCycles simulated *****
+# ***** 131000 ClockCycles simulated *****
+# ***** 132000 ClockCycles simulated *****
+# ***** 133000 ClockCycles simulated *****
+# ***** 134000 ClockCycles simulated *****
+# ***** 135000 ClockCycles simulated *****
+# ***** 136000 ClockCycles simulated *****
+# ***** 137000 ClockCycles simulated *****
+# ***** 138000 ClockCycles simulated *****
+# ***** 139000 ClockCycles simulated *****
+# ***** 140000 ClockCycles simulated *****
+# ***** 141000 ClockCycles simulated *****
+# ***** 142000 ClockCycles simulated *****
+# ***** 143000 ClockCycles simulated *****
+# ***** 144000 ClockCycles simulated *****
+# ***** 145000 ClockCycles simulated *****
+# ***** 146000 ClockCycles simulated *****
+# ***** 147000 ClockCycles simulated *****
+# ***** 148000 ClockCycles simulated *****
+# ***** 149000 ClockCycles simulated *****
+# ***** 150000 ClockCycles simulated *****
+# ***** 151000 ClockCycles simulated *****
+# ***** 152000 ClockCycles simulated *****
+# ***** 153000 ClockCycles simulated *****
+# ***** 154000 ClockCycles simulated *****
+# ***** 155000 ClockCycles simulated *****
+# ***** 156000 ClockCycles simulated *****
+# ***** 157000 ClockCycles simulated *****
+# ***** 158000 ClockCycles simulated *****
+# ***** 159000 ClockCycles simulated *****
+# ***** 160000 ClockCycles simulated *****
+# ***** 161000 ClockCycles simulated *****
+# ***** 162000 ClockCycles simulated *****
+# ***** 163000 ClockCycles simulated *****
+# ***** 164000 ClockCycles simulated *****
+# ***** 165000 ClockCycles simulated *****
+# ***** 166000 ClockCycles simulated *****
+# ***** 167000 ClockCycles simulated *****
+# ***** 168000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 3361010 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 3362190 ns  Iteration: 1  Instance: /test
+# ***** 169000 ClockCycles simulated *****
+# ***** 170000 ClockCycles simulated *****
+# ***** 171000 ClockCycles simulated *****
+# ***** 172000 ClockCycles simulated *****
+# ***** 173000 ClockCycles simulated *****
+# ***** 174000 ClockCycles simulated *****
+# ***** 175000 ClockCycles simulated *****
+# ***** 176000 ClockCycles simulated *****
+# ***** 177000 ClockCycles simulated *****
+# ***** 178000 ClockCycles simulated *****
+# ***** 179000 ClockCycles simulated *****
+# ***** 180000 ClockCycles simulated *****
+# ***** 181000 ClockCycles simulated *****
+# ***** 182000 ClockCycles simulated *****
+# ***** 183000 ClockCycles simulated *****
+# ***** 184000 ClockCycles simulated *****
+# ***** 185000 ClockCycles simulated *****
+# ***** 186000 ClockCycles simulated *****
+# ***** 187000 ClockCycles simulated *****
+# ***** 188000 ClockCycles simulated *****
+# ***** 189000 ClockCycles simulated *****
+# ***** 190000 ClockCycles simulated *****
+# ***** 191000 ClockCycles simulated *****
+# ***** 192000 ClockCycles simulated *****
+# ***** 193000 ClockCycles simulated *****
+# ***** 194000 ClockCycles simulated *****
+# ***** 195000 ClockCycles simulated *****
+# ***** 196000 ClockCycles simulated *****
+# ***** 197000 ClockCycles simulated *****
+# ***** 198000 ClockCycles simulated *****
+# ***** 199000 ClockCycles simulated *****
+# ***** 200000 ClockCycles simulated *****
+# ***** 201000 ClockCycles simulated *****
+# ***** 202000 ClockCycles simulated *****
+# ***** 203000 ClockCycles simulated *****
+# ***** 204000 ClockCycles simulated *****
+# ***** 205000 ClockCycles simulated *****
+# ***** 206000 ClockCycles simulated *****
+# ***** 207000 ClockCycles simulated *****
+# ***** 208000 ClockCycles simulated *****
+# ***** 209000 ClockCycles simulated *****
+# ***** 210000 ClockCycles simulated *****
+# ***** 211000 ClockCycles simulated *****
+# ***** 212000 ClockCycles simulated *****
+# ***** 213000 ClockCycles simulated *****
+# ***** 214000 ClockCycles simulated *****
+# ***** 215000 ClockCycles simulated *****
+# ***** 216000 ClockCycles simulated *****
+# ***** 217000 ClockCycles simulated *****
+# ***** 218000 ClockCycles simulated *****
+# ***** 219000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 4383430 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 4384610 ns  Iteration: 1  Instance: /test
+# ***** 220000 ClockCycles simulated *****
+# ***** 221000 ClockCycles simulated *****
+# ***** 222000 ClockCycles simulated *****
+# ***** 223000 ClockCycles simulated *****
+# ***** 224000 ClockCycles simulated *****
+# ***** 225000 ClockCycles simulated *****
+# ***** 226000 ClockCycles simulated *****
+# ***** 227000 ClockCycles simulated *****
+# ***** 228000 ClockCycles simulated *****
+# ***** 229000 ClockCycles simulated *****
+# ***** 230000 ClockCycles simulated *****
+# ***** 231000 ClockCycles simulated *****
+# ***** 232000 ClockCycles simulated *****
+# ***** 233000 ClockCycles simulated *****
+# ***** 234000 ClockCycles simulated *****
+# ***** 235000 ClockCycles simulated *****
+# ***** 236000 ClockCycles simulated *****
+# ***** 237000 ClockCycles simulated *****
+# ***** 238000 ClockCycles simulated *****
+# ***** 239000 ClockCycles simulated *****
+# ***** 240000 ClockCycles simulated *****
+# ***** 241000 ClockCycles simulated *****
+# ***** 242000 ClockCycles simulated *****
+# ***** 243000 ClockCycles simulated *****
+# ***** 244000 ClockCycles simulated *****
+# ***** 245000 ClockCycles simulated *****
+# ***** 246000 ClockCycles simulated *****
+# ***** 247000 ClockCycles simulated *****
+# ***** 248000 ClockCycles simulated *****
+# ***** 249000 ClockCycles simulated *****
+# ***** 250000 ClockCycles simulated *****
+# ***** 251000 ClockCycles simulated *****
+# ***** 252000 ClockCycles simulated *****
+# ***** 253000 ClockCycles simulated *****
+# ***** 254000 ClockCycles simulated *****
+# ***** 255000 ClockCycles simulated *****
+# ***** 256000 ClockCycles simulated *****
+# ***** 257000 ClockCycles simulated *****
+# ***** 258000 ClockCycles simulated *****
+# ***** 259000 ClockCycles simulated *****
+# ***** 260000 ClockCycles simulated *****
+# ***** 261000 ClockCycles simulated *****
+# ***** 262000 ClockCycles simulated *****
+# ***** 263000 ClockCycles simulated *****
+# ***** 264000 ClockCycles simulated *****
+# ***** 265000 ClockCycles simulated *****
+# ***** 266000 ClockCycles simulated *****
+# ***** 267000 ClockCycles simulated *****
+# ***** 268000 ClockCycles simulated *****
+# ***** 269000 ClockCycles simulated *****
+# ***** 270000 ClockCycles simulated *****
+# ***** 271000 ClockCycles simulated *****
+# ***** 272000 ClockCycles simulated *****
+# ***** 273000 ClockCycles simulated *****
+# ***** 274000 ClockCycles simulated *****
+# ***** 275000 ClockCycles simulated *****
+# ***** 276000 ClockCycles simulated *****
+# ***** 277000 ClockCycles simulated *****
+# ***** 278000 ClockCycles simulated *****
+# ***** 279000 ClockCycles simulated *****
+# ***** 280000 ClockCycles simulated *****
+# ***** 281000 ClockCycles simulated *****
+# ***** 282000 ClockCycles simulated *****
+# ***** 283000 ClockCycles simulated *****
+# ***** 284000 ClockCycles simulated *****
+# ***** 285000 ClockCycles simulated *****
+# ***** 286000 ClockCycles simulated *****
+# ***** 287000 ClockCycles simulated *****
+# ***** 288000 ClockCycles simulated *****
+# ***** 289000 ClockCycles simulated *****
+# ***** 290000 ClockCycles simulated *****
+# ***** 291000 ClockCycles simulated *****
+# ***** 292000 ClockCycles simulated *****
+# ***** 293000 ClockCycles simulated *****
+# ***** 294000 ClockCycles simulated *****
+# ***** 295000 ClockCycles simulated *****
+# ***** 296000 ClockCycles simulated *****
+# ***** 297000 ClockCycles simulated *****
+# ***** 298000 ClockCycles simulated *****
+# ***** 299000 ClockCycles simulated *****
+# ***** 300000 ClockCycles simulated *****
+# ***** 301000 ClockCycles simulated *****
+# ***** 302000 ClockCycles simulated *****
+# ***** 303000 ClockCycles simulated *****
+# ***** 304000 ClockCycles simulated *****
+# ***** 305000 ClockCycles simulated *****
+# ***** 306000 ClockCycles simulated *****
+# ***** 307000 ClockCycles simulated *****
+# ***** 308000 ClockCycles simulated *****
+# ***** 309000 ClockCycles simulated *****
+# ***** 310000 ClockCycles simulated *****
+# ***** 311000 ClockCycles simulated *****
+# ***** 312000 ClockCycles simulated *****
+# ***** 313000 ClockCycles simulated *****
+# ***** 314000 ClockCycles simulated *****
+# ***** 315000 ClockCycles simulated *****
+# ***** 316000 ClockCycles simulated *****
+# ***** 317000 ClockCycles simulated *****
+# ***** 318000 ClockCycles simulated *****
+# ***** 319000 ClockCycles simulated *****
+# ***** 320000 ClockCycles simulated *****
+# ***** 321000 ClockCycles simulated *****
+# ***** 322000 ClockCycles simulated *****
+# ***** 323000 ClockCycles simulated *****
+# ***** 324000 ClockCycles simulated *****
+# ***** 325000 ClockCycles simulated *****
+# ***** 326000 ClockCycles simulated *****
+# ***** 327000 ClockCycles simulated *****
+# ***** 328000 ClockCycles simulated *****
+# ***** 329000 ClockCycles simulated *****
+# ***** 330000 ClockCycles simulated *****
+# ***** 331000 ClockCycles simulated *****
+# ***** 332000 ClockCycles simulated *****
+# ***** 333000 ClockCycles simulated *****
+# ***** 334000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 6686950 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 6688130 ns  Iteration: 1  Instance: /test
+# ***** 335000 ClockCycles simulated *****
+# ***** 336000 ClockCycles simulated *****
+# ***** 337000 ClockCycles simulated *****
+# ***** 338000 ClockCycles simulated *****
+# ***** 339000 ClockCycles simulated *****
+# ***** 340000 ClockCycles simulated *****
+# ***** 341000 ClockCycles simulated *****
+# ***** 342000 ClockCycles simulated *****
+# ***** 343000 ClockCycles simulated *****
+# ***** 344000 ClockCycles simulated *****
+# ***** 345000 ClockCycles simulated *****
+# ***** 346000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 6932910 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 6934090 ns  Iteration: 1  Instance: /test
+# ***** 347000 ClockCycles simulated *****
+# ***** 348000 ClockCycles simulated *****
+# ***** 349000 ClockCycles simulated *****
+# ***** 350000 ClockCycles simulated *****
+# ***** 351000 ClockCycles simulated *****
+# ***** 352000 ClockCycles simulated *****
+# ***** 353000 ClockCycles simulated *****
+# ***** 354000 ClockCycles simulated *****
+# ***** 355000 ClockCycles simulated *****
+# ***** 356000 ClockCycles simulated *****
+# ***** 357000 ClockCycles simulated *****
+# ***** 358000 ClockCycles simulated *****
+# ***** 359000 ClockCycles simulated *****
+# ***** 360000 ClockCycles simulated *****
+# ***** 361000 ClockCycles simulated *****
+# ***** 362000 ClockCycles simulated *****
+# ***** 363000 ClockCycles simulated *****
+# ***** 364000 ClockCycles simulated *****
+# ***** 365000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 7317690 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 7318870 ns  Iteration: 1  Instance: /test
+# ***** 366000 ClockCycles simulated *****
+# ***** 367000 ClockCycles simulated *****
+# ***** 368000 ClockCycles simulated *****
+# ***** 369000 ClockCycles simulated *****
+# ***** 370000 ClockCycles simulated *****
+# ***** 371000 ClockCycles simulated *****
+# ***** 372000 ClockCycles simulated *****
+# ***** 373000 ClockCycles simulated *****
+# ***** 374000 ClockCycles simulated *****
+# ***** 375000 ClockCycles simulated *****
+# ***** 376000 ClockCycles simulated *****
+# ***** 377000 ClockCycles simulated *****
+# ***** 378000 ClockCycles simulated *****
+# ***** 379000 ClockCycles simulated *****
+# ***** 380000 ClockCycles simulated *****
+# ***** 381000 ClockCycles simulated *****
+# ***** 382000 ClockCycles simulated *****
+# ***** 383000 ClockCycles simulated *****
+# ***** 384000 ClockCycles simulated *****
+# ***** 385000 ClockCycles simulated *****
+# ***** 386000 ClockCycles simulated *****
+# ***** 387000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 7759470 ns  Iteration: 1  Instance: /test
+# ***** 388000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 7760650 ns  Iteration: 1  Instance: /test
+# ***** 389000 ClockCycles simulated *****
+# ***** 390000 ClockCycles simulated *****
+# ***** 391000 ClockCycles simulated *****
+# ***** 392000 ClockCycles simulated *****
+# ***** 393000 ClockCycles simulated *****
+# ***** 394000 ClockCycles simulated *****
+# ***** 395000 ClockCycles simulated *****
+# ***** 396000 ClockCycles simulated *****
+# ***** 397000 ClockCycles simulated *****
+# ***** 398000 ClockCycles simulated *****
+# ***** 399000 ClockCycles simulated *****
+# ***** 400000 ClockCycles simulated *****
+# ***** 401000 ClockCycles simulated *****
+# ***** 402000 ClockCycles simulated *****
+# ***** 403000 ClockCycles simulated *****
+# ***** 404000 ClockCycles simulated *****
+# ***** 405000 ClockCycles simulated *****
+# ***** 406000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 8134750 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 8135930 ns  Iteration: 1  Instance: /test
+# ***** 407000 ClockCycles simulated *****
+# ***** 408000 ClockCycles simulated *****
+# ***** 409000 ClockCycles simulated *****
+# ***** 410000 ClockCycles simulated *****
+# ***** 411000 ClockCycles simulated *****
+# ***** 412000 ClockCycles simulated *****
+# ***** 413000 ClockCycles simulated *****
+# ***** 414000 ClockCycles simulated *****
+# ***** 415000 ClockCycles simulated *****
+# ***** 416000 ClockCycles simulated *****
+# ***** 417000 ClockCycles simulated *****
+# ***** 418000 ClockCycles simulated *****
+# ***** 419000 ClockCycles simulated *****
+# ***** 420000 ClockCycles simulated *****
+# ***** 421000 ClockCycles simulated *****
+# ***** 422000 ClockCycles simulated *****
+# ***** 423000 ClockCycles simulated *****
+# ***** 424000 ClockCycles simulated *****
+# ***** 425000 ClockCycles simulated *****
+# ***** 426000 ClockCycles simulated *****
+# ***** 427000 ClockCycles simulated *****
+# ***** 428000 ClockCycles simulated *****
+# ***** 429000 ClockCycles simulated *****
+# ***** 430000 ClockCycles simulated *****
+# ***** 431000 ClockCycles simulated *****
+# ***** 432000 ClockCycles simulated *****
+# ***** 433000 ClockCycles simulated *****
+# ***** 434000 ClockCycles simulated *****
+# ***** 435000 ClockCycles simulated *****
+# ***** 436000 ClockCycles simulated *****
+# ***** 437000 ClockCycles simulated *****
+# ***** 438000 ClockCycles simulated *****
+# ***** 439000 ClockCycles simulated *****
+# ***** 440000 ClockCycles simulated *****
+# ***** 441000 ClockCycles simulated *****
+# ***** 442000 ClockCycles simulated *****
+# ***** 443000 ClockCycles simulated *****
+# ***** 444000 ClockCycles simulated *****
+# ***** 445000 ClockCycles simulated *****
+# ***** 446000 ClockCycles simulated *****
+# ***** 447000 ClockCycles simulated *****
+# ***** 448000 ClockCycles simulated *****
+# ***** 449000 ClockCycles simulated *****
+# ***** 450000 ClockCycles simulated *****
+# ***** 451000 ClockCycles simulated *****
+# ***** 452000 ClockCycles simulated *****
+# ***** 453000 ClockCycles simulated *****
+# ***** 454000 ClockCycles simulated *****
+# ***** 455000 ClockCycles simulated *****
+# ***** 456000 ClockCycles simulated *****
+# ***** 457000 ClockCycles simulated *****
+# ***** 458000 ClockCycles simulated *****
+# ***** 459000 ClockCycles simulated *****
+# ***** 460000 ClockCycles simulated *****
+# ***** 461000 ClockCycles simulated *****
+# ***** 462000 ClockCycles simulated *****
+# ***** 463000 ClockCycles simulated *****
+# ***** 464000 ClockCycles simulated *****
+# ***** 465000 ClockCycles simulated *****
+# ***** 466000 ClockCycles simulated *****
+# ***** 467000 ClockCycles simulated *****
+# ***** 468000 ClockCycles simulated *****
+# ***** 469000 ClockCycles simulated *****
+# ***** 470000 ClockCycles simulated *****
+# ***** 471000 ClockCycles simulated *****
+# ***** 472000 ClockCycles simulated *****
+# ***** 473000 ClockCycles simulated *****
+# ***** 474000 ClockCycles simulated *****
+# ***** 475000 ClockCycles simulated *****
+# ***** 476000 ClockCycles simulated *****
+# ***** 477000 ClockCycles simulated *****
+# ***** 478000 ClockCycles simulated *****
+# ***** 479000 ClockCycles simulated *****
+# ***** 480000 ClockCycles simulated *****
+# ***** 481000 ClockCycles simulated *****
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 9633310 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER(UNSIGNED) input array has 32 bits and MSB is not zero.
+#    Time: 9634490 ns  Iteration: 1  Instance: /test
+# ***** 482000 ClockCycles simulated *****
+# ***** 483000 ClockCycles simulated *****
+# ***** 484000 ClockCycles simulated *****
+# ***** 485000 ClockCycles simulated *****
+# ***** 486000 ClockCycles simulated *****
+# ***** 487000 ClockCycles simulated *****
+#           ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# ***** 487243 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 9745 us  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd line 500
+quit -sim
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim:$ls
+audio.out      Helper.vhd  MemoryMapperTypes.vhd  modelsim_trace.out  TestData.DM  TestData.OUT  vsim.wlf  work
+dlx_basis.mpf  lcd.out     MemoryMapper.vhd       tb_ASIPmeister.vhd  TestData.IM  uart.out      wave.do
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim:$diff3 lcd.out ../Applications/Loop/output_gcc.txt ../Applications/Loop/output_dlxsim.txt 
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/TestAVG:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/TestAVG:$make sim
+-----------------------------------------------
+Transforming file "avg_test.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+extendAssemblerDescriptionFile:	Assembler Description File successfully extended.
+Copying files to 'i80pc06' to execute the assembler:
+pas                                                                                                                                                 100%  283KB 283.4KB/s   00:00    
+dlx_avg_extended_noGPR.des                                                                                                                          100%   18KB  17.6KB/s   00:00    
+TestAVG.asm                                                                                                                                         100% 1176     1.2KB/s   00:00    
+TestAVG.out                                                                                                                                         100% 3280     3.2KB/s   00:00    
+pasError.txt                                                                                                                                        100%  156     0.2KB/s   00:00    
+scanForSymbols:			0 Undefined or Multiple Defined Symbols found
+extendDMfile:			0 gaps in TestData.DM found.
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/TestAVG:$make dlxsim
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/TestAVG.dlxsim -da0 -pd4
+Biggest used address for Text Section (word aligned): 0xe4
+Biggest used address for Data Section (word aligned): 0x124
+(dlxsim) get array 16u
+array+0x00 (0x00e8):	5
+array+0x04 (0x00ec):	7
+array+0x08 (0x00f0):	0
+array+0x0c (0x00f4):	0
+array+0x10 (0x00f8):	15
+array+0x14 (0x00fc):	7
+array+0x18 (0x0100):	0
+array+0x1c (0x0104):	0
+array+0x20 (0x0108):	25
+array+0x24 (0x010c):	4294967289
+array+0x28 (0x0110):	0
+array+0x2c (0x0114):	0
+array+0x30 (0x0118):	4294967279
+array+0x34 (0x011c):	5
+array+0x38 (0x0120):	0
+array+0x3c (0x0124):	0
+(dlxsim) go
+TRAP #0 received
+Altogether 135,0e0(135) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) get array 16u
+array+0x00 (0x00e8):	5
+array+0x04 (0x00ec):	7
+array+0x08 (0x00f0):	6
+array+0x0c (0x00f4):	0
+array+0x10 (0x00f8):	15
+array+0x14 (0x00fc):	7
+array+0x18 (0x0100):	11
+array+0x1c (0x0104):	0
+array+0x20 (0x0108):	25
+array+0x24 (0x010c):	4294967289
+array+0x28 (0x0110):	9
+array+0x2c (0x0114):	0
+array+0x30 (0x0118):	4294967279
+array+0x34 (0x011c):	5
+array+0x38 (0x0120):	4294967290
+array+0x3c (0x0124):	0
+(dlxsim) q
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/TestAVG:$
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc02:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/TestAVG:$make sim
+-----------------------------------------------
+Transforming file "avg_test.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+extendAssemblerDescriptionFile:	Assembler Description File successfully extended.
+Copying files to 'i80pc06' to execute the assembler:
+pas                                                                                                                                                                        100%  283KB 283.4KB/s   00:00    
+dlx_avg_extended_noGPR.des                                                                                                                                                 100%   19KB  18.7KB/s   00:00    
+TestAVG.asm                                                                                                                                                                100% 1514     1.5KB/s   00:00    
+TestAVG.out                                                                                                                                                                100% 4236     4.1KB/s   00:00    
+pasError.txt                                                                                                                                                               100%  156     0.2KB/s   00:00    
+scanForSymbols:			0 Undefined or Multiple Defined Symbols found
+extendDMfile:			0 gaps in TestData.DM found.
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+
+asip04@i80labpc02:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/TestAVG:$make dlxsim
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/TestAVG.dlxsim -da0 -pd4
+Biggest used address for Text Section (word aligned): 0x140
+Biggest used address for Data Section (word aligned): 0x1a0
+(dlxsim) get array 24
+array+0x00 (0x0144):	0x00000005
+array+0x04 (0x0148):	0x00000011
+array+0x08 (0x014c):	0x00000000
+array+0x0c (0x0150):	0x00000000
+array+0x10 (0x0154):	0x00000000
+array+0x14 (0x0158):	0x00000000
+array+0x18 (0x015c):	0x0000000f
+array+0x1c (0x0160):	0x00000007
+array+0x20 (0x0164):	0x00000000
+array+0x24 (0x0168):	0x00000000
+array+0x28 (0x016c):	0x00000000
+array+0x2c (0x0170):	0x00000000
+array+0x30 (0x0174):	0x00000019
+array+0x34 (0x0178):	0x0000000f
+array+0x38 (0x017c):	0x00000000
+array+0x3c (0x0180):	0x00000000
+array+0x40 (0x0184):	0x00000000
+array+0x44 (0x0188):	0x00000000
+array+0x48 (0x018c):	0x00080000
+array+0x4c (0x0190):	0x00000009
+array+0x50 (0x0194):	0x00000000
+array+0x54 (0x0198):	0x00000000
+array+0x58 (0x019c):	0x00000000
+array+0x5c (0x01a0):	0x00000000
+(dlxsim) go
+TRAP #0 received
+Altogether 239,0e0(239) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) get array 24
+array+0x00 (0x0144):	0x00000005
+array+0x04 (0x0148):	0x00000011
+array+0x08 (0x014c):	0x0000000b
+array+0x0c (0x0150):	0x00000005
+array+0x10 (0x0154):	0x00000011
+array+0x14 (0x0158):	0x00050000
+array+0x18 (0x015c):	0x0000000f
+array+0x1c (0x0160):	0x00000007
+array+0x20 (0x0164):	0x0000000b
+array+0x24 (0x0168):	0x00000007
+array+0x28 (0x016c):	0x0000000f
+array+0x2c (0x0170):	0x000f0000
+array+0x30 (0x0174):	0x00000019
+array+0x34 (0x0178):	0x0000000f
+array+0x38 (0x017c):	0x00000014
+array+0x3c (0x0180):	0x0000000f
+array+0x40 (0x0184):	0x00000019
+array+0x44 (0x0188):	0x00190000
+array+0x48 (0x018c):	0x00080000
+array+0x4c (0x0190):	0x00000009
+array+0x50 (0x0194):	0x00040004
+array+0x54 (0x0198):	0x00000009
+array+0x58 (0x019c):	0x00080000
+array+0x5c (0x01a0):	0x00000008
+(dlxsim) q
+asip04@i80labpc02:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/TestAVG:$
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make sim
+-----------------------------------------------
+Compiling file "arrayloop.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/basiscc --*.utinit:WCHARTD:char  arrayloop.cc'
+"../arrayloop.cc" line 122: Warning: 'foo' possibly uninitialized
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			196 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "arrayloop.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "lib_lcd_dlxsim.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/basiscc --*.utinit:WCHARTD:char  lib_lcd_dlxsim.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			309 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "lib_lcd_dlxsim.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "loadStoreByte.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/basiscc --*.utinit:WCHARTD:char  loadStoreByte.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			30 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "loadStoreByte.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "string.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/basiscc --*.utinit:WCHARTD:char  string.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			624 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "string.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+extendAssemblerDescriptionFile:	Assembler Description File successfully extended.
+Copying files to 'i80pc06' to execute the assembler:
+pas                                                                                                                                                 100%  283KB 283.4KB/s   00:00    
+dlx_avg_extended_noGPR.des                                                                                                                          100%   19KB  18.7KB/s   00:00    
+Loop.asm                                                                                                                                            100%   91KB  91.0KB/s   00:00    
+Loop.out                                                                                                                                            100%  190KB 190.4KB/s   00:00    
+pasError.txt                                                                                                                                        100% 8853     8.7KB/s   00:00    
+scanForSymbols:			0 Undefined or Multiple Defined Symbols found
+extendDMfile:			1 gaps in TestData.DM found and fixed!!.
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$
+arrayloop.c
+
+#ifndef COSY
+  #include <stdio.h>
+#else
+  #include "lib_lcd.h"
+#endif
+
+#define LENGTH 20
+
+int input1[LENGTH] = {321,51,890345,75,78,7,34478651,2342,568,7894578,7,3461,1235,3467753,75,685,79,45568564,35,7625};
+int input2[LENGTH] = {45,765,12,78,74,42,1253,236377,5683,79,86,643,52314576,3461,57,785,79,47,3461,2513};
+
+int resultAvg [LENGTH];
+int resultSwap[LENGTH];
+int resultMax [LENGTH];
+int resultMin [LENGTH];
+int resultRor [LENGTH];
+
+
+//#define avgg(a,b)  ( ((a)+(b)) / 2 )
+// swap: the highest 16 bit and the lowest 16 bit of the 32 bit value are swapped
+//#define swapp(a)   ( (((a)<<16) & 0xFFFF0000) | (((a)>>16) & 0x0000FFFF) )
+//#define max(a, b) ( (a)>(b) ? (a):(b) )
+//#define min(a, b) ( (a)<(b) ? (a):(b))
+// rotates a for b bits to the right
+#define ror(a, b) ( ((a)>>(b)) | ((a)<<(32-(b))) )
+
+//struct myStruct { int mini; int maxi; };
+struct myStruct { int mn; int mx; };
+
+#ifdef COSY
+asm int addComment(){
+@[.barrier]
+; COMMENT: Between the i- and the j-loop
+}
+asm int avgg (int a, int b)
+{
+	@[.barrier]
+	; This comment is written to the created assembly file
+	nop
+	nop
+	nop
+	avg @{}, @{a}, @{b}
+	nop
+	nop
+	nop
+}
+asm int swapp (int a)
+{
+	@[.barrier]
+	; This comment is written to the created assembly file
+	nop
+	nop
+	nop
+	swap @{}, @{a}
+	nop
+	nop
+	nop
+}
+
+
+asm struct myStruct extreme(int a, int b)
+{
+	@[.barrier]
+	;this comment is written to the created assembly file
+	nop
+	nop
+	nop
+	minmax @{mn}, @{mx}, @{a}, @{b}
+	nop
+	nop
+	nop
+}
+
+
+#else
+
+#endif
+int main() {
+	int i;
+	int foo;
+	struct myStruct temp;
+	for (i=0; i<LENGTH; i++) {
+		//resultAvg[i]  = avgg(input1[i], input2[i]); // Average
+		//resultSwap[i] = swapp(input1[i]);           // Swap
+		//resultMax[i]  = max(input1[i], input2[i]); // Maximum
+		//resultMin[i]  = min(input1[i], input2[i]); // Minimum
+		foo=4;
+		temp=extreme(input1[i], input2[i]); // Minimum maximum
+		foo=42;
+		resultAvg[i]  = avgg(input1[i], input2[i]); // Average
+		resultMax[i] = temp.mx;
+		foo=2;
+		resultSwap[i] = swapp(input1[i]);           // Swap
+		resultMin[i] = temp.mn;
+		resultRor[i]  = ror(input1[i], 4);         // Rotate
+  }
+
+  for (i=0; i<LENGTH; i++) {
+#ifndef COSY
+    //    printf("i1:0x%-9Xi2:0x%-9Xavg:0x%-9Xswap:0x%-9Xmax:0x%-9Xmin:0x%-9Xror:0x%-9X\n", input1[i], input2[i], resultAvg[i], resultSwap[i], resultMax[i], resultMin[i], resultRor[i] );
+    printf("i1:\t%i\ti2:\t%i\tavg:\t%i\tswap:\t%i\tmax:\t%i\tmin:\t%i\tror:\t%i\n", input1[i], input2[i], resultAvg[i], resultSwap[i], resultMax[i], resultMin[i], resultRor[i] );
+#else
+    t_print("i1:\t");
+    t_printInt(input1[i]);
+    t_print("\ti2:\t");
+    t_printInt(input2[i]);
+    t_print("\tavg:\t");
+    t_printInt(resultAvg[i]);
+    t_print("\tswap:\t");
+    t_printInt(resultSwap[i]);
+    t_print("\tmax:\t");
+    t_printInt(resultMax[i]);
+    t_print("\tmin:\t");
+    t_printInt(resultMin[i]);
+    t_print("\tror:\t");
+    t_printInt(resultRor[i]);
+    t_print("\r\n");
+#endif
+  }
+
+  return foo;
+}
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make sim COSY_PARAM=-O0 NUMBER_OF_HW_NOPS=3
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim:$vsim dlx_avg.mpf &
+# *****  13199 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 264120 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd line 500
+quit -sim
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make sim COSY_PARAM=-O1 NUMBER_OF_HW_NOPS=3
+
+           ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# *****  13110 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 262340 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd line 500
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make sim COSY_PARAM=-O2 NUMBER_OF_HW_NOPS=3
+#           ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# *****   2555 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 51240 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd line 500
+quit -sim
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make sim COSY_PARAM=-O3 NUMBER_OF_HW_NOPS=3
+           ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# *****   2555 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 51240 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd line 500
+quit -sim
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make sim COSY_PARAM=-O4 NUMBER_OF_HW_NOPS=3
+           ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# *****   2905 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 58240 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd line 500
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make sim COSY_PARAM=-O0 NUMBER_OF_HW_NOPS=0
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make dlxsim COSY_PARAM=-O0 NUMBER_OF_HW_NOPS=0
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/Loop.dlxsim -da0 -pd4
+Biggest used address for Text Section (word aligned): 0x3c44
+Biggest used address for Data Section (word aligned): 0x3e7c
+(dlxsim) go
+TRAP #0 received
+Altogether 13,2e3(13216) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) 
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make sim COSY_PARAM=-O1 NUMBER_OF_HW_NOPS=0
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make dlxsim COSY_PARAM=-O1 NUMBER_OF_HW_NOPS=0
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/Loop.dlxsim -da0 -pd4
+Biggest used address for Text Section (word aligned): 0x3968
+Biggest used address for Data Section (word aligned): 0x3ba0
+(dlxsim) go
+TRAP #0 received
+Altogether 13,1e3(13127) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) 
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make sim COSY_PARAM=-O2 NUMBER_OF_HW_NOPS=0
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make dlxsim COSY_PARAM=-O2 NUMBER_OF_HW_NOPS=0
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/Loop.dlxsim -da0 -pd4
+Biggest used address for Text Section (word aligned): 0x34e4
+Biggest used address for Data Section (word aligned): 0x371c
+(dlxsim) go
+TRAP #0 received
+Altogether 2,5e3(2552) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) 
+
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make sim COSY_PARAM=-O3 NUMBER_OF_HW_NOPS=0
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make dlxsim COSY_PARAM=-O3 NUMBER_OF_HW_NOPS=0
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/Loop.dlxsim -da0 -pd4
+Biggest used address for Text Section (word aligned): 0x34e4
+Biggest used address for Data Section (word aligned): 0x371c
+(dlxsim) go
+TRAP #0 received
+Altogether 2,5e3(2552) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) 
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make dlxsim COSY_PARAM=-O4 NUMBER_OF_HW_NOPS=0
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/Loop.dlxsim -da0 -pd4
+Biggest used address for Text Section (word aligned): 0x3b60
+Biggest used address for Data Section (word aligned): 0x3d98
+(dlxsim) go
+TRAP #0 received
+Altogether 2,9e3(2902) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) 
+
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$make sim COSY_PARAM=-O4 NUMBER_OF_HW_NOPS=0
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/Applications/Loop:$cd ../../../dlx_basis/Applications/Loop/
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$ls
+arrayloop.c        BUILD_SIM         lib_lcd.h        loadStoreByte.h  output_dlxsim.txt  prediction_table.dat  string.h
+arrayloop_gcc.out  lib_lcd_dlxsim.c  loadStoreByte.c  Makefile         output_gcc.txt     string.c
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$cp arrayloop.c arrayloop_c_with_prints
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$vim arrayloop.c 
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim:$vsim dlx_basis.mpf &
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make sim COSY_PARAM=-O0 NUMBER_OF_HW_NOPS=3
+#           ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# *****  19794 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 396020 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd line 500
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make sim COSY_PARAM=-O1 NUMBER_OF_HW_NOPS=3
+#           ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# *****  19794 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 396020 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd line 500
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make sim COSY_PARAM=-O2 NUMBER_OF_HW_NOPS=3
+# *****   4114 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 82420 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd line 500
+quit -sim
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make sim COSY_PARAM=-O3 NUMBER_OF_HW_NOPS=3
+ *****   4114 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 82420 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd line 500
+quit -sim
+
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make sim COSY_PARAM=-O4 NUMBER_OF_HW_NOPS=3
+#           ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# *****   4119 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 82520 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd line 500
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make sim COSY_PARAM=-O0 NUMBER_OF_HW_NOPS=0
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make dlxsim COSY_PARAM=-O0 NUMBER_OF_HW_NOPS=0
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/Loop.dlxsim -da0 -pd4
+Biggest used address for Text Section (word aligned): 0x3fc8
+Biggest used address for Data Section (word aligned): 0x4200
+(dlxsim) go
+TRAP #0 received
+Altogether 19,8e3(19811) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) 
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make sim COSY_PARAM=-O1 NUMBER_OF_HW_NOPS=0
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make dlxsim COSY_PARAM=-O1 NUMBER_OF_HW_NOPS=0
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/Loop.dlxsim -da0 -pd4
+Biggest used address for Text Section (word aligned): 0x3cd4
+Biggest used address for Data Section (word aligned): 0x3f0c
+(dlxsim) go
+TRAP #0 received
+Altogether 19,8e3(19811) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) q
+
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make sim COSY_PARAM=-O2 NUMBER_OF_HW_NOPS=0
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make dlxsim COSY_PARAM=-O2 NUMBER_OF_HW_NOPS=0
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/Loop.dlxsim -da0 -pd4
+Biggest used address for Text Section (word aligned): 0x3674
+Biggest used address for Data Section (word aligned): 0x38ac
+(dlxsim) go
+TRAP #0 received
+Altogether 4,1e3(4111) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) 
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make sim COSY_PARAM=-O3 NUMBER_OF_HW_NOPS=0
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make dlxsim COSY_PARAM=-O3 NUMBER_OF_HW_NOPS=0
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/Loop.dlxsim -da0 -pd4
+Biggest used address for Text Section (word aligned): 0x3674
+Biggest used address for Data Section (word aligned): 0x38ac
+(dlxsim) go
+TRAP #0 received
+Altogether 4,1e3(4111) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) 
+
+
+
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make sim COSY_PARAM=-O4 NUMBER_OF_HW_NOPS=0
+asip04@i80labpc01:~/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make dlxsim COSY_PARAM=-O4 NUMBER_OF_HW_NOPS=0
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim/dlxsim -fBUILD_SIM/Loop.dlxsim -da0 -pd4
+Biggest used address for Text Section (word aligned): 0x41c0
+Biggest used address for Data Section (word aligned): 0x43f8
+(dlxsim) go
+TRAP #0 received
+Altogether 4,1e3(4116) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) 
+========================================================================================================
+Optimization	Simulator	Cycle Count with dlx_basis	Cycle Count with dlx_avg	Speed up
+O0	ModelSim	19794	13199	1.5
+	dlxSim	19811	13216	1.5
+O1	ModelSim	19794	13110	1.5
+	dlxSim	19811	13127	1.5
+O2	ModelSim	4114	2555	1.6
+	dlxSim	4111	2552	1.6
+O3	ModelSim	4114	2555	1.6
+	dlxSim	4111	2552	1.6
+O4	ModelSim	4119	2905	1.4
+	dlxSim	4116	2902	1.4
+
+

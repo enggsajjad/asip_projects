@@ -1,0 +1,34 @@
+; Input r1(address of A), r2(address of B), 
+; r3(number of elements), r4(address of C)
+
+_main:
+	
+	; Parameters
+	lhi	r1, (_A >> 16)
+	ori	r1, r1, (_A & 0xFFFF)
+	lhi	r2, (_B >> 16)
+	ori	r2, r2, (_B & 0xFFFF)
+	addi	r3, r0, 10
+	lhi	r4, (_C >> 16)
+	ori	r4, r4, (_C & 0xFFFF)
+
+	; Loop
+	lw 	r6, 0(r4)	; Load value C
+_loop:	beqz 	r3, _end	; Step out of the loop
+	nop
+	lw	r7, 0(r2)	; Load value B[i]
+	addi	r7, r7, 5	; B[i] + 5
+	add	r7, r7, r6	; B[i] + 5 + C
+	sw	0(r1), r7	; Store result in A[i]
+	addi	r1, r1, 0x4	; Go to next value in array
+	addi	r2, r2, 0x4	; Go to next value in array
+	subi	r3, r3, 1	; Decrement counter by 1
+	j 	_loop		; Jump to loop
+	nop
+
+_end:	trap	#0
+
+
+_A:	.data.32	0,0,0,0,0,0,0,0,0,0
+_B:	.data.32	0,1,2,3,4,5,6,7,8,9
+_C:	.data.32	42

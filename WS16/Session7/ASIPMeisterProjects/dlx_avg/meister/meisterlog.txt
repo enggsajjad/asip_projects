@@ -1,0 +1,40 @@
+12/6/16 12:43 PM : "Main menu" start.
+12/6/16 12:43 PM : Load file ".ASIPmeister.ini".
+12/6/16 12:43 PM : Load file "dlx_basis.pdb".
+12/6/16 12:43 PM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+12/6/16 12:43 PM : Load file "dlx_basis_mod.log".
+12/6/16 12:43 PM : "null" complete.
+12/6/16 12:43 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+12/6/16 12:43 PM : Load file "dlx_basis_tr.log".
+12/6/16 12:43 PM : "null" complete.
+12/6/16 12:45 PM : "Main menu" quit.
+12/7/16 3:52 AM : "Main menu" start.
+12/7/16 3:52 AM : Load file ".ASIPmeister.ini".
+12/7/16 3:52 AM : Load file "dlx_avg.pdb".
+12/7/16 3:52 AM :  modelgen both dlx_avg dlx_avg_mod.log finished as normally.
+12/7/16 3:52 AM : Load file "dlx_avg_mod.log".
+12/7/16 3:52 AM : "null" complete.
+12/7/16 3:53 AM :  translator swdev dlx_avg dlx_avg_tr.log finished as normally.
+12/7/16 3:53 AM : Load file "dlx_avg_tr.log".
+12/7/16 3:53 AM : "null" complete.
+12/7/16 3:53 AM : "Main menu" quit.
+12/7/16 4:53 PM : "Main menu" start.
+12/7/16 4:53 PM : Load file ".ASIPmeister.ini".
+12/7/16 4:53 PM : Load file "dlx_avg_ss14.pdb".
+12/7/16 4:53 PM : "Instruction Definition" complete.
+12/7/16 4:53 PM : "Instruction Definition" start edit.
+12/7/16 4:54 PM : "Instruction Definition" finish edit.
+12/7/16 4:54 PM : "Micro Op. Description" complete.
+12/7/16 4:54 PM : "Micro Op. Description" start edit.
+12/7/16 4:54 PM : "Micro Op. Description" finish edit.
+12/7/16 4:54 PM : "Behavior Description" complete.
+12/7/16 4:54 PM : "Behavior Description" start edit.
+12/7/16 4:55 PM : "Behavior Description" finish edit.
+12/7/16 4:55 PM : "Main menu" quit.
+10/4/17 7:41 PM : "Main menu" start.
+10/4/17 7:41 PM : Load file ".ASIPmeister.ini".
+10/4/17 7:41 PM : Load file "dlx_avg.pdb".
+10/4/17 7:41 PM : "Instruction Definition" complete.
+10/4/17 7:41 PM : "Instruction Definition" start edit.
+10/4/17 7:41 PM : "Instruction Definition" finish edit.
+10/4/17 7:41 PM : "Main menu" quit.

@@ -1,0 +1,42 @@
+Steps:
+. Copy /home/asip00/Session2 to /home/asip04/LabASIP/Session2
+. Copy ASIPMeisterProject folder into /home/asip04/LabASIP/Session2/ and name the folder dlx_LaboratoryBasis as dlx_basis
+. Set the env_settings, like 
+export PROJECT_NAME=dlx_basis
+export CPU_NAME=dlx_LaboratoryWithoutAdd
+export ASIPMEISTER_PROJECTS_DIR=/home/asip04/LabASIP/Session2/ASIPMeisterProjects
+.There is a assembly file in Session2 folder, make individual folder for this under Applications folder, according to their name and copy it.
+. Copy the Makefile from TestPrint folder to newly created Application.
+. Copy dlx_LaboratoryWithoutAdd.pdb to /home/asip04/LabASIP/Session2/ASIPMeisterProjects/dlx_basis/
+. Now open ASIPmeister dlx_LaboratoryWithoutAdd.pdb &, and add the removed ADD instructions. Save this file.
+. Generate the simulation & synthesis vhdl files ans SW tools as well.
+. Inside Application run: 
+	make clean
+	make sim	
+	asip04@i80labpc02:~/LabASIP/Session2/ASIPMeisterProjects/dlx_basis/Applications/6_for:$make dlxsim DLXSIM_PARAM="-fBUILD_SIM/6_for.dlxsim -da0 -pd4"
+	gives error due to same directory and file name.
+	asip04@i80labpc02:~/LabASIP/Session2/ASIPMeisterProjects/dlx_basis/Applications/Loop:$make dlxsim DLXSIM_PARAM="-fBUILD_SIM/Loop.dlxsim -da0 -pd4"
+. This will execute the assembly program using dlxsim. Run the program with "go", "step" and "get" commands
+
+
+ModelSIM
+Go into ModelSim directory and open ModelSim using VSIM
+Make new project: File>New Project
+	Project Name:dlx_basis
+	Project Location:/home/asip04/LabASIP/Session2/ASIPMeisterProjects/dlx_basis/ModelSim
+	Default Library Name: work
+	Copy Settings from: /Software/ModelSim/ModelSim_6.6d/modeltech/modelsim.ini
+Add Existing vhdl files from:
+	/home/asip04/LabASIP/Session2/ASIPMeisterProjects/dlx_basis/ModelSim
+	/home/asip04/LabASIP/Session2/ASIPMeisterProjects/dlx_basis/meister/dlx_LaboratoryWithoutAdd.syn
+
+Compile > Compile Order > Auto Generate > OK > OK
+Simulate > Start Simulation > Select Work.cfg > OK
+Tools > Tcl > Execute Macro > select wave.do > open
+Simulate > Run-All
+After some time the simulation breaks at ** Failure: SUCCESSFUL: Simulation End.
+See the waveform
+Simulate > End Simulation
+
+
+Check /ModelSim:$vim TestData.OUT, It should contain the valid data.

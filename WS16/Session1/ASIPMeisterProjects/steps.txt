@@ -1,0 +1,10 @@
+Steps:
+. Copy /home/asip00/Session1 to /home/asip04/LabASIP/Session1
+. Copy ASIPMeisterProject folder into /home/asip04/LabASIP/Session1/ and name the folder dlx_LaboratoryBasis as dlx_basis
+. Set the env_settings, like 
+export PROJECT_NAME=dlx_basis
+export ASIPMEISTER_PROJECTS_DIR=/home/asip04/LabASIP/Session1/ASIPMeisterProjects
+.There are some assembly files in Session1 folder, make individual folder for each under Applications folder, according to their name and copy each.
+. Copy the Makefile from TestPrint folder to each newly created Application.
+. Inside each Application run: make dlxsim DLXSIM_PARAM="-f1_Arith.s -da0 -pd1"
+. This will execute the assembly program using dlxsim. Run the program with "go", "step" and "get" commands

@@ -1,0 +1,119 @@
+asip04@i80labpc01:~/LabASIP/Session9/ASIPMeisterProjects/dlx_basis/Applications/mini:$make sim
+-----------------------------------------------
+Compiling file "adpcm.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session9/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  adpcm.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			189 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "adpcm.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "lib_lcd_dlxsim.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session9/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  lib_lcd_dlxsim.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			309 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "lib_lcd_dlxsim.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "lib_uart.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session9/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  lib_uart.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			101 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "lib_uart.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "loadStoreByte.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session9/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  loadStoreByte.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			30 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "loadStoreByte.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Compiling file "string.c" for target SIMULATION:
+-----------------------------------------------
+TARGET = SIMULATION
+Compiling:                      '/home/asip04/LabASIP/Session9/ASIPMeisterProjects/dlx_basis/basiscc --*.utinit:WCHARTD:char  string.cc'
+ADD_NOPS:			0
+MAX_ALLOWED_SUCCESSIVE_NOPS:	3
+findByteAccess:			0 Store Byte (sb) / Store HalfWord (sh) Commands found.
+findLoadStoreProblem:           DISABLED
+findDataDependency:		0 unresolved Data Dependecies for compare-branch-commands found.
+findCompareBranchProblem:	0 compare-branch problems found.
+fix-stall-insns:                DISABLED
+addNopAfterLabels:              DISABLED
+addNops:                        DISABLED
+reduceNOPs:			624 NOPs removed
+findCompareUnsigned:		0 Compare Unsigned Instructions found.
+-----------------------------------------------
+FINISHED COMPILING file "string.c" for target SIMULATION.
+-----------------------------------------------
+
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+extendAssemblerDescriptionFile:	Assembler Description File successfully extended.
+Copying files to 'i80pc06' to execute the assembler:
+pas                                                                                                                                                                        100%  283KB 283.4KB/s   00:00    
+dlx_basis_extended_noGPR.des                                                                                                                                               100%   17KB  17.3KB/s   00:00    
+mini.asm                                                                                                                                                                   100%  107KB 107.0KB/s   00:00    
+mini.out                                                                                                                                                                   100%  224KB 224.4KB/s   00:00    
+pasError.txt                                                                                                                                                               100% 9282     9.1KB/s   00:00    
+scanForSymbols:			0 Undefined or Multiple Defined Symbols found
+extendDMfile:			0 gaps in TestData.DM found.
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+
+asip04@i80labpc01:~/LabASIP/Session9/ASIPMeisterProjects/dlx_basis/Applications/mini:$

@@ -1,0 +1,965 @@
+Release 13.2 ngdbuild O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: /Software/xilinx/13.2/ISE_DS/ISE/bin/lin/unwrapped/ngdbuild
+-intstyle ise -dd _ngo -nt timestamp -uc dlx_toplevel.ucf -bm blockram.bmm -p
+xc5vlx110t-ff1136-1 dlx_toplevel.ngc dlx_toplevel.ngd
+
+Reading NGO file
+"/home/asip04/WS16/Session8/ASIPMeisterProjects/dlx_basis/ISE_Framework/dlx_topl
+evel.ngc" ...
+Loading design module
+"/home/asip04/WS16/Session8/ASIPMeisterProjects/dlx_basis/ISE_Framework/fifo_gen
+erator_v2_1.ngc"...
+Loading design module
+"/home/asip04/WS16/Session8/ASIPMeisterProjects/dlx_basis/ISE_Framework/audio_ou
+t_fifo.ngc"...
+Loading design module
+"/home/asip04/WS16/Session8/ASIPMeisterProjects/dlx_basis/ISE_Framework/brom_im.
+ngc"...
+Loading design module
+"/home/asip04/WS16/Session8/ASIPMeisterProjects/dlx_basis/ISE_Framework/bram_dm.
+ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "dlx_toplevel.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'clk_in', used in period specification 'TS_clk',
+   was traced into DCM_ADV instance DCM_ADV_INST. The following new TNM groups
+   and period specifications were generated at the DCM_ADV output(s): 
+   CLK0: <TIMESPEC TS_Inst_DCM_100_CLK0_BUF = PERIOD "Inst_DCM_100_CLK0_BUF"
+   TS_clk HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'Inst_DCM_100_CLK0_BUF', used in period
+   specification 'TS_Inst_DCM_100_CLK0_BUF', was traced into PLL_ADV instance
+   PLL_ADV_INST. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_Inst_DCM_100_CLKOUT0_BUF = PERIOD
+   "Inst_DCM_100_CLKOUT0_BUF" TS_Inst_DCM_100_CLK0_BUF HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'Inst_DCM_100_CLK0_BUF', used in period
+   specification 'TS_Inst_DCM_100_CLK0_BUF', was traced into PLL_ADV instance
+   PLL_ADV_INST. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_Inst_DCM_100_CLKOUT1_BUF = PERIOD
+   "Inst_DCM_100_CLKOUT1_BUF" TS_Inst_DCM_100_CLK0_BUF * 0.8 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'Inst_DCM_100_CLK0_BUF', used in period
+   specification 'TS_Inst_DCM_100_CLK0_BUF', was traced into PLL_ADV instance
+   PLL_ADV_INST. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_Inst_DCM_100_CLKOUT2_BUF = PERIOD
+   "Inst_DCM_100_CLKOUT2_BUF" TS_Inst_DCM_100_CLK0_BUF * 0.666666667 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'Inst_DCM_100_CLK0_BUF', used in period
+   specification 'TS_Inst_DCM_100_CLK0_BUF', was traced into PLL_ADV instance
+   PLL_ADV_INST. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT3: <TIMESPEC TS_Inst_DCM_100_CLKOUT3_BUF = PERIOD
+   "Inst_DCM_100_CLKOUT3_BUF" TS_Inst_DCM_100_CLK0_BUF * 0.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'Inst_DCM_100_CLK0_BUF', used in period
+   specification 'TS_Inst_DCM_100_CLK0_BUF', was traced into PLL_ADV instance
+   PLL_ADV_INST. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT4: <TIMESPEC TS_Inst_DCM_100_CLKOUT4_BUF = PERIOD
+   "Inst_DCM_100_CLKOUT4_BUF" TS_Inst_DCM_100_CLK0_BUF * 0.4 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'Inst_DCM_100_CLK0_BUF', used in period
+   specification 'TS_Inst_DCM_100_CLK0_BUF', was traced into PLL_ADV instance
+   PLL_ADV_INST. The following new TNM groups and period specifications were
+   generated at the PLL_ADV output(s): 
+   CLKOUT5: <TIMESPEC TS_Inst_DCM_100_CLKOUT5_BUF = PERIOD
+   "Inst_DCM_100_CLKOUT5_BUF" TS_Inst_DCM_100_CLK0_BUF * 0.25 HIGH 50%>
+
+Done...
+
+Processing BMM file "blockram.bmm" ...
+
+INFO:NgdBuild:1222 - Setting CLKIN_PERIOD attribute associated with DCM instance
+   DCM_ADV_INST to 10.000000 ns based on the period specification (<TIMESPEC
+   "TS_clk" = PERIOD "clk_in" 100 MHz HIGH 50 %;> [dlx_toplevel.ucf(3)]).
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'CPU0/uf_alu0_mode<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/uf_div0_clear' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/uf_mul0_clear' has no driver
+WARNING:NgdBuild:452 - logical net 'N195' has no driver
+WARNING:NgdBuild:452 - logical net 'N196' has no driver
+WARNING:NgdBuild:452 - logical net 'N197' has no driver
+WARNING:NgdBuild:452 - logical net 'N198' has no driver
+WARNING:NgdBuild:452 - logical net 'N199' has no driver
+WARNING:NgdBuild:452 - logical net 'N200' has no driver
+WARNING:NgdBuild:452 - logical net 'N201' has no driver
+WARNING:NgdBuild:452 - logical net 'N202' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/b<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_PC/add1/cout' has no driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<10>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<12>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<13>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<14>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<15>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<16>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<17>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<18>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<19>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<20>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<21>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<30>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<31>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_pca9564_registers<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_statemachine_state<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_statemachine_state<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_statemachine_state<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_statemachine_state<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_statemachine_state<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_statemachine_state<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_statemachine_state<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'i2c_core/debug_statemachine_state<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/flag' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<10>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<12>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<13>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<14>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<15>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<16>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<17>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<18>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<19>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<20>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<21>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<30>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<31>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_r/two_conv/b<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<10>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<12>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<13>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<14>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<15>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<16>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<17>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<18>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<19>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<20>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<21>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<30>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<31>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_q/two_conv/b<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<10>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<12>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<13>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<14>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<15>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<16>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<17>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<18>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<19>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<20>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<21>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<30>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<31>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_b/two_conv/b<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<10>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<12>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<13>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<14>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<15>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<16>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<17>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<18>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<19>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<20>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<21>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<30>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<31>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/conv_a/two_conv/b<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_DIV0/divu/add0/cin' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<32>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<33>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<34>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<35>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<36>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<37>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<38>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<39>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<40>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<41>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<42>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<43>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<44>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<45>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<46>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<47>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<48>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<49>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<50>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<51>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<52>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<53>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<54>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<55>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<56>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<57>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<58>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<59>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<60>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<61>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<62>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/tmp_result<63>' has no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<10>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<12>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<13>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<14>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<15>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<16>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<17>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<18>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<19>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<20>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<21>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<30>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<31>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_b/two_conv/b<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<10>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<12>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<13>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<14>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<15>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<16>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<17>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<18>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<19>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<20>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<21>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<30>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<31>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_a/two_conv/b<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<32>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<33>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<34>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<35>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<36>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<37>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<38>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<39>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<40>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<41>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<42>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<43>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<44>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<45>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<46>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<47>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<48>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<49>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<50>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<51>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<52>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<53>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<54>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<55>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<56>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<57>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<58>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<59>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<60>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<61>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<62>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/mulu/from_add<63>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<32>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<33>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<34>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<35>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<36>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<37>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<38>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<39>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<40>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<41>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<42>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<43>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<44>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<45>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<46>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<47>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<48>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<49>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<50>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<51>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<52>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<53>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<54>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<55>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<56>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<57>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<58>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<59>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<60>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<61>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<62>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/a<63>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<0>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<10>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<11>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<12>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<13>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<14>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<15>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<16>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<17>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<18>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<19>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<1>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<20>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<21>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<22>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<23>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<24>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<25>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<26>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<27>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<28>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<29>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<2>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<30>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<31>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<32>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<33>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<34>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<35>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<36>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<37>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<38>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<39>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<3>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<40>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<41>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<42>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<43>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<44>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<45>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<46>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<47>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<48>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<49>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<4>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<50>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<51>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<52>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<53>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<54>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<55>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<56>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<57>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<58>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<59>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<5>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<60>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<61>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<62>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<63>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<6>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<7>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<8>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'CPU0/UF_MUL0/conv_result/two_conv/b<9>' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<32>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<33>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<34>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<35>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<36>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<37>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<38>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<39>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<40>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<41>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<42>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<43>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<44>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<45>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<46>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<47>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<48>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<49>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<50>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<51>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<52>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<53>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<54>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<55>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<56>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<57>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<58>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<59>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<60>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<61>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<62>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'CPU0/UF_MUL0/conv_result/two_conv/result<63>' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 470
+
+Total memory usage is 138040 kilobytes
+
+Writing NGD file "dlx_toplevel.ngd" ...
+Total REAL time to NGDBUILD completion:  32 sec
+Total CPU time to NGDBUILD completion:   28 sec
+
+Writing NGDBUILD log file "dlx_toplevel.bld"...

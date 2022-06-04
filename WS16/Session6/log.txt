@@ -1,0 +1,1572 @@
+Using previous Session Modelsim and Applications
+
+dlx_basis
+=============
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/Applications:$cd SW_Pipeline/
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/Applications/SW_Pipeline:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/Applications/SW_Pipeline:$make sim
+-----------------------------------------------
+Transforming file "Bubblesort_LCD_forSW.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+extendAssemblerDescriptionFile:	Assembler Description File successfully extended.
+Copying files to 'i80pc06' to execute the assembler:
+pas                                                                                                                                                 100%  283KB 283.4KB/s   00:00    
+dlx_basis_extended_noGPR.des                                                                                                                        100%   17KB  17.3KB/s   00:00    
+SW_Pipeline.asm                                                                                                                                     100%   95KB  94.9KB/s   00:00    
+SW_Pipeline.out                                                                                                                                     100%  198KB 198.0KB/s   00:00    
+pasError.txt                                                                                                                                        100% 9399     9.2KB/s   00:00    
+scanForSymbols:			0 Undefined or Multiple Defined Symbols found
+extendDMfile:			0 gaps in TestData.DM found.
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/Applications/SW_Pipeline:$cd ../../ModelSim/
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/ModelSim:$vsim dlx_basis.mpf &
+
+ModelSim:
+(1) Configure the CPU Frequency for which you want to run the power estimation. Open the
+ModelSim testbench (tb_ASIPmeister.vhd), search for CLK_HALF_PERIOD, and
+change the value accordingly. Take care: For simulation-reasons this value corresponds
+to the time (in nano seconds) of a half clock period. For example, 10 ns half period cor-
+respond to 20 ns clock period, which is 50 MHz frequency.
+(2) Compile the project Compile  > Compile Order  > Auto Generate
+(3) Start the simulation: VSIM > vsim -t 1ns work.cfg
+(4) Store the activities during the program execution in the test.vcd file by typing:
+VSIM > vcd file test.vcd
+(5) Add all signals of the CPU instance: VSIM > vcd add -r test/dut/*
+(6) Run the simulation: VSIM > run -all
+
+# //  ModelSim SE 6.6d Nov  1 2010 Linux 4.4.0-47-generic
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile dlx_basis.mpf 
+# Loading project dlx_basis
+# Compile of Helper.vhd was successful.
+# Compile of MemoryMapper.vhd was successful.
+# Compile of MemoryMapperTypes.vhd was successful.
+# Compile of tb_ASIPmeister.vhd was successful.
+# Compile of CPU.vhd was successful.
+# Compile of fhm_alu_w32.vhd was successful.
+# Compile of fhm_divider_w32.vhd was successful.
+# Compile of fhm_dmau_w32.vhd was successful.
+# Compile of fhm_extender_w16.vhd was successful.
+# Compile of fhm_extender_w28.vhd was successful.
+# Compile of fhm_imau_w32.vhd was successful.
+# Compile of fhm_multiplier_w32.vhd was successful.
+# Compile of fhm_pcu_w32.vhd was successful.
+# Compile of fhm_register_w32.vhd was successful.
+# Compile of fhm_registerfile_w32.vhd was successful.
+# Compile of fhm_shifter_w32.vhd was successful.
+# Compile of rtg_controller.vhd was successful.
+# Compile of rtg_mux2to1_w5.vhd was successful.
+# Compile of rtg_mux2to1_w32.vhd was successful.
+# Compile of rtg_mux3to1_w5.vhd was successful.
+# Compile of rtg_mux3to1_w32.vhd was successful.
+# Compile of rtg_mux4to1_w32.vhd was successful.
+# Compile of rtg_mux14to1_w32.vhd was successful.
+# Compile of rtg_proc_fsm.vhd was successful.
+# Compile of rtg_register_w1_00.vhd was successful.
+# Compile of rtg_register_w1_01.vhd was successful.
+# Compile of rtg_register_w4.vhd was successful.
+# Compile of rtg_register_w5.vhd was successful.
+# Compile of rtg_register_w7.vhd was successful.
+# Compile of rtg_register_w12.vhd was successful.
+# Compile of rtg_register_w32.vhd was successful.
+# Compile of rtg_register_w34.vhd was successful.
+# 32 compiles, 0 failed with no errors. 
+vsim -t 1ns work.cfg
+# vsim -t 1ns work.cfg 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.memorymappertypes(body)
+# Loading work.helper(body)
+# Loading work.cfg#1
+# Loading work.test(testbench)#1
+# Loading ieee.std_logic_signed(body)
+# Loading work.cpu(rtl)#1
+# Loading work.fhm_pcu_w32_add32(synthesis)#1
+# Loading work.fhm_dmau_w32(synthesis)#1
+# Loading work.fhm_registerfile_w32(synthesis)#1
+# Loading work.fhm_alu_w32(synthesis)#1
+# Loading work.fhm_alu_w32_add16(synthesis)#1
+# Loading work.fhm_multiplier_w32(synthesis)#1
+# Loading work.fhm_multiplier_w32_cla16(synthesis)#1
+# Loading work.fhm_divider_w32(synthesis)#1
+# Loading work.fhm_divider_w32_add32_cla16(synthesis)#1
+# Loading work.rtg_controller(rtl)#1
+# Loading work.memorymapper(behavioral)#1
+vcd file test.vcd
+vcd add -r test/dut/*
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 3  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 4  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 7  Instance: /test/dut/uf_alu0
+# *****      0 ClockCycles simulated *****
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 7  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 7  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 8  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 9  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 10  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 11  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 12  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 20 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 40 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 60 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 80 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 6  Instance: /test/dut/uf_div0/divu
+# *****   1000 ClockCycles simulated *****
+# *****   2000 ClockCycles simulated *****
+# *****   3000 ClockCycles simulated *****
+# *****   4000 ClockCycles simulated *****
+# *****   5000 ClockCycles simulated *****
+# *****   6000 ClockCycles simulated *****
+# *****   7000 ClockCycles simulated *****
+# *****   8000 ClockCycles simulated *****
+# *****   9000 ClockCycles simulated *****
+# *****  10000 ClockCycles simulated *****
+# *****  11000 ClockCycles simulated *****
+# *****  12000 ClockCycles simulated *****
+# *****  13000 ClockCycles simulated *****
+# *****  14000 ClockCycles simulated *****
+# *****  15000 ClockCycles simulated *****
+# *****  16000 ClockCycles simulated *****
+# *****  17000 ClockCycles simulated *****
+# *****  18000 ClockCycles simulated *****
+# *****  19000 ClockCycles simulated *****
+# *****  20000 ClockCycles simulated *****
+# *****  21000 ClockCycles simulated *****
+# *****  22000 ClockCycles simulated *****
+# *****  23000 ClockCycles simulated *****
+# *****  24000 ClockCycles simulated *****
+# *****  25000 ClockCycles simulated *****
+# *****  26000 ClockCycles simulated *****
+# *****  27000 ClockCycles simulated *****
+# *****  28000 ClockCycles simulated *****
+# *****  29000 ClockCycles simulated *****
+# *****  30000 ClockCycles simulated *****
+# *****  31000 ClockCycles simulated *****
+# *****  32000 ClockCycles simulated *****
+# *****  33000 ClockCycles simulated *****
+# *****  34000 ClockCycles simulated *****
+# *****  35000 ClockCycles simulated *****
+# *****  36000 ClockCycles simulated *****
+# *****  37000 ClockCycles simulated *****
+# *****  38000 ClockCycles simulated *****
+# *****  39000 ClockCycles simulated *****
+# *****  40000 ClockCycles simulated *****
+# *****  41000 ClockCycles simulated *****
+# *****  42000 ClockCycles simulated *****
+# *****  43000 ClockCycles simulated *****
+# *****  44000 ClockCycles simulated *****
+# *****  45000 ClockCycles simulated *****
+# *****  46000 ClockCycles simulated *****
+# *****  47000 ClockCycles simulated *****
+# *****  48000 ClockCycles simulated *****
+# *****  49000 ClockCycles simulated *****
+# *****  50000 ClockCycles simulated *****
+# *****  51000 ClockCycles simulated *****
+# *****  52000 ClockCycles simulated *****
+# *****  53000 ClockCycles simulated *****
+# *****  54000 ClockCycles simulated *****
+# *****  55000 ClockCycles simulated *****
+# *****  56000 ClockCycles simulated *****
+# *****  57000 ClockCycles simulated *****
+# *****  58000 ClockCycles simulated *****
+# *****  59000 ClockCycles simulated *****
+# *****  60000 ClockCycles simulated *****
+# *****  61000 ClockCycles simulated *****
+# *****  62000 ClockCycles simulated *****
+# *****  63000 ClockCycles simulated *****
+# *****  64000 ClockCycles simulated *****
+# *****  65000 ClockCycles simulated *****
+# *****  66000 ClockCycles simulated *****
+# *****  67000 ClockCycles simulated *****
+# *****  68000 ClockCycles simulated *****
+# *****  69000 ClockCycles simulated *****
+# *****  70000 ClockCycles simulated *****
+# *****  71000 ClockCycles simulated *****
+# *****  72000 ClockCycles simulated *****
+# *****  73000 ClockCycles simulated *****
+# *****  74000 ClockCycles simulated *****
+# *****  75000 ClockCycles simulated *****
+# *****  76000 ClockCycles simulated *****
+# *****  77000 ClockCycles simulated *****
+# *****  78000 ClockCycles simulated *****
+# *****  79000 ClockCycles simulated *****
+# *****  80000 ClockCycles simulated *****
+# *****  81000 ClockCycles simulated *****
+# *****  82000 ClockCycles simulated *****
+# *****  83000 ClockCycles simulated *****
+# *****  84000 ClockCycles simulated *****
+# *****  85000 ClockCycles simulated *****
+# *****  86000 ClockCycles simulated *****
+# *****  87000 ClockCycles simulated *****
+# *****  88000 ClockCycles simulated *****
+# *****  89000 ClockCycles simulated *****
+# *****  90000 ClockCycles simulated *****
+# *****  91000 ClockCycles simulated *****
+# *****  92000 ClockCycles simulated *****
+# *****  93000 ClockCycles simulated *****
+#           ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# *****  93177 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 1863680 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session2/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session2/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd line 500
+
+
+
+ISE:
+Project:
+    Project Name: ISE_XPower
+    Project Path: /home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/ISE_XPower
+    Working Directory: /home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/ISE_XPower
+    Description: 
+    Top Level Source Type: HDL
+
+Device:
+    Device Family: Virtex5
+    Device:        xc5vlx110t
+    Package:       ff1136
+    Speed:         -1
+
+    Top-Level Source Type: HDL
+    Synthesis Tool: XST (VHDL/Verilog)
+    Simulator: Modelsim-SE Mixed
+    Preferred Language: Verilog
+    Property Specification in Project File: Store all values
+    Manual Compile Order: false
+    VHDL Source Analysis Standard: VHDL-93
+
+    Message Filtering: disabled
+
+
+Project > Add Copy of Sources
+	ISE_Framework VHDL Files
+	IP-Core ngc Files
+	meister/dlx_basis.syn/ files
+
+Processes > Synthesize XST
+Processes > Implement Design
+Processes > Place & Route > Analyze Power Distribution (xPower Analyzer)
+
+
+XPower:
+File > OpenDesign
+Design File:/home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/ISE_XPower/CPU.ncd
+Physical Constraint File:/home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/ISE_XPower/CPU.pcf
+Simulation Activity File:/home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/ModelSim/test.vcd
+Clock will be automatically configured:
+
+2.  Summary
+2.1.  On-Chip Power Summary
+-----------------------------------------------------------------------------
+|                           On-Chip Power Summary                           |
+-----------------------------------------------------------------------------
+|        On-Chip        | Power (mW) |  Used  | Available | Utilization (%) |
+-----------------------------------------------------------------------------
+| Clocks                |      31.30 |      3 |    ---    |       ---       |
+| Logic                 |       1.04 |   3418 |     69120 |               5 |
+| Signals               |       4.38 |   3850 |    ---    |       ---       |
+| IOs                   |      28.51 |    136 |       640 |              21 |
+| Quiescent             |    1043.35 |        |           |                 |
+| Total                 |    1108.58 |        |           |                 |
+-----------------------------------------------------------------------------
+
+2.2.  Thermal Summary
+------------------------------
+|      Thermal Summary       |
+------------------------------
+| Effective TJA (C/W) | 1.4  |
+| Max Ambient (C)     | 83.5 |
+| Junction Temp (C)   | 51.5 |
+------------------------------
+
+2.3.  Power Supply Summary
+--------------------------------------------------------
+|                 Power Supply Summary                 |
+--------------------------------------------------------
+|                      |  Total  | Dynamic | Quiescent |
+--------------------------------------------------------
+| Supply Power (mW)    | 1108.58 | 65.23   | 1043.35   |
+--------------------------------------------------------
+
+
+
+
+
+dlx_bgeu and dlx_bgeu_opt
+=========================
+
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/ModelSim:$cd ../../dlx_bgeu/Applications/SW_Pipeline
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/Applications/SW_Pipeline:$ls
+Bubblesort_LCD_forSW.s  BUILD_SIM  Makefile
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/Applications/SW_Pipeline:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/Applications/SW_Pipeline:$make sim
+-----------------------------------------------
+Transforming file "Bubblesort_LCD_forSW.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+extendAssemblerDescriptionFile:	Assembler Description File successfully extended.
+Copying files to 'i80pc06' to execute the assembler:
+pas                                                                                                                                                 100%  283KB 283.4KB/s   00:00    
+dlx_bgeu_extended_noGPR.des                                                                                                                         100%   18KB  17.8KB/s   00:00    
+SW_Pipeline.asm                                                                                                                                     100%   95KB  94.8KB/s   00:00    
+SW_Pipeline.out                                                                                                                                     100%  198KB 197.6KB/s   00:00    
+pasError.txt                                                                                                                                        100% 9399     9.2KB/s   00:00    
+scanForSymbols:			0 Undefined or Multiple Defined Symbols found
+extendDMfile:			0 gaps in TestData.DM found.
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/Applications/SW_Pipeline:$cd ../../ModelSim/
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/ModelSim:$ls
+audio.out        dlx_bgeu.mpf  lcd.out                MemoryMapper.vhd    tb_ASIPmeister.vhd  TestData.IM   transcript  vsim.wlf  work
+dlx_bgeu.cr.mti  Helper.vhd    MemoryMapperTypes.vhd  modelsim_trace.out  TestData.DM         TestData.OUT  uart.out    wave.do
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/ModelSim:$vsim dlx_bgeu.mpf &
+[3] 25026
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/ModelSim:$Reading /Software/ModelSim/ModelSim_6.6d/modeltech/tcl/vsim/pref.tcl 
+
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/ModelSim:$cd ../Applications/SW_Pipeline_Opt
+
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/Applications/SW_Pipeline_Opt:$make clean
+/bin/rm -rf BUILD_SIM BUILD_FPGA
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/Applications/SW_Pipeline_Opt:$make sim
+-----------------------------------------------
+Transforming file "Bubblesort_LCD_forSW.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+extendAssemblerDescriptionFile:	Assembler Description File successfully extended.
+Copying files to 'i80pc06' to execute the assembler:
+pas                                                                                                                                                 100%  283KB 283.4KB/s   00:00    
+dlx_bgeu_extended_noGPR.des                                                                                                                         100%   18KB  17.8KB/s   00:00    
+SW_Pipeline_Opt.asm                                                                                                                                 100%   95KB  95.2KB/s   00:00    
+SW_Pipeline_Opt.out                                                                                                                                 100%  198KB 197.7KB/s   00:00    
+pasError.txt                                                                                                                                        100% 9438     9.2KB/s   00:00    
+scanForSymbols:			0 Undefined or Multiple Defined Symbols found
+extendDMfile:			0 gaps in TestData.DM found.
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/Applications/SW_Pipeline_Opt:$cd -
+/home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/ModelSim
+asip04@i80labpc01:~/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/ModelSim:$
+
+# //  ModelSim SE 6.6d Nov  1 2010 Linux 4.4.0-47-generic
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile dlx_bgeu.mpf 
+# Loading project dlx_bgeu
+# Compile of Helper.vhd was successful.
+# Compile of MemoryMapper.vhd was successful.
+# Compile of MemoryMapperTypes.vhd was successful.
+# Compile of tb_ASIPmeister.vhd was successful.
+# Compile of CPU.vhd was successful.
+# Compile of fhm_adder_w32.vhd was successful.
+# Compile of fhm_alu_w32.vhd was successful.
+# Compile of fhm_divider_w32.vhd was successful.
+# Compile of fhm_dmau_w32.vhd was successful.
+# Compile of fhm_extender_w16.vhd was successful.
+# Compile of fhm_extender_w28.vhd was successful.
+# Compile of fhm_imau_w32.vhd was successful.
+# Compile of fhm_multiplier_w32.vhd was successful.
+# Compile of fhm_pcu_w32.vhd was successful.
+# Compile of fhm_register_w32.vhd was successful.
+# Compile of fhm_registerfile_w32.vhd was successful.
+# Compile of fhm_shifter_w32.vhd was successful.
+# Compile of rtg_controller.vhd was successful.
+# Compile of rtg_mux2to1_w5.vhd was successful.
+# Compile of rtg_mux3to1_w5.vhd was successful.
+# Compile of rtg_mux3to1_w32.vhd was successful.
+# Compile of rtg_mux4to1_w32.vhd was successful.
+# Compile of rtg_mux14to1_w32.vhd was successful.
+# Compile of rtg_proc_fsm.vhd was successful.
+# Compile of rtg_register_w1_00.vhd was successful.
+# Compile of rtg_register_w1_01.vhd was successful.
+# Compile of rtg_register_w4.vhd was successful.
+# Compile of rtg_register_w5.vhd was successful.
+# Compile of rtg_register_w7.vhd was successful.
+# Compile of rtg_register_w12.vhd was successful.
+# Compile of rtg_register_w32.vhd was successful.
+# Compile of rtg_register_w38.vhd was successful.
+# 32 compiles, 0 failed with no errors. 
+vsim -t 1ns work.cfg
+# vsim -t 1ns work.cfg 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.memorymappertypes(body)
+# Loading work.helper(body)
+# Loading work.cfg#1
+# Loading work.test(testbench)#1
+# Loading ieee.std_logic_signed(body)
+# Loading work.cpu(rtl)#1
+# Loading work.fhm_pcu_w32_add32(synthesis)#1
+# Loading work.fhm_dmau_w32(synthesis)#1
+# Loading work.fhm_registerfile_w32(synthesis)#1
+# Loading work.fhm_alu_w32(synthesis)#1
+# Loading work.fhm_alu_w32_add16(synthesis)#1
+# Loading work.fhm_multiplier_w32(synthesis)#1
+# Loading work.fhm_multiplier_w32_cla16(synthesis)#1
+# Loading work.fhm_divider_w32(synthesis)#1
+# Loading work.fhm_divider_w32_add32_cla16(synthesis)#1
+# Loading work.fhm_adder_w32_cla16(synthesis)#1
+# Loading work.rtg_controller(rtl)#1
+# Loading work.memorymapper(behavioral)#1
+vcd file test_bgeu.vcd
+vcd add -r test/dut/*
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 3  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 4  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 7  Instance: /test/dut/uf_alu0
+# *****      0 ClockCycles simulated *****
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 7  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 7  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 8  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 9  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 10  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 11  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 12  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 20 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 40 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 60 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 80 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 6  Instance: /test/dut/uf_div0/divu
+# *****   1000 ClockCycles simulated *****
+# *****   2000 ClockCycles simulated *****
+# *****   3000 ClockCycles simulated *****
+# *****   4000 ClockCycles simulated *****
+# *****   5000 ClockCycles simulated *****
+# *****   6000 ClockCycles simulated *****
+# *****   7000 ClockCycles simulated *****
+# *****   8000 ClockCycles simulated *****
+# *****   9000 ClockCycles simulated *****
+# *****  10000 ClockCycles simulated *****
+# *****  11000 ClockCycles simulated *****
+# *****  12000 ClockCycles simulated *****
+# *****  13000 ClockCycles simulated *****
+# *****  14000 ClockCycles simulated *****
+# *****  15000 ClockCycles simulated *****
+# *****  16000 ClockCycles simulated *****
+# *****  17000 ClockCycles simulated *****
+# *****  18000 ClockCycles simulated *****
+# *****  19000 ClockCycles simulated *****
+# *****  20000 ClockCycles simulated *****
+# *****  21000 ClockCycles simulated *****
+# *****  22000 ClockCycles simulated *****
+# *****  23000 ClockCycles simulated *****
+# *****  24000 ClockCycles simulated *****
+# *****  25000 ClockCycles simulated *****
+# *****  26000 ClockCycles simulated *****
+# *****  27000 ClockCycles simulated *****
+# *****  28000 ClockCycles simulated *****
+# *****  29000 ClockCycles simulated *****
+# *****  30000 ClockCycles simulated *****
+# *****  31000 ClockCycles simulated *****
+# *****  32000 ClockCycles simulated *****
+# *****  33000 ClockCycles simulated *****
+# *****  34000 ClockCycles simulated *****
+# *****  35000 ClockCycles simulated *****
+# *****  36000 ClockCycles simulated *****
+# *****  37000 ClockCycles simulated *****
+# *****  38000 ClockCycles simulated *****
+# *****  39000 ClockCycles simulated *****
+# *****  40000 ClockCycles simulated *****
+# *****  41000 ClockCycles simulated *****
+# *****  42000 ClockCycles simulated *****
+# *****  43000 ClockCycles simulated *****
+# *****  44000 ClockCycles simulated *****
+# *****  45000 ClockCycles simulated *****
+# *****  46000 ClockCycles simulated *****
+# *****  47000 ClockCycles simulated *****
+# *****  48000 ClockCycles simulated *****
+# *****  49000 ClockCycles simulated *****
+# *****  50000 ClockCycles simulated *****
+# *****  51000 ClockCycles simulated *****
+# *****  52000 ClockCycles simulated *****
+# *****  53000 ClockCycles simulated *****
+# *****  54000 ClockCycles simulated *****
+# *****  55000 ClockCycles simulated *****
+# *****  56000 ClockCycles simulated *****
+# *****  57000 ClockCycles simulated *****
+# *****  58000 ClockCycles simulated *****
+# *****  59000 ClockCycles simulated *****
+# *****  60000 ClockCycles simulated *****
+# *****  61000 ClockCycles simulated *****
+# *****  62000 ClockCycles simulated *****
+# *****  63000 ClockCycles simulated *****
+# *****  64000 ClockCycles simulated *****
+# *****  65000 ClockCycles simulated *****
+# *****  66000 ClockCycles simulated *****
+# *****  67000 ClockCycles simulated *****
+# *****  68000 ClockCycles simulated *****
+# *****  69000 ClockCycles simulated *****
+# *****  70000 ClockCycles simulated *****
+# *****  71000 ClockCycles simulated *****
+# *****  72000 ClockCycles simulated *****
+# *****  73000 ClockCycles simulated *****
+# *****  74000 ClockCycles simulated *****
+# *****  75000 ClockCycles simulated *****
+# *****  76000 ClockCycles simulated *****
+# *****  77000 ClockCycles simulated *****
+# *****  78000 ClockCycles simulated *****
+# *****  79000 ClockCycles simulated *****
+# *****  80000 ClockCycles simulated *****
+# *****  81000 ClockCycles simulated *****
+# *****  82000 ClockCycles simulated *****
+# *****  83000 ClockCycles simulated *****
+# *****  84000 ClockCycles simulated *****
+# *****  85000 ClockCycles simulated *****
+# *****  86000 ClockCycles simulated *****
+# *****  87000 ClockCycles simulated *****
+# *****  88000 ClockCycles simulated *****
+# *****  89000 ClockCycles simulated *****
+# *****  90000 ClockCycles simulated *****
+# *****  91000 ClockCycles simulated *****
+#           ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# *****  91581 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 1831760 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/ModelSim/tb_ASIPmeister.vhd line 500
+quit -sim
+# Compile of Helper.vhd was successful.
+# Compile of MemoryMapper.vhd was successful.
+# Compile of MemoryMapperTypes.vhd was successful.
+# Compile of tb_ASIPmeister.vhd was successful.
+# Compile of CPU.vhd was successful.
+# Compile of fhm_adder_w32.vhd was successful.
+# Compile of fhm_alu_w32.vhd was successful.
+# Compile of fhm_divider_w32.vhd was successful.
+# Compile of fhm_dmau_w32.vhd was successful.
+# Compile of fhm_extender_w16.vhd was successful.
+# Compile of fhm_extender_w28.vhd was successful.
+# Compile of fhm_imau_w32.vhd was successful.
+# Compile of fhm_multiplier_w32.vhd was successful.
+# Compile of fhm_pcu_w32.vhd was successful.
+# Compile of fhm_register_w32.vhd was successful.
+# Compile of fhm_registerfile_w32.vhd was successful.
+# Compile of fhm_shifter_w32.vhd was successful.
+# Compile of rtg_controller.vhd was successful.
+# Compile of rtg_mux2to1_w5.vhd was successful.
+# Compile of rtg_mux3to1_w5.vhd was successful.
+# Compile of rtg_mux3to1_w32.vhd was successful.
+# Compile of rtg_mux4to1_w32.vhd was successful.
+# Compile of rtg_mux14to1_w32.vhd was successful.
+# Compile of rtg_proc_fsm.vhd was successful.
+# Compile of rtg_register_w1_00.vhd was successful.
+# Compile of rtg_register_w1_01.vhd was successful.
+# Compile of rtg_register_w4.vhd was successful.
+# Compile of rtg_register_w5.vhd was successful.
+# Compile of rtg_register_w7.vhd was successful.
+# Compile of rtg_register_w12.vhd was successful.
+# Compile of rtg_register_w32.vhd was successful.
+# Compile of rtg_register_w38.vhd was successful.
+# 32 compiles, 0 failed with no errors. 
+vsim -t 1ns work.cfg
+# vsim -t 1ns work.cfg 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.memorymappertypes(body)
+# Loading work.helper(body)
+# Loading work.cfg#1
+# Loading work.test(testbench)#1
+# Loading ieee.std_logic_signed(body)
+# Loading work.cpu(rtl)#1
+# Loading work.fhm_pcu_w32_add32(synthesis)#1
+# Loading work.fhm_dmau_w32(synthesis)#1
+# Loading work.fhm_registerfile_w32(synthesis)#1
+# Loading work.fhm_alu_w32(synthesis)#1
+# Loading work.fhm_alu_w32_add16(synthesis)#1
+# Loading work.fhm_multiplier_w32(synthesis)#1
+# Loading work.fhm_multiplier_w32_cla16(synthesis)#1
+# Loading work.fhm_divider_w32(synthesis)#1
+# Loading work.fhm_divider_w32_add32_cla16(synthesis)#1
+# Loading work.fhm_adder_w32_cla16(synthesis)#1
+# Loading work.rtg_controller(rtl)#1
+# Loading work.memorymapper(behavioral)#1
+vcd file test_bgeu_opt.vcd
+vcd add -r test/dut/*
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/datareqports(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/i_memorymapper/computeselector(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu/lsftreg0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /test/i_memorymapper/computeselector(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /test/i_memorymapper/datareqports(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 3  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 4  Instance: /test/i_memorymapper
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ns  Iteration: 4  Instance: /test/i_memorymapper
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 7  Instance: /test/dut/uf_alu0
+# *****      0 ClockCycles simulated *****
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 7  Instance: /test/dut/uf_alu0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 7  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 8  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 9  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 10  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 11  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 12  Instance: /test/dut/uf_div0/divu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 20 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 20 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(6)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(5)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(4)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(3)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(2)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(1)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 30 ns  Iteration: 3  Instance: /test/i_memorymapper/computeselector(0)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 40 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 40 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 60 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 60 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 80 ns  Iteration: 1  Instance: /test
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 80 ns  Iteration: 1  Instance: /test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 90 ns  Iteration: 6  Instance: /test/dut/uf_div0/divu
+# *****   1000 ClockCycles simulated *****
+# *****   2000 ClockCycles simulated *****
+# *****   3000 ClockCycles simulated *****
+# *****   4000 ClockCycles simulated *****
+# *****   5000 ClockCycles simulated *****
+# *****   6000 ClockCycles simulated *****
+# *****   7000 ClockCycles simulated *****
+# *****   8000 ClockCycles simulated *****
+# *****   9000 ClockCycles simulated *****
+# *****  10000 ClockCycles simulated *****
+# *****  11000 ClockCycles simulated *****
+# *****  12000 ClockCycles simulated *****
+# *****  13000 ClockCycles simulated *****
+# *****  14000 ClockCycles simulated *****
+# *****  15000 ClockCycles simulated *****
+# *****  16000 ClockCycles simulated *****
+# *****  17000 ClockCycles simulated *****
+# *****  18000 ClockCycles simulated *****
+# *****  19000 ClockCycles simulated *****
+# *****  20000 ClockCycles simulated *****
+# *****  21000 ClockCycles simulated *****
+# *****  22000 ClockCycles simulated *****
+# *****  23000 ClockCycles simulated *****
+# *****  24000 ClockCycles simulated *****
+# *****  25000 ClockCycles simulated *****
+# *****  26000 ClockCycles simulated *****
+# *****  27000 ClockCycles simulated *****
+# *****  28000 ClockCycles simulated *****
+# *****  29000 ClockCycles simulated *****
+# *****  30000 ClockCycles simulated *****
+# *****  31000 ClockCycles simulated *****
+# *****  32000 ClockCycles simulated *****
+# *****  33000 ClockCycles simulated *****
+# *****  34000 ClockCycles simulated *****
+# *****  35000 ClockCycles simulated *****
+# *****  36000 ClockCycles simulated *****
+# *****  37000 ClockCycles simulated *****
+# *****  38000 ClockCycles simulated *****
+# *****  39000 ClockCycles simulated *****
+# *****  40000 ClockCycles simulated *****
+# *****  41000 ClockCycles simulated *****
+# *****  42000 ClockCycles simulated *****
+# *****  43000 ClockCycles simulated *****
+# *****  44000 ClockCycles simulated *****
+# *****  45000 ClockCycles simulated *****
+# *****  46000 ClockCycles simulated *****
+# *****  47000 ClockCycles simulated *****
+# *****  48000 ClockCycles simulated *****
+# *****  49000 ClockCycles simulated *****
+# *****  50000 ClockCycles simulated *****
+# *****  51000 ClockCycles simulated *****
+# *****  52000 ClockCycles simulated *****
+# *****  53000 ClockCycles simulated *****
+# *****  54000 ClockCycles simulated *****
+# *****  55000 ClockCycles simulated *****
+# *****  56000 ClockCycles simulated *****
+# *****  57000 ClockCycles simulated *****
+# *****  58000 ClockCycles simulated *****
+# *****  59000 ClockCycles simulated *****
+# *****  60000 ClockCycles simulated *****
+# *****  61000 ClockCycles simulated *****
+# *****  62000 ClockCycles simulated *****
+# *****  63000 ClockCycles simulated *****
+# *****  64000 ClockCycles simulated *****
+# *****  65000 ClockCycles simulated *****
+# *****  66000 ClockCycles simulated *****
+# *****  67000 ClockCycles simulated *****
+# *****  68000 ClockCycles simulated *****
+# *****  69000 ClockCycles simulated *****
+# *****  70000 ClockCycles simulated *****
+# *****  71000 ClockCycles simulated *****
+# *****  72000 ClockCycles simulated *****
+# *****  73000 ClockCycles simulated *****
+# *****  74000 ClockCycles simulated *****
+# *****  75000 ClockCycles simulated *****
+# *****  76000 ClockCycles simulated *****
+# *****  77000 ClockCycles simulated *****
+# *****  78000 ClockCycles simulated *****
+# *****  79000 ClockCycles simulated *****
+# *****  80000 ClockCycles simulated *****
+# *****  81000 ClockCycles simulated *****
+# *****  82000 ClockCycles simulated *****
+# *****  83000 ClockCycles simulated *****
+# *****  84000 ClockCycles simulated *****
+# *****  85000 ClockCycles simulated *****
+# *****  86000 ClockCycles simulated *****
+# *****  87000 ClockCycles simulated *****
+# *****  88000 ClockCycles simulated *****
+# *****  89000 ClockCycles simulated *****
+#           ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# *****  89348 ClockCycles altogether simulated *****
+# ** Failure: SUCCESSFUL: Simulation End.
+#    Time: 1787100 ns  Iteration: 0  Process: /test/line__485 File: /home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/ModelSim/tb_ASIPmeister.vhd
+# Break in Process line__485 at /home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_bgeu/ModelSim/tb_ASIPmeister.vhd line 500
+
+XPOWER:
+bs_bgeu.s
+
+2.  Summary
+2.1.  On-Chip Power Summary
+-----------------------------------------------------------------------------
+|                           On-Chip Power Summary                           |
+-----------------------------------------------------------------------------
+|        On-Chip        | Power (mW) |  Used  | Available | Utilization (%) |
+-----------------------------------------------------------------------------
+| Clocks                |      31.63 |      3 |    ---    |       ---       |
+| Logic                 |       1.33 |   3563 |     69120 |               5 |
+| Signals               |       5.08 |   4017 |    ---    |       ---       |
+| IOs                   |      28.23 |    136 |       640 |              21 |
+| Quiescent             |    1043.37 |        |           |                 |
+| Total                 |    1109.63 |        |           |                 |
+-----------------------------------------------------------------------------
+
+2.2.  Thermal Summary
+------------------------------
+|      Thermal Summary       |
+------------------------------
+| Effective TJA (C/W) | 1.4  |
+| Max Ambient (C)     | 83.5 |
+| Junction Temp (C)   | 51.5 |
+------------------------------
+
+2.3.  Power Supply Summary
+--------------------------------------------------------
+|                 Power Supply Summary                 |
+--------------------------------------------------------
+|                      |  Total  | Dynamic | Quiescent |
+--------------------------------------------------------
+| Supply Power (mW)    | 1109.63 | 66.26   | 1043.37   |
+--------------------------------------------------------
+
+
+bs_bgeu_opt.s
+50MHz
+
+2.  Summary
+2.1.  On-Chip Power Summary
+-----------------------------------------------------------------------------
+|                           On-Chip Power Summary                           |
+-----------------------------------------------------------------------------
+|        On-Chip        | Power (mW) |  Used  | Available | Utilization (%) |
+-----------------------------------------------------------------------------
+| Clocks                |      31.65 |      3 |    ---    |       ---       |
+| Logic                 |       1.35 |   3563 |     69120 |               5 |
+| Signals               |       5.12 |   4017 |    ---    |       ---       |
+| IOs                   |      28.58 |    136 |       640 |              21 |
+| Quiescent             |    1043.37 |        |           |                 |
+| Total                 |    1110.07 |        |           |                 |
+-----------------------------------------------------------------------------
+
+2.2.  Thermal Summary
+------------------------------
+|      Thermal Summary       |
+------------------------------
+| Effective TJA (C/W) | 1.4  |
+| Max Ambient (C)     | 83.5 |
+| Junction Temp (C)   | 51.5 |
+------------------------------
+
+2.3.  Power Supply Summary
+--------------------------------------------------------
+|                 Power Supply Summary                 |
+--------------------------------------------------------
+|                      |  Total  | Dynamic | Quiescent |
+--------------------------------------------------------
+| Supply Power (mW)    | 1110.07 | 66.70   | 1043.37   |
+--------------------------------------------------------
+
+
+125MHz
+
+
+
+2.  Summary
+2.1.  On-Chip Power Summary
+-----------------------------------------------------------------------------
+|                           On-Chip Power Summary                           |
+-----------------------------------------------------------------------------
+|        On-Chip        | Power (mW) |  Used  | Available | Utilization (%) |
+-----------------------------------------------------------------------------
+| Clocks                |      53.04 |      3 |    ---    |       ---       |
+| Logic                 |       3.32 |   3563 |     69120 |               5 |
+| Signals               |      12.69 |   4017 |    ---    |       ---       |
+| IOs                   |      70.58 |    136 |       640 |              21 |
+| Quiescent             |    1044.43 |        |           |                 |
+| Total                 |    1184.06 |        |           |                 |
+-----------------------------------------------------------------------------
+
+2.2.  Thermal Summary
+------------------------------
+|      Thermal Summary       |
+------------------------------
+| Effective TJA (C/W) | 1.4  |
+| Max Ambient (C)     | 83.4 |
+| Junction Temp (C)   | 51.6 |
+------------------------------
+
+2.3.  Power Supply Summary
+--------------------------------------------------------
+|                 Power Supply Summary                 |
+--------------------------------------------------------
+|                      |  Total  | Dynamic | Quiescent |
+--------------------------------------------------------
+| Supply Power (mW)    | 1184.06 | 139.62  | 1044.43   |
+--------------------------------------------------------
+
+
+
+
+2.  Summary
+2.1.  On-Chip Power Summary
+-----------------------------------------------------------------------------
+|                           On-Chip Power Summary                           |
+-----------------------------------------------------------------------------
+|        On-Chip        | Power (mW) |  Used  | Available | Utilization (%) |
+-----------------------------------------------------------------------------
+| Clocks                |      53.09 |      3 |    ---    |       ---       |
+| Logic                 |       3.38 |   3563 |     69120 |               5 |
+| Signals               |      12.80 |   4017 |    ---    |       ---       |
+| IOs                   |      71.44 |    136 |       640 |              21 |
+| Quiescent             |    1044.45 |        |           |                 |
+| Total                 |    1185.16 |        |           |                 |
+-----------------------------------------------------------------------------
+
+2.2.  Thermal Summary
+------------------------------
+|      Thermal Summary       |
+------------------------------
+| Effective TJA (C/W) | 1.4  |
+| Max Ambient (C)     | 83.4 |
+| Junction Temp (C)   | 51.6 |
+------------------------------
+
+2.3.  Power Supply Summary
+--------------------------------------------------------
+|                 Power Supply Summary                 |
+--------------------------------------------------------
+|                      |  Total  | Dynamic | Quiescent |
+--------------------------------------------------------
+| Supply Power (mW)    | 1185.16 | 140.71  | 1044.45   |
+--------------------------------------------------------

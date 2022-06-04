@@ -1,0 +1,47 @@
+9/6/17 12:43 AM : "Main menu" start.
+9/6/17 12:43 AM : Load file ".ASIPmeister.ini".
+9/6/17 12:43 AM : Load file "dlx_basis.pdb".
+9/6/17 12:44 AM : "Micro Op. Description" complete.
+9/6/17 12:44 AM : "Micro Op. Description" start edit.
+9/6/17 12:44 AM : "Micro Op. Description" finish edit.
+9/6/17 12:44 AM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+9/6/17 12:44 AM : Load file "dlx_basis_mod.log".
+9/6/17 12:44 AM : "null" complete.
+9/6/17 12:44 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+9/6/17 12:44 AM : Load file "dlx_basis_tr.log".
+9/6/17 12:44 AM : "null" complete.
+9/6/17 12:44 AM : "Main menu" quit.
+9/8/17 2:46 PM : "Main menu" start.
+9/8/17 2:46 PM : Load file ".ASIPmeister.ini".
+9/8/17 2:46 PM : Load file "dlx_basis.pdb".
+9/8/17 2:47 PM : Query "parameter(pcu,synthesis)" finished as normally.
+9/8/17 2:47 PM : Query "parameter(register,synthesis)" finished as normally.
+9/8/17 2:47 PM : Query "parameter(imau,synthesis)" finished as normally.
+9/8/17 2:47 PM : Query "parameter(dmau,synthesis)" finished as normally.
+9/8/17 2:47 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+9/8/17 2:47 PM : Query "parameter(alu,synthesis)" finished as normally.
+9/8/17 2:47 PM : Query "parameter(extender,synthesis)" finished as normally.
+9/8/17 2:47 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+9/8/17 2:47 PM : Query "parameter(divider,synthesis)" finished as normally.
+9/8/17 2:47 PM : Query "parameter(shifter,synthesis)" finished as normally.
+9/8/17 2:47 PM : Query "parameter(extender,synthesis)" finished as normally.
+9/8/17 2:47 PM : "Resource Declaration" start edit.
+9/8/17 2:47 PM : "Storage Spec" complete.
+9/8/17 2:47 PM : "Storage Spec" start edit.
+9/8/17 2:47 PM : "Storage Spec" finish edit.
+9/8/17 2:47 PM : "Resource Declaration" finish edit.
+9/8/17 2:47 PM : "Storage Spec" complete.
+9/8/17 2:47 PM : "Storage Spec" start edit.
+9/8/17 2:47 PM : "Storage Spec" finish edit.
+9/8/17 2:47 PM : "Resource Declaration" finish edit.
+9/8/17 2:47 PM : "Storage Spec" complete.
+9/8/17 2:47 PM : "Storage Spec" start edit.
+9/8/17 2:49 PM : "Storage Spec" finish edit.
+9/8/17 2:49 PM : "Main menu" quit.
+9/8/17 4:21 PM : "Main menu" start.
+9/8/17 4:21 PM : Load file ".ASIPmeister.ini".
+9/8/17 4:21 PM : Load file "dlx_basis.pdb".
+9/8/17 4:21 PM : "Storage Spec" complete.
+9/8/17 4:21 PM : "Storage Spec" start edit.
+9/8/17 4:22 PM : "Storage Spec" finish edit.
+9/8/17 4:22 PM : "Main menu" quit.

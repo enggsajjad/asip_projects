@@ -1,0 +1,13 @@
+9/6/17 1:18 AM : "Main menu" start.
+9/6/17 1:18 AM : Load file ".ASIPmeister.ini".
+9/6/17 1:18 AM : Load file "dlx_bgeu.pdb".
+9/6/17 1:19 AM : "Micro Op. Description" complete.
+9/6/17 1:19 AM : "Micro Op. Description" start edit.
+9/6/17 1:19 AM : "Micro Op. Description" finish edit.
+9/6/17 1:19 AM :  modelgen both dlx_bgeu dlx_bgeu_mod.log finished as normally.
+9/6/17 1:19 AM : Load file "dlx_bgeu_mod.log".
+9/6/17 1:19 AM : "null" complete.
+9/6/17 1:19 AM :  translator swdev dlx_bgeu dlx_bgeu_tr.log finished as normally.
+9/6/17 1:19 AM : Load file "dlx_bgeu_tr.log".
+9/6/17 1:19 AM : "null" complete.
+9/6/17 1:19 AM : "Main menu" quit.

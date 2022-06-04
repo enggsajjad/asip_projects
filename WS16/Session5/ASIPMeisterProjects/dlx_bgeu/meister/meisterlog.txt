@@ -1,0 +1,10 @@
+11/26/16 5:15 PM : "Main menu" start.
+11/26/16 5:15 PM : Load file ".ASIPmeister.ini".
+11/26/16 5:15 PM : Load file "dlx_bgeu.pdb".
+11/26/16 5:15 PM :  modelgen both dlx_bgeu dlx_bgeu_mod.log finished as normally.
+11/26/16 5:15 PM : Load file "dlx_bgeu_mod.log".
+11/26/16 5:15 PM : "null" complete.
+11/26/16 5:15 PM :  translator swdev dlx_bgeu dlx_bgeu_tr.log finished as normally.
+11/26/16 5:15 PM : Load file "dlx_bgeu_tr.log".
+11/26/16 5:15 PM : "null" complete.
+11/26/16 5:15 PM : "Main menu" quit.

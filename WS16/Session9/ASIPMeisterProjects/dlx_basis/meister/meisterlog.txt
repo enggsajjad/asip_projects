@@ -1,0 +1,10 @@
+1/9/17 12:06 AM : "Main menu" start.
+1/9/17 12:06 AM : Load file ".ASIPmeister.ini".
+1/9/17 12:06 AM : Load file "dlx_basis.pdb".
+1/9/17 12:06 AM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+1/9/17 12:06 AM : Load file "dlx_basis_mod.log".
+1/9/17 12:06 AM : "null" complete.
+1/9/17 12:07 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/9/17 12:07 AM : Load file "dlx_basis_tr.log".
+1/9/17 12:07 AM : "null" complete.
+1/9/17 12:07 AM : "Main menu" quit.

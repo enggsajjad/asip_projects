@@ -1,0 +1,29 @@
+answers:
+Exercise 1:
+a) 190 times
+
+Exercise 2:
+a) BubbleSort_Index.c:
+    - no exchange: 2 loads, 0 stores
+    - exchange: 4 loads, 2 stores (if compiler is not
+too stupid: 2 loads)
+   BubbleSort_Address.c:
+    - no exchange: 1 load, 0 stores
+    - exchange: 1 load, 2 stores
+ 1. The "Address" version remembers the next j value
+for the next iteration,
+    so it only needs one read per no exchange loop
+ 2. The "Address" version doesn't read the values of
+the array again in the
+    "exchange" case, so it doesn't need additional
+loads
+
+Exercise 3:
+ a) The execution needs 3435 cycles
+
+Exercise 4:
+ a) dlxsim needed 6736 cycles and ModelSim 6737 cycles
+
+Exercise 5:
+ a) The execution needs 5250 cycles
+ b) 128,3 % speedup

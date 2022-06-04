@@ -1,0 +1,185 @@
+Release 13.2 Drc O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Fri Jul 21 18:47:52 2017
+
+drc -z dlx_toplevel.ncd dlx_toplevel.pcf
+
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_MUX06/DIN1<31>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_MUX06/DIN1<30>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_MUX06/DIN1<28>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_MUX06/DIN1<21>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_MUX06/DIN1<18>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_MUX06/DIN1<16>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_MUX06/DIN3<31>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_MUX06/DIN3<30>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_MUX06/DIN3<28>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <clk_div_instance/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG00/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG01/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG02/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG03/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG03/GLOBAL_LOGIC1> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG04/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG04/GLOBAL_LOGIC1> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG05/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG06/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG07/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG08/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG09/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG09/GLOBAL_LOGIC1> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG12/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG13/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG13/GLOBAL_LOGIC1> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG14/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG15/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG15/GLOBAL_LOGIC1> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG16/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG17/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG17/GLOBAL_LOGIC1> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG24/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG25/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG26/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG26/GLOBAL_LOGIC1> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG27/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG28/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG29/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG29/GLOBAL_LOGIC1> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG30/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG31/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG10/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG11/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG11/GLOBAL_LOGIC1> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG18/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG19/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG20/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG20/GLOBAL_LOGIC1> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG21/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG22/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG23/GLOBAL_LOGIC0> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_PREG23/GLOBAL_LOGIC1> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioR/fifoDataOut<7>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioR/fifoDataOut<6>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioR/fifoDataOut<5>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioR/fifoDataOut<4>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioR/fifoDataOut<3>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioR/fifoDataOut<2>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioR/fifoDataOut<1>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioR/fifoDataOut<0>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioL/fifoDataOut<7>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioL/fifoDataOut<6>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioL/fifoDataOut<5>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioL/fifoDataOut<4>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioL/fifoDataOut<3>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioL/fifoDataOut<2>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioL/fifoDataOut<1>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <AudioL/fifoDataOut<0>> is incomplete.
+   The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <CPU0/UA_CTRL/UA_MCBUSY_DMAU_REQ_MEM/GLOBAL_LOGIC1> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <CPU0/UA_CTRL/UA_MCBUSY_DIV0_START_EXE/GLOBAL_LOGIC1> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <CPU0/UA_CTRL/UA_MCBUSY_MUL0_START_EXE/GLOBAL_LOGIC1> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <CPU0/UA_CTRL/UA_VALID_WB/GLOBAL_LOGIC1> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_CTRL/UA_CW_EXE/DIN<13>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UA_CTRL/UA_CW_EXE/DIN<12>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UF_DIV0/conv_b/data_in<31>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <CPU0/UF_DIV0/divu/lsftreg0/cout_reg/GLOBAL_LOGIC1> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <CPU0/UF_DIV0/divu/lsftreg0/aout_reg/GLOBAL_LOGIC1> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <CPU0/UF_DIV0/divu/lsftreg0/pout_reg/GLOBAL_LOGIC1> is incomplete. The signal
+   does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <CPU0/UF_MUL0/tconv_reg/GLOBAL_LOGIC0>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <CPU0/UF_MUL0/mulu/reg_32_b/GLOBAL_LOGIC0> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <CPU0/UF_MUL0/mulu/reg_32_b/GLOBAL_LOGIC1> is incomplete. The signal does not
+   drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <CPU0/UF_MUL0/mulu/reg_32_a/GLOBAL_LOGIC0> is incomplete. The signal does not
+   drive any load pins in the design.
+DRC detected 0 errors and 83 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

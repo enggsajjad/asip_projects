@@ -1,0 +1,28 @@
+Release 13.2 - par O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Fri Jul 21 18:46:49 2017
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 16 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   AudioL/fifoDataOut<0>
+   AudioL/fifoDataOut<1>
+   AudioL/fifoDataOut<2>
+   AudioL/fifoDataOut<3>
+   AudioL/fifoDataOut<4>
+   AudioL/fifoDataOut<5>
+   AudioL/fifoDataOut<6>
+   AudioL/fifoDataOut<7>
+   AudioR/fifoDataOut<0>
+   AudioR/fifoDataOut<1>
+   AudioR/fifoDataOut<2>
+   AudioR/fifoDataOut<3>
+   AudioR/fifoDataOut<4>
+   AudioR/fifoDataOut<5>
+   AudioR/fifoDataOut<6>
+   AudioR/fifoDataOut<7>
+
+

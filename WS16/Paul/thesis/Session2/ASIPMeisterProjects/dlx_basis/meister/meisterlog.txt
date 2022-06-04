@@ -1,0 +1,94 @@
+9/5/17 10:34 PM : "Main menu" start.
+9/5/17 10:34 PM : Load file ".ASIPmeister.ini".
+9/5/17 10:34 PM : Load file "dlx_LaboratoryWithoutAdd.pdb".
+9/5/17 10:35 PM : "Design Goal & Arch. Design" complete.
+9/5/17 10:35 PM : "null" complete.
+9/5/17 10:35 PM : "null" start edit.
+9/5/17 10:35 PM : "null" complete.
+9/5/17 10:35 PM : "null" finish edit.
+9/5/17 10:35 PM : "Design Goal & Arch. Design" start edit.
+9/5/17 10:36 PM : "Design Goal & Arch. Design" finish edit.
+9/5/17 10:36 PM : Query "parameter(pcu,synthesis)" finished as normally.
+9/5/17 10:36 PM : Query "parameter(register,synthesis)" finished as normally.
+9/5/17 10:36 PM : Query "parameter(imau,synthesis)" finished as normally.
+9/5/17 10:36 PM : Query "parameter(dmau,synthesis)" finished as normally.
+9/5/17 10:36 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+9/5/17 10:36 PM : Query "parameter(alu,synthesis)" finished as normally.
+9/5/17 10:36 PM : Query "parameter(extender,synthesis)" finished as normally.
+9/5/17 10:36 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+9/5/17 10:36 PM : Query "parameter(divider,synthesis)" finished as normally.
+9/5/17 10:36 PM : Query "parameter(shifter,synthesis)" finished as normally.
+9/5/17 10:36 PM : Query "parameter(extender,synthesis)" finished as normally.
+9/5/17 10:36 PM : "Resource Declaration" start edit.
+9/5/17 10:36 PM : "Storage Spec" complete.
+9/5/17 10:36 PM : "Storage Spec" start edit.
+9/5/17 10:36 PM : "Storage Spec" finish edit.
+9/5/17 10:36 PM : "Resource Declaration" finish edit.
+9/5/17 10:36 PM : "Storage Spec" complete.
+9/5/17 10:36 PM : "Storage Spec" start edit.
+9/5/17 10:39 PM : "Storage Spec" finish edit.
+9/5/17 10:39 PM : "Interface Definition" complete.
+9/5/17 10:39 PM : "Interface Definition" start edit.
+9/5/17 10:39 PM : "Interface Definition" finish edit.
+9/5/17 10:39 PM : "Instruction Definition" complete.
+9/5/17 10:39 PM : "Instruction Definition" start edit.
+9/5/17 10:40 PM : "Instruction Definition" re-edit.
+9/5/17 10:49 PM : "Instruction Definition" complete.
+9/5/17 10:49 PM : "Instruction Definition" finish edit.
+9/5/17 10:50 PM :  archest dlx_LaboratoryWithoutAdd.arc dlx_LaboratoryWithoutAdd_arc.log finished as normally.
+9/5/17 10:50 PM : Load file "dlx_LaboratoryWithoutAdd_arc.log".
+9/5/17 10:50 PM : "null" complete.
+9/5/17 10:50 PM : "C Definition" start browse.
+9/5/17 10:51 PM : "C Definition" complete.
+9/5/17 10:51 PM : "C Definition" finish edit.
+9/5/17 10:51 PM : "Behavior Description" start browse.
+9/5/17 10:58 PM : "Behavior Description" complete.
+9/5/17 10:58 PM : "Behavior Description" finish edit.
+9/5/17 10:59 PM : "Micro Op. Description" start browse.
+9/5/17 11:08 PM : "Micro Op. Description" complete.
+9/5/17 11:08 PM : "Micro Op. Description" re-edit.
+9/5/17 11:09 PM : "Micro Op. Description" complete.
+9/5/17 11:09 PM : "Micro Op. Description" finish edit.
+9/5/17 11:09 PM : "Instruction Definition" complete.
+9/5/17 11:09 PM : "Instruction Definition" start edit.
+9/5/17 11:10 PM : "Instruction Definition" re-edit.
+9/5/17 11:13 PM : "Instruction Definition" complete.
+9/5/17 11:13 PM : "Instruction Definition" finish edit.
+9/5/17 11:13 PM : "Main menu" quit.
+9/5/17 11:18 PM : "Main menu" start.
+9/5/17 11:18 PM : Load file ".ASIPmeister.ini".
+9/5/17 11:18 PM : Load file "dlx_LaboratoryWithoutAdd.pdb".
+9/5/17 11:18 PM : "Instruction Definition" complete.
+9/5/17 11:18 PM : "Instruction Definition" start edit.
+9/5/17 11:19 PM : "Instruction Definition" finish edit.
+9/5/17 11:19 PM : "Main menu" quit.
+9/5/17 11:19 PM : "Main menu" start.
+9/5/17 11:19 PM : Load file ".ASIPmeister.ini".
+9/5/17 11:19 PM : Load file "dlx_LaboratoryWithoutAdd.pdb".
+9/5/17 11:20 PM : "Instruction Definition" complete.
+9/5/17 11:20 PM : "Instruction Definition" start edit.
+9/5/17 11:20 PM : "Instruction Definition" re-edit.
+9/5/17 11:23 PM : "Instruction Definition" complete.
+9/5/17 11:23 PM : "Instruction Definition" finish edit.
+9/5/17 11:23 PM :  archest dlx_LaboratoryWithoutAdd.arc dlx_LaboratoryWithoutAdd_arc.log finished as normally.
+9/5/17 11:23 PM : Load file "dlx_LaboratoryWithoutAdd_arc.log".
+9/5/17 11:23 PM : "null" complete.
+9/5/17 11:23 PM : "C Definition" start browse.
+9/5/17 11:23 PM : "C Definition" complete.
+9/5/17 11:23 PM : "C Definition" finish edit.
+9/5/17 11:23 PM : "Behavior Description" start browse.
+9/5/17 11:25 PM : "Behavior Description" complete.
+9/5/17 11:25 PM : "Behavior Description" finish edit.
+9/5/17 11:25 PM : "C Definition" complete.
+9/5/17 11:25 PM : "C Definition" start edit.
+9/5/17 11:25 PM : "C Definition" finish edit.
+9/5/17 11:25 PM : "Micro Op. Description" start browse.
+9/5/17 11:29 PM : "Micro Op. Description" complete.
+9/5/17 11:29 PM : "Micro Op. Description" finish edit.
+9/5/17 11:29 PM :  modelgen both dlx_LaboratoryWithoutAdd dlx_LaboratoryWithoutAdd_mod.log finished as normally.
+9/5/17 11:29 PM : Load file "dlx_LaboratoryWithoutAdd_mod.log".
+9/5/17 11:29 PM : "null" complete.
+9/5/17 11:30 PM :  translator swdev dlx_LaboratoryWithoutAdd dlx_LaboratoryWithoutAdd_tr.log finished as normally.
+9/5/17 11:30 PM : Load file "dlx_LaboratoryWithoutAdd_tr.log".
+9/5/17 11:30 PM : "null" complete.
+9/5/17 11:30 PM : "Main menu" quit.

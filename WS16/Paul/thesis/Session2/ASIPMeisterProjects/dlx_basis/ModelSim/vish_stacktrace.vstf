@@ -1,0 +1,17 @@
+# Current time Wed Sep  6 00:00:08 2017
+# ModelSim Stack Trace
+# Program = vish
+# Id = "6.6d"
+# Version = "2010.11"
+# Date = "Nov  1 2010"
+# Platform = linux
+# 0    0x0816f950: 'vish_catch_signal + 0x0' in '/Software/ModelSim/ModelSim_6.6d/modeltech/linux/vish'
+# 1    0xb7767ce3: '<unknown (@0xb7767ce3)>'
+# 2    0x083ac386: 'Tcl_DoOneEvent + 0x10a' in '/Software/ModelSim/ModelSim_6.6d/modeltech/linux/vish'
+# 3    0x082d620d: 'Tk_MainLoop + 0x19' in '/Software/ModelSim/ModelSim_6.6d/modeltech/linux/vish'
+# 4    0x082dd3e0: 'Tk_MainEx + 0x298' in '/Software/ModelSim/ModelSim_6.6d/modeltech/linux/vish'
+# 5    0x0816da78: 'vish_inner_loop + 0x238' in '/Software/ModelSim/ModelSim_6.6d/modeltech/linux/vish'
+# 6    0x0816e78c: 'main + 0x87c' in '/Software/ModelSim/ModelSim_6.6d/modeltech/linux/vish'
+# 7    0xb73f1aee: '_libc_start_main + 0xee' in '/lib/i386-linux-gnu/libc.so.6'
+# End of Stack Trace
+

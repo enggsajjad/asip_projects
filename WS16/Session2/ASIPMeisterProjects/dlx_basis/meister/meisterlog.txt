@@ -1,0 +1,11 @@
+11/26/16 1:36 AM : "Main menu" start.
+11/26/16 1:36 AM : Load file ".ASIPmeister.ini".
+11/26/16 1:36 AM : Load file "dlx_LaboratoryWithoutAdd.pdb".
+11/26/16 1:36 AM :  modelgen both dlx_LaboratoryWithoutAdd dlx_LaboratoryWithoutAdd_mod.log finished as normally.
+11/26/16 1:36 AM : Load file "dlx_LaboratoryWithoutAdd_mod.log".
+11/26/16 1:36 AM : "null" complete.
+11/26/16 1:36 AM : "Main menu" quit.
+11/26/16 1:38 AM :  translator swdev dlx_LaboratoryWithoutAdd dlx_LaboratoryWithoutAdd_tr.log finished as normally.
+11/26/16 1:38 AM : Load file "dlx_LaboratoryWithoutAdd_tr.log".
+11/26/16 1:38 AM : "null" complete.
+11/26/16 1:38 AM : "Main menu" quit.

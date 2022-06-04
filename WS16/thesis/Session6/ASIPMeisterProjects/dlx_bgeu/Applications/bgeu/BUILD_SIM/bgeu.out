@@ -1,0 +1,275 @@
+****** Source Program List ******
+LineNo	LC	Code		Source Program 
+1				;.addressing	Word
+2				.section	.text
+3				.addressing	Word
+4				.section	.text
+5				.addressing	Word
+6				;.addressing	Word
+7			
+8	0000	03def026		xor	%r30, %r30, %r30
+9	0001	03bde826		xor	%r29, %r29, %r29
+10	0002	039ce026		xor	%r28, %r28, %r28
+11	0003	00000000		nop
+12	0004	3c1e000f		lhi	%r30, $(0xFFFFC/0x10000)
+13	0005	3c1d000f		lhi	%r29, $(0xFFFFC/0x10000)
+14	0006	00000000		nop
+15	0007	00000000		nop
+16	0008	37defffc		ori	%r30, %r30, $(0xFFFFC%0x10000)
+17	0009	37bdfffc		ori	%r29, %r29, $(0xFFFFC%0x10000)
+18	000a	00000000		nop
+19	000b	00000000		nop
+20	000c	00000000		nop
+21	000d	afbefffc		sw	-4(%r29), %r30
+22	000e	afbffff8		sw	-8(%r29), %r31
+23	000f	23ddfff8		addi	%r29, %r30, $-8
+24	0010	00000000		nop
+25	0011	00000000		nop
+26	0012	00000000		nop
+27	0013	0c00000a		jal	main	
+28	0014	00000000		nop
+29	0015	00000000		nop
+30	0016	00000000		nop
+31	0017	00000000		nop
+32	0018	00000000		nop
+33	0019	afa10000		sw	0(%r29), %r1
+34	001a	0c000079		jal	exit
+35	001b	00000000		nop
+36	001c	00000000		nop
+37			
+38			main:
+39			
+40				; Call BubbleSort
+41	001d	2bbd0008		subi	%r29, %r29, $8			; create place for the parameters
+42	001e	00000000		nop
+43	001f	00000000		nop
+44	0020	00000000		nop
+45	0021	afa00000		sw	0(%r29), %r0			; "const unsigned int startIndex"
+46	0022	20010013		addi	%r1, %r0, $19
+47	0023	00000000		nop
+48	0024	00000000		nop
+49	0025	00000000		nop
+50	0026	afa10004		sw	4(%r29), %r1			; "const unsigned int endIndex"
+51	0027	0c00000c		jal	_bubbleSort
+52	0028	00000000		nop
+53	0029	23bd0008		addi	%r29, %r29, $8
+54			
+55	002a	00000000		nop
+56	002b	00000000		nop
+57	002c	00000000		nop
+58	002d	8fbe0000		lw	%r30, 0(%r29)			; Restore frame pointer
+59	002e	8fbf0004		lw	%r31, 4(%r29)			; Restore return address
+60	002f	8fa10008		lw	%r1,  8(%r29)			; Restore r1
+61	0030	001ee820		add	%r29, %r0, %r30			; Restore stack pointer
+62			
+63				; HALT
+64	0031	0c00005f		jal	_exit
+65	0032	00000000		nop
+66			
+67			
+68			_bubbleSort:
+69	0033	001df020		add	%r30, %r0, %r29			; Establish new frame pointer 
+70	0034	2bbd0030		subi	%r29, %r29, $(8 + 10*4)		; Adjust Stack Pointer; 8 for oldFP+RET and x*4 for saved Registers
+71	0035	00000000		nop
+72	0036	00000000		nop
+73	0037	00000000		nop
+74	0038	afbe0000		sw	0(%r29), %r30			; Save the frame pointer 
+75	0039	afbf0004		sw	4(%r29), %r31			; Save the return address 
+76			
+77				; Save Registers 
+78	003a	afa10008		sw	8(%r29), %r1			; r1 is used for comparing-results and for temporary stuff.
+79	003b	afa2000c		sw	12(%r29), %r2			; r2 is the parameter value "startIndex".
+80	003c	afa30010		sw	16(%r29), %r3			; r3 is the parameter value "endIndex".
+81	003d	afa40014		sw	20(%r29), %r4			; r4 is the loop-variable "i".
+82	003e	afa50018		sw	24(%r29), %r5			; r5 is the loop-variable "j".
+83	003f	afa6001c		sw	28(%r29), %r6			; r6 is the loop-end "innerLoopEnd".
+84	0040	afa70020		sw	32(%r29), %r7			; r7 is "next_j".
+85	0041	afa80024		sw	36(%r29), %r8			; r8 is "value_j".
+86	0042	afa90028		sw	40(%r29), %r9			; r9 is "value_next_j".
+87	0043	afaa002c		sw	44(%r29), %r10			; r10 is the start address of 'array'.
+88			
+89	0044	00000000		nop
+90	0045	8fc20000		lw	%r2, 0(%r30)
+91	0046	8fc30004		lw	%r3, 4(%r30)
+92			
+93	0047	3c0a0000		lhi	%r10, $(_array/65536)&0xffff
+94	0048	00000000		nop
+95	0049	00000000		nop
+96	004a	00000000		nop
+97	004b	254a0000		addui	%r10, %r10, $(_array&0xffff)
+98			
+99				; innerLoopEnd = array+endIndex
+100	004c	40610002		slli	%r1, %r3, $2
+101	004d	00000000		nop
+102	004e	00000000		nop
+103	004f	00000000		nop
+104	0050	01413021		addu	%r6, %r10, %r1
+105				; i = startIndex;
+106	0051	00022021		addu	%r4, %r0, %r2
+107	0052	00000000		nop
+108	0053	00000000		nop
+109	0054	00000000		nop
+110			outer_loop_begin:
+111				; while (i < endIndex) {
+112	0055	b083002b		bgeu	%r4, %r3, outer_loop_end
+113	0056	00000000		nop
+114				;   j = array+startIndex;
+115	0057	40410002		slli	%r1, %r2, $2
+116	0058	00000000		nop
+117	0059	00000000		nop
+118	005a	00000000		nop
+119	005b	01412821		addu	%r5, %r10, %r1
+120	005c	00000000		nop
+121	005d	00000000		nop
+122	005e	00000000		nop
+123				;   value_j = *j;
+124	005f	8ca80000		lw	%r8, 0(%r5)
+125				;   next_j = j;
+126	0060	00053821		addu	%r7, %r0, %r5
+127				;   while (j < innerLoopEnd) {
+128			inner_loop_begin:
+129	0061	b0a6001a		bgeu	%r5, %r6, inner_loop_end
+130	0062	00000000		nop
+131	0063	00000000		nop
+132				;     next_j++;
+133	0064	24e70004		addui	%r7, %r7, $4
+134	0065	00000000		nop
+135	0066	00000000		nop
+136	0067	00000000		nop
+137				;     value_next_j = *next_j;
+138	0068	8ce90000		lw	%r9, 0(%r7)
+139	0069	00000000		nop
+140	006a	00000000		nop
+141	006b	00000000		nop
+142				;     if (value_next_j < value_j) {
+143	006c	b1280009		bgeu	%r9, %r8, endif
+144	006d	00000000		nop
+145				;       *j = value_next_j;
+146	006e	aca90000		sw	0(%r5), %r9
+147				;       *next_j = value_j;
+148	006f	ace80000		sw	0(%r7), %r8
+149				;       tmp = value_j;
+150	0070	00080821		addu	%r1, %r0, %r8
+151				;       value_j = value_next_j;
+152	0071	00094021		addu	%r8, %r0, %r9
+153				;       value_next_j = tmp;
+154	0072	00000000		nop
+155	0073	00000000		nop
+156	0074	00014821		addu	%r9, %r0, %r1
+157				;     }
+158			endif:
+159				;     j = next_j;
+160	0075	00072821		addu	%r5, %r0, %r7
+161				;     value_j = value_next_j;  
+162	0076	00000000		nop
+163	0077	00000000		nop
+164	0078	00094021		addu	%r8, %r0, %r9
+165				;   }
+166	0079	0bffffe8		j	inner_loop_begin
+167	007a	00000000		nop
+168			inner_loop_end:
+169				;   innerLoopEnd--;
+170	007b	2cc60004		subui	%r6, %r6, $4
+171				;   i++;
+172	007c	24840001		addui	%r4, %r4, $1
+173				; }
+174	007d	00000000		nop
+175	007e	0bffffd7		j	outer_loop_begin
+176	007f	00000000		nop
+177			outer_loop_end:
+178			
+179			
+180	0080	8fbe0000		lw	%r30, 0(%r29)			; Restore frame pointer
+181	0081	8fbf0004		lw	%r31, 4(%r29)			; Restore return address
+182			
+183				; Restore the saved registers
+184	0082	8fa10008		lw	%r1, 8(%r29)
+185	0083	8fa2000c		lw	%r2, 12(%r29)
+186	0084	8fa30010		lw	%r3, 16(%r29)
+187	0085	8fa40014		lw	%r4, 20(%r29)
+188	0086	8fa50018		lw	%r5, 24(%r29)
+189	0087	8fa6001c		lw	%r6, 28(%r29)
+190	0088	8fa70020		lw	%r7, 32(%r29)
+191	0089	8fa80024		lw	%r8, 36(%r29)
+192	008a	8fa90028		lw	%r9, 40(%r29)
+193	008b	8faa0030		lw	%r10,48(%r29)
+194			
+195	008c	001ee820		add	%r29, %r0, %r30			; Restore stack pointer
+196			
+197				; Return
+198	008d	00000000		nop
+199	008e	03e00008		jr	%r31
+200	008f	00000000		nop
+201			
+202			
+203	0090	00000000	_exit:	nop
+204	0091	00000000		nop
+205			
+206			
+207				.section	.data
+208			_array:
+209	0000	0000002d		.data.32	45
+210	0004	0000004b		.data.32	75
+211	0008	00000156		.data.32	342
+212	000c	00000036		.data.32	54
+213	0010	00000007		.data.32	7
+214	0014	00000056		.data.32	86
+215	0018	0000005c		.data.32	92
+216	001c	000000eb		.data.32	235
+217	0020	00000004		.data.32	4
+218	0024	0000002a		.data.32	42
+219	0028	00000063		.data.32	99
+220	002c	0000004e		.data.32	78
+221	0030	0000003f		.data.32	63
+222	0034	00000160		.data.32	352
+223	0038	00000015		.data.32	21
+224	003c	0000027a		.data.32	634
+225	0040	00000006		.data.32	6
+226	0044	0000004d		.data.32	77
+227	0048	0000015a		.data.32	346
+228	004c	00000017		.data.32	23
+229			
+230				.section	.text
+231				.addressing	Word
+232				;.addressing	Word
+233	0092	00000000		nop
+234			exit:
+235	0093	00000000		nop
+236	0094	00000000		nop
+
+
+******** Cross Reference List ********
+Defined Symbol
+name   	section	lc     	attr   	value  	lineno 
+exit	.text	0093	Label	93	234 
+outer_loop_end	.text	0080	Label	80	177 
+_bubbleSort	.text	0033	Label	33	68 
+endif	.text	0075	Label	75	158 
+inner_loop_begin	.text	0061	Label	61	128 
+_array	.data	0000	Label	0	208 
+_exit	.text	0090	Label	90	203 
+inner_loop_end	.text	007b	Label	7b	168 
+outer_loop_begin	.text	0055	Label	55	110 
+main	.text	001d	Label	1d	38 
+
+
+Undefined Symbol
+name   	section	lc     	attr   	value  	lineno 
+
+
+Multiple Defined Symbol
+name   	section	lc     	attr   	value  	lineno 
+
+
+******* Section Data List ******* 
+Sec	Attr		Size
+.text 	Writable 	95 
+addr_space : 16 
+addressing : Word 
+bitwidth per byte : 8 
+word alignment : 4 
+.data 	Data		50 
+addr_space : 16 
+addressing : Byte 
+bitwidth per byte : 8 
+word alignment : 4 

@@ -1,0 +1,51 @@
+answers:
+Exercise 1)
+a) There is a multicycle operation which causes the pipeline
+   to stall, because it stays for more than one cycle in the
+   execute phase. This operation is "mult r6, r1, r2". It's
+   a multicycle operation because internally it obviously uses
+   shifts and additions.
+b) The trap instruction stops the execution of the program.
+ 
+Exercise 2)
+a) This combination is used to load a 32-bit immediate into
+   a register.
+b) In this special case the upper 16-bit of those adressess are
+   all zero. In general the upper 16-bit can have any value, so
+   it needs to be loaded with the proper value.
+   Of course, if you omit lhi you'd need to you r0 in the ori
+   as the input register.
+ 
+Exercise 3)
+a) "if then else"
+b) r4 = max(r1, r2)
+c) The first and second nop are placed in the delay slots of the
+   branch instructions. The third nop is needed for the address
+   of the label, as the trap is just a pseudo instructino.
+d) The first nop can just be omitted without any change of the
+   result, because if the branch instruction is taken, then
+   r4 will be written later again. If it's not taken, the
+   execution will just be one cycle faster.
+ 
+Exercise 4)
+a) r3 = r1*r2
+b) Perhaps "Horner-method"?
+c) The loop can be executed maximally infinite times. This is the
+   case, if the upper bit of r1 is set, i.e. r1 is negative.
+ 
+Exercise 5)
+a) "switch-case"
+   This block calculates the appropriate address in the jump
+   table for r3
+b) Each jump table entry has a size of 8 bytes (two 32-bit
+   instructions), so shifting left with 3 is a multiplication
+   with 8.
+c) Branch instructions are conditionally jumps and "jump"
+   instructions are unconditionally jumps
+ 
+Exercise 6)
+a) see attachement
+b) 9 instructions
+c) 93 cycles
+d) 21 memory accesses
+
