@@ -1,0 +1,22 @@
+ Copyright (C) 2011 ASIP Solutions, Inc. All rights reserved. 
+12/5/18 5:15 PM : "Interface Definition" complete.
+12/5/18 5:15 PM : "Interface Definition" start browse.
+12/5/18 5:15 PM : "Interface Definition" finish browse.
+12/5/18 5:15 PM :  asm_translator asmdev browstd32AVG browstd32AVG_asm.log finished as normally.
+12/5/18 5:15 PM : Load file "browstd32AVG_asm.log".
+12/5/18 5:15 PM : "Assembler Generation" complete.
+12/5/18 5:15 PM : "Micro Op. Description" start browse.
+12/5/18 5:15 PM : "Micro Op. Description" finish browse.
+12/5/18 5:16 PM :  modelgen both browstd32AVG browstd32AVG_mod.log VHDL finished as normally.
+12/5/18 5:16 PM : Load file "browstd32AVG_mod.log".
+12/5/18 5:16 PM : "HDL Generation" complete.
+12/5/18 5:16 PM : "C Definition" complete.
+12/5/18 5:16 PM : "C Definition" start browse.
+12/5/18 5:16 PM : "C Definition" save
+12/5/18 5:16 PM : "C Definition" finish browse.
+12/5/18 5:17 PM : Load file "browstd32AVG_com.log".
+12/5/18 5:17 PM : "Compiler Generation" complete.
+12/5/18 5:31 PM : Load file "browstd32AVG_com.log".
+12/5/18 5:31 PM : "Compiler Generation" complete.
+12/5/18 5:57 PM : Save file "browstd32AVG.pdb".
+12/5/18 5:57 PM : "Main menu" quit.

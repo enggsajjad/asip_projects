@@ -1,0 +1,4 @@
+AR dlx_toplevel behavioral /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/dlx_toplevel.vhd sub00/vhpl03 1549884154
+EN dlx_toplevel NULL /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/dlx_toplevel.vhd sub00/vhpl02 1549884153
+AR debouncer behavioral /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/Debouncer.vhd sub00/vhpl01 1549884152
+EN debouncer NULL /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/Debouncer.vhd sub00/vhpl00 1549884151

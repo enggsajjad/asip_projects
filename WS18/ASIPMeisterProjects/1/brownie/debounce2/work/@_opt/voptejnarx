@@ -1,0 +1,139 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ModelSim
+T_opt
+Z1 VG]gLaXDDlghoO1fFA`1in2
+Z2 04 6 8 work tb_alu behavior 1
+Z3 =1-00219b5aa2db-5c4f0a3f-1bdf-f32
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6d;45
+Z7 d/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ModelSim
+T_opt1
+Z8 VziSb>kbI=k?EPeM_Q]:ie2
+Z9 04 9 8 work tb_rotary behavior 1
+Z10 =1-00219b5aa2db-5c4f09a9-82fbf-f18
+R4
+Z11 n@_opt1
+R6
+R7
+Edb_rotary
+Z12 w1548683239
+Z13 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z15 d/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2
+Z16 8/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/rotary.vhdl
+Z17 F/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/rotary.vhdl
+l0
+L6
+Z18 Va:Igc]L_>f?a@IU]MOSUP2
+Z19 OE;C;6.6d;45
+32
+Z20 o-work work -2002 -explicit
+Z21 tExplicit 1
+Z22 !s100 QajHIGzhK>jfLP`<oI:[^1
+Abehav
+R13
+R14
+Z23 DEx4 work 9 db_rotary 0 22 a:Igc]L_>f?a@IU]MOSUP2
+l30
+L14
+Z24 V0UzSkRoeRSjNJj?n4@Xjk2
+R19
+32
+Z25 Mx2 4 ieee 14 std_logic_1164
+Z26 Mx1 4 ieee 11 numeric_std
+R20
+R21
+Z27 !s100 5lC[k?Ik5@N<h23:[DB981
+Edebounce
+Z28 w1548679716
+R13
+R14
+R15
+Z29 8/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/db.vhdl
+Z30 F/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/db.vhdl
+l0
+L5
+Z31 V_@bdATgdPJK4VhncQeYNZ0
+R19
+32
+R20
+R21
+Z32 !s100 PH[ZUOW`2eTlGG3>g<UMB3
+Abehav
+R13
+R14
+Z33 DEx4 work 8 debounce 0 22 _@bdATgdPJK4VhncQeYNZ0
+l25
+L13
+Z34 V295inZ=OhUZLD=GlY][bi3
+R19
+32
+R25
+R26
+R20
+R21
+Z35 !s100 VUgg0[Oamm9KeaLA8kF`D3
+Etb_alu
+Z36 w1548683670
+Z37 DPx17 __model_tech/ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z38 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R15
+Z39 8/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/tb_rot.vhdl
+Z40 F/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/tb_rot.vhdl
+l0
+L5
+Z41 V3_0`X2FK814Y:i55TVhoj0
+R19
+R20
+R21
+Z42 !s100 kK;HT^0T:NTlb[YTcS>FE2
+Abehavior
+Z43 DEx62 /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/work 8 debounce 0 22 _@bdATgdPJK4VhncQeYNZ0
+DEx62 /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/work 9 db_rotary 0 22 a:Igc]L_>f?a@IU]MOSUP2
+R37
+R38
+Z44 DEx62 /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/work 6 tb_alu 0 22 3_0`X2FK814Y:i55TVhoj0
+32
+Z45 Mx2 17 __model_tech/ieee 14 std_logic_1164
+Z46 Mx1 17 __model_tech/ieee 11 numeric_std
+l33
+L8
+Z47 V?^gXnY[JTXzR@<O2j6cj20
+R19
+R20
+R21
+Z48 !s100 8lTjMG2hhj8>2TmBZ`<zM3
+Etb_rotary
+R36
+R13
+R14
+R15
+R39
+R40
+l0
+L5
+Z49 VL[H@eANKkB<ZnZjmENo:i3
+R19
+32
+R20
+R21
+Z50 !s100 Yi<B>fVU7Tb2S]DK68`@22
+Abehavior
+R13
+R14
+Z51 DEx4 work 9 tb_rotary 0 22 L[H@eANKkB<ZnZjmENo:i3
+l33
+L8
+Z52 V@;YSXRn;NhKYDIDO4XS[L1
+R19
+32
+R25
+R26
+R20
+R21
+Z53 !s100 R3zJTPNSjD;CG`VRdnSPd3

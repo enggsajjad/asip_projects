@@ -1,0 +1,103 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ModelSim
+T_opt
+Z1 V0chAY=INIC^L]0^?C0^n?2
+Z2 04 12 8 work tb_debouncer behavior 1
+Z3 =1-00219b5aa2db-5c4b49a7-1558d-1f72
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6d;45
+Z7 d/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ModelSim
+Pdebounce_pack
+Z8 DPx17 __model_tech/ieee 9 math_real 0 22 zjAF7SKfg_RPI0GT^n1N`1
+Z9 DPx17 __model_tech/ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z10 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z11 Mx3 17 __model_tech/ieee 14 std_logic_1164
+Z12 Mx2 17 __model_tech/ieee 11 numeric_std
+Z13 Mx1 17 __model_tech/ieee 9 math_real
+Z14 w1548436573
+Z15 d/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce
+Z16 8/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/debounce_pack.vhd
+Z17 F/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/debounce_pack.vhd
+l0
+L16
+Z18 VI2Z1Zcn?mRfnanDmbR]1F1
+Z19 OE;C;6.6d;45
+Z20 o-work work -2002 -explicit
+Z21 tExplicit 1
+Z22 !s100 `[KcHi580YV[zm8o5:7L61
+Edebouncer
+R14
+Z23 DPx4 ieee 9 math_real 0 22 zjAF7SKfg_RPI0GT^n1N`1
+Z24 DPx4 work 13 debounce_pack 0 22 I2Z1Zcn?mRfnanDmbR]1F1
+Z25 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z26 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R15
+Z27 8/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/debouncer.vhd
+Z28 F/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/debouncer.vhd
+l0
+L15
+Z29 VgdzZBHc`D7?YgRfZzQQ=40
+R19
+32
+R20
+R21
+Z30 !s100 TddY]biiI`NVZa0j5Ml_h1
+Artl
+R23
+R24
+R25
+R26
+Z31 DEx4 work 9 debouncer 0 22 gdzZBHc`D7?YgRfZzQQ=40
+l36
+L28
+Z32 V>4BZNcmVn0G87W@AY@NC<3
+R19
+32
+Z33 Mx4 4 ieee 14 std_logic_1164
+Z34 Mx3 4 ieee 11 numeric_std
+Z35 Mx2 4 work 13 debounce_pack
+Z36 Mx1 4 ieee 9 math_real
+R20
+R21
+Z37 !s100 J734^N1B@dcC8m8V3c]KX0
+Etb_debouncer
+Z38 w1548437891
+R8
+Z39 DPx61 /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/work 13 debounce_pack 0 22 I2Z1Zcn?mRfnanDmbR]1F1
+R9
+R10
+32
+R15
+Z40 8/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/tb_debouncer.vhd
+Z41 F/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/tb_debouncer.vhd
+l0
+L8
+Z42 VCJ:B04W@gUoZ_Goo5U2?R0
+R19
+R20
+R21
+Z43 !s100 bz_VW=;D6lM=>0DYj?04n1
+Abehavior
+Z44 DEx61 /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/work 9 debouncer 0 22 gdzZBHc`D7?YgRfZzQQ=40
+R8
+R39
+R9
+R10
+DEx61 /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/work 12 tb_debouncer 0 22 CJ:B04W@gUoZ_Goo5U2?R0
+32
+Z45 Mx4 17 __model_tech/ieee 14 std_logic_1164
+Z46 Mx3 17 __model_tech/ieee 11 numeric_std
+Z47 Mx2 61 /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/work 13 debounce_pack
+R13
+l26
+L11
+Z48 Ve9Bd<GJ6;U`<OV^73nTU;3
+R19
+R20
+R21
+Z49 !s100 P>F@eoiAnkM_W8QUzn_Va3

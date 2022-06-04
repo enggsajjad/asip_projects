@@ -1,0 +1,25 @@
+/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/rotary.vhdl {1 {vcom -work work -2002 -explicit -vopt /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/rotary.vhdl
+Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity db_rotary
+-- Compiling architecture behav of db_rotary
+
+} {} {}} /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/tb.vhdl {1 {vcom -work work -2002 -explicit -vopt /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/tb.vhdl
+Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity tb_alu
+-- Compiling architecture behavior of tb_alu
+
+} {} {}} /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/db.vhdl {1 {vcom -work work -2002 -explicit -vopt /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/db.vhdl
+Model Technology ModelSim SE vcom 6.6d Compiler 2010.11 Nov  1 2010
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity debounce
+-- Compiling architecture behav of debounce
+
+} {} {}}

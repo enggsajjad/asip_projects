@@ -1,0 +1,57 @@
+# Compile of db.vhdl was successful.
+# Compile of tb.vhdl was successful.
+# Compile of rotary.vhdl failed.
+# Compile of db.vhdl was successful.
+# Compile of tb.vhdl was successful.
+# Compile of rotary.vhdl failed.
+# Compile of db.vhdl was successful.
+# Compile of tb.vhdl was successful.
+# Compile of rotary.vhdl failed.
+# Compile of db.vhdl was successful.
+# Compile of tb.vhdl was successful.
+# Compile of rotary.vhdl failed.
+# Compile of db.vhdl was successful.
+# Compile of tb.vhdl was successful.
+# Compile of rotary.vhdl was successful.
+# Compile of db.vhdl was successful.
+# Compile of tb.vhdl was successful.
+# Compile of rotary.vhdl was successful.
+# Compile of tb_rot.vhdl failed.
+# Compile of tb_rot.vhdl failed with 1 errors.
+# Compile of tb_rot.vhdl was successful.
+# Load canceled
+# Compile of tb_rot.vhdl was successful.
+vsim work.tb_rotary
+# vsim work.tb_rotary 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_rotary(behavior)#1
+add wave sim:/tb_rotary/*
+run -all
+quit -sim
+vsim work.tb_alu
+# vsim work.tb_alu 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu(behavior)#1
+add wave sim:/tb_alu/*
+quit -sim
+# Compile of db.vhdl was successful.
+# Compile of tb.vhdl was successful.
+# Compile of rotary.vhdl was successful.
+# Compile of tb_rot.vhdl was successful.
+vsim -novopt work.tb_alu
+# vsim -novopt work.tb_alu 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/work.tb_alu(behavior)
+# Loading work.tb_alu(behavior)
+# Refreshing /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce2/work.debounce(behav)
+# Loading work.debounce(behav)
+add wave sim:/tb_alu/*
+run -all

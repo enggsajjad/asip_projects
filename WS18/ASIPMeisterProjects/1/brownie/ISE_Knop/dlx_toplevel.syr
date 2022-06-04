@@ -1,0 +1,510 @@
+Release 13.2 - xst O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Reading design: dlx_toplevel.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "dlx_toplevel.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "dlx_toplevel"
+Output Format                      : NGC
+Target Device                      : xc5vlx110t-1-ff1136
+
+---- Source Options
+Top Module Name                    : dlx_toplevel
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Off
+Reduce Control Sets                : Off
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/Debouncer.vhd" in Library work.
+Architecture behavioral of Entity debouncer is up to date.
+Compiling vhdl file "/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/dlx_toplevel.vhd" in Library work.
+Entity <dlx_toplevel> compiled.
+Entity <dlx_toplevel> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <dlx_toplevel> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Debouncer> in library <work> (architecture <behavioral>) with generics.
+	bitwidth = 4
+	maxCount = 40000000
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <dlx_toplevel> in library <work> (Architecture <behavioral>).
+Entity <dlx_toplevel> analyzed. Unit <dlx_toplevel> generated.
+
+Analyzing generic Entity <Debouncer> in library <work> (Architecture <behavioral>).
+	bitwidth = 4
+	maxCount = 40000000
+Entity <Debouncer> analyzed. Unit <Debouncer> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Debouncer>.
+    Related source file is "/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/Debouncer.vhd".
+    Found 4-bit register for signal <dataDebounced>.
+    Found 32-bit register for signal <counter>.
+    Found 32-bit adder for signal <counter$add0000> created at line 43.
+    Found 4-bit comparator not equal for signal <counter$cmp_ne0000> created at line 36.
+    Found 4-bit register for signal <lastDataSource>.
+    Summary:
+	inferred  40 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <Debouncer> synthesized.
+
+
+Synthesizing Unit <dlx_toplevel>.
+    Related source file is "/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/dlx_toplevel.vhd".
+Unit <dlx_toplevel> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 6
+ 1-bit register                                        : 4
+ 32-bit register                                       : 1
+ 4-bit register                                        : 1
+# Comparators                                          : 1
+ 4-bit comparator not equal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 40
+ Flip-Flops                                            : 40
+# Comparators                                          : 1
+ 4-bit comparator not equal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <dlx_toplevel> ...
+
+Optimizing unit <Debouncer> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block dlx_toplevel, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 40
+ Flip-Flops                                            : 40
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : dlx_toplevel.ngr
+Top Level Output File Name         : dlx_toplevel
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 17
+
+Cell Usage :
+# BELS                             : 120
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 10
+#      LUT3                        : 1
+#      LUT4                        : 1
+#      LUT5                        : 1
+#      LUT6                        : 41
+#      MUXCY                       : 31
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 40
+#      FDC                         : 32
+#      FDCE                        : 4
+#      FDCPE                       : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 16
+#      IBUF                        : 5
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx110tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              40  out of  69120     0%  
+ Number of Slice LUTs:                   55  out of  69120     0%  
+    Number used as Logic:                55  out of  69120     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     61
+   Number with an unused Flip Flop:      21  out of     61    34%  
+   Number with an unused LUT:             6  out of     61     9%  
+   Number of fully used LUT-FF pairs:    34  out of     61    55%  
+   Number of unique control sets:         6
+
+IO Utilization: 
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    640     2%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_in                             | BUFGP                  | 40    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+---------------------------------------------------------------------------+----------------------------------+-------+
+Control Signal                                                             | Buffer(FF name)                  | Load  |
+---------------------------------------------------------------------------+----------------------------------+-------+
+nreset                                                                     | IBUF                             | 36    |
+uDebouncer/lastDataSource_0_and0000(uDebouncer/lastDataSource_0_and00001:O)| NONE(uDebouncer/lastDataSource_0)| 1     |
+uDebouncer/lastDataSource_0_and0001(uDebouncer/lastDataSource_0_and00011:O)| NONE(uDebouncer/lastDataSource_0)| 1     |
+uDebouncer/lastDataSource_1_and0000(uDebouncer/lastDataSource_1_and00001:O)| NONE(uDebouncer/lastDataSource_1)| 1     |
+uDebouncer/lastDataSource_1_and0001(uDebouncer/lastDataSource_1_and00011:O)| NONE(uDebouncer/lastDataSource_1)| 1     |
+uDebouncer/lastDataSource_2_and0000(uDebouncer/lastDataSource_2_and00001:O)| NONE(uDebouncer/lastDataSource_2)| 1     |
+uDebouncer/lastDataSource_2_and0001(uDebouncer/lastDataSource_2_and00011:O)| NONE(uDebouncer/lastDataSource_2)| 1     |
+uDebouncer/lastDataSource_3_and0000(uDebouncer/lastDataSource_3_and00001:O)| NONE(uDebouncer/lastDataSource_3)| 1     |
+uDebouncer/lastDataSource_3_and0001(uDebouncer/lastDataSource_3_and00011:O)| NONE(uDebouncer/lastDataSource_3)| 1     |
+---------------------------------------------------------------------------+----------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 4.447ns (Maximum Frequency: 224.871MHz)
+   Minimum input arrival time before clock: 4.604ns
+   Maximum output required time after clock: 3.259ns
+   Maximum combinational path delay: 4.321ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_in'
+  Clock period: 4.447ns (frequency: 224.871MHz)
+  Total number of paths / destination ports: 19700 / 44
+-------------------------------------------------------------------------
+Delay:               4.447ns (Levels of Logic = 35)
+  Source:            uDebouncer/counter_13 (FF)
+  Destination:       uDebouncer/counter_31 (FF)
+  Source Clock:      clk_in rising
+  Destination Clock: clk_in rising
+
+  Data Path: uDebouncer/counter_13 to uDebouncer/counter_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.471   1.080  uDebouncer/counter_13 (uDebouncer/counter_13)
+     LUT6:I0->O            1   0.094   0.576  uDebouncer/counter_cmp_eq0000126_1 (uDebouncer/counter_cmp_eq00001261)
+     LUT2:I0->O           10   0.094   0.529  uDebouncer/counter_cmp_eq00011_SW0 (N4)
+     LUT6:I5->O            1   0.094   0.000  uDebouncer/Madd_counter_add0000_lut<0> (uDebouncer/Madd_counter_add0000_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  uDebouncer/Madd_counter_add0000_cy<0> (uDebouncer/Madd_counter_add0000_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<1> (uDebouncer/Madd_counter_add0000_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<2> (uDebouncer/Madd_counter_add0000_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<3> (uDebouncer/Madd_counter_add0000_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<4> (uDebouncer/Madd_counter_add0000_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<5> (uDebouncer/Madd_counter_add0000_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<6> (uDebouncer/Madd_counter_add0000_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<7> (uDebouncer/Madd_counter_add0000_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<8> (uDebouncer/Madd_counter_add0000_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<9> (uDebouncer/Madd_counter_add0000_cy<9>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<10> (uDebouncer/Madd_counter_add0000_cy<10>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<11> (uDebouncer/Madd_counter_add0000_cy<11>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<12> (uDebouncer/Madd_counter_add0000_cy<12>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<13> (uDebouncer/Madd_counter_add0000_cy<13>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<14> (uDebouncer/Madd_counter_add0000_cy<14>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<15> (uDebouncer/Madd_counter_add0000_cy<15>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<16> (uDebouncer/Madd_counter_add0000_cy<16>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<17> (uDebouncer/Madd_counter_add0000_cy<17>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<18> (uDebouncer/Madd_counter_add0000_cy<18>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<19> (uDebouncer/Madd_counter_add0000_cy<19>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<20> (uDebouncer/Madd_counter_add0000_cy<20>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<21> (uDebouncer/Madd_counter_add0000_cy<21>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<22> (uDebouncer/Madd_counter_add0000_cy<22>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<23> (uDebouncer/Madd_counter_add0000_cy<23>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<24> (uDebouncer/Madd_counter_add0000_cy<24>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<25> (uDebouncer/Madd_counter_add0000_cy<25>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<26> (uDebouncer/Madd_counter_add0000_cy<26>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<27> (uDebouncer/Madd_counter_add0000_cy<27>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<28> (uDebouncer/Madd_counter_add0000_cy<28>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<29> (uDebouncer/Madd_counter_add0000_cy<29>)
+     MUXCY:CI->O           0   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<30> (uDebouncer/Madd_counter_add0000_cy<30>)
+     XORCY:CI->O           1   0.357   0.000  uDebouncer/Madd_counter_add0000_xor<31> (uDebouncer/counter_add0000<31>)
+     FDC:D                    -0.018          uDebouncer/counter_31
+    ----------------------------------------
+    Total                      4.447ns (2.262ns logic, 2.185ns route)
+                                       (50.9% logic, 49.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_in'
+  Total number of paths / destination ports: 2148 / 44
+-------------------------------------------------------------------------
+Offset:              4.604ns (Levels of Logic = 36)
+  Source:            knop<1> (PAD)
+  Destination:       uDebouncer/counter_31 (FF)
+  Destination Clock: clk_in rising
+
+  Data Path: knop<1> to uDebouncer/counter_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.818   0.811  knop_1_IBUF (led_buildin_1_OBUF)
+     LUT4:I0->O            1   0.094   0.480  uDebouncer/lastDataSource_3_not0001_inv_SW0 (N01)
+     LUT5:I4->O           37   0.094   0.704  uDebouncer/lastDataSource_3_not0001_inv (uDebouncer/lastDataSource_3_not0001_inv)
+     LUT6:I4->O            1   0.094   0.000  uDebouncer/Madd_counter_add0000_lut<0> (uDebouncer/Madd_counter_add0000_lut<0>)
+     MUXCY:S->O            1   0.372   0.000  uDebouncer/Madd_counter_add0000_cy<0> (uDebouncer/Madd_counter_add0000_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<1> (uDebouncer/Madd_counter_add0000_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<2> (uDebouncer/Madd_counter_add0000_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<3> (uDebouncer/Madd_counter_add0000_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<4> (uDebouncer/Madd_counter_add0000_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<5> (uDebouncer/Madd_counter_add0000_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<6> (uDebouncer/Madd_counter_add0000_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<7> (uDebouncer/Madd_counter_add0000_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<8> (uDebouncer/Madd_counter_add0000_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<9> (uDebouncer/Madd_counter_add0000_cy<9>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<10> (uDebouncer/Madd_counter_add0000_cy<10>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<11> (uDebouncer/Madd_counter_add0000_cy<11>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<12> (uDebouncer/Madd_counter_add0000_cy<12>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<13> (uDebouncer/Madd_counter_add0000_cy<13>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<14> (uDebouncer/Madd_counter_add0000_cy<14>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<15> (uDebouncer/Madd_counter_add0000_cy<15>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<16> (uDebouncer/Madd_counter_add0000_cy<16>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<17> (uDebouncer/Madd_counter_add0000_cy<17>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<18> (uDebouncer/Madd_counter_add0000_cy<18>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<19> (uDebouncer/Madd_counter_add0000_cy<19>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<20> (uDebouncer/Madd_counter_add0000_cy<20>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<21> (uDebouncer/Madd_counter_add0000_cy<21>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<22> (uDebouncer/Madd_counter_add0000_cy<22>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<23> (uDebouncer/Madd_counter_add0000_cy<23>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<24> (uDebouncer/Madd_counter_add0000_cy<24>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<25> (uDebouncer/Madd_counter_add0000_cy<25>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<26> (uDebouncer/Madd_counter_add0000_cy<26>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<27> (uDebouncer/Madd_counter_add0000_cy<27>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<28> (uDebouncer/Madd_counter_add0000_cy<28>)
+     MUXCY:CI->O           1   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<29> (uDebouncer/Madd_counter_add0000_cy<29>)
+     MUXCY:CI->O           0   0.026   0.000  uDebouncer/Madd_counter_add0000_cy<30> (uDebouncer/Madd_counter_add0000_cy<30>)
+     XORCY:CI->O           1   0.357   0.000  uDebouncer/Madd_counter_add0000_xor<31> (uDebouncer/counter_add0000<31>)
+     FDC:D                    -0.018          uDebouncer/counter_31
+    ----------------------------------------
+    Total                      4.604ns (2.609ns logic, 1.995ns route)
+                                       (56.7% logic, 43.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_in'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.259ns (Levels of Logic = 1)
+  Source:            uDebouncer/dataDebounced_3 (FF)
+  Destination:       led_buildin2<3> (PAD)
+  Source Clock:      clk_in rising
+
+  Data Path: uDebouncer/dataDebounced_3 to led_buildin2<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.471   0.336  uDebouncer/dataDebounced_3 (uDebouncer/dataDebounced_3)
+     OBUF:I->O                 2.452          led_buildin2_3_OBUF (led_buildin2<3>)
+    ----------------------------------------
+    Total                      3.259ns (2.923ns logic, 0.336ns route)
+                                       (89.7% logic, 10.3% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Delay:               4.321ns (Levels of Logic = 3)
+  Source:            nreset (PAD)
+  Destination:       led_user<2> (PAD)
+
+  Data Path: nreset to led_user<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            45   0.818   0.466  nreset_IBUF (nreset_IBUF)
+     INV:I->O              3   0.238   0.347  led_user<1>1_INV_0 (led_user_1_OBUF)
+     OBUF:I->O                 2.452          led_user_2_OBUF (led_user<2>)
+    ----------------------------------------
+    Total                      4.321ns (3.508ns logic, 0.813ns route)
+                                       (81.2% logic, 18.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 45.00 secs
+Total CPU time to Xst completion: 10.76 secs
+ 
+--> 
+
+
+Total memory usage is 183740 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

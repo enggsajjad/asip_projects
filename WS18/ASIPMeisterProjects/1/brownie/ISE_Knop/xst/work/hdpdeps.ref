@@ -1,0 +1,17 @@
+V3 8
+FL /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/Debouncer.vhd 2019/02/04.17:33:08 O.61xd
+EN work/Debouncer 1549884151 \
+      FL /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/Debouncer.vhd \
+      PB ieee/std_logic_1164 1308643377 PB ieee/std_logic_arith 1308643378 \
+      PB ieee/STD_LOGIC_UNSIGNED 1308643379
+AR work/Debouncer/Behavioral 1549884152 \
+      FL /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/Debouncer.vhd \
+      EN work/Debouncer 1549884151
+FL /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/dlx_toplevel.vhd 2019/02/11.12:21:27 O.61xd
+EN work/dlx_toplevel 1549884153 \
+      FL /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/dlx_toplevel.vhd \
+      PB ieee/std_logic_1164 1308643377 PB ieee/std_logic_arith 1308643378 \
+      PB ieee/STD_LOGIC_UNSIGNED 1308643379 LB UNISIM PH unisim/VCOMPONENTS 1308643377
+AR work/dlx_toplevel/Behavioral 1549884154 \
+      FL /home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ISE_Knop/dlx_toplevel.vhd \
+      EN work/dlx_toplevel 1549884153 CP Debouncer

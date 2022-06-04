@@ -1,0 +1,160 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ModelSim
+T_opt
+V0chAY=INIC^L]0^?C0^n?2
+04 12 8 work tb_debouncer behavior 1
+=1-00219b5aa2db-5c4b49a7-1558d-1f72
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;6.6d;45
+Z1 d/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/ModelSim
+Pdebounce_pack
+Z2 DPx4 ieee 9 math_real 0 22 zjAF7SKfg_RPI0GT^n1N`1
+Z3 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+Z5 Mx3 4 ieee 14 std_logic_1164
+Mx2 4 ieee 11 numeric_std
+Z6 Mx1 4 ieee 9 math_real
+w1548438726
+Z7 d/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce
+8/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/debounce_pack.vhd
+F/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/debounce_pack.vhd
+l0
+L16
+VFYf6OMPz711UGGzlk@M6I2
+Z8 OE;C;6.6d;45
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1
+!s100 HK;zeTjEhO^QQU6VQRgDK3
+Edebouncer
+Z11 w1548439145
+R3
+R4
+R7
+Z12 8/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/debouncer2.vhd
+Z13 F/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/debouncer2.vhd
+l0
+L12
+V9l_Hg:_3CmfI34zEi_X5W1
+R8
+32
+R9
+R10
+!s100 K48c99gWM^Do9mSAgfTBf0
+Artl
+R3
+R4
+DEx4 work 9 debouncer 0 22 9l_Hg:_3CmfI34zEi_X5W1
+32
+Z14 Mx2 4 ieee 14 std_logic_1164
+Z15 Mx1 4 ieee 11 numeric_std
+l28
+L20
+VXZRh;0ef9iMAUgd@>n:Bf0
+R8
+R9
+R10
+!s100 A]7^[EO]f4gjNNXz7S70C0
+Edebouncer2
+Z16 w1548439395
+R3
+R4
+R7
+R12
+R13
+l0
+L12
+Vi]DC82>Gz:7FPZzE6jbkn2
+R8
+32
+R9
+R10
+!s100 :`o87LV1=JWWllC8LHHEo1
+Artl
+R3
+R4
+DEx4 work 10 debouncer2 0 22 i]DC82>Gz:7FPZzE6jbkn2
+32
+R14
+R15
+l28
+L20
+V@OW`z[[@<JTkA]`lP`U[T2
+R8
+R9
+R10
+!s100 819hkQB9<Y2DzSPOak>Pi3
+Etb_debouncer
+Z17 w1548439243
+R2
+Z18 DPx4 work 13 debounce_pack 0 22 FYf6OMPz711UGGzlk@M6I2
+R3
+R4
+R7
+Z19 8/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/tb_debouncer2.vhd
+Z20 F/home/sajjad/WS18/ASIPMeisterProjects/1/brownie/debounce/tb_debouncer2.vhd
+l0
+L8
+VCJ:B04W@gUoZ_Goo5U2?R0
+R8
+32
+R9
+R10
+!s100 bz_VW=;D6lM=>0DYj?04n1
+Abehavior
+R2
+R18
+R3
+R4
+DEx4 work 12 tb_debouncer 0 22 CJ:B04W@gUoZ_Goo5U2?R0
+32
+Z21 Mx4 4 ieee 14 std_logic_1164
+Z22 Mx3 4 ieee 11 numeric_std
+Z23 Mx2 4 work 13 debounce_pack
+R6
+l26
+L11
+V5gLY_`]hQD7:=^aVR`RWE3
+R8
+R9
+R10
+!s100 fhZ=GPGD3Jc4d=ze3PU8>1
+Etb_debouncer2
+Z24 w1548439543
+R2
+R18
+R3
+R4
+R7
+R19
+R20
+l0
+L8
+V3hdFKJN3kBc8C>P5nlORb2
+R8
+32
+R9
+R10
+!s100 Z[z8IM6g:kgPA?afGIzz=2
+Abehavior
+R2
+R18
+R3
+R4
+DEx4 work 13 tb_debouncer2 0 22 3hdFKJN3kBc8C>P5nlORb2
+32
+R21
+R22
+R23
+R6
+l26
+L11
+V;0A5QQQI;A]m^9PSFeg2[2
+R8
+R9
+R10
+!s100 9DQF0XfY;]2H1b:47XH5g0

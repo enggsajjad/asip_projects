@@ -1,0 +1,46 @@
+//! **************************************************************************
+// Written by: Map O.61xd on Mon Feb 11 12:36:17 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led_buildin2<2>" LOCATE = SITE "AD24" LEVEL 1;
+COMP "led_buildin2<3>" LOCATE = SITE "AE24" LEVEL 1;
+COMP "knop<0>" LOCATE = SITE "F34" LEVEL 1;
+COMP "knop<1>" LOCATE = SITE "J32" LEVEL 1;
+COMP "knop<2>" LOCATE = SITE "G32" LEVEL 1;
+COMP "knop<3>" LOCATE = SITE "G33" LEVEL 1;
+COMP "led_user<0>" LOCATE = SITE "M32" LEVEL 1;
+COMP "led_user<1>" LOCATE = SITE "P34" LEVEL 1;
+COMP "led_user<2>" LOCATE = SITE "N34" LEVEL 1;
+COMP "led_buildin<0>" LOCATE = SITE "H18" LEVEL 1;
+COMP "led_buildin<1>" LOCATE = SITE "L18" LEVEL 1;
+COMP "led_buildin<2>" LOCATE = SITE "G15" LEVEL 1;
+COMP "led_buildin<3>" LOCATE = SITE "AD26" LEVEL 1;
+COMP "nreset" LOCATE = SITE "H32" LEVEL 1;
+COMP "clk_in" LOCATE = SITE "AH15" LEVEL 1;
+COMP "led_buildin2<0>" LOCATE = SITE "G16" LEVEL 1;
+COMP "led_buildin2<1>" LOCATE = SITE "AD25" LEVEL 1;
+TIMEGRP clk_in = BEL "uDebouncer/dataDebounced_3" BEL
+        "uDebouncer/dataDebounced_2" BEL "uDebouncer/dataDebounced_1" BEL
+        "uDebouncer/dataDebounced_0" BEL "uDebouncer/counter_31" BEL
+        "uDebouncer/counter_30" BEL "uDebouncer/counter_29" BEL
+        "uDebouncer/counter_28" BEL "uDebouncer/counter_27" BEL
+        "uDebouncer/counter_26" BEL "uDebouncer/counter_25" BEL
+        "uDebouncer/counter_24" BEL "uDebouncer/counter_23" BEL
+        "uDebouncer/counter_22" BEL "uDebouncer/counter_21" BEL
+        "uDebouncer/counter_20" BEL "uDebouncer/counter_19" BEL
+        "uDebouncer/counter_18" BEL "uDebouncer/counter_17" BEL
+        "uDebouncer/counter_16" BEL "uDebouncer/counter_15" BEL
+        "uDebouncer/counter_14" BEL "uDebouncer/counter_13" BEL
+        "uDebouncer/counter_12" BEL "uDebouncer/counter_11" BEL
+        "uDebouncer/counter_10" BEL "uDebouncer/counter_9" BEL
+        "uDebouncer/counter_8" BEL "uDebouncer/counter_7" BEL
+        "uDebouncer/counter_6" BEL "uDebouncer/counter_5" BEL
+        "uDebouncer/counter_4" BEL "uDebouncer/counter_3" BEL
+        "uDebouncer/counter_2" BEL "uDebouncer/counter_1" BEL
+        "uDebouncer/counter_0" BEL "uDebouncer/lastDataSource_0" BEL
+        "uDebouncer/lastDataSource_1" BEL "uDebouncer/lastDataSource_2" BEL
+        "uDebouncer/lastDataSource_3" BEL "clk_in_BUFGP/BUFG";
+TS_clk = PERIOD TIMEGRP "clk_in" 100 MHz HIGH 50%;
+SCHEMATIC END;
+
