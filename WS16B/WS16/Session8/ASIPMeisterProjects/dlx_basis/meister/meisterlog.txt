@@ -1,0 +1,124 @@
+12/6/16 12:43 PM : "Main menu" start.
+12/6/16 12:43 PM : Load file ".ASIPmeister.ini".
+12/6/16 12:43 PM : Load file "dlx_basis.pdb".
+12/6/16 12:43 PM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+12/6/16 12:43 PM : Load file "dlx_basis_mod.log".
+12/6/16 12:43 PM : "null" complete.
+12/6/16 12:43 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+12/6/16 12:43 PM : Load file "dlx_basis_tr.log".
+12/6/16 12:43 PM : "null" complete.
+12/6/16 12:45 PM : "Main menu" quit.
+12/29/16 6:51 PM : "Main menu" start.
+12/29/16 6:51 PM : Load file ".ASIPmeister.ini".
+12/29/16 6:51 PM : Load file "dlx_basis.pdb".
+12/29/16 6:51 PM : Query "parameter(pcu,synthesis)" finished as normally.
+12/29/16 6:51 PM : Query "parameter(register,synthesis)" finished as normally.
+12/29/16 6:51 PM : Query "parameter(imau,synthesis)" finished as normally.
+12/29/16 6:51 PM : Query "parameter(dmau,synthesis)" finished as normally.
+12/29/16 6:51 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+12/29/16 6:51 PM : Query "parameter(alu,synthesis)" finished as normally.
+12/29/16 6:51 PM : Query "parameter(extender,synthesis)" finished as normally.
+12/29/16 6:51 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+12/29/16 6:51 PM : Query "parameter(divider,synthesis)" finished as normally.
+12/29/16 6:51 PM : Query "parameter(shifter,synthesis)" finished as normally.
+12/29/16 6:51 PM : Query "parameter(extender,synthesis)" finished as normally.
+12/29/16 6:51 PM : "Resource Declaration" start edit.
+12/29/16 6:51 PM : Query "search()" finished as normally.
+12/29/16 6:51 PM : Query "search()" finished as normally.
+12/29/16 7:26 PM : Query "parameter(sleeper,synthesis)" finished as normally.
+12/29/16 7:26 PM : Query "function(sleeper,synthesis,bit_width=1:port_type=in)" finished as normally.
+12/29/16 7:26 PM : Query "portinfo(sleeper,synthesis,bit_width=1:port_type=in)" finished as normally.
+12/29/16 7:26 PM : Query "parameter(sleeper,synthesis)" finished as normally.
+12/29/16 7:26 PM : Query "function(sleeper,synthesis,bit_width=1:port_type=in)" finished as normally.
+12/29/16 7:26 PM : Query "portinfo(sleeper,synthesis,bit_width=1:port_type=in)" finished as normally.
+12/29/16 7:27 PM : Query "parameter(genport,synthesis)" finished as normally.
+12/29/16 7:27 PM : Query "function(genport,synthesis,bit_width=1:port_type=in)" finished as normally.
+12/29/16 7:27 PM : Query "portinfo(genport,synthesis,bit_width=1:port_type=in)" finished as normally.
+12/29/16 7:27 PM : Query "parameter(wire,synthesis)" finished as normally.
+12/29/16 7:27 PM : Query "parameter(pcu,synthesis)" finished as normally.
+12/29/16 7:27 PM : Query "function(pcu,synthesis,bit_width=4:increment_step=1:adder_algorithm=cla)" finished as normally.
+12/29/16 7:27 PM : Query "portinfo(pcu,synthesis,bit_width=4:increment_step=1:adder_algorithm=cla)" finished as normally.
+12/29/16 7:27 PM : Query "parameter(fwu,synthesis)" finished as normally.
+12/29/16 7:27 PM : Query "function(fwu,synthesis,bit_width=4:addr_width=1:stage_number=1)" finished as normally.
+12/29/16 7:27 PM : Query "portinfo(fwu,synthesis,bit_width=4:addr_width=1:stage_number=1)" finished as normally.
+12/29/16 7:27 PM : "Storage Spec" complete.
+12/29/16 7:27 PM : "Storage Spec" start edit.
+12/29/16 7:27 PM : "Storage Spec" finish edit.
+12/29/16 7:27 PM : "Resource Declaration" finish edit.
+12/29/16 7:27 PM : "Main menu" quit.
+12/30/16 1:52 AM : "Main menu" start.
+12/30/16 1:52 AM : Load file ".ASIPmeister.ini".
+12/30/16 1:52 AM : Load file "dlx_basis.pdb".
+12/30/16 1:52 AM : Query "parameter(pcu,synthesis)" finished as normally.
+12/30/16 1:52 AM : Query "parameter(register,synthesis)" finished as normally.
+12/30/16 1:52 AM : Query "parameter(imau,synthesis)" finished as normally.
+12/30/16 1:52 AM : Query "parameter(dmau,synthesis)" finished as normally.
+12/30/16 1:52 AM : Query "parameter(registerfile,synthesis)" finished as normally.
+12/30/16 1:52 AM : Query "parameter(alu,synthesis)" finished as normally.
+12/30/16 1:52 AM : Query "parameter(extender,synthesis)" finished as normally.
+12/30/16 1:52 AM : Query "parameter(multiplier,synthesis)" finished as normally.
+12/30/16 1:52 AM : Query "parameter(divider,synthesis)" finished as normally.
+12/30/16 1:52 AM : Query "parameter(shifter,synthesis)" finished as normally.
+12/30/16 1:52 AM : Query "parameter(extender,synthesis)" finished as normally.
+12/30/16 1:52 AM : "Resource Declaration" start edit.
+12/30/16 1:52 AM : Query "search()" finished as normally.
+12/30/16 1:52 AM : Query "search()" finished as normally.
+12/30/16 1:53 AM : Query "parameter(satadder,synthesis)" finished as normally.
+12/30/16 1:53 AM : Query "function(satadder,synthesis,bit_width=1:algorithm=rca)" finished as normally.
+12/30/16 1:53 AM : Query "portinfo(satadder,synthesis,bit_width=1:algorithm=rca)" finished as normally.
+12/30/16 1:53 AM : "Storage Spec" complete.
+12/30/16 1:53 AM : "Storage Spec" start edit.
+12/30/16 1:53 AM : "Storage Spec" finish edit.
+12/30/16 1:53 AM : "Resource Declaration" finish edit.
+12/30/16 1:53 AM : "Storage Spec" complete.
+12/30/16 1:53 AM : "Storage Spec" start edit.
+12/30/16 1:53 AM : "Storage Spec" finish edit.
+12/30/16 1:53 AM : "Resource Declaration" finish edit.
+12/30/16 2:02 AM : "Main menu" quit.
+12/30/16 4:30 PM : "Main menu" start.
+12/30/16 4:30 PM : Load file ".ASIPmeister.ini".
+12/30/16 4:30 PM : Load file "dlx_basis.pdb".
+12/30/16 4:31 PM : Query "parameter(pcu,synthesis)" finished as normally.
+12/30/16 4:31 PM : Query "parameter(register,synthesis)" finished as normally.
+12/30/16 4:31 PM : Query "parameter(imau,synthesis)" finished as normally.
+12/30/16 4:31 PM : Query "parameter(dmau,synthesis)" finished as normally.
+12/30/16 4:31 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+12/30/16 4:31 PM : Query "parameter(alu,synthesis)" finished as normally.
+12/30/16 4:31 PM : Query "parameter(extender,synthesis)" finished as normally.
+12/30/16 4:31 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+12/30/16 4:31 PM : Query "parameter(divider,synthesis)" finished as normally.
+12/30/16 4:31 PM : Query "parameter(shifter,synthesis)" finished as normally.
+12/30/16 4:31 PM : Query "parameter(extender,synthesis)" finished as normally.
+12/30/16 4:31 PM : "Resource Declaration" start edit.
+12/30/16 4:31 PM : Query "search()" finished as normally.
+12/30/16 4:31 PM : Query "search()" finished as normally.
+12/30/16 4:31 PM : Query "parameter(adder,synthesis)" finished as normally.
+12/30/16 4:31 PM : Query "function(adder,synthesis,bit_width=1:algorithm=rca)" finished as normally.
+12/30/16 4:31 PM : Query "portinfo(adder,synthesis,bit_width=1:algorithm=rca)" finished as normally.
+12/30/16 4:32 PM : "Storage Spec" complete.
+12/30/16 4:32 PM : "Storage Spec" start edit.
+12/30/16 4:32 PM : "Storage Spec" finish edit.
+12/30/16 4:32 PM : "Resource Declaration" finish edit.
+12/30/16 4:32 PM : "Storage Spec" complete.
+12/30/16 4:32 PM : "Storage Spec" start edit.
+12/30/16 4:32 PM : "Storage Spec" finish edit.
+12/30/16 4:32 PM : "Resource Declaration" finish edit.
+12/30/16 4:32 PM : "Main menu" quit.
+12/30/16 4:36 PM : "Main menu" start.
+12/30/16 4:36 PM : Load file ".ASIPmeister.ini".
+12/30/16 4:36 PM : Load file "dlx_basis.pdb".
+12/30/16 4:36 PM : Load file "dlx_bgeu.pdb".
+12/30/16 4:37 PM : "Micro Op. Description" complete.
+12/30/16 4:37 PM : "Micro Op. Description" start edit.
+12/30/16 4:37 PM : "Micro Op. Description" finish edit.
+12/30/16 4:41 PM : "Micro Op. Description" complete.
+12/30/16 4:41 PM : "Micro Op. Description" start edit.
+12/30/16 4:42 PM : "Micro Op. Description" finish edit.
+12/30/16 6:11 PM : "Main menu" quit.
+1/4/17 3:17 AM : "Main menu" start.
+1/4/17 3:17 AM : Load file ".ASIPmeister.ini".
+1/4/17 3:17 AM : Load file "dlx_basis.pdb".
+1/4/17 3:17 AM : "Instruction Definition" complete.
+1/4/17 3:17 AM : "Instruction Definition" start edit.
+1/4/17 3:18 AM : "Instruction Definition" finish edit.
+1/4/17 3:18 AM : "Main menu" quit.

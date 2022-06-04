@@ -1,0 +1,3485 @@
+	.section	.data
+	;.global	_input1
+	.align	4
+_input1:
+	.data.32	321
+	.data.32	51
+	.data.32	890345
+	.data.32	75
+	.data.32	78
+	.data.32	7
+	.data.32	34478651
+	.data.32	2342
+	.data.32	568
+	.data.32	7894578
+	.data.32	7
+	.data.32	3461
+	.data.32	1235
+	.data.32	3467753
+	.data.32	75
+	.data.32	685
+	.data.32	79
+	.data.32	45568564
+	.data.32	35
+	.data.32	7625
+	;.global	_input2
+	.align	4
+_input2:
+	.data.32	45
+	.data.32	765
+	.data.32	12
+	.data.32	78
+	.data.32	74
+	.data.32	42
+	.data.32	1253
+	.data.32	236377
+	.data.32	5683
+	.data.32	79
+	.data.32	86
+	.data.32	643
+	.data.32	52314576
+	.data.32	3461
+	.data.32	57
+	.data.32	785
+	.data.32	79
+	.data.32	47
+	.data.32	3461
+	.data.32	2513
+	;.global	_resultAvg
+	.align	4
+_resultAvg:
+	.space	80
+	;.global	_resultSwap
+	.align	4
+_resultSwap:
+	.space	80
+	;.global	_resultMax
+	.align	4
+_resultMax:
+	.space	80
+	;.global	_resultMin
+	.align	4
+_resultMin:
+	.space	80
+	;.global	_resultRor
+	.align	4
+_resultRor:
+	.space	80
+	.section	.text
+	.addressing	Word
+main:
+L1:
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	sw	-4(%GPR29),%GPR30	
+	nop
+	nop
+	nop
+	nop
+	nop
+	sw	0(%GPR29),%GPR31	
+	nop
+	nop
+	nop
+	nop
+	nop
+	subui	%GPR30,%GPR29,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	subi	%GPR29,%GPR29,$8	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;1,6
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;1,6
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;1,6
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;1,6
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;1,6
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR1,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR1,%GPR1,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+L2:
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR2,$( _input1	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR2,%GPR2,$( _input1	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR3,$( _input2	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR3,%GPR3,$( _input2	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR4,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR4,%GPR4,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR5,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR5,%GPR5,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR4,%GPR1,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR5,%GPR1,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR2,%GPR2,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR3,%GPR3,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR4,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR4,%GPR4,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR5,$( _resultAvg	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR5,%GPR5,$( _resultAvg	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR2,0(%GPR2)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR3,0(%GPR3)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR4,%GPR1,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR6,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR6,%GPR6,$2	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR7,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR7,%GPR7,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR2,%GPR2,%GPR3	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR8,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR8,%GPR8,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR3,$( _input1	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR3,%GPR3,$( _input1	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR7,%GPR1,%GPR7	
+	nop
+	nop
+	nop
+	nop
+	nop
+	div	%GPR2,%GPR2,%GPR6	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR4,%GPR5,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR9,$( _input1	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR9,%GPR9,$( _input1	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR8,%GPR1,%GPR8	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR3,%GPR3,%GPR7	
+	nop
+	nop
+	nop
+	nop
+	nop
+	sw	0(%GPR4),%GPR2	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;30,32
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;30,32
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR5,%GPR9,%GPR8	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;32,34
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;32,34
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR2,0(%GPR3)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR4,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR4,%GPR4,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR3,0(%GPR5)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR5,$65535	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR5,%GPR5,$-65536	
+	nop
+	nop
+	nop
+	nop
+	nop
+	slli	%GPR2,%GPR2,$16	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;38,40
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;38,40
+	nop
+	nop
+	nop
+	nop
+	nop
+	srai	%GPR3,%GPR3,$16	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;40,42
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;40,42
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR4,%GPR1,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	and	%GPR2,%GPR2,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR7,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR7,%GPR7,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	andi	%GPR3,%GPR3,$65535	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR6,$( _resultSwap	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR6,%GPR6,$( _resultSwap	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR8,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR8,%GPR8,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR5,$( _input1	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR5,%GPR5,$( _input1	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	or	%GPR2,%GPR2,%GPR3	
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR7,%GPR1,%GPR7	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR4,%GPR6,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR9,$( _input2	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR9,%GPR9,$( _input2	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR8,%GPR1,%GPR8	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR3,%GPR5,%GPR7	
+	nop
+	nop
+	nop
+	nop
+	nop
+	sw	0(%GPR4),%GPR2	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;55,57
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;55,57
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR5,%GPR9,%GPR8	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;57,59
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;57,59
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR2,0(%GPR3)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;59,61
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;59,61
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR3,0(%GPR5)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;61,65
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;61,65
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;61,65
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;61,65
+	nop
+	nop
+	nop
+	nop
+	nop
+	sgt	%GPR27,%GPR2,%GPR3	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;65,69
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;65,69
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;65,69
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;65,69
+	nop
+	nop
+	nop
+	nop
+	nop
+	bnez	%GPR27,L3	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	j	L4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+L3:
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR2,$( _input1	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR2,%GPR2,$( _input1	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR3,$( _resultMax	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR3,%GPR3,$( _resultMax	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR4,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR4,%GPR4,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR5,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR5,%GPR5,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR4,%GPR1,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR5,%GPR1,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR2,%GPR2,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR3,%GPR3,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR2,0(%GPR2)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	sw	0(%GPR3),%GPR2	
+	nop
+	nop
+	nop
+	nop
+	nop
+	j	L5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+L4:
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR2,$( _input2	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR2,%GPR2,$( _input2	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR3,$( _resultMax	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR3,%GPR3,$( _resultMax	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR4,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR4,%GPR4,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR5,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR5,%GPR5,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR4,%GPR1,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR5,%GPR1,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR2,%GPR2,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR3,%GPR3,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR2,0(%GPR2)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	sw	0(%GPR3),%GPR2	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+L5:
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR2,$( _input1	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR2,%GPR2,$( _input1	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR3,$( _input2	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR3,%GPR3,$( _input2	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR4,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR4,%GPR4,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR5,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR5,%GPR5,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR4,%GPR1,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR5,%GPR1,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR2,%GPR2,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR3,%GPR3,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR2,0(%GPR2)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR3,0(%GPR3)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;17,21
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;17,21
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;17,21
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;17,21
+	nop
+	nop
+	nop
+	nop
+	nop
+	slt	%GPR27,%GPR2,%GPR3	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;21,25
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;21,25
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;21,25
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;21,25
+	nop
+	nop
+	nop
+	nop
+	nop
+	bnez	%GPR27,L6	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	j	L7	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+L6:
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR2,$( _input1	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR2,%GPR2,$( _input1	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR3,$( _resultMin	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR3,%GPR3,$( _resultMin	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR4,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR4,%GPR4,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR5,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR5,%GPR5,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR4,%GPR1,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR5,%GPR1,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR2,%GPR2,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR3,%GPR3,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR2,0(%GPR2)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	sw	0(%GPR3),%GPR2	
+	nop
+	nop
+	nop
+	nop
+	nop
+	j	L8	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+L7:
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR2,$( _input2	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR2,%GPR2,$( _input2	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR3,$( _resultMin	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR3,%GPR3,$( _resultMin	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR4,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR4,%GPR4,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR5,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR5,%GPR5,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR4,%GPR1,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR5,%GPR1,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;9,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR2,%GPR2,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR3,%GPR3,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;13,16
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR2,0(%GPR2)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;16,20
+	nop
+	nop
+	nop
+	nop
+	nop
+	sw	0(%GPR3),%GPR2	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+L8:
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,2
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR2,$( _input1	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR2,%GPR2,$( _input1	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR3,$( _input1	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR3,%GPR3,$( _input1	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR4,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR4,%GPR4,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR5,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR5,%GPR5,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,7
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;5,7
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR6,$( _resultRor	/0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR6,%GPR6,$( _resultRor	%0x10000)
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR4,%GPR1,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR5,%GPR1,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR7,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR7,%GPR7,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;10,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;10,12
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR2,%GPR2,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR3,%GPR3,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	mult	%GPR4,%GPR1,%GPR7	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR5,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR5,%GPR5,$20	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR2,0(%GPR2)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR3,0(%GPR3)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	addi	%GPR1,%GPR1,$1	
+	nop
+	nop
+	nop
+	nop
+	nop
+	add	%GPR4,%GPR6,%GPR4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	srai	%GPR2,%GPR2,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	slli	%GPR3,%GPR3,$28	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;21,25
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;21,25
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;21,25
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;21,25
+	nop
+	nop
+	nop
+	nop
+	nop
+	or	%GPR2,%GPR2,%GPR3	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;25,29
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;25,29
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;25,29
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;25,29
+	nop
+	nop
+	nop
+	nop
+	nop
+	sw	0(%GPR4),%GPR2	
+	nop
+	nop
+	nop
+	nop
+	nop
+	slt	%GPR27,%GPR1,%GPR5	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;30,34
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;30,34
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;30,34
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;30,34
+	nop
+	nop
+	nop
+	nop
+	nop
+	bnez	%GPR27,L2	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	j	L9	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+L9:
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,4
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,4
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,4
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;0,4
+	nop
+	nop
+	nop
+	nop
+	nop
+	lhi	%GPR28,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	ori	%GPR28,%GPR28,$0	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;4,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;4,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;4,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop	;;4,8
+	nop
+	nop
+	nop
+	nop
+	nop
+	j	L10	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+L10:
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR31,4(%GPR30)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	addui	%GPR29,%GPR30,$4	
+	nop
+	nop
+	nop
+	nop
+	nop
+	lw	%GPR30,0(%GPR30)	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	jr	%GPR31	
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop

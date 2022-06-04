@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/asip01/Schreibtisch/ASIP_LAB/ASIPMeisterProjects/dlx_session9_performance24/ISE_Framework/Test2/dlx_toplevel.ncd
+OUTFILE=/home/asip01/Schreibtisch/ASIP_LAB/ASIPMeisterProjects/dlx_session9_performance24/ISE_Framework/Test2/dlx_toplevel.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=/home/asip01/Schreibtisch/ASIP_LAB/ASIPMeisterProjects/dlx_session9_performance24/ISE_Framework/Test2
+LICENSE=ISE
+USER_INFO=174111760_174111761_210611273_307

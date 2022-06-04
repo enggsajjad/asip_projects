@@ -1,0 +1,154 @@
+Has to be adapted according to log file.
+dlx_basis
+============
+
+Steps:
+. Copy /home/asip00/Session3 to /home/asip04/LabASIP/Session4
+. Copy ASIPMeisterProject folder into /home/asip04/LabASIP/Session4/ and name the folder dlx_LaboratoryBasis as dlx_basis
+. Set the env_settings, like 
+. Copy dlx Simuluator from /Software/epp/dlxsim_Laboratory to your home and start changing it.
+asip04@i80labpc02:~/dlxsim_Laboratory:$vim dlx.h
+:222	
+ #define OP_BGEU   59
+asip04@i80labpc02:~/dlxsim_Laboratory:$vim sim.c
+:415	
+  /* 55: */ "SUBUI", "XOR", "XORI", "NOP", "BGEU", "", "", "", "",
+asip04@i80labpc02:~/dlxsim_Laboratory:$vim asm.c
+:338
+    {"bgeu",   BRANCH_2_OP,  0xB0000000, 0xfc000000, 0, 0, 0},
+asip04@i80labpc02:~/dlxsim_Laboratory:$vim sim.c
+:362
+  /* 44: */ {OP_BGEU, IFMT}, {OP_RES, IFMT},   {OP_RES, IFMT},  {OP_RES, IFMT},
+
+asip04@i80labpc02:~/dlxsim_Laboratory:$vim sim.c
+:2197
+          //new instruction//
+          case OP_BGEU:
+            LoadRegisterS1 LoadRegisterS2
+            if (((unsigned int)rs1) >= ((unsigned int)rs2)) {
+              pc = readRegister(machPtr, NEXT_PC_REG, 0) + ADDR_TO_INDEX(wordPtr->extra);
+              machPtr->branchYes++;
+              /* ASIP JUMP : */
+              additionalClockCycleForJump = 2;
+              if (machPtr->debugAssembly) {
+                memcpy(symGetString_Backup, Sym_GetString(machPtr, INDEX_TO_ADDR(last_pc)), 100*sizeof(char) );
+                printf("debug:\tCycle:%lu  \tIM-Addr:0x%x(%.100s)  \t\tBNEZ to IM-Addr:0x%x(%.100s).\n",
+                       machPtr->cycleCount,
+                       INDEX_TO_ADDR(last_pc), symGetString_Backup,
+                       INDEX_TO_ADDR(pc), Sym_GetString(machPtr, INDEX_TO_ADDR(pc)) );
+              }
+              addBranchToTraceFile(machPtr->traceJumpsFile, INDEX_TO_ADDR(last_pc), INDEX_TO_ADDR(pc) );
+            } else machPtr->branchNo++;
+            machPtr->branchSerial = machPtr->insCount;
+            machPtr->branchPC = INDEX_TO_ADDR( readRegister(machPtr, PC_REG, 0) );
+          break;
+
+
+
+.Run make into the ~/dlxsim_Laboratory to recompile the dlxsim
+. Change in env_settings
+export DLXSIM_DIR=~/dlxsim_Laboratory
+export PROJECT_NAME=dlx_basis
+export CPU_NAME=dlx_basis
+export ASIPMEISTER_PROJECTS_DIR=/home/asip04/LabASIP/Session4/ASIPMeisterProjects
+. write a small assembly program in Application directory copy 
+. Copy the Makefile from TestPrint folder to newly created Application.
+. It should run fine. $make dlxsim DLXSIM_PARAM="-fbgeu_test.s -da0 -pd1"
+
+. Copy dlx_basis.pdb to /home/asip04/LabASIP/Session4/ASIPMeisterProjects/dlx_basis/ rename it to dlx_bgeu.pdb
+. Now open ASIPmeister dlx_bgeu.pdb &, included with BGEU instructions.
+. Generate the simulation & synthesis vhdl files and SW tools as well.
+. Write up your code for bubble sort. . write the bs_basis.s code using bgeu and rename it to bs_bgeu.s
+. You can try another test program.
+	asip04@i80labpc02:~/LabASIP/Session4/ASIPMeisterProjects/dlx_bgeu/Applications/TestBGEU2:$make sim
+	asip04@i80labpc02:~/LabASIP/Session4/ASIPMeisterProjects/dlx_bgeu/Applications/TestBGEU2:$make dlxsim
+. Inside Application run: 
+	make clean
+	make sim	
+	make dlxsim DLXSIM_PARAM="-fBUILD_SIM/Application_Directory.dlxsim -da0 -pd1" for NoPipeline
+	make dlxsim DLXSIM_PARAM="-fBUILD_SIM/Application_Directory.dlxsim -da0 -pd4" for With Pipeline
+. This will execute the assembly program using dlxsim. Run the program with "go", "step" and "get" commands
+
+
+ModelSIM
+Go into ModelSim directory and open ModelSim using VSIM
+Make new project: File>New Project
+	Project Name:dlx_bgeu
+	Project Location:/home/asip04/LabASIP/Session4/ASIPMeisterProjects/dlx_bgeu/ModelSim
+	Default Library Name: work
+	Copy Settings from: /Software/ModelSim/ModelSim_6.6d/modeltech/modelsim.ini
+Add Existing vhdl files from:
+	/home/asip04/LabASIP/Session4/ASIPMeisterProjects/dlx_bgeu/ModelSim
+	/home/asip04/LabASIP/Session4/ASIPMeisterProjects/dlx_bgeu/meister/dlx_bgeu.syn
+
+Compile > Compile Order > Auto Generate > OK > OK
+Simulate > Start Simulation > Select Work.cfg > OK
+Tools > Tcl > Execute Macro > select wave.do > open
+Simulate > Run-All
+After some time the simulation breaks at ** Failure: SUCCESSFUL: Simulation End.
+See the waveform
+Simulate > End Simulation
+
+
+Check /ModelSim:$vim TestData.OUT, It should contain the valid data.
+
+
+Optimize the bs_bgeu.s
+Compile using dlxsim, make clean, make sim, make dlxsim
+Recompile Modelsim Files, and Simulate again to generate new TestData.OUT
+
+
+ISE_Framework
+================
+.asip04@i80labpc10:~/LabASIP/Session5/ASIPMeisterProjects/dlx_basis:$ise &
+
+.# Name of the ISE directory inside your project directory
+export ISE_NAME=ISE_Framework
+export ISE_DIR=${PROJECT_DIR}/${ISE_NAME}
+File > New Project:
+Project:
+    Project Name: ISE_Framework
+    Project Path: /home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/ISE_Framework
+    Working Directory: /home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/ISE_Framework
+    Description: 
+    Top Level Source Type: HDL
+
+Device:
+    Device Family: Virtex5
+    Device:        xc5vlx110t
+    Package:       ff1136
+    Speed:         -1
+
+    Top-Level Source Type: HDL
+    Synthesis Tool: XST (VHDL/Verilog)
+    Simulator: Modelsim-SE Mixed
+    Preferred Language: Verilog
+    Property Specification in Project File: Store all values
+    Manual Compile Order: false
+    VHDL Source Analysis Standard: VHDL-93
+
+    Message Filtering: disabled
+
+Project > Add Copy of Sources
+	ISE_Framework VHDL Files
+	IP-Core ngc Files
+	meister/dlx_basis.syn/ files
+
+Processes > Synthesize XST
+Processes > Implement Design
+Processes > Generate Programming File
+Processes > Place & Route > Generate Post Place & Route Static Timing > Detailed Reports > Place and Route Report
+Processes > Place & Route > Generate Post Place & Route Static Timing > Detailed Reports > Post PAR Static Timing Report
+Processes > Place & Route > Analyze Post Place & Route Static Timing > Timing COnstraints
+
+asip04@i80labpc10:~/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/Applications/HW_Pipeline:$make clean
+asip04@i80labpc10:~/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/Applications/HW_Pipeline:$make sim
+asip04@i80labpc10:~/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/Applications/HW_Pipeline:$make fpga
+asip04@i80labpc10:~/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/Applications/HW_Pipeline:$hterm & 115200, ttyUSB0, newline=off, CR+LF, save the output
+asip04@i80labpc10:~/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/Applications/HW_Pipeline:$make upload
+
+
+dlx_bgeu
+============
+same for bgeu
+

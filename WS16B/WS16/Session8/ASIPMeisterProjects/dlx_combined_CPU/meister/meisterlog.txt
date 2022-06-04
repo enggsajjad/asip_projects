@@ -1,0 +1,522 @@
+1/2/17 10:41 AM : "Main menu" start.
+1/2/17 10:41 AM : Load file ".ASIPmeister.ini".
+1/2/17 10:41 AM : Load file "dlx_basis.pdb".
+1/2/17 10:43 AM : "Micro Op. Description" complete.
+1/2/17 10:43 AM : "Micro Op. Description" start edit.
+1/2/17 10:43 AM : "Micro Op. Description" finish edit.
+1/2/17 10:43 AM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+1/2/17 10:43 AM : Load file "dlx_basis_mod.log".
+1/2/17 10:43 AM : "null" complete.
+1/2/17 10:43 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/2/17 10:43 AM : Load file "dlx_basis_tr.log".
+1/2/17 10:43 AM : "null" complete.
+1/2/17 10:43 AM : "Main menu" quit.
+1/2/17 10:47 AM : "Main menu" start.
+1/2/17 10:47 AM : Load file ".ASIPmeister.ini".
+1/2/17 10:47 AM : Load file "dlx_basis.pdb".
+1/2/17 10:47 AM : "Micro Op. Description" complete.
+1/2/17 10:47 AM : "Micro Op. Description" start edit.
+1/2/17 10:47 AM : "Micro Op. Description" finish edit.
+1/2/17 10:48 AM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+1/2/17 10:48 AM : Load file "dlx_basis_mod.log".
+1/2/17 10:48 AM : "null" complete.
+1/2/17 10:49 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/2/17 10:49 AM : Load file "dlx_basis_tr.log".
+1/2/17 10:49 AM : "null" complete.
+1/2/17 11:04 AM : "Main menu" quit.
+1/2/17 11:05 AM : "Main menu" start.
+1/2/17 11:05 AM : Load file ".ASIPmeister.ini".
+1/2/17 11:05 AM : Load file "dlx_basis.pdb".
+1/2/17 11:05 AM : "Micro Op. Description" complete.
+1/2/17 11:05 AM : "Micro Op. Description" start edit.
+1/2/17 11:05 AM : "Micro Op. Description" finish edit.
+1/2/17 11:05 AM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+1/2/17 11:05 AM : Load file "dlx_basis_mod.log".
+1/2/17 11:05 AM : "null" complete.
+1/2/17 11:05 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/2/17 11:05 AM : Load file "dlx_basis_tr.log".
+1/2/17 11:05 AM : "null" complete.
+1/2/17 11:05 AM : "Main menu" quit.
+1/2/17 11:07 AM : "Main menu" start.
+1/2/17 11:07 AM : Load file ".ASIPmeister.ini".
+1/2/17 11:07 AM : Load file "dlx_speed.pdb".
+1/2/17 11:07 AM : "Micro Op. Description" complete.
+1/2/17 11:07 AM : "Micro Op. Description" start edit.
+1/2/17 11:07 AM : "Micro Op. Description" finish edit.
+1/2/17 11:07 AM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 11:07 AM : Load file "dlx_speed_mod.log".
+1/2/17 11:07 AM : "null" complete.
+1/2/17 11:07 AM :  translator swdev dlx_speed dlx_speed_tr.log finished as normally.
+1/2/17 11:07 AM : Load file "dlx_speed_tr.log".
+1/2/17 11:07 AM : "null" complete.
+1/2/17 11:08 AM : "Main menu" quit.
+1/2/17 11:40 AM : "Main menu" start.
+1/2/17 11:40 AM : Load file ".ASIPmeister.ini".
+1/2/17 11:40 AM : Load file "dlx_speed.pdb".
+1/2/17 11:41 AM : "Instruction Definition" complete.
+1/2/17 11:41 AM : "Instruction Definition" start edit.
+1/2/17 11:41 AM : "Instruction Definition" re-edit.
+1/2/17 11:43 AM : "Instruction Definition" complete.
+1/2/17 11:43 AM : "Instruction Definition" finish edit.
+1/2/17 11:43 AM :  archest dlx_speed.arc dlx_speed_arc.log finished as normally.
+1/2/17 11:43 AM : Load file "dlx_speed_arc.log".
+1/2/17 11:43 AM : "null" complete.
+1/2/17 11:43 AM : "C Definition" start browse.
+1/2/17 11:43 AM : "C Definition" complete.
+1/2/17 11:44 AM : "C Definition" finish edit.
+1/2/17 11:44 AM : "Behavior Description" start browse.
+1/2/17 11:44 AM : "Behavior Description" complete.
+1/2/17 11:44 AM : "Behavior Description" finish edit.
+1/2/17 11:44 AM : "Micro Op. Description" start browse.
+1/2/17 11:44 AM : "Micro Op. Description" complete.
+1/2/17 11:44 AM : "Micro Op. Description" finish edit.
+1/2/17 11:44 AM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 11:44 AM : Load file "dlx_speed_mod.log".
+1/2/17 11:44 AM : "null" complete.
+1/2/17 11:44 AM :  translator swdev dlx_speed dlx_speed_tr.log finished as normally.
+1/2/17 11:44 AM : Load file "dlx_speed_tr.log".
+1/2/17 11:44 AM : "null" complete.
+1/2/17 11:45 AM : "Instruction Definition" complete.
+1/2/17 11:45 AM : "Instruction Definition" start edit.
+1/2/17 11:46 AM : "Instruction Definition" re-edit.
+1/2/17 11:47 AM : "Instruction Definition" complete.
+1/2/17 11:47 AM : "Instruction Definition" finish edit.
+1/2/17 11:47 AM :  archest dlx_speed.arc dlx_speed_arc.log finished as normally.
+1/2/17 11:47 AM : Load file "dlx_speed_arc.log".
+1/2/17 11:47 AM : "null" complete.
+1/2/17 11:47 AM : "C Definition" start browse.
+1/2/17 11:47 AM : "C Definition" complete.
+1/2/17 11:47 AM : "C Definition" finish edit.
+1/2/17 11:47 AM : "Behavior Description" start browse.
+1/2/17 11:47 AM : "Behavior Description" complete.
+1/2/17 11:47 AM : "Behavior Description" finish edit.
+1/2/17 11:47 AM : "Micro Op. Description" start browse.
+1/2/17 11:47 AM : "Micro Op. Description" complete.
+1/2/17 11:47 AM : "Micro Op. Description" finish edit.
+1/2/17 11:47 AM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 11:47 AM : Load file "dlx_speed_mod.log".
+1/2/17 11:47 AM : "null" complete.
+1/2/17 11:47 AM :  translator swdev dlx_speed dlx_speed_tr.log finished as normally.
+1/2/17 11:47 AM : Load file "dlx_speed_tr.log".
+1/2/17 11:47 AM : "null" complete.
+1/2/17 11:55 AM : "Micro Op. Description" complete.
+1/2/17 11:55 AM : "Micro Op. Description" start edit.
+1/2/17 11:56 AM : "Micro Op. Description" re-edit.
+1/2/17 11:57 AM : "Micro Op. Description" complete.
+1/2/17 11:57 AM : "Micro Op. Description" finish edit.
+1/2/17 11:58 AM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 11:58 AM : Load file "dlx_speed_mod.log".
+1/2/17 11:58 AM : "null" complete.
+1/2/17 11:58 AM : "Micro Op. Description" complete.
+1/2/17 11:58 AM : "Micro Op. Description" start edit.
+1/2/17 11:58 AM : "Micro Op. Description" re-edit.
+1/2/17 11:59 AM : "Micro Op. Description" complete.
+1/2/17 11:59 AM : "Micro Op. Description" finish edit.
+1/2/17 11:59 AM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 11:59 AM : Load file "dlx_speed_mod.log".
+1/2/17 11:59 AM : "null" complete.
+1/2/17 11:59 AM : "Micro Op. Description" complete.
+1/2/17 11:59 AM : "Micro Op. Description" start edit.
+1/2/17 12:00 PM : "Micro Op. Description" re-edit.
+1/2/17 12:00 PM : "Micro Op. Description" complete.
+1/2/17 12:00 PM : "Micro Op. Description" finish edit.
+1/2/17 12:00 PM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:00 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:00 PM : "null" complete.
+1/2/17 12:01 PM : "Micro Op. Description" complete.
+1/2/17 12:01 PM : "Micro Op. Description" start edit.
+1/2/17 12:01 PM : "Micro Op. Description" re-edit.
+1/2/17 12:02 PM : "Micro Op. Description" complete.
+1/2/17 12:02 PM : "Micro Op. Description" finish edit.
+1/2/17 12:02 PM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:02 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:02 PM : "null" complete.
+1/2/17 12:02 PM : "Micro Op. Description" complete.
+1/2/17 12:02 PM : "Micro Op. Description" start edit.
+1/2/17 12:03 PM : "Micro Op. Description" re-edit.
+1/2/17 12:07 PM : "Micro Op. Description" complete.
+1/2/17 12:07 PM : "Micro Op. Description" finish edit.
+1/2/17 12:07 PM :  modelgen sim dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:07 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:07 PM : "null" complete.
+1/2/17 12:08 PM : "Micro Op. Description" complete.
+1/2/17 12:08 PM : "Micro Op. Description" start edit.
+1/2/17 12:08 PM : "Micro Op. Description" re-edit.
+1/2/17 12:08 PM : "Micro Op. Description" finish browse.
+1/2/17 12:08 PM : "Micro Op. Description" start browse.
+1/2/17 12:08 PM : "Micro Op. Description" complete.
+1/2/17 12:08 PM : "Micro Op. Description" finish edit.
+1/2/17 12:08 PM : "Micro Op. Description" complete.
+1/2/17 12:08 PM : "Micro Op. Description" start edit.
+1/2/17 12:08 PM : "Micro Op. Description" re-edit.
+1/2/17 12:08 PM : "Micro Op. Description" complete.
+1/2/17 12:08 PM : "Micro Op. Description" finish edit.
+1/2/17 12:09 PM : "Micro Op. Description" complete.
+1/2/17 12:09 PM : "Micro Op. Description" start edit.
+1/2/17 12:09 PM : "Micro Op. Description" finish edit.
+1/2/17 12:09 PM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:09 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:09 PM : "null" complete.
+1/2/17 12:09 PM : "Micro Op. Description" complete.
+1/2/17 12:09 PM : "Micro Op. Description" start edit.
+1/2/17 12:10 PM : "Micro Op. Description" re-edit.
+1/2/17 12:11 PM : "Micro Op. Description" complete.
+1/2/17 12:11 PM : "Micro Op. Description" finish edit.
+1/2/17 12:11 PM :  modelgen sim dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:11 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:11 PM : "null" complete.
+1/2/17 12:12 PM : "Micro Op. Description" complete.
+1/2/17 12:12 PM : "Micro Op. Description" start edit.
+1/2/17 12:13 PM : "Micro Op. Description" re-edit.
+1/2/17 12:13 PM : "Micro Op. Description" complete.
+1/2/17 12:13 PM : "Micro Op. Description" finish edit.
+1/2/17 12:13 PM :  modelgen sim dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:13 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:13 PM : "null" complete.
+1/2/17 12:14 PM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:14 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:14 PM : "null" complete.
+1/2/17 12:14 PM :  translator swdev dlx_speed dlx_speed_tr.log finished as normally.
+1/2/17 12:14 PM : Load file "dlx_speed_tr.log".
+1/2/17 12:14 PM : "null" complete.
+1/2/17 12:18 PM : "Micro Op. Description" complete.
+1/2/17 12:18 PM : "Micro Op. Description" start edit.
+1/2/17 12:18 PM : "Micro Op. Description" re-edit.
+1/2/17 12:19 PM : "Micro Op. Description" complete.
+1/2/17 12:19 PM : "Micro Op. Description" finish edit.
+1/2/17 12:19 PM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:19 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:19 PM : "null" complete.
+1/2/17 12:19 PM :  translator swdev dlx_speed dlx_speed_tr.log finished as normally.
+1/2/17 12:19 PM : Load file "dlx_speed_tr.log".
+1/2/17 12:19 PM : "null" complete.
+1/2/17 12:23 PM : "Micro Op. Description" complete.
+1/2/17 12:23 PM : "Micro Op. Description" start edit.
+1/2/17 12:23 PM : "Micro Op. Description" re-edit.
+1/2/17 12:25 PM : "Micro Op. Description" complete.
+1/2/17 12:25 PM : "Micro Op. Description" finish edit.
+1/2/17 12:25 PM : Query "parameter(pcu,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(register,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(imau,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(dmau,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(divider,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(shifter,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(multiplexor,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(adder,synthesis)" finished as normally.
+1/2/17 12:25 PM : Query "parameter(multiplexor,synthesis)" finished as normally.
+1/2/17 12:25 PM : "Resource Declaration" start edit.
+1/2/17 12:25 PM : Query "function(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=4:num_write_port=2)" finished as normally.
+1/2/17 12:25 PM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=4:num_write_port=2)" finished as normally.
+1/2/17 12:25 PM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=2)" finished as normally.
+1/2/17 12:25 PM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=2)" finished as normally.
+1/2/17 12:25 PM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=2)" finished as normally.
+1/2/17 12:27 PM : Query "function(multiplexor,synthesis,bit_width=32:number_of_ports=2)" finished as normally.
+1/2/17 12:27 PM : Query "portinfo(multiplexor,synthesis,bit_width=32:number_of_ports=2)" finished as normally.
+1/2/17 12:27 PM : Query "shape(area,multiplexor,synthesis,priority=delay:bit_width=32:number_of_ports=2)" finished as normally.
+1/2/17 12:27 PM : Query "timing(delay,multiplexor,synthesis,priority=delay:bit_width=32:number_of_ports=2)" finished as normally.
+1/2/17 12:27 PM : Query "power(power,multiplexor,synthesis,priority=delay:bit_width=32:number_of_ports=2)" finished as normally.
+1/2/17 12:27 PM : Query "function(multiplexor,synthesis,bit_width=32:number_of_ports=3)" finished as normally.
+1/2/17 12:27 PM : Query "portinfo(multiplexor,synthesis,bit_width=32:number_of_ports=3)" finished as normally.
+1/2/17 12:27 PM : Query "shape(area,multiplexor,synthesis,priority=delay:bit_width=32:number_of_ports=3)" finished as normally.
+1/2/17 12:27 PM : Query "timing(delay,multiplexor,synthesis,priority=delay:bit_width=32:number_of_ports=3)" finished as normally.
+1/2/17 12:27 PM : Query "power(power,multiplexor,synthesis,priority=delay:bit_width=32:number_of_ports=3)" finished as normally.
+1/2/17 12:27 PM : Query "function(adder,synthesis,bit_width=32:algorithm=cla)" finished as normally.
+1/2/17 12:27 PM : Query "portinfo(adder,synthesis,bit_width=32:algorithm=cla)" finished as normally.
+1/2/17 12:27 PM : Query "shape(area,adder,synthesis,priority=delay:bit_width=32:algorithm=cla)" finished as normally.
+1/2/17 12:27 PM : Query "timing(delay,adder,synthesis,priority=delay:bit_width=32:algorithm=cla)" finished as normally.
+1/2/17 12:27 PM : Query "power(power,adder,synthesis,priority=delay:bit_width=32:algorithm=cla)" finished as normally.
+1/2/17 12:28 PM : "Storage Spec" complete.
+1/2/17 12:28 PM : "Storage Spec" start edit.
+1/2/17 12:28 PM : "Storage Spec" finish edit.
+1/2/17 12:28 PM : "Resource Declaration" finish edit.
+1/2/17 12:28 PM : "Micro Op. Description" complete.
+1/2/17 12:28 PM : "Micro Op. Description" start edit.
+1/2/17 12:29 PM : "Micro Op. Description" re-edit.
+1/2/17 12:31 PM : "Micro Op. Description" complete.
+1/2/17 12:31 PM : "Micro Op. Description" finish edit.
+1/2/17 12:31 PM : Query "parameter(pcu,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(register,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(imau,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(dmau,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(divider,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(shifter,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(multiplexor,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(adder,synthesis)" finished as normally.
+1/2/17 12:31 PM : Query "parameter(multiplexor,synthesis)" finished as normally.
+1/2/17 12:31 PM : "Resource Declaration" start edit.
+1/2/17 12:32 PM : "Resource Declaration" re-edit.
+1/2/17 12:32 PM : Query "function(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=4:num_write_port=2)" finished as normally.
+1/2/17 12:32 PM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=4:num_write_port=2)" finished as normally.
+1/2/17 12:32 PM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=2)" finished as normally.
+1/2/17 12:32 PM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=2)" finished as normally.
+1/2/17 12:32 PM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=2)" finished as normally.
+1/2/17 12:32 PM : Query "function(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 12:32 PM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 12:32 PM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 12:32 PM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 12:32 PM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 12:32 PM : Query "function(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 12:32 PM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 12:32 PM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 12:32 PM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 12:32 PM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 12:32 PM : "Resource Declaration" complete.
+1/2/17 12:32 PM : "Storage Spec" start browse.
+1/2/17 12:32 PM : "Storage Spec" finish browse.
+1/2/17 12:32 PM : "Resource Declaration" finish edit.
+1/2/17 12:32 PM : "Storage Spec" start browse.
+1/2/17 12:32 PM : "Storage Spec" complete.
+1/2/17 12:32 PM : "Storage Spec" finish edit.
+1/2/17 12:32 PM : "Interface Definition" complete.
+1/2/17 12:32 PM : "Interface Definition" start edit.
+1/2/17 12:32 PM : "Interface Definition" finish edit.
+1/2/17 12:32 PM : "Instruction Definition" complete.
+1/2/17 12:32 PM : "Instruction Definition" start edit.
+1/2/17 12:32 PM : "Instruction Definition" finish edit.
+1/2/17 12:32 PM :  archest dlx_speed.arc dlx_speed_arc.log finished as normally.
+1/2/17 12:32 PM : Load file "dlx_speed_arc.log".
+1/2/17 12:32 PM : "null" complete.
+1/2/17 12:32 PM : "C Definition" start browse.
+1/2/17 12:32 PM : "C Definition" complete.
+1/2/17 12:32 PM : "C Definition" finish edit.
+1/2/17 12:32 PM : "Behavior Description" start browse.
+1/2/17 12:33 PM : "Behavior Description" complete.
+1/2/17 12:33 PM : "Behavior Description" finish edit.
+1/2/17 12:33 PM : "Micro Op. Description" start browse.
+1/2/17 12:33 PM : "Micro Op. Description" complete.
+1/2/17 12:33 PM : "Micro Op. Description" finish edit.
+1/2/17 12:33 PM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:33 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:33 PM : "null" complete.
+1/2/17 12:33 PM :  translator swdev dlx_speed dlx_speed_tr.log finished as normally.
+1/2/17 12:33 PM : Load file "dlx_speed_tr.log".
+1/2/17 12:33 PM : "null" complete.
+1/2/17 12:40 PM : Query "parameter(pcu,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(register,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(imau,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(dmau,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(divider,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(shifter,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(multiplexor,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(adder,synthesis)" finished as normally.
+1/2/17 12:40 PM : Query "parameter(multiplexor,synthesis)" finished as normally.
+1/2/17 12:40 PM : "Resource Declaration" start edit.
+1/2/17 12:40 PM : "Resource Declaration" re-edit.
+1/2/17 12:40 PM : Query "function(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/2/17 12:40 PM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/2/17 12:40 PM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/2/17 12:40 PM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/2/17 12:40 PM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/2/17 12:41 PM : "Resource Declaration" complete.
+1/2/17 12:41 PM : "Storage Spec" start browse.
+1/2/17 12:41 PM : "Storage Spec" finish browse.
+1/2/17 12:41 PM : "Resource Declaration" finish edit.
+1/2/17 12:41 PM : "Storage Spec" start browse.
+1/2/17 12:41 PM : "Storage Spec" complete.
+1/2/17 12:41 PM : "Storage Spec" finish edit.
+1/2/17 12:41 PM :  archest dlx_speed.arc dlx_speed_arc.log finished as normally.
+1/2/17 12:41 PM : Load file "dlx_speed_arc.log".
+1/2/17 12:41 PM : "null" complete.
+1/2/17 12:41 PM : "C Definition" start browse.
+1/2/17 12:41 PM : "C Definition" complete.
+1/2/17 12:41 PM : "C Definition" finish edit.
+1/2/17 12:41 PM : "Behavior Description" start browse.
+1/2/17 12:41 PM : "Behavior Description" complete.
+1/2/17 12:41 PM : "Behavior Description" finish edit.
+1/2/17 12:41 PM : "Micro Op. Description" start browse.
+1/2/17 12:42 PM : "Micro Op. Description" complete.
+1/2/17 12:42 PM : "Micro Op. Description" finish edit.
+1/2/17 12:42 PM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:42 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:42 PM : "null" complete.
+1/2/17 12:43 PM : "Micro Op. Description" complete.
+1/2/17 12:43 PM : "Micro Op. Description" start edit.
+1/2/17 12:44 PM : "Micro Op. Description" re-edit.
+1/2/17 12:44 PM : "Micro Op. Description" complete.
+1/2/17 12:44 PM : "Micro Op. Description" finish edit.
+1/2/17 12:44 PM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:44 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:44 PM : "null" complete.
+1/2/17 12:44 PM : "Micro Op. Description" complete.
+1/2/17 12:44 PM : "Micro Op. Description" start edit.
+1/2/17 12:45 PM : "Micro Op. Description" re-edit.
+1/2/17 12:45 PM : "Micro Op. Description" complete.
+1/2/17 12:45 PM : "Micro Op. Description" finish edit.
+1/2/17 12:45 PM :  modelgen sim dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:45 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:45 PM : "null" complete.
+1/2/17 12:45 PM : "Micro Op. Description" complete.
+1/2/17 12:45 PM : "Micro Op. Description" start edit.
+1/2/17 12:45 PM : "Micro Op. Description" re-edit.
+1/2/17 12:46 PM : "Micro Op. Description" complete.
+1/2/17 12:46 PM : "Micro Op. Description" finish edit.
+1/2/17 12:46 PM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 12:46 PM : Load file "dlx_speed_mod.log".
+1/2/17 12:46 PM : "null" complete.
+1/2/17 12:46 PM :  translator swdev dlx_speed dlx_speed_tr.log finished as normally.
+1/2/17 12:46 PM : Load file "dlx_speed_tr.log".
+1/2/17 12:46 PM : "null" complete.
+1/2/17 1:42 PM : "Micro Op. Description" complete.
+1/2/17 1:42 PM : "Micro Op. Description" start edit.
+1/2/17 1:42 PM : "Micro Op. Description" re-edit.
+1/2/17 1:44 PM : "Micro Op. Description" complete.
+1/2/17 1:44 PM : "Micro Op. Description" finish edit.
+1/2/17 1:44 PM : Query "parameter(pcu,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(register,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(imau,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(dmau,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(divider,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(shifter,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(multiplexor,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(adder,synthesis)" finished as normally.
+1/2/17 1:44 PM : Query "parameter(multiplexor,synthesis)" finished as normally.
+1/2/17 1:44 PM : "Resource Declaration" start edit.
+1/2/17 1:44 PM : "Resource Declaration" re-edit.
+1/2/17 1:44 PM : Query "function(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 1:44 PM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 1:44 PM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 1:44 PM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 1:44 PM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 1:44 PM : Query "function(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 1:44 PM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 1:44 PM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 1:44 PM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 1:44 PM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=4:num_write_port=1)" finished as normally.
+1/2/17 1:44 PM : "Resource Declaration" complete.
+1/2/17 1:44 PM : "Storage Spec" start browse.
+1/2/17 1:44 PM : "Storage Spec" finish browse.
+1/2/17 1:44 PM : "Resource Declaration" finish edit.
+1/2/17 1:44 PM : "Storage Spec" start browse.
+1/2/17 1:45 PM : "Storage Spec" complete.
+1/2/17 1:45 PM : "Storage Spec" finish edit.
+1/2/17 1:45 PM : "Interface Definition" complete.
+1/2/17 1:45 PM : "Interface Definition" start edit.
+1/2/17 1:45 PM : "Interface Definition" finish edit.
+1/2/17 1:45 PM :  archest dlx_speed.arc dlx_speed_arc.log finished as normally.
+1/2/17 1:45 PM : Load file "dlx_speed_arc.log".
+1/2/17 1:45 PM : "null" complete.
+1/2/17 1:45 PM : "C Definition" start browse.
+1/2/17 1:45 PM : "C Definition" complete.
+1/2/17 1:45 PM : "C Definition" finish edit.
+1/2/17 1:45 PM : "Behavior Description" start browse.
+1/2/17 1:45 PM : "Behavior Description" complete.
+1/2/17 1:45 PM : "Behavior Description" finish edit.
+1/2/17 1:45 PM : "Micro Op. Description" start browse.
+1/2/17 1:45 PM : "Micro Op. Description" complete.
+1/2/17 1:45 PM : "Micro Op. Description" finish edit.
+1/2/17 1:45 PM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 1:45 PM : Load file "dlx_speed_mod.log".
+1/2/17 1:45 PM : "null" complete.
+1/2/17 1:45 PM :  translator swdev dlx_speed dlx_speed_tr.log finished as normally.
+1/2/17 1:45 PM : Load file "dlx_speed_tr.log".
+1/2/17 1:45 PM : "null" complete.
+1/2/17 1:55 PM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 1:55 PM : Load file "dlx_speed_mod.log".
+1/2/17 1:55 PM : "null" complete.
+1/2/17 1:56 PM :  translator swdev dlx_speed dlx_speed_tr.log finished as normally.
+1/2/17 1:56 PM : Load file "dlx_speed_tr.log".
+1/2/17 1:56 PM : "null" complete.
+1/2/17 2:20 PM : "Micro Op. Description" complete.
+1/2/17 2:20 PM : "Micro Op. Description" start edit.
+1/2/17 2:37 PM : "Micro Op. Description" re-edit.
+1/2/17 2:39 PM : "Micro Op. Description" complete.
+1/2/17 2:39 PM : "Micro Op. Description" finish edit.
+1/2/17 2:39 PM :  modelgen sim dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 2:39 PM : Load file "dlx_speed_mod.log".
+1/2/17 2:39 PM : "null" complete.
+1/2/17 2:39 PM : "Micro Op. Description" complete.
+1/2/17 2:39 PM : "Micro Op. Description" start edit.
+1/2/17 2:39 PM : "Micro Op. Description" re-edit.
+1/2/17 2:41 PM : "Micro Op. Description" complete.
+1/2/17 2:41 PM : "Micro Op. Description" finish edit.
+1/2/17 2:41 PM :  modelgen sim dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 2:41 PM : Load file "dlx_speed_mod.log".
+1/2/17 2:41 PM : "null" complete.
+1/2/17 2:41 PM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/2/17 2:41 PM : Load file "dlx_speed_mod.log".
+1/2/17 2:41 PM : "null" complete.
+1/2/17 2:41 PM :  translator swdev dlx_speed dlx_speed_tr.log finished as normally.
+1/2/17 2:41 PM : Load file "dlx_speed_tr.log".
+1/2/17 2:41 PM : "null" complete.
+1/2/17 2:45 PM : "Main menu" quit.
+1/4/17 4:59 AM : "Main menu" start.
+1/4/17 4:59 AM : Load file ".ASIPmeister.ini".
+1/4/17 4:59 AM : Load file "dlx_speed.pdb".
+1/4/17 4:59 AM : "Micro Op. Description" complete.
+1/4/17 4:59 AM : "Micro Op. Description" start edit.
+1/4/17 4:59 AM : "Micro Op. Description" re-edit.
+1/4/17 5:04 AM : "Micro Op. Description" complete.
+1/4/17 5:05 AM : "Micro Op. Description" finish edit.
+1/4/17 5:05 AM : Query "parameter(pcu,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(register,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(imau,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(dmau,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(alu,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(extender,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(multiplier,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(divider,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(shifter,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(extender,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(alu,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(multiplexor,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(adder,synthesis)" finished as normally.
+1/4/17 5:05 AM : Query "parameter(multiplexor,synthesis)" finished as normally.
+1/4/17 5:05 AM : "Resource Declaration" start edit.
+1/4/17 5:05 AM : Query "function(multiplexor,synthesis,bit_width=32:number_of_ports=3)" finished as normally.
+1/4/17 5:05 AM : Query "portinfo(multiplexor,synthesis,bit_width=32:number_of_ports=3)" finished as normally.
+1/4/17 5:05 AM : Query "shape(area,multiplexor,synthesis,priority=delay:bit_width=32:number_of_ports=3)" finished as normally.
+1/4/17 5:05 AM : Query "timing(delay,multiplexor,synthesis,priority=delay:bit_width=32:number_of_ports=3)" finished as normally.
+1/4/17 5:05 AM : Query "power(power,multiplexor,synthesis,priority=delay:bit_width=32:number_of_ports=3)" finished as normally.
+1/4/17 5:05 AM : "Storage Spec" complete.
+1/4/17 5:05 AM : "Storage Spec" start edit.
+1/4/17 5:05 AM : "Storage Spec" finish edit.
+1/4/17 5:05 AM : "Resource Declaration" finish edit.
+1/4/17 5:05 AM : "Micro Op. Description" complete.
+1/4/17 5:05 AM : "Micro Op. Description" start edit.
+1/4/17 5:05 AM : "Micro Op. Description" re-edit.
+1/4/17 5:05 AM : "Micro Op. Description" complete.
+1/4/17 5:05 AM : "Micro Op. Description" finish edit.
+1/4/17 5:06 AM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/4/17 5:06 AM : Load file "dlx_speed_mod.log".
+1/4/17 5:06 AM : "null" complete.
+1/4/17 5:06 AM :  translator swdev dlx_speed dlx_speed_tr.log finished as normally.
+1/4/17 5:06 AM : Load file "dlx_speed_tr.log".
+1/4/17 5:06 AM : "null" complete.
+1/4/17 5:07 AM : Load file "dlx_speed.pdb".
+1/4/17 5:07 AM : "Micro Op. Description" complete.
+1/4/17 5:07 AM : "Micro Op. Description" start edit.
+1/4/17 5:07 AM : "Micro Op. Description" re-edit.
+1/4/17 5:07 AM : "Micro Op. Description" complete.
+1/4/17 5:07 AM : "Micro Op. Description" finish edit.
+1/4/17 5:08 AM :  modelgen both dlx_speed dlx_speed_mod.log finished as normally.
+1/4/17 5:08 AM : Load file "dlx_speed_mod.log".
+1/4/17 5:08 AM : "null" complete.
+1/4/17 5:08 AM :  translator swdev dlx_speed dlx_speed_tr.log finished as normally.
+1/4/17 5:08 AM : Load file "dlx_speed_tr.log".
+1/4/17 5:08 AM : "null" complete.
+1/4/17 5:08 AM : "Main menu" quit.

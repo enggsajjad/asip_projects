@@ -1,0 +1,86 @@
+10/30/16 7:58 PM : "Main menu" start.
+10/30/16 7:58 PM : Load file ".ASIPmeister.ini".
+10/30/16 8:03 PM : "Main menu" start.
+10/30/16 8:03 PM : Load file ".ASIPmeister.ini".
+10/30/16 8:03 PM : Load file "dlx_LaboratoryBasis.pdb".
+10/30/16 8:03 PM : "Instruction Definition" complete.
+10/30/16 8:03 PM : "Instruction Definition" start edit.
+10/30/16 8:23 PM : "Instruction Definition" finish edit.
+10/30/16 8:24 PM : "Main menu" quit.
+10/30/16 11:30 PM : "Main menu" start.
+10/30/16 11:30 PM : Load file ".ASIPmeister.ini".
+10/30/16 11:30 PM : Load file "dlx_LaboratoryBasis.pdb".
+10/30/16 11:31 PM : "Micro Op. Description" complete.
+10/30/16 11:31 PM : "Micro Op. Description" start edit.
+10/30/16 11:31 PM : "Micro Op. Description" re-edit.
+10/31/16 12:03 AM : "Main menu" start.
+10/31/16 12:03 AM : Load file ".ASIPmeister.ini".
+10/31/16 12:03 AM : Load file "dlx_LaboratoryBasis.pdb".
+10/31/16 12:03 AM : "Instruction Definition" complete.
+10/31/16 12:03 AM : "Instruction Definition" start edit.
+10/31/16 12:03 AM : "Instruction Definition" re-edit.
+10/31/16 12:04 AM : "Instruction Definition" complete.
+10/31/16 12:04 AM : "Instruction Definition" finish edit.
+10/31/16 12:04 AM :  archest dlx_LaboratoryBasis.arc dlx_LaboratoryBasis_arc.log finished as normally.
+10/31/16 12:04 AM : Load file "dlx_LaboratoryBasis_arc.log".
+10/31/16 12:04 AM : "null" complete.
+10/31/16 12:05 AM : "C Definition" start browse.
+10/31/16 12:05 AM : "C Definition" complete.
+10/31/16 12:05 AM : "C Definition" finish edit.
+10/31/16 12:05 AM : "Main menu" quit.
+10/31/16 12:05 AM : "Main menu" start.
+10/31/16 12:05 AM : Load file ".ASIPmeister.ini".
+10/31/16 12:05 AM : Load file "dlx_LaboratoryBasis.pdb".
+10/31/16 12:05 AM : "Behavior Description" complete.
+10/31/16 12:05 AM : "Behavior Description" start edit.
+10/31/16 12:06 AM : "Behavior Description" finish edit.
+10/31/16 12:06 AM : "Micro Op. Description" complete.
+10/31/16 12:06 AM : "Micro Op. Description" start edit.
+10/31/16 1:07 AM : "Micro Op. Description" finish edit.
+10/31/16 1:07 AM : "Instruction Definition" complete.
+10/31/16 1:07 AM : "Instruction Definition" start edit.
+10/31/16 1:15 AM : "Instruction Definition" re-edit.
+10/31/16 1:17 AM : "Instruction Definition" complete.
+10/31/16 1:17 AM : "Instruction Definition" finish edit.
+10/31/16 1:17 AM : "Main menu" quit.
+10/31/16 1:18 AM : "Main menu" start.
+10/31/16 1:18 AM : Load file ".ASIPmeister.ini".
+10/31/16 1:18 AM : Load file "dlx_LaboratoryBasis.pdb".
+10/31/16 1:18 AM : "Behavior Description" complete.
+10/31/16 1:18 AM : "Behavior Description" start edit.
+10/31/16 1:21 AM : "Behavior Description" finish edit.
+10/31/16 1:21 AM : "Micro Op. Description" complete.
+10/31/16 1:21 AM : "Micro Op. Description" start edit.
+10/31/16 1:23 AM : "Micro Op. Description" finish edit.
+10/31/16 1:23 AM : "Instruction Definition" complete.
+10/31/16 1:23 AM : "Instruction Definition" start edit.
+10/31/16 1:23 AM : "Instruction Definition" re-edit.
+10/31/16 1:32 AM : "Instruction Definition" finish browse.
+10/31/16 1:32 AM : "Main menu" quit.
+10/31/16 1:32 AM : "Main menu" start.
+10/31/16 1:32 AM : Load file ".ASIPmeister.ini".
+10/31/16 1:32 AM : Load file "dlx_LaboratoryBasis.pdb".
+10/31/16 1:32 AM : "Instruction Definition" complete.
+10/31/16 1:32 AM : "Instruction Definition" start edit.
+10/31/16 1:33 AM : "Instruction Definition" re-edit.
+10/31/16 1:36 AM : "Instruction Definition" complete.
+10/31/16 1:36 AM : "Instruction Definition" finish edit.
+10/31/16 1:37 AM :  archest dlx_LaboratoryBasis.arc dlx_LaboratoryBasis_arc.log finished as normally.
+10/31/16 1:37 AM : Load file "dlx_LaboratoryBasis_arc.log".
+10/31/16 1:37 AM : "null" complete.
+10/31/16 1:37 AM : "C Definition" start browse.
+10/31/16 1:37 AM : "C Definition" complete.
+10/31/16 1:37 AM : "C Definition" finish edit.
+10/31/16 1:37 AM : "Behavior Description" start browse.
+10/31/16 1:42 AM : "Behavior Description" complete.
+10/31/16 1:42 AM : "Behavior Description" finish edit.
+10/31/16 1:42 AM : "Micro Op. Description" start browse.
+10/31/16 1:51 AM : "Micro Op. Description" complete.
+10/31/16 1:52 AM : "Micro Op. Description" finish edit.
+10/31/16 1:53 AM :  modelgen both dlx_LaboratoryBasis dlx_LaboratoryBasis_mod.log finished as normally.
+10/31/16 1:53 AM : Load file "dlx_LaboratoryBasis_mod.log".
+10/31/16 1:53 AM : "null" complete.
+10/31/16 1:53 AM :  translator swdev dlx_LaboratoryBasis dlx_LaboratoryBasis_tr.log finished as normally.
+10/31/16 1:53 AM : Load file "dlx_LaboratoryBasis_tr.log".
+10/31/16 1:53 AM : "null" complete.
+10/31/16 2:25 AM : "Main menu" quit.

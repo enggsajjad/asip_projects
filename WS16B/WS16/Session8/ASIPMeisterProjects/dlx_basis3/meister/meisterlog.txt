@@ -1,0 +1,450 @@
+1/26/17 10:38 PM : "Main menu" start.
+1/26/17 10:38 PM : Load file ".ASIPmeister.ini".
+1/26/17 10:38 PM : Load file "dlx_basis.pdb".
+1/26/17 10:38 PM : Query "parameter(pcu,synthesis)" finished as normally.
+1/26/17 10:38 PM : Query "parameter(register,synthesis)" finished as normally.
+1/26/17 10:38 PM : Query "parameter(imau,synthesis)" finished as normally.
+1/26/17 10:38 PM : Query "parameter(dmau,synthesis)" finished as normally.
+1/26/17 10:38 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/26/17 10:38 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/26/17 10:38 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/26/17 10:38 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+1/26/17 10:38 PM : Query "parameter(divider,synthesis)" finished as normally.
+1/26/17 10:38 PM : Query "parameter(shifter,synthesis)" finished as normally.
+1/26/17 10:38 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/26/17 10:38 PM : "Resource Declaration" start edit.
+1/26/17 10:39 PM : Query "function(registerfile,synthesis,bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:39 PM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:39 PM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:39 PM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:39 PM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:39 PM : "Resource Declaration" re-edit.
+1/26/17 10:39 PM : "Resource Declaration" complete.
+1/26/17 10:39 PM : "Storage Spec" start browse.
+1/26/17 10:39 PM : "Storage Spec" finish browse.
+1/26/17 10:39 PM : "Resource Declaration" finish edit.
+1/26/17 10:39 PM : "Storage Spec" start browse.
+1/26/17 10:39 PM : "Storage Spec" complete.
+1/26/17 10:39 PM : "Storage Spec" finish edit.
+1/26/17 10:39 PM : Query "parameter(pcu,synthesis)" finished as normally.
+1/26/17 10:39 PM : Query "parameter(register,synthesis)" finished as normally.
+1/26/17 10:39 PM : Query "parameter(imau,synthesis)" finished as normally.
+1/26/17 10:39 PM : Query "parameter(dmau,synthesis)" finished as normally.
+1/26/17 10:39 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/26/17 10:39 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/26/17 10:39 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/26/17 10:39 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+1/26/17 10:39 PM : Query "parameter(divider,synthesis)" finished as normally.
+1/26/17 10:39 PM : Query "parameter(shifter,synthesis)" finished as normally.
+1/26/17 10:39 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/26/17 10:39 PM : "Resource Declaration" start edit.
+1/26/17 10:39 PM : "Resource Declaration" re-edit.
+1/26/17 10:40 PM : Query "function(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:40 PM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:40 PM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:40 PM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:40 PM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:40 PM : Query "function(registerfile,synthesis,bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:40 PM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:40 PM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:40 PM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:40 PM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 10:40 PM : "Resource Declaration" complete.
+1/26/17 10:40 PM : "Storage Spec" start browse.
+1/26/17 10:40 PM : "Storage Spec" finish browse.
+1/26/17 10:40 PM : "Resource Declaration" finish edit.
+1/26/17 10:40 PM : "Main menu" quit.
+1/26/17 10:40 PM : "Main menu" start.
+1/26/17 10:40 PM : Load file ".ASIPmeister.ini".
+1/26/17 10:40 PM : Load file "dlx_basis.pdb".
+1/26/17 10:40 PM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+1/26/17 10:40 PM : Load file "dlx_basis_mod.log".
+1/26/17 10:40 PM : "null" complete.
+1/26/17 10:41 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/26/17 10:41 PM : Load file "dlx_basis_tr.log".
+1/26/17 10:41 PM : "null" complete.
+1/26/17 10:41 PM : "Micro Op. Description" complete.
+1/26/17 10:41 PM : "Micro Op. Description" start edit.
+1/26/17 10:54 PM : "Micro Op. Description" re-edit.
+1/26/17 10:54 PM : "Micro Op. Description" complete.
+1/26/17 10:54 PM : "Micro Op. Description" finish edit.
+1/26/17 10:54 PM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+1/26/17 10:54 PM : Load file "dlx_basis_mod.log".
+1/26/17 10:54 PM : "null" complete.
+1/26/17 10:54 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/26/17 10:54 PM : Load file "dlx_basis_tr.log".
+1/26/17 10:54 PM : "null" complete.
+1/26/17 10:55 PM : "Instruction Definition" complete.
+1/26/17 10:55 PM : "Instruction Definition" start edit.
+1/26/17 10:56 PM : "Instruction Definition" re-edit.
+1/26/17 10:57 PM : "Instruction Definition" complete.
+1/26/17 10:57 PM : "Instruction Definition" finish edit.
+1/26/17 10:57 PM :  archest dlx_basis.arc dlx_basis_arc.log finished as normally.
+1/26/17 10:57 PM : Load file "dlx_basis_arc.log".
+1/26/17 10:57 PM : "null" complete.
+1/26/17 10:57 PM : "C Definition" start browse.
+1/26/17 10:57 PM : "C Definition" complete.
+1/26/17 10:57 PM : "C Definition" finish edit.
+1/26/17 10:57 PM : "Behavior Description" start browse.
+1/26/17 10:57 PM : "Behavior Description" complete.
+1/26/17 10:57 PM : "Behavior Description" finish edit.
+1/26/17 10:57 PM : "Micro Op. Description" start browse.
+1/26/17 10:57 PM : "Micro Op. Description" complete.
+1/26/17 10:57 PM : "Micro Op. Description" finish edit.
+1/26/17 10:57 PM :  modelgen sim dlx_basis dlx_basis_mod.log finished as normally.
+1/26/17 10:57 PM : Load file "dlx_basis_mod.log".
+1/26/17 10:57 PM : "null" complete.
+1/26/17 10:57 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/26/17 10:57 PM : Load file "dlx_basis_tr.log".
+1/26/17 10:57 PM : "null" complete.
+1/26/17 11:02 PM : "Micro Op. Description" complete.
+1/26/17 11:02 PM : "Micro Op. Description" start edit.
+1/26/17 11:02 PM : "Micro Op. Description" re-edit.
+1/26/17 11:02 PM : "Micro Op. Description" complete.
+1/26/17 11:02 PM : "Micro Op. Description" finish edit.
+1/26/17 11:02 PM : "Instruction Definition" complete.
+1/26/17 11:02 PM : "Instruction Definition" start edit.
+1/26/17 11:02 PM : "Instruction Definition" re-edit.
+1/26/17 11:02 PM : "Instruction Definition" complete.
+1/26/17 11:02 PM : "Instruction Definition" finish edit.
+1/26/17 11:02 PM :  archest dlx_basis.arc dlx_basis_arc.log finished as normally.
+1/26/17 11:02 PM : Load file "dlx_basis_arc.log".
+1/26/17 11:02 PM : "null" complete.
+1/26/17 11:02 PM : "C Definition" start browse.
+1/26/17 11:02 PM : "C Definition" complete.
+1/26/17 11:02 PM : "C Definition" finish edit.
+1/26/17 11:02 PM : "Behavior Description" start browse.
+1/26/17 11:02 PM : "Behavior Description" complete.
+1/26/17 11:02 PM : "Behavior Description" finish edit.
+1/26/17 11:02 PM : "Micro Op. Description" start browse.
+1/26/17 11:02 PM : "Micro Op. Description" complete.
+1/26/17 11:02 PM : "Micro Op. Description" finish edit.
+1/26/17 11:02 PM :  modelgen sim dlx_basis dlx_basis_mod.log finished as normally.
+1/26/17 11:02 PM : Load file "dlx_basis_mod.log".
+1/26/17 11:02 PM : "null" complete.
+1/26/17 11:02 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/26/17 11:02 PM : Load file "dlx_basis_tr.log".
+1/26/17 11:02 PM : "null" complete.
+1/26/17 11:03 PM : "Micro Op. Description" complete.
+1/26/17 11:03 PM : "Micro Op. Description" start edit.
+1/26/17 11:03 PM : "Micro Op. Description" finish edit.
+1/26/17 11:03 PM : "Instruction Definition" complete.
+1/26/17 11:03 PM : "Instruction Definition" start edit.
+1/26/17 11:03 PM : "Instruction Definition" re-edit.
+1/26/17 11:04 PM : "Instruction Definition" complete.
+1/26/17 11:04 PM : "Instruction Definition" finish edit.
+1/26/17 11:04 PM :  archest dlx_basis.arc dlx_basis_arc.log finished as normally.
+1/26/17 11:04 PM : Load file "dlx_basis_arc.log".
+1/26/17 11:04 PM : "null" complete.
+1/26/17 11:04 PM : "C Definition" start browse.
+1/26/17 11:04 PM : "C Definition" complete.
+1/26/17 11:04 PM : "C Definition" finish edit.
+1/26/17 11:04 PM : "Behavior Description" start browse.
+1/26/17 11:05 PM : "Behavior Description" complete.
+1/26/17 11:05 PM : "Behavior Description" finish edit.
+1/26/17 11:05 PM : "Micro Op. Description" start browse.
+1/26/17 11:07 PM : "Micro Op. Description" complete.
+1/26/17 11:07 PM : "Micro Op. Description" finish edit.
+1/26/17 11:07 PM :  modelgen sim dlx_basis dlx_basis_mod.log finished as normally.
+1/26/17 11:07 PM : Load file "dlx_basis_mod.log".
+1/26/17 11:07 PM : "null" complete.
+1/26/17 11:08 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/26/17 11:08 PM : Load file "dlx_basis_tr.log".
+1/26/17 11:08 PM : "null" complete.
+1/26/17 11:10 PM : "Micro Op. Description" complete.
+1/26/17 11:10 PM : "Micro Op. Description" start edit.
+1/26/17 11:10 PM : "Micro Op. Description" re-edit.
+1/26/17 11:10 PM : "Micro Op. Description" complete.
+1/26/17 11:10 PM : "Micro Op. Description" re-edit.
+1/26/17 11:10 PM : "Micro Op. Description" complete.
+1/26/17 11:10 PM : "Micro Op. Description" finish edit.
+1/26/17 11:10 PM :  modelgen sim dlx_basis dlx_basis_mod.log finished as normally.
+1/26/17 11:10 PM : Load file "dlx_basis_mod.log".
+1/26/17 11:10 PM : "null" complete.
+1/26/17 11:10 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/26/17 11:10 PM : Load file "dlx_basis_tr.log".
+1/26/17 11:10 PM : "null" complete.
+1/26/17 11:12 PM : "Micro Op. Description" complete.
+1/26/17 11:12 PM : "Micro Op. Description" start edit.
+1/26/17 11:12 PM : "Micro Op. Description" re-edit.
+1/26/17 11:12 PM : "Micro Op. Description" complete.
+1/26/17 11:12 PM : "Micro Op. Description" finish edit.
+1/26/17 11:12 PM :  modelgen sim dlx_basis dlx_basis_mod.log finished as normally.
+1/26/17 11:12 PM : Load file "dlx_basis_mod.log".
+1/26/17 11:12 PM : "null" complete.
+1/26/17 11:12 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/26/17 11:12 PM : Load file "dlx_basis_tr.log".
+1/26/17 11:12 PM : "null" complete.
+1/26/17 11:12 PM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+1/26/17 11:12 PM : Load file "dlx_basis_mod.log".
+1/26/17 11:12 PM : "null" complete.
+1/26/17 11:12 PM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/26/17 11:12 PM : Load file "dlx_basis_tr.log".
+1/26/17 11:12 PM : "null" complete.
+1/26/17 11:13 PM : Query "parameter(pcu,synthesis)" finished as normally.
+1/26/17 11:13 PM : Query "parameter(register,synthesis)" finished as normally.
+1/26/17 11:13 PM : Query "parameter(imau,synthesis)" finished as normally.
+1/26/17 11:13 PM : Query "parameter(dmau,synthesis)" finished as normally.
+1/26/17 11:13 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/26/17 11:13 PM : Query "parameter(alu,synthesis)" finished as normally.
+1/26/17 11:13 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/26/17 11:13 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+1/26/17 11:13 PM : Query "parameter(divider,synthesis)" finished as normally.
+1/26/17 11:13 PM : Query "parameter(shifter,synthesis)" finished as normally.
+1/26/17 11:13 PM : Query "parameter(extender,synthesis)" finished as normally.
+1/26/17 11:13 PM : "Resource Declaration" start edit.
+1/26/17 11:13 PM : Query "function(registerfile,synthesis,bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 11:13 PM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 11:13 PM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 11:13 PM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 11:13 PM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/26/17 11:13 PM : "Storage Spec" complete.
+1/26/17 11:13 PM : "Storage Spec" start edit.
+1/26/17 11:13 PM : "Storage Spec" finish edit.
+1/26/17 11:13 PM : "Resource Declaration" finish edit.
+1/26/17 11:14 PM : "Main menu" quit.
+1/27/17 4:14 PM : "Main menu" start.
+1/27/17 4:14 PM : Load file ".ASIPmeister.ini".
+1/27/17 4:14 PM : Load file "dlx_basis.pdb".
+1/27/17 4:14 PM : "Storage Spec" complete.
+1/27/17 4:14 PM : "Storage Spec" start edit.
+1/27/17 4:14 PM : "Storage Spec" finish edit.
+1/27/17 4:14 PM : "Main menu" quit.
+1/27/17 7:36 PM : "Main menu" start.
+1/27/17 7:36 PM : Load file ".ASIPmeister.ini".
+1/27/17 7:36 PM : Load file "dlx_basis.pdb".
+1/27/17 7:36 PM : "Instruction Definition" complete.
+1/27/17 7:36 PM : "Instruction Definition" start edit.
+1/27/17 7:36 PM : "Instruction Definition" re-edit.
+1/27/17 7:37 PM : "Instruction Definition" complete.
+1/27/17 7:37 PM : "Instruction Definition" finish edit.
+1/27/17 7:37 PM : "Main menu" quit.
+1/27/17 7:39 PM : "Main menu" start.
+1/27/17 7:39 PM : Load file ".ASIPmeister.ini".
+1/27/17 7:39 PM : Load file "dlx_basis.pdb".
+1/27/17 7:39 PM : "Instruction Definition" complete.
+1/27/17 7:39 PM : "Instruction Definition" start edit.
+1/27/17 7:39 PM : "Instruction Definition" re-edit.
+1/27/17 7:44 PM : "Instruction Definition" complete.
+1/27/17 7:44 PM : "Instruction Definition" finish edit.
+1/27/17 7:44 PM :  archest dlx_basis.arc dlx_basis_arc.log finished as normally.
+1/27/17 7:44 PM : Load file "dlx_basis_arc.log".
+1/27/17 7:44 PM : "null" complete.
+1/27/17 7:44 PM : "C Definition" start browse.
+1/27/17 7:44 PM : "C Definition" complete.
+1/27/17 7:44 PM : "C Definition" finish edit.
+1/27/17 7:44 PM : "Behavior Description" start browse.
+1/27/17 7:44 PM : "Behavior Description" complete.
+1/27/17 7:44 PM : "Behavior Description" finish edit.
+1/27/17 7:44 PM : "Main menu" quit.
+1/28/17 3:11 AM : "Main menu" start.
+1/28/17 3:11 AM : Load file ".ASIPmeister.ini".
+1/28/17 3:11 AM : Load file "dlx_basis.pdb".
+1/28/17 3:11 AM : Query "parameter(pcu,synthesis)" finished as normally.
+1/28/17 3:11 AM : Query "parameter(register,synthesis)" finished as normally.
+1/28/17 3:11 AM : Query "parameter(imau,synthesis)" finished as normally.
+1/28/17 3:11 AM : Query "parameter(dmau,synthesis)" finished as normally.
+1/28/17 3:11 AM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/28/17 3:11 AM : Query "parameter(alu,synthesis)" finished as normally.
+1/28/17 3:11 AM : Query "parameter(extender,synthesis)" finished as normally.
+1/28/17 3:11 AM : Query "parameter(multiplier,synthesis)" finished as normally.
+1/28/17 3:11 AM : Query "parameter(divider,synthesis)" finished as normally.
+1/28/17 3:11 AM : Query "parameter(shifter,synthesis)" finished as normally.
+1/28/17 3:11 AM : Query "parameter(extender,synthesis)" finished as normally.
+1/28/17 3:11 AM : "Resource Declaration" start edit.
+1/28/17 3:11 AM : "Resource Declaration" re-edit.
+1/28/17 3:11 AM : Query "function(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:11 AM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:11 AM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:11 AM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:11 AM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:11 AM : Query "function(registerfile,synthesis,bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:11 AM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:11 AM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:11 AM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:11 AM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:11 AM : "Resource Declaration" complete.
+1/28/17 3:11 AM : "Storage Spec" start browse.
+1/28/17 3:11 AM : "Storage Spec" finish browse.
+1/28/17 3:11 AM : "Resource Declaration" finish edit.
+1/28/17 3:11 AM : "Storage Spec" start browse.
+1/28/17 3:13 AM : "Storage Spec" finish browse.
+1/28/17 3:13 AM : Load file "dlx_basis.pdb".
+1/28/17 3:13 AM : "Storage Spec" complete.
+1/28/17 3:13 AM : "Storage Spec" start edit.
+1/28/17 3:14 AM : "Storage Spec" finish edit.
+1/28/17 3:14 AM : Query "parameter(pcu,synthesis)" finished as normally.
+1/28/17 3:14 AM : Query "parameter(register,synthesis)" finished as normally.
+1/28/17 3:14 AM : Query "parameter(imau,synthesis)" finished as normally.
+1/28/17 3:14 AM : Query "parameter(dmau,synthesis)" finished as normally.
+1/28/17 3:14 AM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/28/17 3:14 AM : Query "parameter(alu,synthesis)" finished as normally.
+1/28/17 3:14 AM : Query "parameter(extender,synthesis)" finished as normally.
+1/28/17 3:14 AM : Query "parameter(multiplier,synthesis)" finished as normally.
+1/28/17 3:14 AM : Query "parameter(divider,synthesis)" finished as normally.
+1/28/17 3:14 AM : Query "parameter(shifter,synthesis)" finished as normally.
+1/28/17 3:14 AM : Query "parameter(extender,synthesis)" finished as normally.
+1/28/17 3:14 AM : "Resource Declaration" start edit.
+1/28/17 3:14 AM : "Resource Declaration" re-edit.
+1/28/17 3:14 AM : Query "function(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:14 AM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:14 AM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:14 AM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:14 AM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=32:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:14 AM : Query "function(registerfile,synthesis,bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:14 AM : Query "portinfo(registerfile,synthesis,bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:14 AM : Query "shape(area,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:14 AM : Query "timing(delay,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:14 AM : Query "power(power,registerfile,synthesis,priority=delay:bit_width=32:num_register=16:num_read_port=2:num_write_port=1)" finished as normally.
+1/28/17 3:14 AM : "Resource Declaration" complete.
+1/28/17 3:14 AM : "Storage Spec" start browse.
+1/28/17 3:14 AM : "Storage Spec" finish browse.
+1/28/17 3:14 AM : "Resource Declaration" finish edit.
+1/28/17 3:14 AM : "Storage Spec" start browse.
+1/28/17 3:15 AM : "Storage Spec" complete.
+1/28/17 3:15 AM : "Storage Spec" finish edit.
+1/28/17 3:15 AM : "Interface Definition" complete.
+1/28/17 3:15 AM : "Interface Definition" start edit.
+1/28/17 3:15 AM : "Interface Definition" finish edit.
+1/28/17 3:15 AM : "Instruction Definition" complete.
+1/28/17 3:15 AM : "Instruction Definition" start edit.
+1/28/17 3:15 AM : "Instruction Definition" re-edit.
+1/28/17 3:21 AM : "Instruction Definition" complete.
+1/28/17 3:21 AM : "Instruction Definition" finish edit.
+1/28/17 3:21 AM :  archest dlx_basis.arc dlx_basis_arc.log finished as normally.
+1/28/17 3:21 AM : Load file "dlx_basis_arc.log".
+1/28/17 3:21 AM : "null" complete.
+1/28/17 3:21 AM : "C Definition" start browse.
+1/28/17 3:21 AM : "C Definition" complete.
+1/28/17 3:21 AM : "C Definition" finish edit.
+1/28/17 3:21 AM : "Behavior Description" start browse.
+1/28/17 3:21 AM : "Behavior Description" complete.
+1/28/17 3:21 AM : "Behavior Description" finish edit.
+1/28/17 3:21 AM : "Micro Op. Description" start browse.
+1/28/17 3:22 AM : "Micro Op. Description" complete.
+1/28/17 3:22 AM : "Micro Op. Description" finish edit.
+1/28/17 3:22 AM :  modelgen sim dlx_basis dlx_basis_mod.log finished as normally.
+1/28/17 3:22 AM : Load file "dlx_basis_mod.log".
+1/28/17 3:22 AM : "null" complete.
+1/28/17 3:22 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/28/17 3:22 AM : Load file "dlx_basis_tr.log".
+1/28/17 3:22 AM : "null" complete.
+1/28/17 3:22 AM : "Micro Op. Description" complete.
+1/28/17 3:22 AM : "Micro Op. Description" start edit.
+1/28/17 3:23 AM : "Micro Op. Description" finish edit.
+1/28/17 3:24 AM : "Micro Op. Description" complete.
+1/28/17 3:24 AM : "Micro Op. Description" start edit.
+1/28/17 3:24 AM : "Micro Op. Description" re-edit.
+1/28/17 3:25 AM : "Micro Op. Description" complete.
+1/28/17 3:25 AM : "Micro Op. Description" finish edit.
+1/28/17 3:25 AM :  modelgen sim dlx_basis dlx_basis_mod.log finished as normally.
+1/28/17 3:25 AM : Load file "dlx_basis_mod.log".
+1/28/17 3:25 AM : "null" complete.
+1/28/17 3:25 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/28/17 3:25 AM : Load file "dlx_basis_tr.log".
+1/28/17 3:25 AM : "null" complete.
+1/28/17 3:26 AM : Query "parameter(pcu,synthesis)" finished as normally.
+1/28/17 3:26 AM : Query "parameter(register,synthesis)" finished as normally.
+1/28/17 3:26 AM : Query "parameter(imau,synthesis)" finished as normally.
+1/28/17 3:26 AM : Query "parameter(dmau,synthesis)" finished as normally.
+1/28/17 3:26 AM : Query "parameter(registerfile,synthesis)" finished as normally.
+1/28/17 3:26 AM : Query "parameter(alu,synthesis)" finished as normally.
+1/28/17 3:26 AM : Query "parameter(extender,synthesis)" finished as normally.
+1/28/17 3:26 AM : Query "parameter(multiplier,synthesis)" finished as normally.
+1/28/17 3:26 AM : Query "parameter(divider,synthesis)" finished as normally.
+1/28/17 3:26 AM : Query "parameter(shifter,synthesis)" finished as normally.
+1/28/17 3:26 AM : Query "parameter(extender,synthesis)" finished as normally.
+1/28/17 3:26 AM : "Resource Declaration" start edit.
+1/28/17 3:26 AM : "Storage Spec" complete.
+1/28/17 3:26 AM : "Storage Spec" start edit.
+1/28/17 3:26 AM : "Storage Spec" finish edit.
+1/28/17 3:26 AM : "Resource Declaration" finish edit.
+1/28/17 3:26 AM : "Instruction Definition" complete.
+1/28/17 3:26 AM : "Instruction Definition" start edit.
+1/28/17 3:27 AM : "Instruction Definition" re-edit.
+1/28/17 3:27 AM : "Instruction Definition" complete.
+1/28/17 3:27 AM : "Instruction Definition" finish edit.
+1/28/17 3:27 AM :  archest dlx_basis.arc dlx_basis_arc.log finished as normally.
+1/28/17 3:27 AM : Load file "dlx_basis_arc.log".
+1/28/17 3:27 AM : "null" complete.
+1/28/17 3:27 AM : "C Definition" start browse.
+1/28/17 3:27 AM : "C Definition" complete.
+1/28/17 3:27 AM : "C Definition" finish edit.
+1/28/17 3:28 AM : "Behavior Description" start browse.
+1/28/17 3:28 AM : "Behavior Description" complete.
+1/28/17 3:28 AM : "Behavior Description" finish edit.
+1/28/17 3:28 AM : "Micro Op. Description" start browse.
+1/28/17 3:28 AM : "Micro Op. Description" complete.
+1/28/17 3:28 AM : "Micro Op. Description" finish edit.
+1/28/17 3:28 AM :  modelgen sim dlx_basis dlx_basis_mod.log finished as normally.
+1/28/17 3:28 AM : Load file "dlx_basis_mod.log".
+1/28/17 3:28 AM : "null" complete.
+1/28/17 3:28 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/28/17 3:28 AM : Load file "dlx_basis_tr.log".
+1/28/17 3:28 AM : "null" complete.
+1/28/17 3:28 AM : "Micro Op. Description" complete.
+1/28/17 3:28 AM : "Micro Op. Description" start edit.
+1/28/17 3:29 AM : "Micro Op. Description" finish edit.
+1/28/17 3:29 AM : "Instruction Definition" complete.
+1/28/17 3:29 AM : "Instruction Definition" start edit.
+1/28/17 3:29 AM : "Instruction Definition" re-edit.
+1/28/17 3:30 AM : "Instruction Definition" complete.
+1/28/17 3:30 AM : "Instruction Definition" finish edit.
+1/28/17 3:30 AM :  archest dlx_basis.arc dlx_basis_arc.log finished as normally.
+1/28/17 3:30 AM : Load file "dlx_basis_arc.log".
+1/28/17 3:30 AM : "null" complete.
+1/28/17 3:30 AM : "C Definition" start browse.
+1/28/17 3:30 AM : "C Definition" complete.
+1/28/17 3:30 AM : "C Definition" finish edit.
+1/28/17 3:30 AM : "Behavior Description" start browse.
+1/28/17 3:32 AM : "Behavior Description" complete.
+1/28/17 3:32 AM : "Behavior Description" finish edit.
+1/28/17 3:32 AM : "Micro Op. Description" start browse.
+1/28/17 3:32 AM : "Micro Op. Description" complete.
+1/28/17 3:32 AM : "Micro Op. Description" finish edit.
+1/28/17 3:33 AM :  modelgen sim dlx_basis dlx_basis_mod.log finished as normally.
+1/28/17 3:33 AM : Load file "dlx_basis_mod.log".
+1/28/17 3:33 AM : "null" complete.
+1/28/17 3:33 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/28/17 3:33 AM : Load file "dlx_basis_tr.log".
+1/28/17 3:33 AM : "null" complete.
+1/28/17 3:33 AM : "Behavior Description" complete.
+1/28/17 3:33 AM : "Behavior Description" start edit.
+1/28/17 3:33 AM : "Behavior Description" re-edit.
+1/28/17 3:33 AM : "Behavior Description" complete.
+1/28/17 3:33 AM : "Behavior Description" finish edit.
+1/28/17 3:33 AM : "Micro Op. Description" start browse.
+1/28/17 3:33 AM : "Micro Op. Description" complete.
+1/28/17 3:34 AM : "Micro Op. Description" finish edit.
+1/28/17 3:34 AM :  modelgen sim dlx_basis dlx_basis_mod.log finished as normally.
+1/28/17 3:34 AM : Load file "dlx_basis_mod.log".
+1/28/17 3:34 AM : "null" complete.
+1/28/17 3:34 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/28/17 3:34 AM : Load file "dlx_basis_tr.log".
+1/28/17 3:34 AM : "null" complete.
+1/28/17 3:34 AM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+1/28/17 3:34 AM : Load file "dlx_basis_mod.log".
+1/28/17 3:34 AM : "null" complete.
+1/28/17 3:34 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/28/17 3:34 AM : Load file "dlx_basis_tr.log".
+1/28/17 3:34 AM : "null" complete.
+1/28/17 3:35 AM : Load file "dlx_basis.pdb".
+1/28/17 3:35 AM : "Behavior Description" complete.
+1/28/17 3:35 AM : "Behavior Description" start edit.
+1/28/17 3:37 AM : "Behavior Description" finish edit.
+1/28/17 3:37 AM : Load file "dlx_basis.pdb".
+1/28/17 3:38 AM : "Behavior Description" complete.
+1/28/17 3:38 AM : "Behavior Description" start edit.
+1/28/17 3:38 AM : "Behavior Description" re-edit.
+1/28/17 3:42 AM : "Behavior Description" complete.
+1/28/17 3:42 AM : "Behavior Description" finish edit.
+1/28/17 3:43 AM : "Micro Op. Description" start browse.
+1/28/17 3:43 AM : "Micro Op. Description" complete.
+1/28/17 3:43 AM : "Micro Op. Description" finish edit.
+1/28/17 3:43 AM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+1/28/17 3:43 AM : Load file "dlx_basis_mod.log".
+1/28/17 3:43 AM : "null" complete.
+1/28/17 3:43 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+1/28/17 3:43 AM : Load file "dlx_basis_tr.log".
+1/28/17 3:43 AM : "null" complete.
+1/28/17 3:44 AM : "Main menu" quit.

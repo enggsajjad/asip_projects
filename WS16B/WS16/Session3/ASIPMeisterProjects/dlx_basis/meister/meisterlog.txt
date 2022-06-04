@@ -1,0 +1,54 @@
+11/26/16 2:20 AM : "Main menu" start.
+11/26/16 2:20 AM : Load file ".ASIPmeister.ini".
+11/26/16 2:20 AM : Load file "dlx_basis.pdb".
+11/26/16 2:20 AM :  modelgen both dlx_basis dlx_basis_mod.log finished as normally.
+11/26/16 2:20 AM : Load file "dlx_basis_mod.log".
+11/26/16 2:20 AM : "null" complete.
+11/26/16 2:21 AM :  translator swdev dlx_basis dlx_basis_tr.log finished as normally.
+11/26/16 2:21 AM : Load file "dlx_basis_tr.log".
+11/26/16 2:21 AM : "null" complete.
+11/26/16 2:21 AM : "Main menu" quit.
+5/5/17 4:30 PM : "Main menu" start.
+5/5/17 4:30 PM : Load file ".ASIPmeister.ini".
+5/5/17 4:30 PM : Load file "dlx_basis.pdb".
+5/5/17 4:30 PM : "Design Goal & Arch. Design" complete.
+5/5/17 4:30 PM : "null" complete.
+5/5/17 4:30 PM : "null" start edit.
+5/5/17 4:30 PM : "null" complete.
+5/5/17 4:30 PM : "null" finish edit.
+5/5/17 4:30 PM : "Design Goal & Arch. Design" start edit.
+5/5/17 4:36 PM : "Design Goal & Arch. Design" finish edit.
+5/5/17 4:37 PM : Load file "dlx_basis.pdb".
+5/5/17 4:37 PM : "Design Goal & Arch. Design" complete.
+5/5/17 4:37 PM : "null" complete.
+5/5/17 4:37 PM : "null" start edit.
+5/5/17 4:37 PM : "null" complete.
+5/5/17 4:37 PM : "null" finish edit.
+5/5/17 4:37 PM : "Design Goal & Arch. Design" start edit.
+5/5/17 4:37 PM : "Design Goal & Arch. Design" re-edit.
+5/5/17 4:38 PM : "Design Goal & Arch. Design" complete.
+5/5/17 4:38 PM : "null" start browse.
+5/5/17 4:38 PM : "null" complete.
+5/5/17 4:38 PM : "null" finish edit.
+5/5/17 4:38 PM : "Design Goal & Arch. Design" finish edit.
+5/5/17 4:38 PM : Query "parameter(pcu,synthesis)" finished as normally.
+5/5/17 4:38 PM : Query "parameter(register,synthesis)" finished as normally.
+5/5/17 4:38 PM : Query "parameter(imau,synthesis)" finished as normally.
+5/5/17 4:38 PM : Query "parameter(dmau,synthesis)" finished as normally.
+5/5/17 4:38 PM : Query "parameter(registerfile,synthesis)" finished as normally.
+5/5/17 4:38 PM : Query "parameter(alu,synthesis)" finished as normally.
+5/5/17 4:38 PM : Query "parameter(extender,synthesis)" finished as normally.
+5/5/17 4:38 PM : Query "parameter(multiplier,synthesis)" finished as normally.
+5/5/17 4:38 PM : Query "parameter(divider,synthesis)" finished as normally.
+5/5/17 4:38 PM : Query "parameter(shifter,synthesis)" finished as normally.
+5/5/17 4:38 PM : Query "parameter(extender,synthesis)" finished as normally.
+5/5/17 4:38 PM : "Resource Declaration" start edit.
+5/5/17 4:39 PM : "Storage Spec" complete.
+5/5/17 4:39 PM : "Storage Spec" start edit.
+5/5/17 4:39 PM : "Storage Spec" finish edit.
+5/5/17 4:39 PM : "Resource Declaration" finish edit.
+5/5/17 4:39 PM : "Storage Spec" complete.
+5/5/17 4:39 PM : "Storage Spec" start edit.
+5/5/17 4:39 PM : "Storage Spec" finish edit.
+5/5/17 4:39 PM : "Resource Declaration" finish edit.
+5/5/17 4:39 PM : "Main menu" quit.

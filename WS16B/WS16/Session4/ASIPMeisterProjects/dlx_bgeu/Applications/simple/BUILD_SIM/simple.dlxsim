@@ -1,0 +1,93 @@
+	.section	.text
+	.section	.text
+	.addressing	Word
+	
+	xor	%r30, %r30, %r30
+	xor	%r29, %r29, %r29
+	xor	%r28, %r28, %r28
+	nop
+	lhi	%r30, $(0xFFFFC/0x10000)
+	lhi	%r29, $(0xFFFFC/0x10000)
+	nop
+	nop
+	ori	%r30, %r30, $(0xFFFFC%0x10000)
+	ori	%r29, %r29, $(0xFFFFC%0x10000)
+	nop
+	nop
+	nop
+	sw	-4(%r29), %r30
+	sw	-8(%r29), %r31
+	addi	%r29, %r30, $-8
+	nop
+	nop
+	nop
+	jal	main	
+	nop
+	nop
+	nop
+	nop
+	nop
+	sw	0(%r29), %r1
+	jal	exit
+	nop
+	nop
+
+main:
+	addi %r2, %r0, $(array & 0xffff)	; mem pointer
+	nop
+	nop
+	nop
+
+	lw %r5, 0(%r2)
+	lw %r6, 4(%r2)
+	nop
+	nop
+	nop
+	
+	add %r7, %r5, %r6
+	nop
+	nop
+	nop
+
+	sw 8(%r2), %r7
+	nop
+	nop
+	nop
+
+	lw %r5, 12(%r2)
+	lw %r6, 16(%r2)
+	nop
+	nop
+	nop
+	
+	add %r7, %r5, %r6
+	nop
+	nop
+	nop
+
+	sw 20(%r2), %r7
+	nop
+	nop
+	nop
+
+
+	.section	.text
+	.addressing	Word
+	NOP
+exit:
+	NOP
+	NOP
+	trap	#0	; HALT
+
+
+	.addressing	Word
+	.section	.data
+array:
+	.data.32	14
+	.data.32	15
+	.data.32	0
+
+	.data.32	50
+	.data.32	40
+	.data.32	0
+

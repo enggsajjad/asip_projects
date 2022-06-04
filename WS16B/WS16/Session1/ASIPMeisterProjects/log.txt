@@ -1,0 +1,729 @@
+Log
+
+asip04@i80labpc02:~:$cd LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$ls ../../..
+1_Arith.s  2_LoadStore.s  3_Branch.s  4_Loop.s  5_jr.s  ASIPMeisterProjects  Kopie von ASIPMeisterProjects  Session1.pdf
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$mkdir 1_Arith  2_LoadStore  3_Branch  4_Loop  5_jr 6_for
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cp ./TestPrint/Makefile  1_Arith/.
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cp ./TestPrint/Makefile  2_LoadStore/.
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cp ./TestPrint/Makefile  3_Branch/.
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cp ./TestPrint/Makefile  4_Loop/.
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cp ./TestPrint/Makefile 5_jr/.
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cp ./TestPrint/Makefile 6_for/.
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cp ~/LabASIP/Session1/1_Arith.s 1_Arith/.
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cp ~/LabASIP/Session1/2_LoadStore.s 2_LoadStore/.
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cp ~/LabASIP/Session1/3_Branch.s 3_Branch/.
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cp ~/LabASIP/Session1/4_Loop.s 4_Loop/.
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cp ~/LabASIP/Session1/5_jr.s 5_jr/.
+
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cd 1_Arith/
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/1_Arith:$make dlxsim DLXSIM_PARAM="-f1_Arith.s -da0 -pd1"
+-----------------------------------------------
+Transforming file "1_Arith.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim_Laboratory/dlxsim -fBUILD_SIM/1_Arith.dlxsim -f1_Arith.s -da0 -pd1
+Biggest used address for Text Section (word aligned): 0x1c
+Biggest used address for Data Section (word aligned): 0x0
+(dlxsim) go
+TRAP #0 received
+Altogether 41,0e0(41) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) quit
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/1_Arith:$make dlxsim DLXSIM_PARAM="-f1_Arith.s -da0 -pd1"
+-----------------------------------------------
+Transforming file "1_Arith.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim_Laboratory/dlxsim -fBUILD_SIM/1_Arith.dlxsim -f1_Arith.s -da0 -pd1
+Biggest used address for Text Section (word aligned): 0x1c
+Biggest used address for Data Section (word aligned): 0x0
+(dlxsim) step
+stopped after (single) step, pc = _main+0x04 (0x0004): addi r2,r0,0x9
+(dlxsim) 
+stopped after (single) step, pc = _main+0x08 (0x0008): or r3,r1,r2
+(dlxsim) 
+stopped after (single) step, pc = _main+0x0c (0x000c): and r4,r1,r2
+(dlxsim) 
+stopped after (single) step, pc = _main+0x10 (0x0010): sub r5,r1,r2
+(dlxsim) 
+stopped after (single) step, pc = _main+0x14 (0x0014): mult r6,r1,r2
+(dlxsim) 
+stopped after (single) step, pc = _main+0x18 (0x0018): sll r7,r1,r2
+(dlxsim) 
+stopped after (single) step, pc = _main+0x1c (0x001c): trap 0x0
+(dlxsim) 
+TRAP #0 received
+Altogether 41,0e0(41) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) quit
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/1_Arith:$
+
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/1_Arith:$cd ../2_LoadStore/
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/2_LoadStore:$make dlxsim DLXSIM_PARAM="-f2_LoadStore.s -da0 -pd1"
+-----------------------------------------------
+Transforming file "2_LoadStore.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim_Laboratory/dlxsim -fBUILD_SIM/2_LoadStore.dlxsim -f2_LoadStore.s -da0 -pd1
+Biggest used address for Text Section (word aligned): 0x20
+Biggest used address for Data Section (word aligned): 0x2c
+(dlxsim) go
+TRAP #0 received
+Altogether 11,0e0(11) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) get _data 3u
+_data+0x00 (0x0024):	42
+_data+0x04 (0x0028):	23
+_result+0x00 (0x002c):	65
+(dlxsim) quit
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/2_LoadStore:$make dlxsim DLXSIM_PARAM="-f2_LoadStore.s -da0 -pd1"
+-----------------------------------------------
+Transforming file "2_LoadStore.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim_Laboratory/dlxsim -fBUILD_SIM/2_LoadStore.dlxsim -f2_LoadStore.s -da0 -pd1
+Biggest used address for Text Section (word aligned): 0x20
+Biggest used address for Data Section (word aligned): 0x2c
+(dlxsim) step
+stopped after (single) step, pc = _main+0x04 (0x0004): ori r1,r1,0x24
+(dlxsim) 
+stopped after (single) step, pc = _main+0x08 (0x0008): lw r2,_main+0x00 (0x0000)(r1)
+(dlxsim) 
+stopped after (single) step, pc = _main+0x0c (0x000c): lw r3,_main+0x04 (0x0004)(r1)
+(dlxsim) 
+stopped after (single) step, pc = _main+0x10 (0x0010): add r4,r2,r3
+(dlxsim) 
+stopped after (single) step, pc = _main+0x14 (0x0014): lhi r5,0x0
+(dlxsim) 
+stopped after (single) step, pc = _main+0x18 (0x0018): ori r5,r5,0x2c
+(dlxsim) 
+stopped after (single) step, pc = _main+0x1c (0x001c): sw _main+0x00 (0x0000)(r5),r4
+(dlxsim) 
+stopped after (single) step, pc = _main+0x20 (0x0020): trap 0x0
+(dlxsim) 
+TRAP #0 received
+Altogether 11,0e0(11) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) get _data 3u
+_data+0x00 (0x0024):	42
+_data+0x04 (0x0028):	23
+_result+0x00 (0x002c):	65
+(dlxsim) quit
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/2_LoadStore:$
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/2_LoadStore:$cd ..
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$ls
+1_Arith  2_LoadStore  3_Branch  4_Loop  5_jr  6_for  Bootloader  LoopExample  TestPrint
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications:$cd 3_Branch
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/3_Branch:$make dlxsim DLXSIM_PARAM="-f3_Branch.s -da0 -pd1"
+-----------------------------------------------
+Transforming file "3_Branch.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim_Laboratory/dlxsim -fBUILD_SIM/3_Branch.dlxsim -f3_Branch.s -da0 -pd1
+Biggest used address for Text Section (word aligned): 0x28
+Biggest used address for Data Section (word aligned): 0x0
+(dlxsim) go
+TRAP #0 received
+Altogether 10,0e0(10) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) get r4
+r4:	0x00000009
+(dlxsim) quit
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/3_Branch:$make dlxsim DLXSIM_PARAM="-f3_Branch.s -da0 -pd1"
+-----------------------------------------------
+Transforming file "3_Branch.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim_Laboratory/dlxsim -fBUILD_SIM/3_Branch.dlxsim -f3_Branch.s -da0 -pd1
+Biggest used address for Text Section (word aligned): 0x28
+Biggest used address for Data Section (word aligned): 0x0
+(dlxsim) step
+stopped after (single) step, pc = _main+0x04 (0x0004): addi r2,r0,0x9
+(dlxsim) 
+stopped after (single) step, pc = _main+0x08 (0x0008): sgt r3,r1,r2
+(dlxsim) 
+stopped after (single) step, pc = _main+0x0c (0x000c): bnez r3,_label1+0x00 (0x0020)
+(dlxsim) 
+stopped after (single) step, pc = _main+0x10 (0x0010): nop
+(dlxsim) 
+stopped after (single) step, pc = _main+0x14 (0x0014): add r4,r0,r2
+(dlxsim) 
+stopped after (single) step, pc = _main+0x18 (0x0018): j _label2+0x00 (0x0024)
+(dlxsim) 
+stopped after (single) step, pc = _main+0x1c (0x001c): nop
+(dlxsim) 
+stopped after (single) step, pc = _label2+0x00 (0x0024): nop
+(dlxsim) 
+stopped after (single) step, pc = _label2+0x04 (0x0028): trap 0x0
+(dlxsim) 
+TRAP #0 received
+Altogether 9,0e0(9) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) get r4
+r4:	0x00000009
+(dlxsim) quit
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/3_Branch:$cd ../4_Loop
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/4_Loop:$make dlxsim DLXSIM_PARAM="-f4_Loop.s -da0 -pd1"
+-----------------------------------------------
+Transforming file "4_Loop.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim_Laboratory/dlxsim -fBUILD_SIM/4_Loop.dlxsim -f4_Loop.s -da0 -pd1
+Biggest used address for Text Section (word aligned): 0x2c
+Biggest used address for Data Section (word aligned): 0x0
+(dlxsim) go
+TRAP #0 received
+Altogether 29,0e0(29) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) get r1
+r1:	0x00000000
+(dlxsim) get r3
+r3:	0x0000002d
+(dlxsim) quit
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/4_Loop:$make dlxsim DLXSIM_PARAM="-f4_Loop.s -da0 -pd1"
+-----------------------------------------------
+Transforming file "4_Loop.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim_Laboratory/dlxsim -fBUILD_SIM/4_Loop.dlxsim -f4_Loop.s -da0 -pd1
+Biggest used address for Text Section (word aligned): 0x2c
+Biggest used address for Data Section (word aligned): 0x0
+(dlxsim) step
+stopped after (single) step, pc = _main+0x04 (0x0004): addi r2,r0,0x9
+(dlxsim) 
+stopped after (single) step, pc = _main+0x08 (0x0008): add r3,r0,r0
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x000c): andi r4,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0010): beqz r4,_skipadd+0x00 (0x001c)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0014): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x0c (0x0018): add r3,r3,r2
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x00 (0x001c): srai r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x04 (0x0020): slli r2,r2,0x1
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x08 (0x0024): bnez r1,_loop+0x00 (0x000c)
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x0c (0x0028): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x000c): andi r4,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0010): beqz r4,_skipadd+0x00 (0x001c)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0014): nop
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x00 (0x001c): srai r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x04 (0x0020): slli r2,r2,0x1
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x08 (0x0024): bnez r1,_loop+0x00 (0x000c)
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x0c (0x0028): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x000c): andi r4,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0010): beqz r4,_skipadd+0x00 (0x001c)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0014): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x0c (0x0018): add r3,r3,r2
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x00 (0x001c): srai r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x04 (0x0020): slli r2,r2,0x1
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x08 (0x0024): bnez r1,_loop+0x00 (0x000c)
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x0c (0x0028): nop
+(dlxsim) 
+stopped after (single) step, pc = _skipadd+0x10 (0x002c): trap 0x0
+(dlxsim) 
+TRAP #0 received
+Altogether 26,0e0(26) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) get r3
+r3:	0x0000002d
+(dlxsim) quit
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/4_Loop:$cd ../5_jr
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/5_jr:$make dlxsim DLXSIM_PARAM="-f5_jr.s -da0 -pd1"
+-----------------------------------------------
+Transforming file "5_jr.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim_Laboratory/dlxsim -fBUILD_SIM/5_jr.dlxsim -f5_jr.s -da0 -pd1
+Biggest used address for Text Section (word aligned): 0x9c
+Biggest used address for Data Section (word aligned): 0x0
+(dlxsim) get r1
+r1:	0x00000000
+(dlxsim) get r2
+r2:	0x00000000
+(dlxsim) get r5
+r5:	0x00000000
+(dlxsim) go
+TRAP #0 received
+Altogether 17,0e0(17) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) get r1
+r1:	0x00000005
+(dlxsim) get r2
+r2:	0x00000009
+(dlxsim) get r5
+r5:	0x0000000c
+(dlxsim) quit
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/5_jr:$make dlxsim DLXSIM_PARAM="-f5_jr.s -da0 -pd1"
+-----------------------------------------------
+Transforming file "5_jr.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim_Laboratory/dlxsim -fBUILD_SIM/5_jr.dlxsim -f5_jr.s -da0 -pd1
+Biggest used address for Text Section (word aligned): 0x9c
+Biggest used address for Data Section (word aligned): 0x0
+(dlxsim) step
+stopped after (single) step, pc = _main+0x04 (0x0004): addi r2,r0,0x9
+(dlxsim) 
+stopped after (single) step, pc = _main+0x08 (0x0008): addi r3,r0,0x2
+(dlxsim) 
+stopped after (single) step, pc = _main+0x0c (0x000c): lhi r4,0x0
+(dlxsim) 
+stopped after (single) step, pc = _main+0x10 (0x0010): ori r4,r4,0x24
+(dlxsim) 
+stopped after (single) step, pc = _main+0x14 (0x0014): slli r3,r3,0x3
+(dlxsim) 
+stopped after (single) step, pc = _main+0x18 (0x0018): add r4,r4,r3
+(dlxsim) 
+stopped after (single) step, pc = _main+0x1c (0x001c): jr r4
+(dlxsim) 
+stopped after (single) step, pc = _main+0x20 (0x0020): nop
+(dlxsim) 
+stopped after (single) step, pc = _label1+0x10 (0x0034): j _mark2+0x00 (0x006c)
+(dlxsim) 
+stopped after (single) step, pc = _label1+0x14 (0x0038): nop
+(dlxsim) 
+stopped after (single) step, pc = _mark2+0x00 (0x006c): xor r5,r1,r2
+(dlxsim) 
+stopped after (single) step, pc = _mark2+0x04 (0x0070): j _label2+0x00 (0x009c)
+(dlxsim) 
+stopped after (single) step, pc = _mark2+0x08 (0x0074): nop
+(dlxsim) 
+stopped after (single) step, pc = _label2+0x00 (0x009c): trap 0x0
+(dlxsim) 
+TRAP #0 received
+Altogether 14,0e0(14) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) 
+stopped after (single) step, pc = _label2+0x08 (0x00a4): nop
+(dlxsim) get r5
+r5:	0x0000000c
+(dlxsim) quit
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/5_jr:$cd ..
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/6_for:$make dlxsim DLXSIM_PARAM="-f6_for.s -da0 -pd1"
+-----------------------------------------------
+Transforming file "6_for.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim_Laboratory/dlxsim -fBUILD_SIM/6_for.dlxsim -f6_for.s -da0 -pd1
+Biggest used address for Text Section (word aligned): 0x44
+Biggest used address for Data Section (word aligned): 0x98
+(dlxsim) go
+TRAP #0 received
+Altogether 128,0e0(128) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) get _A 10u
+_a+0x00 (0x0048):	15
+_a+0x04 (0x004c):	16
+_a+0x08 (0x0050):	17
+_a+0x0c (0x0054):	18
+_a+0x10 (0x0058):	19
+_a+0x14 (0x005c):	20
+_a+0x18 (0x0060):	21
+_a+0x1c (0x0064):	22
+_a+0x20 (0x0068):	23
+_a+0x24 (0x006c):	114
+(dlxsim) quit
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/6_for:$make dlxsim DLXSIM_PARAM="-f6_for.s -da0 -pd1"
+-----------------------------------------------
+Transforming file "6_for.s" for target SIMULATION.
+-----------------------------------------------
+-----------------------------------------------
+Assembling/Linking for target SIMULATION:
+-----------------------------------------------
+Creating combined files.
+STACK_START:			0xFFFFC
+-----------------------------------------------
+FINISHED ASSEMBLING/LINKING for target SIMULATION.
+-----------------------------------------------
+ 
+ 
+-----------------------------------------------
+Starting dlxsim:
+-----------------------------------------------
+/Software/epp/dlxsim_Laboratory/dlxsim -fBUILD_SIM/6_for.dlxsim -f6_for.s -da0 -pd1
+Biggest used address for Text Section (word aligned): 0x44
+Biggest used address for Data Section (word aligned): 0x98
+(dlxsim) step
+stopped after (single) step, pc = _main+0x04 (0x0004): lhi r2,0x0
+(dlxsim) 
+stopped after (single) step, pc = _main+0x08 (0x0008): ori r2,r2,0x48
+(dlxsim) 
+stopped after (single) step, pc = _main+0x0c (0x000c): lhi r3,0x0
+(dlxsim) 
+stopped after (single) step, pc = _main+0x10 (0x0010): ori r3,r3,0x70
+(dlxsim) 
+stopped after (single) step, pc = _main+0x14 (0x0014): lhi r4,0x0
+(dlxsim) 
+stopped after (single) step, pc = _main+0x18 (0x0018): ori r4,r4,0x98
+(dlxsim) 
+stopped after (single) step, pc = _main+0x1c (0x001c): lw r5,_main+0x00 (0x0000)(r4)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x0020): lw r6,_main+0x00 (0x0000)(r3)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0024): add r6,r6,r5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0028): addi r6,r6,0x5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x0c (0x002c): sw _main+0x00 (0x0000)(r2),r6
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x10 (0x0030): subi r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x14 (0x0034): addi r2,r2,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x18 (0x0038): addi r3,r3,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x1c (0x003c): bnez r1,_loop+0x00 (0x0020)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x20 (0x0040): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x0020): lw r6,_main+0x00 (0x0000)(r3)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0024): add r6,r6,r5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0028): addi r6,r6,0x5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x0c (0x002c): sw _main+0x00 (0x0000)(r2),r6
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x10 (0x0030): subi r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x14 (0x0034): addi r2,r2,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x18 (0x0038): addi r3,r3,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x1c (0x003c): bnez r1,_loop+0x00 (0x0020)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x20 (0x0040): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x0020): lw r6,_main+0x00 (0x0000)(r3)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0024): add r6,r6,r5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0028): addi r6,r6,0x5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x0c (0x002c): sw _main+0x00 (0x0000)(r2),r6
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x10 (0x0030): subi r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x14 (0x0034): addi r2,r2,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x18 (0x0038): addi r3,r3,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x1c (0x003c): bnez r1,_loop+0x00 (0x0020)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x20 (0x0040): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x0020): lw r6,_main+0x00 (0x0000)(r3)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0024): add r6,r6,r5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0028): addi r6,r6,0x5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x0c (0x002c): sw _main+0x00 (0x0000)(r2),r6
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x10 (0x0030): subi r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x14 (0x0034): addi r2,r2,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x18 (0x0038): addi r3,r3,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x1c (0x003c): bnez r1,_loop+0x00 (0x0020)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x20 (0x0040): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x0020): lw r6,_main+0x00 (0x0000)(r3)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0024): add r6,r6,r5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0028): addi r6,r6,0x5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x0c (0x002c): sw _main+0x00 (0x0000)(r2),r6
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x10 (0x0030): subi r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x14 (0x0034): addi r2,r2,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x18 (0x0038): addi r3,r3,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x1c (0x003c): bnez r1,_loop+0x00 (0x0020)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x20 (0x0040): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x0020): lw r6,_main+0x00 (0x0000)(r3)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0024): add r6,r6,r5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0028): addi r6,r6,0x5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x0c (0x002c): sw _main+0x00 (0x0000)(r2),r6
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x10 (0x0030): subi r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x14 (0x0034): addi r2,r2,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x18 (0x0038): addi r3,r3,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x1c (0x003c): bnez r1,_loop+0x00 (0x0020)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x20 (0x0040): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x0020): lw r6,_main+0x00 (0x0000)(r3)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0024): add r6,r6,r5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0028): addi r6,r6,0x5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x0c (0x002c): sw _main+0x00 (0x0000)(r2),r6
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x10 (0x0030): subi r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x14 (0x0034): addi r2,r2,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x18 (0x0038): addi r3,r3,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x1c (0x003c): bnez r1,_loop+0x00 (0x0020)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x20 (0x0040): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x0020): lw r6,_main+0x00 (0x0000)(r3)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0024): add r6,r6,r5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0028): addi r6,r6,0x5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x0c (0x002c): sw _main+0x00 (0x0000)(r2),r6
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x10 (0x0030): subi r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x14 (0x0034): addi r2,r2,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x18 (0x0038): addi r3,r3,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x1c (0x003c): bnez r1,_loop+0x00 (0x0020)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x20 (0x0040): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x0020): lw r6,_main+0x00 (0x0000)(r3)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0024): add r6,r6,r5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0028): addi r6,r6,0x5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x0c (0x002c): sw _main+0x00 (0x0000)(r2),r6
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x10 (0x0030): subi r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x14 (0x0034): addi r2,r2,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x18 (0x0038): addi r3,r3,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x1c (0x003c): bnez r1,_loop+0x00 (0x0020)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x20 (0x0040): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x00 (0x0020): lw r6,_main+0x00 (0x0000)(r3)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x04 (0x0024): add r6,r6,r5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x08 (0x0028): addi r6,r6,0x5
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x0c (0x002c): sw _main+0x00 (0x0000)(r2),r6
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x10 (0x0030): subi r1,r1,0x1
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x14 (0x0034): addi r2,r2,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x18 (0x0038): addi r3,r3,0x4
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x1c (0x003c): bnez r1,_loop+0x00 (0x0020)
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x20 (0x0040): nop
+(dlxsim) 
+stopped after (single) step, pc = _loop+0x24 (0x0044): trap 0x0
+(dlxsim) 
+TRAP #0 received
+Altogether 119,0e0(119) cycles executed.
+  0 Warnings for unresolved data dependencies printed.
+  0 Warnings for successive load/store commands printed.
+  0 Warnings for load/stores in the text section printed.
+(dlxsim) 
+ERROR: reserved operation, pc = _a+0x00 (0x0048): unrecognized instruction (0xf)
+(dlxsim) 
+ERROR: reserved operation, pc = _a+0x00 (0x0048): unrecognized instruction (0xf)
+(dlxsim) quit
+asip04@i80labpc02:~/LabASIP/Session1/ASIPMeisterProjects/dlx_basis/Applications/6_for:$
+

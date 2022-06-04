@@ -1,0 +1,39 @@
+11/26/16 3:45 AM : "Main menu" start.
+11/26/16 3:45 AM : Load file ".ASIPmeister.ini".
+11/26/16 3:45 AM : Load file "dlx_bgeu.pdb".
+11/26/16 3:45 AM : "Micro Op. Description" complete.
+11/26/16 3:45 AM : "Micro Op. Description" start edit.
+11/26/16 3:45 AM : "Micro Op. Description" finish edit.
+11/26/16 3:46 AM :  modelgen both dlx_bgeu dlx_bgeu_mod.log finished as normally.
+11/26/16 3:46 AM : Load file "dlx_bgeu_mod.log".
+11/26/16 3:46 AM : "null" complete.
+11/26/16 3:46 AM :  translator swdev dlx_bgeu dlx_bgeu_tr.log finished as normally.
+11/26/16 3:46 AM : Load file "dlx_bgeu_tr.log".
+11/26/16 3:46 AM : "null" complete.
+11/26/16 3:46 AM : "Main menu" quit.
+12/6/16 6:02 PM : "Main menu" start.
+12/6/16 6:02 PM : Load file ".ASIPmeister.ini".
+12/6/16 6:02 PM : Load file "dlx_bgeu.pdb".
+12/6/16 6:02 PM : "Storage Spec" complete.
+12/6/16 6:02 PM : "Storage Spec" start edit.
+12/6/16 6:02 PM : "Storage Spec" re-edit.
+12/6/16 6:04 PM : "Storage Spec" finish browse.
+12/6/16 6:04 PM : "Main menu" quit.
+12/6/16 6:04 PM : "Main menu" start.
+12/6/16 6:04 PM : Load file ".ASIPmeister.ini".
+12/6/16 6:04 PM : Load file "dlx_bgeu.pdb".
+12/6/16 6:04 PM : "Main menu" quit.
+9/20/17 11:28 AM : "Main menu" start.
+9/20/17 11:28 AM : Load file ".ASIPmeister.ini".
+9/20/17 11:28 AM : Load file "dlx_bgeu.pdb".
+9/20/17 11:28 AM : "Instruction Definition" complete.
+9/20/17 11:28 AM : "Instruction Definition" start edit.
+9/20/17 11:29 AM : "Instruction Definition" finish edit.
+9/20/17 11:29 AM : "Main menu" quit.
+10/8/17 2:54 AM : "Main menu" start.
+10/8/17 2:54 AM : Load file ".ASIPmeister.ini".
+10/8/17 2:54 AM : Load file "dlx_bgeu.pdb".
+10/8/17 2:54 AM : "Micro Op. Description" complete.
+10/8/17 2:54 AM : "Micro Op. Description" start edit.
+10/8/17 2:54 AM : "Micro Op. Description" finish edit.
+10/8/17 2:54 AM : "Main menu" quit.

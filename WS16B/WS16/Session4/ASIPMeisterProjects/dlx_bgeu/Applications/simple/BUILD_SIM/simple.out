@@ -1,0 +1,125 @@
+****** Source Program List ******
+LineNo	LC	Code		Source Program 
+1				;.addressing	Word
+2				.section	.text
+3				.addressing	Word
+4				.section	.text
+5				.addressing	Word
+6				;.addressing	Word
+7			
+8	0000	03def026		xor	%r30, %r30, %r30
+9	0001	03bde826		xor	%r29, %r29, %r29
+10	0002	039ce026		xor	%r28, %r28, %r28
+11	0003	00000000		nop
+12	0004	3c1e000f		lhi	%r30, $(0xFFFFC/0x10000)
+13	0005	3c1d000f		lhi	%r29, $(0xFFFFC/0x10000)
+14	0006	00000000		nop
+15	0007	00000000		nop
+16	0008	37defffc		ori	%r30, %r30, $(0xFFFFC%0x10000)
+17	0009	37bdfffc		ori	%r29, %r29, $(0xFFFFC%0x10000)
+18	000a	00000000		nop
+19	000b	00000000		nop
+20	000c	00000000		nop
+21	000d	afbefffc		sw	-4(%r29), %r30
+22	000e	afbffff8		sw	-8(%r29), %r31
+23	000f	23ddfff8		addi	%r29, %r30, $-8
+24	0010	00000000		nop
+25	0011	00000000		nop
+26	0012	00000000		nop
+27	0013	0c00000a		jal	main	
+28	0014	00000000		nop
+29	0015	00000000		nop
+30	0016	00000000		nop
+31	0017	00000000		nop
+32	0018	00000000		nop
+33	0019	afa10000		sw	0(%r29), %r1
+34	001a	0c000022		jal	exit
+35	001b	00000000		nop
+36	001c	00000000		nop
+37			
+38			main:
+39	001d	20020000		addi	%r2, %r0, $(array & 0xffff)		; mem pointer
+40	001e	00000000		nop
+41	001f	00000000		nop
+42	0020	00000000		nop
+43			
+44	0021	8c450000		lw	%r5, 0(%r2)
+45	0022	8c460004		lw	%r6, 4(%r2)
+46	0023	00000000		nop
+47	0024	00000000		nop
+48	0025	00000000		nop
+49			
+50	0026	00a63820		add	%r7, %r5, %r6
+51	0027	00000000		nop
+52	0028	00000000		nop
+53	0029	00000000		nop
+54			
+55	002a	ac470008		sw	8(%r2), %r7
+56	002b	00000000		nop
+57	002c	00000000		nop
+58	002d	00000000		nop
+59			
+60	002e	8c45000c		lw	%r5, 12(%r2)
+61	002f	8c460010		lw	%r6, 16(%r2)
+62	0030	00000000		nop
+63	0031	00000000		nop
+64	0032	00000000		nop
+65			
+66	0033	00a63820		add	%r7, %r5, %r6
+67	0034	00000000		nop
+68	0035	00000000		nop
+69	0036	00000000		nop
+70			
+71	0037	ac470014		sw	20(%r2), %r7
+72	0038	00000000		nop
+73	0039	00000000		nop
+74	003a	00000000		nop
+75			
+76			
+77				.section	.data
+78			array:
+79	0000	0000000e		.data.32	14
+80	0004	0000000f		.data.32	15
+81	0008	00000000		.data.32	0
+82			
+83	000c	00000032		.data.32	50
+84	0010	00000028		.data.32	40
+85	0014	00000000		.data.32	0
+86			
+87				.section	.text
+88				.addressing	Word
+89				;.addressing	Word
+90	003b	00000000		nop
+91			exit:
+92	003c	00000000		nop
+93	003d	00000000		nop
+
+
+******** Cross Reference List ********
+Defined Symbol
+name   	section	lc     	attr   	value  	lineno 
+array	.data	0000	Label	0	78 
+exit	.text	003c	Label	3c	91 
+main	.text	001d	Label	1d	38 
+
+
+Undefined Symbol
+name   	section	lc     	attr   	value  	lineno 
+
+
+Multiple Defined Symbol
+name   	section	lc     	attr   	value  	lineno 
+
+
+******* Section Data List ******* 
+Sec	Attr		Size
+.text 	Writable 	3e 
+addr_space : 16 
+addressing : Word 
+bitwidth per byte : 8 
+word alignment : 4 
+.data 	Data		18 
+addr_space : 16 
+addressing : Byte 
+bitwidth per byte : 8 
+word alignment : 4 

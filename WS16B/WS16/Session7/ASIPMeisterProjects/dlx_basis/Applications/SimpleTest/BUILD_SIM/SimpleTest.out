@@ -1,0 +1,123 @@
+****** Source Program List ******
+LineNo	LC	Code		Source Program 
+1				.section	.data
+2				.section	.text
+3				.addressing	Word
+4				.section	.text
+5				.addressing	Word
+6				;.addressing	Word
+7			
+8	0000	01ce7026		xor	%r14, %r14, %r14
+9	0001	01ad6826		xor	%r13, %r13, %r13
+10	0002	018c6026		xor	%r12, %r12, %r12
+11	0003	00000000		nop
+12	0004	3c0e000f		lhi	%r14, $(0xFFFFC/0x10000)
+13	0005	3c0d000f		lhi	%r13, $(0xFFFFC/0x10000)
+14	0006	00000000		nop
+15	0007	00000000		nop
+16	0008	35cefffc		ori	%r14, %r14, $(0xFFFFC%0x10000)
+17	0009	35adfffc		ori	%r13, %r13, $(0xFFFFC%0x10000)
+18	000a	00000000		nop
+19	000b	00000000		nop
+20	000c	00000000		nop
+21	000d	adaefffc		sw	-4(%r13), %r14
+22	000e	adaffff8		sw	-8(%r13), %r15
+23	000f	21cdfff8		addi	%r13, %r14, $-8
+24	0010	00000000		nop
+25	0011	00000000		nop
+26	0012	00000000		nop
+27	0013	0c00000a		jal	main	
+28	0014	00000000		nop
+29	0015	00000000		nop
+30	0016	00000000		nop
+31	0017	00000000		nop
+32	0018	00000000		nop
+33	0019	ada10000		sw	0(%r13), %r1
+34	001a	0c000028		jal	exit
+35	001b	00000000		nop
+36	001c	00000000		nop
+37			
+38				;.addressing	Word
+39			main:
+40			L_bubbleTest4_1:
+41	001d	00000000		nop
+42	001e	00000000		nop
+43	001f	00000000		nop
+44				; Automatically 1 NOPs removed by reduceNOPs.sh
+45	0020	afbefffc		sw	-4(%r29),%r30	
+46	0021	afbf0000		sw	0(%r29),%r31	
+47	0022	2fbe0004		subui	%r30,%r29,$4	
+48	0023	2bbd0008		subi	%r29,%r29,$8	
+49	0024	00000000		nop
+50	0025	00000000		nop
+51	0026	00000000		nop
+52				; Automatically 9 NOPs removed by reduceNOPs.sh
+53	0027	3c1c0000		lhi	%r28,$0	
+54	0028	00000000		nop
+55	0029	00000000		nop
+56	002a	00000000		nop
+57				; Automatically 1 NOPs removed by reduceNOPs.sh
+58	002b	379c0000		ori	%r28,%r28,$0	
+59	002c	00000000		nop	;;6,10
+60	002d	00000000		nop	;;6,10
+61	002e	00000000		nop	;;6,10
+62				; Automatically 1 NOPs removed by reduceNOPs.sh
+63	002f	08000004		j	L_bubbleTest4_2	
+64	0030	00000000		nop
+65	0031	00000000		nop
+66	0032	00000000		nop
+67				; Automatically 1 NOPs removed by reduceNOPs.sh
+68			L_bubbleTest4_2:
+69	0033	00000000		nop
+70	0034	00000000		nop
+71	0035	00000000		nop
+72				; Automatically 1 NOPs removed by reduceNOPs.sh
+73	0036	8fdf0004		lw	%r31,4(%r30)	
+74	0037	27dd0004		addui	%r29,%r30,$4	
+75	0038	8fde0000		lw	%r30,0(%r30)	
+76	0039	00000000		nop
+77	003a	00000000		nop
+78	003b	00000000		nop
+79	003c	00000000		nop
+80	003d	03e00008		jr	%r31	
+81	003e	00000000		nop
+82	003f	00000000		nop
+83	0040	00000000		nop
+84				.section	.text
+85				.addressing	Word
+86				;.addressing	Word
+87	0041	00000000		nop
+88			exit:
+89	0042	00000000		nop
+90	0043	00000000		nop
+
+
+******** Cross Reference List ********
+Defined Symbol
+name   	section	lc     	attr   	value  	lineno 
+exit	.text	0042	Label	42	88 
+L_bubbleTest4_1	.text	001d	Label	1d	40 
+L_bubbleTest4_2	.text	0033	Label	33	68 
+main	.text	001d	Label	1d	39 
+
+
+Undefined Symbol
+name   	section	lc     	attr   	value  	lineno 
+
+
+Multiple Defined Symbol
+name   	section	lc     	attr   	value  	lineno 
+
+
+******* Section Data List ******* 
+Sec	Attr		Size
+.text 	Writable 	44 
+addr_space : 16 
+addressing : Word 
+bitwidth per byte : 8 
+word alignment : 4 
+.data 	Data		0 
+addr_space : 16 
+addressing : Byte 
+bitwidth per byte : 8 
+word alignment : 4 

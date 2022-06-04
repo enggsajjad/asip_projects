@@ -1,0 +1,2022 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/ModelSim
+T_opt
+Z1 V[?XG?jWd>^nloJaX1aaM@2
+Z2 04 3 0 work cfg 1
+Z3 =1-001cc46413d0-58478d94-a78ea-4d42
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OE;O;6.6d;45
+Z7 d/home/asip04/LabASIP/Session5/ASIPMeisterProjects/dlx_basis/ModelSim
+T_opt1
+Z8 VfUXmoZO6dVEP@LXF1mhR90
+R2
+Z9 =1-001cc4641d26-584814d4-afe0f-765b
+R4
+Z10 n@_opt1
+R6
+R7
+Ccfg
+Z11 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 12 memorymapper 0 22 P]>zbo]5_X]oh3<iH[O>]2
+Z12 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 3 cpu 0 22 2D];@LPM^2DfA:kzoO5fI0
+DAx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 4 test 9 testbench 22 KR=K4?]nl:zM<jHLo6Afm0
+Z13 DPx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 6 helper 0 22 87Hj]QZo1;^TOoSOC`c703
+Z14 DPx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 17 memorymappertypes 0 22 _f^4]mh3H]67A`K7eS^oO3
+Z15 DPx17 __model_tech/ieee 16 std_logic_textio 0 22 8ONYdGiICLK<GeVc1o<IF0
+Z16 DPx17 __model_tech/ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z17 DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z18 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z19 DPx16 __model_tech/std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z20 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 4 test 0 22 hXfc[<jCDa;E^AzWbzo:U0
+32
+Z21 Mx7 16 __model_tech/std 6 textio
+Z22 Mx6 17 __model_tech/ieee 14 std_logic_1164
+Z23 Mx5 17 __model_tech/ieee 15 std_logic_arith
+Z24 Mx4 17 __model_tech/ieee 18 std_logic_unsigned
+Z25 Mx3 17 __model_tech/ieee 16 std_logic_textio
+Z26 Mx2 71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 17 memorymappertypes
+Z27 Mx1 71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 6 helper
+Z28 atestbench
+etest
+Z29 w1227889103
+Z30 d/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim
+Z31 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+Z32 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/tb_ASIPmeister.vhd
+l0
+L522
+Z33 V]F47Km`0S2F57elmE0=I81
+Z34 OE;C;6.6d;45
+Z35 o-work work -2002 -explicit
+Z36 tExplicit 1
+Z37 !s100 _GQCD3jFS2OOA28KMGNTE2
+Ecpu
+w0
+R18
+32
+R30
+Z38 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/CPU.vhd
+Z39 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/CPU.vhd
+l0
+L8
+Z40 V2D];@LPM^2DfA:kzoO5fI0
+R34
+R35
+R36
+Z41 !s100 feYFgSkGBhGocgJ[fhi@:1
+Artl
+R16
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 17 fhm_pcu_w32_reg32 0 22 :4?i9AlPzE[@Z@^Ki6KGE1
+Z42 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 17 fhm_pcu_w32_add32 0 22 jRl6GQX50l?UfE>S0:[JV3
+DPx17 __model_tech/ieee 16 std_logic_signed 0 22 <9<Kcl:S52:oW`F]FQhb20
+R17
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 15 rtg_register_w5 0 22 n@>@Co5Q;o5XcWDVbdC3b2
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 15 rtg_register_w4 0 22 lj6^TCM:jf=:>oD:Bz:UN1
+Z43 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 16 rtg_register_w32 0 22 Qf0S]65VQ:H5bd6F`a?o`0
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 15 rtg_mux5to1_w32 0 22 j:^W5QJ:QTLe`D19famA:2
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 15 rtg_mux4to1_w32 0 22 Bi6>X4ZXT=CZhPhoF2H[82
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 16 rtg_mux15to1_w32 0 22 A]O6ZhojZ41SLZRC6icPk0
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 14 rtg_mux2to1_w5 0 22 h:Q00fd^e;90J[UObUgQj1
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 14 rtg_mux3to1_w5 0 22 ?`z_R23NUm9jf<jMgQo5c2
+Z44 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 14 rtg_controller 0 22 FQUDD;D?GXe?PRIg9ZNW62
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 15 rtg_mux2to1_w32 0 22 SdIG]58K8Q^Pb]J[ObgPK0
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 16 fhm_extender_w28 0 22 5_Igg<7jXnY7ETjJh5O<21
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 15 fhm_shifter_w32 0 22 >AH9a?n]g1lP=[SS2<K0:1
+Z45 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 15 fhm_divider_w32 0 22 kMS5S2[TYk;IDc[QXFzkH2
+Z46 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 18 fhm_multiplier_w32 0 22 _IoU6;1:2L9PVB[>HFNNh3
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 16 fhm_extender_w16 0 22 :Uilzh4S6Dnj4h?N@GnM23
+Z47 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 11 fhm_alu_w32 0 22 ;0Qa@zo;dIJP`d83elXz>0
+Z48 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 20 fhm_registerfile_w32 0 22 T[e;^n<2G95E^]k<0LAU@0
+Z49 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 12 fhm_dmau_w32 0 22 W=99RGMLlf>>_7f1T;a3B1
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 12 fhm_imau_w32 0 22 ULkz<Ra0Nk>1KC<30Zh9]3
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 16 fhm_register_w32 0 22 bDm;E?6Hh>zS9DIZgKHmh1
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 11 fhm_pcu_w32 0 22 mGCeS_J3oJ4RGdTGE=O_`0
+R18
+R12
+32
+Z50 Mx4 17 __model_tech/ieee 14 std_logic_1164
+Z51 Mx3 17 __model_tech/ieee 15 std_logic_arith
+Mx2 17 __model_tech/ieee 16 std_logic_signed
+Mx1 17 __model_tech/ieee 18 std_logic_unsigned
+l590
+L22
+Z52 V`V3_mdbHnf^T2joiR<f8F3
+R34
+R35
+R36
+Z53 !s100 T<;GoQ?OF92EmLTbDLZ@^2
+Efhm_alu_w32
+w0
+R17
+R16
+R18
+32
+R30
+Z54 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_alu_w32.vhd
+Z55 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_alu_w32.vhd
+l0
+L228
+Z56 V;0Qa@zo;dIJP`d83elXz>0
+R34
+R35
+R36
+Z57 !s100 9<a2gkhizO2^TCggI_JzZ2
+Asynthesis
+Z58 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 17 fhm_alu_w32_add16 0 22 coBh;gEGEJdOn]`9WU@0C2
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 15 fhm_alu_w32_add 0 22 W9Rm:>73J4l494@1c6ELj3
+R17
+R16
+R18
+R47
+32
+Z59 Mx3 17 __model_tech/ieee 14 std_logic_1164
+Z60 Mx2 17 __model_tech/ieee 18 std_logic_unsigned
+Z61 Mx1 17 __model_tech/ieee 15 std_logic_arith
+l266
+L236
+Z62 V6SM6z]OF;YQ;OfX4C4XIS0
+R34
+R35
+R36
+Z63 !s100 K@e`SP3YegXC@eHF[nB493
+Efhm_alu_w32_add
+w0
+Z64 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z65 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z66 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+R30
+R54
+R55
+l0
+L126
+Z67 VW9Rm:>73J4l494@1c6ELj3
+R34
+32
+R35
+R36
+Z68 !s100 @<h:dm6F_@8QBaY5E8kCl0
+Asynthesis
+R64
+R65
+R66
+Z69 DEx4 work 15 fhm_alu_w32_add 0 22 W9Rm:>73J4l494@1c6ELj3
+l147
+L133
+Z70 Vfd?Of7AV?XHVB5T]0WWkH3
+R34
+32
+Z71 Mx3 4 ieee 14 std_logic_1164
+Z72 Mx2 4 ieee 18 std_logic_unsigned
+Z73 Mx1 4 ieee 15 std_logic_arith
+R35
+R36
+Z74 !s100 WAmn`MhKYgDPbzm<LT:YI0
+Efhm_alu_w32_add16
+w0
+R17
+R16
+R18
+32
+R30
+R54
+R55
+l0
+L66
+Z75 VcoBh;gEGEJdOn]`9WU@0C2
+R34
+R35
+R36
+Z76 !s100 I9C=egYAcn<T500>j3nYk2
+Asynthesis
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 16 fhm_alu_w32_add4 0 22 kQSbj9YIk95MAzbbThM<D1
+R17
+R16
+R18
+R58
+32
+R59
+R60
+R61
+l87
+L73
+Z77 V6EmXWUJ]H52SWY3nYh`<80
+R34
+R35
+R36
+Z78 !s100 E6?jI^GMX_XKT>Nf5692j3
+Efhm_alu_w32_add4
+w0
+R64
+R65
+R66
+R30
+R54
+R55
+l0
+L11
+Z79 VkQSbj9YIk95MAzbbThM<D1
+R34
+32
+R35
+R36
+Z80 !s100 B66mL[KBL]iP<C7f42jUl3
+Asynthesis
+R64
+R65
+R66
+Z81 DEx4 work 16 fhm_alu_w32_add4 0 22 kQSbj9YIk95MAzbbThM<D1
+l23
+L18
+Z82 Vfcz@KjlE;I<lQ8ZTfWaDk1
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z83 !s100 VWSlWjm=`FRK;eUOMnkKT1
+Efhm_divider_w32
+w0
+R17
+R16
+R18
+32
+R30
+Z84 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_divider_w32.vhd
+Z85 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_divider_w32.vhd
+l0
+L943
+Z86 VkMS5S2[TYk;IDc[QXFzkH2
+R34
+R35
+R36
+Z87 !s100 n8XUL7=I41BDj76V<VVGa0
+Asynthesis
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 21 fhm_divider_w32_reg32 0 22 mRX304j=[;jNWfAfnGb<h2
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 25 fhm_divider_w32_lsftreg32 0 22 cHcoFRiR3V0@d]jzoEdRK2
+Z88 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 27 fhm_divider_w32_add32_cla16 0 22 gZQj8R1:78fbKO:2Qmj@92
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 21 fhm_divider_w32_add32 0 22 zDme5fL<]9lNm6oe;1WPA0
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 20 fhm_divider_w32_reg1 0 22 :<;942aTnY]hBL6_d6gG03
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 22 fhm_divider_w32_sdiv32 0 22 g=5VTI7FYZ`T?CnD3VU4`0
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 23 fhm_divider_w32_tconv32 0 22 _jCRYB]b?hJbiblUf65eb2
+R17
+R16
+R18
+R45
+32
+R59
+R60
+R61
+l996
+L956
+Z89 VR@<UzaXOJ0UkC@6UNolVR3
+R34
+R35
+R36
+Z90 !s100 e2;9;2BKZ]>29i:VUh;400
+Efhm_divider_w32_add32
+w0
+R64
+R65
+R66
+R30
+R84
+R85
+l0
+L174
+Z91 VzDme5fL<]9lNm6oe;1WPA0
+R34
+32
+R35
+R36
+Z92 !s100 1^8N>P1H`=E9^6JCZ`SWm2
+Asynthesis
+R64
+R65
+R66
+Z93 DEx4 work 21 fhm_divider_w32_add32 0 22 zDme5fL<]9lNm6oe;1WPA0
+l197
+L181
+Z94 VXii>fo2olDjXg^[HQ5RVT0
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z95 !s100 C9gzjYK5:]5WWMm1igYZ82
+Efhm_divider_w32_add32_cla16
+w0
+R17
+R16
+R18
+32
+R30
+R84
+R85
+l0
+L84
+Z96 VgZQj8R1:78fbKO:2Qmj@92
+R34
+R35
+R36
+Z97 !s100 ?aEigfO<D7;]PX3b;7Y=i1
+Asynthesis
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 26 fhm_divider_w32_add32_cla4 0 22 22z__V=NdETnfNoQJ^XeA3
+R17
+R16
+R18
+R88
+32
+R59
+R60
+R61
+l103
+L91
+Z98 VA6nSF;jLZVOfKbgRzKScl0
+R34
+R35
+R36
+Z99 !s100 NcNeco:YmgBK;XNBLdE<c3
+Efhm_divider_w32_add32_cla4
+w0
+R64
+R65
+R66
+R30
+R84
+R85
+l0
+L20
+Z100 V22z__V=NdETnfNoQJ^XeA3
+R34
+32
+R35
+R36
+Z101 !s100 aKjT@mTZcA]MA:`_QnH]o3
+Asynthesis
+R64
+R65
+R66
+Z102 DEx4 work 26 fhm_divider_w32_add32_cla4 0 22 22z__V=NdETnfNoQJ^XeA3
+l32
+L27
+Z103 Vcn_jbV5P9APYeR0blDHjH2
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z104 !s100 CXHj482S7QlB<GMfKOio;3
+Efhm_divider_w32_lsftreg32
+w0
+R64
+R65
+R66
+R30
+R84
+R85
+l0
+L346
+Z105 VcHcoFRiR3V0@d]jzoEdRK2
+R34
+32
+R35
+R36
+Z106 !s100 1ME_nDHE6S7QgOoJNgV<21
+Asynthesis
+R64
+R65
+R66
+Z107 DEx4 work 25 fhm_divider_w32_lsftreg32 0 22 cHcoFRiR3V0@d]jzoEdRK2
+l381
+L356
+Z108 VMneK7njBVSkG<noNUFlia2
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z109 !s100 k7=nn1Xn;]8Kf;l;gdYQk1
+Efhm_divider_w32_reg1
+w0
+R64
+R65
+R66
+R30
+R84
+R85
+l0
+L292
+Z110 V:<;942aTnY]hBL6_d6gG03
+R34
+32
+R35
+R36
+Z111 !s100 oS8aSSV;VVe_BS;1dzO[C2
+Asynthesis
+R64
+R65
+R66
+Z112 DEx4 work 20 fhm_divider_w32_reg1 0 22 :<;942aTnY]hBL6_d6gG03
+l301
+L300
+Z113 VV91KAlYI;:obIV1nd]Z:D0
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z114 !s100 Uj1z?YVJ7XTPE=bE3o:XL2
+Efhm_divider_w32_reg32
+w0
+R64
+R65
+R66
+R30
+R84
+R85
+l0
+L248
+Z115 VmRX304j=[;jNWfAfnGb<h2
+R34
+32
+R35
+R36
+Z116 !s100 67CQM75MlckYg1nnhI[6_3
+Asynthesis
+R64
+R65
+R66
+Z117 DEx4 work 21 fhm_divider_w32_reg32 0 22 mRX304j=[;jNWfAfnGb<h2
+l257
+L256
+Z118 VlaD9RlIFIJNQ1emi9Bi5T3
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z119 !s100 mmF9>?@?TW^N1?[9ZG6ZA3
+Efhm_divider_w32_sdiv32
+w0
+R64
+R65
+R66
+R30
+R84
+R85
+l0
+L464
+Z120 Vg=5VTI7FYZ`T?CnD3VU4`0
+R34
+32
+R35
+R36
+Z121 !s100 ^P@;Y[l8<G<abVOcAN2>O0
+Asynthesis
+R64
+R65
+R66
+Z122 DEx4 work 22 fhm_divider_w32_sdiv32 0 22 g=5VTI7FYZ`T?CnD3VU4`0
+l523
+L475
+Z123 VNB>RVAB<U=]dzeD<j[D`Z0
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z124 !s100 lBl340n[IaZdo1m4U3<1U3
+Efhm_divider_w32_tconv32
+w0
+R64
+R65
+R66
+R30
+R84
+R85
+l0
+L877
+Z125 V_jCRYB]b?hJbiblUf65eb2
+R34
+32
+R35
+R36
+Z126 !s100 KLoa7z48ocX3mcLC0cCOY0
+Asynthesis
+R64
+R65
+R66
+Z127 DEx4 work 23 fhm_divider_w32_tconv32 0 22 _jCRYB]b?hJbiblUf65eb2
+l898
+L883
+Z128 VHK^nfO2V2l8h5b1d_MJ[e2
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z129 !s100 jgc4WG?T7lWTNiz<b=@fQ1
+Efhm_dmau_w32
+w0
+R18
+32
+R30
+Z130 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_dmau_w32.vhd
+Z131 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_dmau_w32.vhd
+l0
+L75
+Z132 VW=99RGMLlf>>_7f1T;a3B1
+R34
+R35
+R36
+Z133 !s100 a55^<?NfeHdRM?R]e4Az[2
+Asynthesis
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 18 fhm_dmau_w32_reg32 0 22 8S<Q8J;Ti2>U_QElH^fz93
+R18
+R49
+32
+Z134 Mx1 17 __model_tech/ieee 14 std_logic_1164
+l113
+L96
+Z135 VYHKkdK?Yoo7FKk1Xcn?Nd3
+R34
+R35
+R36
+Z136 !s100 NkQQUH78RGE6985Bd>:9[1
+Efhm_dmau_w32_reg32
+w0
+R66
+R30
+R130
+R131
+l0
+L16
+Z137 V8S<Q8J;Ti2>U_QElH^fz93
+R34
+32
+R35
+R36
+Z138 !s100 zEXJAJ>=nShhSbZdGHfIZ0
+Asynthesis
+R66
+Z139 DEx4 work 18 fhm_dmau_w32_reg32 0 22 8S<Q8J;Ti2>U_QElH^fz93
+l26
+L25
+Z140 V5Tc41@M;PShSgEVP^EZi50
+R34
+32
+Z141 Mx1 4 ieee 14 std_logic_1164
+R35
+R36
+Z142 !s100 C45JER7D4cF48]]anGFGm3
+Efhm_extender_w16
+w0
+R64
+R65
+R66
+R30
+Z143 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_extender_w16.vhd
+Z144 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_extender_w16.vhd
+l0
+L19
+Z145 V:Uilzh4S6Dnj4h?N@GnM23
+R34
+32
+R35
+R36
+Z146 !s100 WcBLon?9BTcF:VFQ=eSG;0
+Asynthesis
+R64
+R65
+R66
+Z147 DEx4 work 16 fhm_extender_w16 0 22 :Uilzh4S6Dnj4h?N@GnM23
+l26
+L25
+Z148 VI3XbYnGGDGRzUgdWB^NnL3
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z149 !s100 ]nXZNofoS[NaCieijI:i]2
+Efhm_extender_w28
+w0
+R64
+R65
+R66
+R30
+Z150 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_extender_w28.vhd
+Z151 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_extender_w28.vhd
+l0
+L19
+Z152 V5_Igg<7jXnY7ETjJh5O<21
+R34
+32
+R35
+R36
+Z153 !s100 EVC?kPNE@9hF@Yd^9o:H`0
+Asynthesis
+R64
+R65
+R66
+Z154 DEx4 work 16 fhm_extender_w28 0 22 5_Igg<7jXnY7ETjJh5O<21
+l26
+L25
+Z155 VkS;aKm94;_<mAEfhcz9Ph3
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z156 !s100 BOh=Ok^gzob4jb@3S^mD02
+Efhm_imau_w32
+w0
+R66
+R30
+Z157 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_imau_w32.vhd
+Z158 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_imau_w32.vhd
+l0
+L17
+Z159 VULkz<Ra0Nk>1KC<30Zh9]3
+R34
+32
+R35
+R36
+Z160 !s100 >k5[9h6SoLYGGb@46n0a>1
+Asynthesis
+R66
+Z161 DEx4 work 12 fhm_imau_w32 0 22 ULkz<Ra0Nk>1KC<30Zh9]3
+l27
+L26
+Z162 V=fB0Cjkn@064TZK2:@;oJ0
+R34
+32
+R141
+R35
+R36
+Z163 !s100 [;fbjA4NUUPJTPV]CB]7T3
+Efhm_multiplier_w32
+w0
+R17
+R16
+R18
+32
+R30
+Z164 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_multiplier_w32.vhd
+Z165 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_multiplier_w32.vhd
+l0
+L1158
+Z166 V_IoU6;1:2L9PVB[>HFNNh3
+R34
+R35
+R36
+Z167 !s100 LTkhhT^YJQ6JN<3[1J<go0
+Asynthesis
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 24 fhm_multiplier_w32_cla64 0 22 `i>[6le8J>=Sl7aYYaZHK3
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 24 fhm_multiplier_w32_reg64 0 22 ]ChPGHEebEgOWA6Jz9>3e1
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 24 fhm_multiplier_w32_add64 0 22 F5JG]nJG:bTnLd87WhVcU2
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 24 fhm_multiplier_w32_reg32 0 22 ENLYM43CbSjLCXK[cT;k@3
+Z168 DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 24 fhm_multiplier_w32_cla16 0 22 P8Y6mj;XZ_;iR6IbKzCT_0
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 24 fhm_multiplier_w32_add32 0 22 AK>cRN8WQ`FHeSNE5PU;z1
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 26 fhm_multiplier_w32_tconv64 0 22 N3PO_O8be?_SYP19nDS?o0
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 23 fhm_multiplier_w32_smul 0 22 66KNEKF2z3Dk2KnKMAGz;1
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 26 fhm_multiplier_w32_tconv32 0 22 2`gGcCYoXeQ_nP5zfKSbA1
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 23 fhm_multiplier_w32_reg1 0 22 TS[_z>2Fl7jRnQ]JU>9G>1
+R17
+R16
+R18
+R46
+32
+R59
+R60
+R61
+l1216
+L1169
+Z169 V?1Z`2n6GRZYPPz`XDZo=40
+R34
+R35
+R36
+Z170 !s100 :LZX@iWbRV8lbIZ56H_dE0
+Efhm_multiplier_w32_add32
+w0
+R64
+R65
+R66
+R30
+R164
+R165
+l0
+L310
+Z171 VAK>cRN8WQ`FHeSNE5PU;z1
+R34
+32
+R35
+R36
+Z172 !s100 m7L7^e]KLBoFAY;<TbIbJ3
+Asynthesis
+R64
+R65
+R66
+Z173 DEx4 work 24 fhm_multiplier_w32_add32 0 22 AK>cRN8WQ`FHeSNE5PU;z1
+l328
+L317
+Z174 V6j6ZYQezg6N8l^iC3ZR0l2
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z175 !s100 QehIV3Y?@?7<gdJd`TkfY1
+Efhm_multiplier_w32_add64
+w0
+R64
+R65
+R66
+R30
+R164
+R165
+l0
+L376
+Z176 VF5JG]nJG:bTnLd87WhVcU2
+R34
+32
+R35
+R36
+Z177 !s100 lD899YA2O9S;OFai=<o6N3
+Asynthesis
+R64
+R65
+R66
+Z178 DEx4 work 24 fhm_multiplier_w32_add64 0 22 F5JG]nJG:bTnLd87WhVcU2
+l394
+L383
+Z179 ViO_8SER6bRH0m=75iNn7G0
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z180 !s100 k`W7RQbiWjWa:J[>B5J0g3
+Efhm_multiplier_w32_cla16
+w0
+R17
+R16
+R18
+32
+R30
+R164
+R165
+l0
+L130
+Z181 VP8Y6mj;XZ_;iR6IbKzCT_0
+R34
+R35
+R36
+Z182 !s100 YzUe`[KmP4WoO;kk9;NSB0
+Asynthesis
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 23 fhm_multiplier_w32_cla4 0 22 5P[3ibRDgZgn=`aTe75:D1
+R17
+R16
+R18
+R168
+32
+R59
+R60
+R61
+l149
+L137
+Z183 VVIkeLdd[>_a19D^kOZ@_G0
+R34
+R35
+R36
+Z184 !s100 n:^VVoV>lzUOKF69n72dP0
+Efhm_multiplier_w32_cla4
+w0
+R64
+R65
+R66
+R30
+R164
+R165
+l0
+L66
+Z185 V5P[3ibRDgZgn=`aTe75:D1
+R34
+32
+R35
+R36
+Z186 !s100 2l:fXDmm[lRF6j:i^4edX1
+Asynthesis
+R64
+R65
+R66
+Z187 DEx4 work 23 fhm_multiplier_w32_cla4 0 22 5P[3ibRDgZgn=`aTe75:D1
+l78
+L73
+Z188 VhXE8T;0GQ7zVoU02^i`^O3
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z189 !s100 R7`]73CW@;BKOXBbz077O0
+Efhm_multiplier_w32_cla64
+w0
+R64
+R65
+R66
+R30
+R164
+R165
+l0
+L220
+Z190 V`i>[6le8J>=Sl7aYYaZHK3
+R34
+32
+R35
+R36
+Z191 !s100 1PfY2a2Th7z:k>U182<fM2
+Asynthesis
+R64
+R65
+R66
+Z192 DEx4 work 24 fhm_multiplier_w32_cla64 0 22 `i>[6le8J>=Sl7aYYaZHK3
+l239
+L227
+Z193 V9Vj]QKULTV=h7[@N`ghO_0
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z194 !s100 Bfh1LQ[mhg_n7Z6Tc^R;d3
+Efhm_multiplier_w32_reg1
+w0
+R64
+R65
+R66
+R30
+R164
+R165
+l0
+L21
+Z195 VTS[_z>2Fl7jRnQ]JU>9G>1
+R34
+32
+R35
+R36
+Z196 !s100 5BG2l<U[HU^;gf=CQKc5h2
+Asynthesis
+R64
+R65
+R66
+Z197 DEx4 work 23 fhm_multiplier_w32_reg1 0 22 TS[_z>2Fl7jRnQ]JU>9G>1
+l30
+L29
+Z198 VSN:1f^X=55YQDRHJ7l@C81
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z199 !s100 d1PlR?X^HP4dDLdhV?Yn<2
+Efhm_multiplier_w32_reg32
+w0
+R64
+R65
+R66
+R30
+R164
+R165
+l0
+L433
+Z200 VENLYM43CbSjLCXK[cT;k@3
+R34
+32
+R35
+R36
+Z201 !s100 ^9:`UOC20gHX=UTi:aYEJ1
+Asynthesis
+R64
+R65
+R66
+Z202 DEx4 work 24 fhm_multiplier_w32_reg32 0 22 ENLYM43CbSjLCXK[cT;k@3
+l442
+L441
+Z203 VVQoVgK<]mVBeLP0XO1zAR3
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z204 !s100 ZYdT]jVVDYlQgzeEU5?C^0
+Efhm_multiplier_w32_reg64
+w0
+R64
+R65
+R66
+R30
+R164
+R165
+l0
+L479
+Z205 V]ChPGHEebEgOWA6Jz9>3e1
+R34
+32
+R35
+R36
+Z206 !s100 @hmKI4JBT]<UI9289SgU=2
+Asynthesis
+R64
+R65
+R66
+Z207 DEx4 work 24 fhm_multiplier_w32_reg64 0 22 ]ChPGHEebEgOWA6Jz9>3e1
+l488
+L487
+Z208 VKBz;A_WmRWLYOPL<X6Nz@2
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z209 !s100 I3ODzU[kQS`bf>12]ZzW=3
+Efhm_multiplier_w32_smul
+w0
+R64
+R65
+R66
+R30
+R164
+R165
+l0
+L527
+Z210 V66KNEKF2z3Dk2KnKMAGz;1
+R34
+32
+R35
+R36
+Z211 !s100 of=onFRhJbY9^Ne5G8BXL3
+Asynthesis
+R64
+R65
+R66
+Z212 DEx4 work 23 fhm_multiplier_w32_smul 0 22 66KNEKF2z3Dk2KnKMAGz;1
+l581
+L537
+Z213 VRK4WPRJoRQ3dNc<EagDS33
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z214 !s100 7LC0A9]5U;X;8>jfCod?l3
+Efhm_multiplier_w32_tconv32
+w0
+R64
+R65
+R66
+R30
+R164
+R165
+l0
+L1044
+Z215 V2`gGcCYoXeQ_nP5zfKSbA1
+R34
+32
+R35
+R36
+Z216 !s100 8>[^bl06Kd:g7j^;KX>2A3
+Asynthesis
+R64
+R65
+R66
+Z217 DEx4 work 26 fhm_multiplier_w32_tconv32 0 22 2`gGcCYoXeQ_nP5zfKSbA1
+l1064
+L1050
+Z218 VP43iKc8EadZF:<Pa>1>:]1
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z219 !s100 `P__o^ON[zdK[1z^IPcOY2
+Efhm_multiplier_w32_tconv64
+w0
+R64
+R65
+R66
+R30
+R164
+R165
+l0
+L1098
+Z220 VN3PO_O8be?_SYP19nDS?o0
+R34
+32
+R35
+R36
+Z221 !s100 SbloPXoA``L^XD8Yk;H`;2
+Asynthesis
+R64
+R65
+R66
+Z222 DEx4 work 26 fhm_multiplier_w32_tconv64 0 22 N3PO_O8be?_SYP19nDS?o0
+l1118
+L1104
+Z223 VJC]ILMzmg=lM;RJJKhYFg0
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z224 !s100 V^el9igD;SmoQZHHa01;42
+Efhm_pcu_w32
+w0
+Z225 DPx4 ieee 16 std_logic_signed 0 22 <9<Kcl:S52:oW`F]FQhb20
+R64
+R66
+R30
+Z226 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_pcu_w32.vhd
+Z227 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_pcu_w32.vhd
+l0
+L163
+Z228 VmGCeS_J3oJ4RGdTGE=O_`0
+R34
+32
+R35
+R36
+Z229 !s100 lzAeJF5RA[lRh[46mz6<V3
+Asynthesis
+R225
+R64
+R66
+Z230 DEx4 work 11 fhm_pcu_w32 0 22 mGCeS_J3oJ4RGdTGE=O_`0
+l198
+L173
+Z231 VNUKa52gbD`OK2B;U@A@`E3
+R34
+32
+R71
+Z232 Mx2 4 ieee 15 std_logic_arith
+Z233 Mx1 4 ieee 16 std_logic_signed
+R35
+R36
+Z234 !s100 mhVR?j[YXSmaMj4l=4EZI0
+Efhm_pcu_w32_add32
+w0
+R17
+R16
+R18
+32
+R30
+R226
+R227
+l0
+L60
+Z235 VjRl6GQX50l?UfE>S0:[JV3
+R34
+R35
+R36
+Z236 !s100 hY4U68GcL1iCP1_4?3f3g2
+Asynthesis
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 20 fhm_pcu_w32_add32_fa 0 22 =8cb8jIQo1>j`ZO6CFj?61
+R17
+R16
+R18
+R42
+32
+R59
+R60
+R61
+l79
+L67
+Z237 VPFXZh?X0XdU<P2:[TiK>I3
+R34
+R35
+R36
+Z238 !s100 @6Da07zh^IXdz5O=M:K8Z3
+Efhm_pcu_w32_add32_fa
+w0
+R64
+R65
+R66
+R30
+R226
+R227
+l0
+L18
+Z239 V=8cb8jIQo1>j`ZO6CFj?61
+R34
+32
+R35
+R36
+Z240 !s100 VD]>FSX[?7Xi7dgi?f;;X2
+Asynthesis
+R64
+R65
+R66
+Z241 DEx4 work 20 fhm_pcu_w32_add32_fa 0 22 =8cb8jIQo1>j`ZO6CFj?61
+l27
+L26
+Z242 V6U5I>_EZhFCozKl:f5JEV2
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z243 !s100 PlGI8TE4BDK]@z<Jz3FUj0
+Efhm_pcu_w32_reg32
+w0
+R64
+R65
+R66
+R30
+R226
+R227
+l0
+L117
+Z244 V:4?i9AlPzE[@Z@^Ki6KGE1
+R34
+32
+R35
+R36
+Z245 !s100 ?@;:?8HkIbKEc603`dLaC1
+Asynthesis
+R64
+R65
+R66
+Z246 DEx4 work 17 fhm_pcu_w32_reg32 0 22 :4?i9AlPzE[@Z@^Ki6KGE1
+l126
+L125
+Z247 V?cVM<Ej^b;[Ijz:bj^blU1
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z248 !s100 ]jS7<DfmfM2T`0^Y3=emk1
+Efhm_register_w32
+w0
+R64
+R65
+R66
+R30
+Z249 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_register_w32.vhd
+Z250 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_register_w32.vhd
+l0
+L24
+Z251 VbDm;E?6Hh>zS9DIZgKHmh1
+R34
+32
+R35
+R36
+Z252 !s100 404a0FE^LeF4k4FZ2`a<91
+Alogic
+R64
+R65
+R66
+Z253 DEx4 work 16 fhm_register_w32 0 22 bDm;E?6Hh>zS9DIZgKHmh1
+l33
+L32
+Z254 V2d>=cUC^=39]EbMeeFKK`1
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z255 !s100 D]TQjg_S@]DB[7T[6Lb8a0
+Efhm_registerfile_w32
+w0
+R18
+32
+R30
+Z256 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_registerfile_w32.vhd
+Z257 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_registerfile_w32.vhd
+l0
+L65
+Z258 VT[e;^n<2G95E^]k<0LAU@0
+R34
+R35
+R36
+Z259 !s100 `8RT8>h_TcENLFkSWVEz32
+Asynthesis
+R17
+R16
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 26 fhm_registerfile_w32_reg32 0 22 h5aadH?S7PzV:Mc8i9i^?2
+R18
+R48
+32
+R59
+R60
+R61
+l191
+L83
+Z260 VbEZ@3`@CZ0KfS1kT:E<GI0
+R34
+R35
+R36
+Z261 !s100 Wd0AX`8UaW53zE6iS@6d^0
+Efhm_registerfile_w32_reg32
+w0
+R64
+R65
+R66
+R30
+R256
+R257
+l0
+L19
+Z262 Vh5aadH?S7PzV:Mc8i9i^?2
+R34
+32
+R35
+R36
+Z263 !s100 JgigDKlgDVTbG6:fFjA8[2
+Asynthesis
+R64
+R65
+R66
+Z264 DEx4 work 26 fhm_registerfile_w32_reg32 0 22 h5aadH?S7PzV:Mc8i9i^?2
+l28
+L27
+Z265 VnnPK2zRZ>XijH[m=VnQ9Q1
+R34
+32
+R71
+R72
+R73
+R35
+R36
+Z266 !s100 9RIX?PO5>LXaL@?3G]^@21
+Efhm_shifter_w32
+w0
+R65
+R64
+R66
+R30
+Z267 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_shifter_w32.vhd
+Z268 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/fhm_shifter_w32.vhd
+l0
+L26
+Z269 V>AH9a?n]g1lP=[SS2<K0:1
+R34
+32
+R35
+R36
+Z270 !s100 G;BD8i@F8e<OSTQNJgXj@1
+Asynthesis
+R65
+R64
+R66
+Z271 DEx4 work 15 fhm_shifter_w32 0 22 >AH9a?n]g1lP=[SS2<K0:1
+l48
+L33
+Z272 VcV70P7GE06Gh63TLKKTdO2
+R34
+32
+R71
+R232
+Z273 Mx1 4 ieee 18 std_logic_unsigned
+R35
+R36
+Z274 !s100 _QF1al;XYUAZ7KM9d>ECL1
+Phelper
+R18
+32
+b1
+R134
+Z275 w1214423311
+R30
+Z276 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/Helper.vhd
+Z277 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/Helper.vhd
+l0
+L21
+Z278 V87Hj]QZo1;^TOoSOC`c703
+R34
+b1
+R35
+R36
+Z279 !s100 oWCka7NDQmCM=e@P``B_71
+Bbody
+DBx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 6 helper 0 22 87Hj]QZo1;^TOoSOC`c703
+R18
+32
+R134
+l0
+L27
+Z280 VYc0cDZ[VL^02a][2Lb]Yf2
+R34
+R35
+R36
+nbody
+Z281 !s100 7N@_WLBdh6>CSN``C=Xo@1
+Ememorymapper
+R275
+R14
+R16
+R17
+R18
+32
+R30
+Z282 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/MemoryMapper.vhd
+Z283 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/MemoryMapper.vhd
+l0
+L30
+Z284 VP]>zbo]5_X]oh3<iH[O>]2
+R34
+R35
+R36
+Z285 !s100 APF<6[]cJL_Bz[PiP>`L42
+Abehavioral
+R14
+R16
+R17
+R18
+R11
+32
+R50
+R51
+R60
+Mx1 71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 17 memorymappertypes
+l92
+L52
+Z286 V==:ka`a99`ChcNnXbDkKo0
+R34
+R35
+R36
+Z287 !s100 BJOg^[Y5b]g;glFk<E[B_3
+Pmemorymappertypes
+R18
+32
+R134
+Z288 w1224525425
+R30
+Z289 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/MemoryMapperTypes.vhd
+Z290 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/ModelSim/MemoryMapperTypes.vhd
+l0
+L23
+Z291 V_f^4]mh3H]67A`K7eS^oO3
+R34
+R35
+R36
+Z292 !s100 C`6JN3N62m4F90L5jM^P73
+Bbody
+DBx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 17 memorymappertypes 0 22 _f^4]mh3H]67A`K7eS^oO3
+R18
+32
+R134
+l0
+L54
+Z293 V82YUmDWhmkPj?hb]`4M7d3
+R34
+R35
+R36
+nbody
+Z294 !s100 Gl9Lc2TG;N4^@>V:7olIb3
+Ertg_controller
+w0
+R18
+32
+R30
+Z295 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_controller.vhd
+Z296 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_controller.vhd
+l0
+L8
+Z297 VFQUDD;D?GXe?PRIg9ZNW62
+R34
+R35
+R36
+Z298 !s100 bQaG_Vn^R8IaU5Qi:Fhf;3
+Artl
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 15 rtg_register_w9 0 22 3`Pkn5zlDW@>QR89TD?Nj2
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 16 rtg_register_w14 0 22 ]<P_IhYHXzdQF0TGFzkbL2
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 16 rtg_register_w43 0 22 0lD@RH:fWUBBTM=j0;zWl0
+R43
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 18 rtg_register_w1_01 0 22 2nifF3<HFKbFkUm<c`QC;2
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 18 rtg_register_w1_00 0 22 [WNe83=`V<NbSKB5j=jz_0
+DEx71 /home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_avg/ModelSim/work 12 rtg_proc_fsm 0 22 X0HcFe`O9=@meRF2_j?SK3
+R18
+R44
+32
+R134
+l443
+L100
+Z299 V2L6:jQWHabGmLY3XBGILP0
+R34
+R35
+R36
+Z300 !s100 A@zVdj84R96PYk63VlNOD3
+Ertg_mux14to1_w32
+Z301 w1481024615
+R66
+R30
+Z302 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_basis.syn/rtg_mux14to1_w32.vhd
+Z303 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_basis.syn/rtg_mux14to1_w32.vhd
+l0
+L8
+Z304 V24:B8Ql28O;T6<J6@n5hP3
+R34
+32
+R35
+R36
+Z305 !s100 CBQZIU0lFJ=gVB7<gXFEY0
+Artl
+R66
+Z306 DEx4 work 16 rtg_mux14to1_w32 0 22 24:B8Ql28O;T6<J6@n5hP3
+l32
+L29
+Z307 VCYkzQh7D:;TD^i]O2XFcS3
+R34
+32
+R141
+R35
+R36
+Z308 !s100 BEjL?=4O3z[PTzUTAgn?P3
+Ertg_mux15to1_w32
+w0
+R66
+R30
+Z309 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_mux15to1_w32.vhd
+Z310 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_mux15to1_w32.vhd
+l0
+L8
+Z311 VA]O6ZhojZ41SLZRC6icPk0
+R34
+32
+R35
+R36
+Z312 !s100 m?E=zjmJ7OlV4[oe_Lg5O3
+Artl
+R66
+Z313 DEx4 work 16 rtg_mux15to1_w32 0 22 A]O6ZhojZ41SLZRC6icPk0
+l33
+L30
+Z314 Ve01aGj0DZIfW[>iPmfZ2I2
+R34
+32
+R141
+R35
+R36
+Z315 !s100 MH?[3;^WSc^5ZVBPIz^KC1
+Ertg_mux2to1_w32
+w0
+R66
+R30
+Z316 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_mux2to1_w32.vhd
+Z317 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_mux2to1_w32.vhd
+l0
+L8
+Z318 VSdIG]58K8Q^Pb]J[ObgPK0
+R34
+32
+R35
+R36
+Z319 !s100 0n2_QFoKJ<hIh:[L[RSBd2
+Artl
+R66
+Z320 DEx4 work 15 rtg_mux2to1_w32 0 22 SdIG]58K8Q^Pb]J[ObgPK0
+l20
+L17
+Z321 VgiK3OAeHNhR:WH>J<Uh_61
+R34
+32
+R141
+R35
+R36
+Z322 !s100 eaSNGTSY[F?2M=?f_R=zf1
+Ertg_mux2to1_w5
+w0
+R66
+R30
+Z323 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_mux2to1_w5.vhd
+Z324 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_mux2to1_w5.vhd
+l0
+L8
+Z325 Vh:Q00fd^e;90J[UObUgQj1
+R34
+32
+R35
+R36
+Z326 !s100 T[Ylfa1;T30okR[QmSRWf3
+Artl
+R66
+Z327 DEx4 work 14 rtg_mux2to1_w5 0 22 h:Q00fd^e;90J[UObUgQj1
+l20
+L17
+Z328 VSO^RG0NU?4_BjKYO9zFXI2
+R34
+32
+R141
+R35
+R36
+Z329 !s100 9ShY4AeGn0Q@9;F2cJ:?63
+Ertg_mux3to1_w32
+R301
+R66
+R30
+Z330 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_basis.syn/rtg_mux3to1_w32.vhd
+Z331 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_basis.syn/rtg_mux3to1_w32.vhd
+l0
+L8
+Z332 V7JO>ROad;^L_5z]G>S:3d3
+R34
+32
+R35
+R36
+Z333 !s100 4<iM:NHfE1C@FKA>F>PJP3
+Artl
+R66
+Z334 DEx4 work 15 rtg_mux3to1_w32 0 22 7JO>ROad;^L_5z]G>S:3d3
+l21
+L18
+Z335 VbV[`3HRi1j5BJCOzIBl@@3
+R34
+32
+R141
+R35
+R36
+Z336 !s100 j2`;?:5ai4ALf]nTzGCzZ2
+Ertg_mux3to1_w5
+w0
+R66
+R30
+Z337 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_mux3to1_w5.vhd
+Z338 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_mux3to1_w5.vhd
+l0
+L8
+Z339 V?`z_R23NUm9jf<jMgQo5c2
+R34
+32
+R35
+R36
+Z340 !s100 T6bVPaS5Bk5j16YGIOeAV3
+Artl
+R66
+Z341 DEx4 work 14 rtg_mux3to1_w5 0 22 ?`z_R23NUm9jf<jMgQo5c2
+l21
+L18
+Z342 V<QMgZe;W8=HMYhfVZdH`20
+R34
+32
+R141
+R35
+R36
+Z343 !s100 [Sm`I6lBm?>0:O<<U:QUR0
+Ertg_mux4to1_w32
+w0
+R66
+R30
+Z344 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_mux4to1_w32.vhd
+Z345 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_mux4to1_w32.vhd
+l0
+L8
+Z346 VBi6>X4ZXT=CZhPhoF2H[82
+R34
+32
+R35
+R36
+Z347 !s100 GIfQBHVA4eC`>;?mbKI;I1
+Artl
+R66
+Z348 DEx4 work 15 rtg_mux4to1_w32 0 22 Bi6>X4ZXT=CZhPhoF2H[82
+l22
+L19
+Z349 Vn6mPF3Ij;<22LkC9?GoPC3
+R34
+32
+R141
+R35
+R36
+Z350 !s100 iQoL=VWSB]bGBU8j816Rd0
+Ertg_mux5to1_w32
+w0
+R66
+R30
+Z351 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_mux5to1_w32.vhd
+Z352 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_mux5to1_w32.vhd
+l0
+L8
+Z353 Vj:^W5QJ:QTLe`D19famA:2
+R34
+32
+R35
+R36
+Z354 !s100 Si29NUMAfIl]1CRi0@Mc^1
+Artl
+R66
+Z355 DEx4 work 15 rtg_mux5to1_w32 0 22 j:^W5QJ:QTLe`D19famA:2
+l23
+L20
+Z356 VVRQMl4f2[KfaYnoBK5z^82
+R34
+32
+R141
+R35
+R36
+Z357 !s100 j;m39c:ASZ0^DoLi_=CoE3
+Ertg_proc_fsm
+w0
+R66
+R30
+Z358 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_proc_fsm.vhd
+Z359 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_proc_fsm.vhd
+l0
+L8
+Z360 VX0HcFe`O9=@meRF2_j?SK3
+R34
+32
+R35
+R36
+Z361 !s100 T;=AKX81BDA6YO[R55B1W1
+Artl
+R66
+Z362 DEx4 work 12 rtg_proc_fsm 0 22 X0HcFe`O9=@meRF2_j?SK3
+l28
+L19
+Z363 V>KXz@G1m_Qme?d@GBngNh0
+R34
+32
+R141
+R35
+R36
+Z364 !s100 HKamlOTZRELP;nkAa9?JN0
+Ertg_register_w12
+R301
+R66
+R30
+Z365 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_basis.syn/rtg_register_w12.vhd
+Z366 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_basis.syn/rtg_register_w12.vhd
+l0
+L8
+Z367 VM]fDHiFMaR<PNnbTn7amf0
+R34
+32
+R35
+R36
+Z368 !s100 b>HjL8Dhj23f8]17FMWcd0
+Artl
+R66
+Z369 DEx4 work 16 rtg_register_w12 0 22 M]fDHiFMaR<PNnbTn7amf0
+l21
+L18
+Z370 VYXRhBo;:`=D=gEf62DhCB0
+R34
+32
+R141
+R35
+R36
+Z371 !s100 <900;Y>56<Ll`^ne?;C]G1
+Ertg_register_w14
+w0
+R66
+R30
+Z372 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w14.vhd
+Z373 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w14.vhd
+l0
+L8
+Z374 V]<P_IhYHXzdQF0TGFzkbL2
+R34
+32
+R35
+R36
+Z375 !s100 LeNjYIHMcoX4=>9YiNWE>0
+Artl
+R66
+Z376 DEx4 work 16 rtg_register_w14 0 22 ]<P_IhYHXzdQF0TGFzkbL2
+l21
+L18
+Z377 V7DMBmW2^4^zO6QIz<f[hH3
+R34
+32
+R141
+R35
+R36
+Z378 !s100 Iel:kc`IoGn2C0jghQL[00
+Ertg_register_w1_00
+w0
+R66
+R30
+Z379 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w1_00.vhd
+Z380 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w1_00.vhd
+l0
+L8
+Z381 V[WNe83=`V<NbSKB5j=jz_0
+R34
+32
+R35
+R36
+Z382 !s100 ;@^T9l:_UBDoUFB<XR>i`2
+Artl
+R66
+Z383 DEx4 work 18 rtg_register_w1_00 0 22 [WNe83=`V<NbSKB5j=jz_0
+l21
+L18
+Z384 V^R@N[h6ZI6IgRIV4mh7QK3
+R34
+32
+R141
+R35
+R36
+Z385 !s100 V1;R:c4o>MzAjimTco4m<2
+Ertg_register_w1_01
+w0
+R66
+R30
+Z386 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w1_01.vhd
+Z387 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w1_01.vhd
+l0
+L8
+Z388 V2nifF3<HFKbFkUm<c`QC;2
+R34
+32
+R35
+R36
+Z389 !s100 T@c8=LHOlmWjdKI6b:A:U3
+Artl
+R66
+Z390 DEx4 work 18 rtg_register_w1_01 0 22 2nifF3<HFKbFkUm<c`QC;2
+l21
+L18
+Z391 V<JdOMjemH1m:QYV3ckMnD3
+R34
+32
+R141
+R35
+R36
+Z392 !s100 AGlL2eIeP9K]mzkk=>iS[2
+Ertg_register_w32
+w0
+R66
+R30
+Z393 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w32.vhd
+Z394 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w32.vhd
+l0
+L8
+Z395 VQf0S]65VQ:H5bd6F`a?o`0
+R34
+32
+R35
+R36
+Z396 !s100 =E1YO]2kNB`28c47lLiJo1
+Artl
+R66
+Z397 DEx4 work 16 rtg_register_w32 0 22 Qf0S]65VQ:H5bd6F`a?o`0
+l21
+L18
+Z398 V54:M57G_<W2DUIWA>:0`z1
+R34
+32
+R141
+R35
+R36
+Z399 !s100 [>Ye0mY8OBcG<:Y7Hn2MZ0
+Ertg_register_w34
+R301
+R66
+R30
+Z400 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_basis.syn/rtg_register_w34.vhd
+Z401 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_basis.syn/rtg_register_w34.vhd
+l0
+L8
+Z402 V2]HIP>S8]5nRYH?5E`9>z2
+R34
+32
+R35
+R36
+Z403 !s100 hcX5UUT?7QID^Wf6l]if?0
+Artl
+R66
+Z404 DEx4 work 16 rtg_register_w34 0 22 2]HIP>S8]5nRYH?5E`9>z2
+l21
+L18
+Z405 VdGKRhG1>XY7`Ic0NEn8Dk3
+R34
+32
+R141
+R35
+R36
+Z406 !s100 3=_3<lT6``1;mTAK=E<OC0
+Ertg_register_w4
+w0
+R66
+R30
+Z407 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w4.vhd
+Z408 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w4.vhd
+l0
+L8
+Z409 Vlj6^TCM:jf=:>oD:Bz:UN1
+R34
+32
+R35
+R36
+Z410 !s100 OHW42_j2=dWSngXQ?3_hJ2
+Artl
+R66
+Z411 DEx4 work 15 rtg_register_w4 0 22 lj6^TCM:jf=:>oD:Bz:UN1
+l21
+L18
+Z412 VXiVemBGLO7XGOgBF;XazK3
+R34
+32
+R141
+R35
+R36
+Z413 !s100 c^`lh_WTa;FTTLAhaRk[H0
+Ertg_register_w43
+w0
+R66
+R30
+Z414 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w43.vhd
+Z415 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w43.vhd
+l0
+L8
+Z416 V0lD@RH:fWUBBTM=j0;zWl0
+R34
+32
+R35
+R36
+Z417 !s100 Ef4m=6>93jW;^AlghCcDT1
+Artl
+R66
+Z418 DEx4 work 16 rtg_register_w43 0 22 0lD@RH:fWUBBTM=j0;zWl0
+l21
+L18
+Z419 V71NGfKPzGVkLz?Wi1?N1V0
+R34
+32
+R141
+R35
+R36
+Z420 !s100 =6FObKE<BG>d6^V43Uj8>1
+Ertg_register_w5
+w0
+R66
+R30
+Z421 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w5.vhd
+Z422 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w5.vhd
+l0
+L8
+Z423 Vn@>@Co5Q;o5XcWDVbdC3b2
+R34
+32
+R35
+R36
+Z424 !s100 MFE=O0QlPIeJ5<:UW659C0
+Artl
+R66
+Z425 DEx4 work 15 rtg_register_w5 0 22 n@>@Co5Q;o5XcWDVbdC3b2
+l21
+L18
+Z426 VDKz`ZOfGGgQO3k:C[n5;c3
+R34
+32
+R141
+R35
+R36
+Z427 !s100 [W=jRB<Y5F`Ne31>eoZTf1
+Ertg_register_w7
+R301
+R66
+R30
+Z428 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_basis.syn/rtg_register_w7.vhd
+Z429 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_basis.syn/rtg_register_w7.vhd
+l0
+L8
+Z430 VY;g:[4^UVH414`M2`91DC3
+R34
+32
+R35
+R36
+Z431 !s100 [4cWPUi;8nn5FC[B8EnI?0
+Artl
+R66
+Z432 DEx4 work 15 rtg_register_w7 0 22 Y;g:[4^UVH414`M2`91DC3
+l21
+L18
+Z433 VUBAEZLD_K?cgUnT0IEmSh1
+R34
+32
+R141
+R35
+R36
+Z434 !s100 LQ@EI;?z:nL9a:795W[i^3
+Ertg_register_w9
+w0
+R66
+R30
+Z435 8/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w9.vhd
+Z436 F/home/asip04/LabASIP/Session7/ASIPMeisterProjects/dlx_basis/meister/dlx_avg.syn/rtg_register_w9.vhd
+l0
+L8
+Z437 V3`Pkn5zlDW@>QR89TD?Nj2
+R34
+32
+R35
+R36
+Z438 !s100 ^kEG;N^5lmKz00_hBzUIV0
+Artl
+R66
+Z439 DEx4 work 15 rtg_register_w9 0 22 3`Pkn5zlDW@>QR89TD?Nj2
+l21
+L18
+Z440 V0`BK<S6<I<;bd0z?OO5oT2
+R34
+32
+R141
+R35
+R36
+Z441 !s100 S8:>nQM@zXGfaeUEl4`I?1
+Etest
+R29
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+32
+R30
+R31
+R32
+l0
+L20
+Z442 VhXfc[<jCDa;E^AzWbzo:U0
+R34
+R35
+R36
+Z443 !s100 @Le3GiXPo0]^?h8fAVB1B3
+Atestbench
+R11
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+R19
+R20
+32
+R21
+R22
+R23
+R24
+R25
+R26
+R27
+l116
+L23
+Z444 VKR=K4?]nl:zM<jHLo6Afm0
+R34
+R35
+R36
+Z445 !s100 4Ehb5Ao2PMLS7RhhQTRP<3

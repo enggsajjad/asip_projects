@@ -1,0 +1,4 @@
+
+ADPCM Decode: Start
+ADPCM Decode: Decoding Done.
+Required time for decoding: 398080 cycles

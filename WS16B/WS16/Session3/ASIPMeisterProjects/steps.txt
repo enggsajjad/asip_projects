@@ -1,0 +1,43 @@
+Steps:
+. Copy /home/asip00/Session3 to /home/asip04/LabASIP/Session3
+. Copy ASIPMeisterProject folder into /home/asip04/LabASIP/Session3/ and name the folder dlx_LaboratoryBasis as dlx_basis
+. Set the env_settings, like 
+export PROJECT_NAME=dlx_basis
+export CPU_NAME=dlx_basis
+export ASIPMEISTER_PROJECTS_DIR=/home/asip04/LabASIP/Session3/ASIPMeisterProjects
+.There are assembly files in Session3 folder, make individual folder for this under Applications folder, according to their name and copy it.
+. Copy the Makefile from TestPrint folder to newly created Application.
+. Compile the C file using gcc and analyze the coding
+. Copy dlx_basis.pdb to /home/asip04/LabASIP/Session3/ASIPMeisterProjects/dlx_basis/
+. Now open ASIPmeister dlx_basis.pdb &, included with ADD instructions.
+. Generate the simulation & synthesis vhdl files and SW tools as well.
+. Write up your code for bubble sort.
+. Inside Application run: 
+	make clean
+	make sim	
+	make dlxsim DLXSIM_PARAM="-fBUILD_SIM/Application_Directory.dlxsim -da0 -pd1" for NoPipeline
+	make dlxsim DLXSIM_PARAM="-fBUILD_SIM/Application_Directory.dlxsim -da0 -pd4" for With Pipeline
+. This will execute the assembly program using dlxsim. Run the program with "go", "step" and "get" commands
+
+
+ModelSIM
+Go into ModelSim directory and open ModelSim using VSIM
+Make new project: File>New Project
+	Project Name:dlx_basis
+	Project Location:/home/asip04/LabASIP/Session3/ASIPMeisterProjects/dlx_basis/ModelSim
+	Default Library Name: work
+	Copy Settings from: /Software/ModelSim/ModelSim_6.6d/modeltech/modelsim.ini
+Add Existing vhdl files from:
+	/home/asip04/LabASIP/Session3/ASIPMeisterProjects/dlx_basis/ModelSim
+	/home/asip04/LabASIP/Session3/ASIPMeisterProjects/dlx_basis/meister/dlx_basis.syn
+
+Compile > Compile Order > Auto Generate > OK > OK
+Simulate > Start Simulation > Select Work.cfg > OK
+Tools > Tcl > Execute Macro > select wave.do > open
+Simulate > Run-All
+After some time the simulation breaks at ** Failure: SUCCESSFUL: Simulation End.
+See the waveform
+Simulate > End Simulation
+
+
+Check /ModelSim:$vim TestData.OUT, It should contain the valid data.

@@ -1,0 +1,107 @@
+answers:
+Exercise 2
+a) In "jalr" additionally the address after the "jalr"
+instruction
+   will be written to the link register (GPR31).
+   In the IF stage the program counter is read, the
+instruction
+   at the program counter adress is written to the
+instruction
+   register and the program counter is incremented (by
+4).
+   In the ID stage the content of rs0 and PC is read.
+   In the EXE stage the loaded value of rs0 is stored
+in PC.
+   In the WB stage the value of PC, which has been
+loaded in the
+   ID stage is written to GPR31 (link register).
+   "link" has to be global to allow the use in a later
+pipeline
+   stage for the same instruction.
+b) The first difference is, that "sub" and "subu" are
+used as the
+   ALU instruction. The second difference is, that for
+subi the
+   16-bit immediate const is becomes sign-extended
+while for subui
+   const is null-padded (the higher 16 bits are set to
+zero).
+   As we only have 16-bit immediate values, we have to
+convert them
+   to 32-bit. For the non immediate instructions
+registers are used
+   which already use 32-bit and therefore don't need
+any further
+   conversion.
+
+Exercise 4:
+a) nops/instructions = 50%
+   nops/cycles = 40,4%
+b) The correct result should be A[i] = B[i] + 47 for
+all i in
+   {0, 1, ..., 9}, but it is A[i] = B[i], as the
+result of B[i]+47
+   has not been written back to the register which
+holds the value
+   yet. As the pipeline delay is 4 cycles, the result
+of an operation
+   is written to a register after 3 cycles, so it is
+available in the
+   fourth cycle.
+c) nop is translated into "sll %r0, %r0, %r0" (opcode
+0x00000000)
+
+Exercise 5:
+a) In the MEM phase the datareq signal is set to high,
+datawin is set to "1111"
+   to request a word read and the memory address
+"0x00000050" is written to dataab.
+   In the second half of this cycle the requested data
+is already written to
+   datadb by the data memory unit. In the next cycle
+(second cycle of MEM phase
+   (stalling)) the datareq signal is put to low again
+and the dataack signal
+   is set to high by the data memory unit, telling the
+CPU that the data is now
+   available. After this cycle the WB phase is
+executed and the CPU writes the
+   value at datadb into the register specified by
+w_sel0 by setting w_enb0 to
+   high and data_in0 to the read value.
+
+
+
+Session 2 Simulation of DLX­Assembly Programs
+2) Using ASIP Meister:
+a) The difference is just in ID stage, in jalr there is “writeLinkReg” and it means writing
+the address from the following command to the link register.
+PC value will be saved in Link register and it is happening in ID stage and then write it
+to r32 and it is happening in WB stage.
+Because the Link register is used in ID stage and in WB stage too, it should be global, if
+it wasn't global, we couldn't use his value in WB stage just in ID stage.
+b)the difference is just in ID ,in subui we use Zero_16 =”0000000000000000” to extend
+the immediate value from 16 bits to 32 bits and put the high byte zeros.
+Actually it is needed just for immediate instructions because its value just 16 bits and all
+our operations need 32 bits here is the problem so we need to extend this value to 32bits.
+4) Simulating with dlxsim
+a) 63 NOP's have been executed and total number of instructions is 126 so 50% 
+These NOP's need 63 cycles to be executed and total number of executed cycles is 156 so
+40%
+b) When we remove NOP's after add instruction we will face Data Dependency problem
+because in add instruction we modify r6 and we need three cycles at least to be able to
+use the new value and in our program directly”immediately” after add instruction we
+have “sw  _A(%r4), %r6” so here we will use the old value of r6 the value before
+adding!
+c) NOP's Opcode is 00....00 zeros so we need an instruction has the same opcode when it
+is translated
+only sll instruction has this possibility and the parameters is r0 (i.e. sll r0 , r0 , r0 )
+so we can write sll r0,r0,r0 to implement NOP because they have the same opcode.
+5) Simulation with ModelSim:
+If we want to understand the results well ,we should open TestData.IM and read the
+results and this file together.
+First we put the address 0 then we get the Opcode for the first instruction(Fetch stage)
+then we put the required address for the Data and it is not the sme address in DLX
+because in Fpga we use Harvard Mode that means Data memory  ,and instruction
+memory are not same.
+Then we get the value  here it is 42 and then we wite this value to r7.
