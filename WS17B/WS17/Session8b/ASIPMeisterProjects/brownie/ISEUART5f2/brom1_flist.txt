@@ -1,0 +1,15 @@
+# Output products list for <brom1>
+_xmsgs/pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_readme.txt
+brom1/doc/blk_mem_gen_ds512.pdf
+brom1/doc/blk_mem_gen_v6_1_vinfo.html
+brom1.asy
+brom1.gise
+brom1.ngc
+brom1.vhd
+brom1.vho
+brom1.xco
+brom1.xise
+brom1_flist.txt
+brom1_xmdf.tcl

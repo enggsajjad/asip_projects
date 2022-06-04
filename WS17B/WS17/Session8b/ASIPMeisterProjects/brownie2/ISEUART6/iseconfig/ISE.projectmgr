@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="ISE" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/BrownieSTD32 - RTL |home|asip04|SS17|package2|ISE|BrownieSTD32.vhd/UA_CTRL - rtg_controller - RTL</ClosedNode>
+         <ClosedNode>/BrownieSTD32 - RTL |home|asip04|SS17|package2|ISE|BrownieSTD32.vhd/UF_GPR - fhm_browregfile_w32 - synthesis</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART1|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART2|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART3|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL/UF_DIV - fhm_divider_w32 - synthesis</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART3|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL/UF_MUL - fhm_multiplier_w32 - synthesis</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART4|dlx_toplevel.vhd</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5d|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5f|dlx_toplevel.vhd/AudioL - AudioOut_TopLevel - STRUCTURE</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5f|dlx_toplevel.vhd/AudioR - AudioOut_TopLevel - STRUCTURE</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5f|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|package2|ISE|dlx_toplevel.vhd</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|package2|ISE|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL/UA_CTRL - rtg_controller - RTL</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|package2|ISE|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL/UF_GPR - fhm_browregfile_w32 - synthesis</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie2|ISEUART6|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f2|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f3|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f4|dlx_toplevel.vhd/AudioL - AudioOut_TopLevel - STRUCTURE</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f4|dlx_toplevel.vhd/AudioR - AudioOut_TopLevel - STRUCTURE</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f4|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f5|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f6|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART6|dlx_toplevel.vhd/AudioL - AudioOut_TopLevel - STRUCTURE</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART6|dlx_toplevel.vhd/AudioR - AudioOut_TopLevel - STRUCTURE</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART6|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/i2c_toplevel - i2c_toplevel_arch |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART4|i2c_toplevel.vhd</ClosedNode>
+         <ClosedNode>/i2c_toplevel - i2c_toplevel_arch |home|asip04|SS17|package2|ISE|i2c_toplevel.vhd</ClosedNode>
+         <ClosedNode>/interface_asipmeister_i2c - interface_asipmeister_i2c_arch |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART4|interface_asipmeister_i2c.vhd</ClosedNode>
+         <ClosedNode>/interface_asipmeister_i2c - interface_asipmeister_i2c_arch |home|asip04|SS17|package2|ISE|interface_asipmeister_i2c.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>dlx_toplevel - Behavioral (/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie2/ISEUART6/dlx_toplevel.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >8</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000030b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000030b0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>dlx_toplevel - Behavioral (/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie2/ISEUART6/dlx_toplevel.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000277000000040101000100000000000000000000000064ffffffff000000810000000000000004000000510000000100000000000000290000000100000000000000840000000100000000000001790000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ack.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>AudioOut_Types.vhd</SelectedItem>
+         <SelectedItem>dlxTypes.vhd</SelectedItem>
+         <SelectedItem>MemoryMapper.vhd</SelectedItem>
+         <SelectedItem>MemoryMapperTypes.vhd</SelectedItem>
+         <SelectedItem>tb_dlx_toplevel.vhd</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >65</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000115000000010001000100000000000000000000000064ffffffff000000810000000000000001000001150000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>tb_dlx_toplevel.vhd</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Map/Generate Post-Map Static Timing</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Back-annotate Pin Locations</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route/Generate IBIS Model</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Generate Programming File</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f2000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f20000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Generate Programming File</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff000000000000000200000100000000d901000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000146000000010000000100000000000000000000000064ffffffff000000810000000000000001000001460000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_NGC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000015f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XAW" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000136000000010000000100000000000000000000000064ffffffff000000810000000000000001000001360000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000170000000010000000100000000000000000000000064ffffffff000000810000000000000001000001700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001c3000000010000000100000000000000000000000064ffffffff000000810000000000000001000001c30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AudioOut_TopLevel - STRUCTURE |home|asip04|SS17|package2|ISE|AudioOut_TopLevel.vhd</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART1|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART2|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5f|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/AudioL - AudioOut_TopLevel - STRUCTURE</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5f|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/AudioR - AudioOut_TopLevel - STRUCTURE</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5f|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/BRAM_instance - bram_dm - bram_dm_a</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5f|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/BROM_instance - brom_im - brom_im_a</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5f|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/AudioL - AudioOut_TopLevel - STRUCTURE</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/AudioR - AudioOut_TopLevel - STRUCTURE</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/BRAM_instance - bram_dm - bram_dm_a</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/BROM_instance - brom_im - brom_im_a</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/i2c_core - i2c_toplevel - i2c_toplevel_arch</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/i2c_interface - interface_asipmeister_i2c - interface_asipmeister_i2c_arch</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f2|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f6|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/BRAM_instance - bram_dm - bram_dm_a</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f6|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/BROM_instance - brom_im - brom_im_a</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f6|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f6|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/i2c_core - i2c_toplevel - i2c_toplevel_arch</ClosedNode>
+         <ClosedNode>/TB - behavior |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f6|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/i2c_interface - interface_asipmeister_i2c - interface_asipmeister_i2c_arch</ClosedNode>
+         <ClosedNode>/Unassigned User Library Modules/tb_dlx_toplevel - behavior/uut - dlx_toplevel - Behavioral/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/bram_dm3 - bram_dm3_a |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5f|bram_dm3.vhd</ClosedNode>
+         <ClosedNode>/bram_dmm - bram_dmm_a |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5|bram_dmm.vhd</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|package2|ISE|dlx_toplevel.vhd/BRAM_instance - bram_dm - bram_dm_a</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|package2|ISE|dlx_toplevel.vhd/BROM_instance - brom_im - brom_im_a</ClosedNode>
+         <ClosedNode>/dlx_toplevel - Behavioral |home|asip04|SS17|package2|ISE|dlx_toplevel.vhd/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/i2c_toplevel - i2c_toplevel_arch |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5f|i2c_toplevel.vhd</ClosedNode>
+         <ClosedNode>/i2c_toplevel - i2c_toplevel_arch |home|asip04|SS17|package2|ISE|i2c_toplevel.vhd</ClosedNode>
+         <ClosedNode>/i2c_toplevel - i2c_toplevel_arch |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f2|i2c_toplevel.vhd</ClosedNode>
+         <ClosedNode>/interface_asipmeister_i2c - interface_asipmeister_i2c_arch |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART5f|interface_asipmeister_i2c.vhd</ClosedNode>
+         <ClosedNode>/interface_asipmeister_i2c - interface_asipmeister_i2c_arch |home|asip04|SS17|package2|ISE|interface_asipmeister_i2c.vhd</ClosedNode>
+         <ClosedNode>/interface_asipmeister_i2c - interface_asipmeister_i2c_arch |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f2|interface_asipmeister_i2c.vhd</ClosedNode>
+         <ClosedNode>/tb_ack - behavior |home|asip04|WS17|Session8b|ASIPMeisterProjects|brownie|ISEUART5f2|tb_ack.vhd</ClosedNode>
+         <ClosedNode>/tb_dlx_toplevel - behavior |home|asip04|SS17|Session5b|ASIPMeisterProjects|brownie|ISEUART1|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/tb_dlx_toplevel - behavior |home|asip04|SS17|package2|ISE|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/tb_dlx_toplevel - behavior |home|sajjad|hussain|LabASIP|SS17|package2|ISE|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/BRAM_instance - bram_dm - bram_dm_a</ClosedNode>
+         <ClosedNode>/tb_dlx_toplevel - behavior |home|sajjad|hussain|LabASIP|SS17|package2|ISE|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/BROM_instance - brom_im - brom_im_a</ClosedNode>
+         <ClosedNode>/tb_dlx_toplevel - behavior |home|sajjad|hussain|LabASIP|SS17|package2|ISE|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/CPU0 - BrownieSTD32 - RTL</ClosedNode>
+         <ClosedNode>/tb_dlx_toplevel - behavior |home|sajjad|hussain|LabASIP|SS17|package2|ISE|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/CPU0 - BrownieSTD32 - RTL/UA_CTRL - rtg_controller - RTL</ClosedNode>
+         <ClosedNode>/tb_dlx_toplevel - behavior |home|sajjad|hussain|LabASIP|SS17|package2|ISE|tb_dlx_toplevel.vhd/uut - dlx_toplevel - Behavioral/CPU0 - BrownieSTD32 - RTL/UF_GPR - fhm_browregfile_w32 - synthesis</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>TB - behavior (/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f6/tb_dlx_toplevel.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000031f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000031f0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>TB - behavior (/home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART5f6/tb_dlx_toplevel.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>ModelSim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ab000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ab0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ModelSim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000145000000010000000100000000000000000000000064ffffffff000000810000000000000001000001450000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_PACKAGE_BODY" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XAW" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000019f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000019f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

@@ -1,0 +1,13 @@
+# Output products list for <chipscope_ila4b>
+_xmsgs/pn_parser.xmsgs
+chipscope_ila4b.asy
+chipscope_ila4b.cdc
+chipscope_ila4b.gise
+chipscope_ila4b.ngc
+chipscope_ila4b.vhd
+chipscope_ila4b.vho
+chipscope_ila4b.xco
+chipscope_ila4b.xise
+chipscope_ila4b_flist.txt
+chipscope_ila4b_readme.txt
+chipscope_ila4b_xmdf.tcl

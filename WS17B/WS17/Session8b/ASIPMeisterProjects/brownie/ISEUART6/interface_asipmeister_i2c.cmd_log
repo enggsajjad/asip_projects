@@ -1,0 +1,2 @@
+vhdtdtfi -lib work fifo_generator_v2_1.vhd -lib work interface_asipmeister_i2c.vhd -prj ISE -o interface_asipmeister_i2c.spl -module interface_asipmeister_i2c -template /Software/xilinx/13.2/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 interface_asipmeister_i2c.spl /home/asip04/WS17/Session8b/ASIPMeisterProjects/brownie/ISEUART6/interface_asipmeister_i2c.sym 

@@ -1,0 +1,22 @@
+Release 13.2 - par O.61xd (lin)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Sat Nov 25 01:22:43 2017
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 10 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   pca9564_data<0>_IBUF
+   pca9564_data<1>_IBUF
+   pca9564_data<2>_IBUF
+   pca9564_data<3>_IBUF
+   pca9564_data<4>_IBUF
+   pca9564_data<5>_IBUF
+   pca9564_data<6>_IBUF
+   pca9564_data<7>_IBUF
+   pca9564_int_IBUF
+   vio0/U0/I_VIO/reset_f_edge/iDOUT<1>
+
+

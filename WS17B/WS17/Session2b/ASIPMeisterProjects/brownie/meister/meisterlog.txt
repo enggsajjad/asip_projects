@@ -1,0 +1,80 @@
+ Copyright (C) 2011 ASIP Solutions, Inc. All rights reserved. 
+9/28/17 12:38 PM : "Main menu" start.
+9/28/17 12:38 PM : Load file "ASIPmeisterStd.ini".
+9/28/17 12:38 PM : Load file "browstd32.pdb".
+9/28/17 12:38 PM :  asm_translator asmdev browstd32 browstd32_asm.log finished as normally.
+9/28/17 12:38 PM : Load file "browstd32_asm.log".
+9/28/17 12:38 PM : "Assembler Generation" complete.
+9/28/17 12:39 PM : "Micro Op. Description" complete.
+9/28/17 12:39 PM : "Micro Op. Description" start browse.
+9/28/17 12:39 PM : "Micro Op. Description" finish browse.
+9/28/17 12:39 PM :  modelgen both browstd32 browstd32_mod.log VHDL finished as normally.
+9/28/17 12:39 PM : Load file "browstd32_mod.log".
+9/28/17 12:39 PM : "HDL Generation" complete.
+9/28/17 12:39 PM : "C Definition" complete.
+9/28/17 12:39 PM : "C Definition" start browse.
+9/28/17 12:39 PM : "C Definition" finish browse.
+9/28/17 12:40 PM : Load file "browstd32_com.log".
+9/28/17 12:40 PM : "Compiler Generation" complete.
+9/28/17 12:40 PM : Load file "browstd32_com.log".
+9/28/17 12:41 PM : "Compiler Generation" complete.
+9/28/17 12:41 PM : "Main menu" quit.
+10/3/17 5:06 PM : "Main menu" start.
+10/3/17 5:06 PM : Load file "ASIPmeisterStd.ini".
+10/3/17 5:06 PM : Load file "browstd32.pdb".
+10/3/17 5:11 PM :  asm_translator asmdev browstd32 browstd32_asm.log finished as normally.
+10/3/17 5:11 PM : Load file "browstd32_asm.log".
+10/3/17 5:11 PM : "Assembler Generation" complete.
+10/3/17 5:12 PM : Load file "browstd32_com.log".
+10/3/17 5:12 PM : "Compiler Generation" complete.
+10/3/17 5:54 PM : Load file "browstd32_com.log".
+10/3/17 5:55 PM : "Compiler Generation" complete.
+10/3/17 5:56 PM : "Main menu" quit.
+10/3/17 5:56 PM : "Main menu" start.
+10/3/17 5:56 PM : Load file "ASIPmeisterStd.ini".
+10/3/17 5:56 PM : Load file "browstd32.pdb".
+10/3/17 5:56 PM :  asm_translator asmdev browstd32 browstd32_asm.log finished as normally.
+10/3/17 5:56 PM : Load file "browstd32_asm.log".
+10/3/17 5:56 PM : "Assembler Generation" complete.
+10/3/17 5:57 PM :  asm_translator asmdev browstd32 browstd32_asm.log finished as normally.
+10/3/17 5:57 PM : Load file "browstd32_asm.log".
+10/3/17 5:57 PM : "Assembler Generation" complete.
+10/3/17 5:58 PM : Load file "browstd32_com.log".
+10/3/17 5:58 PM : "Compiler Generation" complete.
+10/3/17 5:59 PM : Load file "browstd32_com.log".
+10/3/17 5:59 PM : "Compiler Generation" complete.
+10/3/17 5:59 PM : Load file "browstd32_com.log".
+10/3/17 5:59 PM : "Compiler Generation" complete.
+10/3/17 6:03 PM : "Main menu" quit.
+10/3/17 6:50 PM : "Main menu" start.
+10/3/17 6:50 PM : Load file "ASIPmeisterStd.ini".
+10/3/17 6:50 PM : Load file "browstd32.pdb".
+10/3/17 6:50 PM :  asm_translator asmdev browstd32 browstd32_asm.log finished as normally.
+10/3/17 6:50 PM : Load file "browstd32_asm.log".
+10/3/17 6:50 PM : "Assembler Generation" complete.
+10/3/17 6:50 PM : Load file "browstd32_com.log".
+10/3/17 6:50 PM : "Compiler Generation" complete.
+10/3/17 7:07 PM : Load file "browstd32_com.log".
+10/3/17 11:26 PM : "Compiler Generation" complete.
+10/3/17 11:27 PM :  modelgen both browstd32 browstd32_mod.log VHDL finished as normally.
+10/3/17 11:27 PM : Load file "browstd32_mod.log".
+10/3/17 11:27 PM : "HDL Generation" complete.
+10/3/17 11:29 PM : Save file "browstd32.pdb".
+10/3/17 11:29 PM : "Main menu" quit.
+11/4/17 12:45 AM : "Main menu" start.
+11/4/17 12:45 AM : Load file "ASIPmeisterStd.ini".
+11/4/17 12:45 AM : Load file "browstd32.pdb".
+11/4/17 12:47 AM : "Main menu" quit.
+11/4/17 7:40 PM : "Main menu" start.
+11/4/17 7:40 PM : Load file "ASIPmeisterStd.ini".
+11/4/17 7:40 PM : Load file "browstd32.pdb".
+11/4/17 7:40 PM : "Instruction Definition" complete.
+11/4/17 7:40 PM : "Instruction Definition" start browse.
+11/4/17 7:40 PM : "Instruction Definition" re-edit.
+11/4/17 7:41 PM : "Instruction Definition" save
+11/4/17 7:41 PM : "Instruction Definition" complete.
+11/4/17 7:41 PM : "Instruction Definition" finish browse.
+11/4/17 7:42 PM : Save file "browstd32WithoutAdd.pdb".
+11/4/17 7:42 PM : Load file "browstd32WithoutAdd.pdb".
+11/4/17 7:42 PM : Save file "browstd32WithoutAdd.pdb".
+11/4/17 7:42 PM : "Main menu" quit.
