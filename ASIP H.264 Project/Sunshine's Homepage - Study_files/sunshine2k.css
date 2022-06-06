@@ -1,0 +1,281 @@
+/****************************************************
+ * General CSS for Sunshine's Homepage
+ ****************************************************/
+/*
+ * Version: under dev
+ */ 
+
+ 
+ /********************************************
+ * Main Layout 
+ ********************************************/
+ body {
+   	background-color: White;
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #wrapper {
+ 	margin: 0;
+	padding: 0;
+ }
+ 
+ p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+ }
+ 
+ li {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 18px;
+ }
+ 
+ #header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 153px;
+ }
+ 
+  #leftbar {
+   width : 300px;
+   float : left;
+ 
+ }
+ 
+ #leftlogotop {
+   position : fixed;
+   left : 0;
+   top : 152px;
+   
+ }
+
+ #leftlogobottom {
+ 	position:fixed;
+ 	height : 100%;
+	top : 597px;
+	left: 0;
+	
+ }
+ 
+  #maincontent {
+   /*float : left;*/ /* CLARIFY - DO WE NEED IT? */
+   margin-left: 190px;
+   margin-top: 160px;
+   margin-right:10%;
+   min-height: 100%;
+   height:auto !important; /* emphasize importance */
+   height:100%; /* minimum height for IE */
+   overflow: hidden !important; /* FF scrollbar */ 
+
+   margin-bottom: 30px;/**/
+ }
+ 
+ #mainframe {
+    min-height: 100%;
+	height:auto !important; /* emphasize importance */
+	height:100%; /* minimum height for IE */
+	overflow: auto !important; /* FF scrollbar */ 
+ }
+ 
+
+ /********************************************
+  * Navigation 
+  ********************************************/
+ 
+ #navbar {
+   position : fixed;
+   left : 28px;
+   top : 143px;
+ }
+ 
+  /* emphasize current page in navigation */
+  #site-index #nav-home a,
+  #site-contact #nav-contact a ,
+  #site-news #nav-news a,
+  #site-links #nav-links a,
+  #site-about #nav-about a,
+  #site-coding #nav-coding a,
+  #site-study #nav-study a,
+  #site-dotnet #nav-dotnet a,
+  #site-c #nav-c a,
+  #site-delphi #nav-delphi a,
+  #site-asm #nav-asm a,
+  #site-j2me #nav-j2me a,
+  #site-java #nav-java a,
+  #site-reversing #nav-reversing a,
+  #site-peview #nav-peview a,
+  #site-silverlight #nav-silverlight a  {
+   color:#666666;
+   background-color:#FEE994;
+    /*border: 1px dotted #FF0000;  */
+ }
+ 
+
+ #navbar ul li {
+   list-style-type: none;
+   font-weight: bold;
+   font-size: x-small;
+   font-family: Verdana;
+   line-height: 18px;
+ }
+ 
+ #navbar ul ul li {
+   font-weight: normal;
+   margin-left: -24px;
+ }
+ 
+ #navbar a:link {
+	 color: #000;
+ }
+ 
+  #navbar a:visited {
+	 color: #000;
+ }
+ 
+ #navbar a:hover { 
+ 	color: #FF9900;
+	text-decoration: none;
+ }
+ 
+ ul.navbar {
+   font-weight:normal;
+ }
+ 
+ #navbar ul li li {
+   font-weight:normal;
+ }
+  
+ /********************************************
+  * Links 
+  ********************************************/
+ a {
+	 text-decoration : none;
+ }
+ 
+ a img { border:0px none; } /* avoid blue border in internet explorer */
+ 
+
+  /********************************************
+  * FakeTables
+  ********************************************/
+ .tableHeader {
+	width: 100%;
+	background-color: #FEE994; /*FAD771 FEE994 f6c54f */
+	color:#0000FF;
+	border: 1px #DDDDDD dotted;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 18px;
+ }
+ 
+ .tblHeadCode {
+	width: 100%;
+	background-color: #FEE994; /*FAD771 FEE994 f6c54f */
+	color:#0000BB;
+	border: 1px #DDDDDD dotted;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+	padding-left: 2px;
+ }
+ 
+ .tblCode {
+   border: 1px dashed silver;
+   padding: 3px 5px 15px 5px;
+   background-color:#FFFBEA;
+   line-height: 20px;
+ }
+
+ /*
+ .tableborder {
+ 	border: 1px #DDDDDD dotted;
+	width: 90%;
+ }
+ */
+ 
+ /********************************************
+  * Helper classes for various topics 
+  ********************************************/
+ .centeredImage {
+ 	display: block;
+	margin-right: auto; 
+	margin-left: auto; 
+	text-align:center;
+ }
+ 
+ .centeredDiv {
+ 	text-align:center;
+	font-family: Verdana;
+ }
+ 
+ .smallfattext {
+	font-size: 11px;
+	font-style: normal;
+	font-weight:bold;
+ }
+
+ 
+/* headline styles */
+.myheader1 {
+	font: bold 140%/100% "Verdana",  Verdana, Arial, Helvetica, sans-serif;
+	margin: 10px 0 20px;
+	color: #f6c54f;
+	font-style:italic;
+	text-shadow: 0.1em 0.1em 0.05em black;
+}
+
+.myheader2 {
+	font: bold 120%/10% "Verdana",  Verdana, Arial, Helvetica, sans-serif;
+	margin: 10px 0 20px;
+	color: #f6c54f;
+	font-style:italic;
+	text-shadow: 0.1em 0.1em 0.05em black;
+}
+
+/* border of tables in link section */
+.linksTbl {
+	border: thin dashed #CCCCCC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 22px;
+	text-decoration: none;
+}
+
+.aboutTbl {
+  	border: thin dashed #CCCCCC;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+ }
+  
+.aboutTbl ul li {
+   font-weight:normal;
+ }
+ 
+.codingTbl {
+  	border: thin dashed #CCCCCC;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+ }
+  
+.codingTbl ul li {
+   font-weight:normal;
+   margin-bottom: 6px;
+   margin-left: -10px;
+ }
+
+.linkslang {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#0033ff;
+}
+
+
+
